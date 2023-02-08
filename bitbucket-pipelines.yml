@@ -18,7 +18,7 @@ pipelines:
         caches:
           - node
         script:
-        - npm run build
+        - npm run build --dev --configuration=dev && react-scripts build
         artifacts:
           - build/**
       #- step:
