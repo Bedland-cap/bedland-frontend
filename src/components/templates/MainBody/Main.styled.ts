@@ -10,7 +10,6 @@ export const MainBodyBox = styled.div`
   height: 100%;
   flex-direction: column;
 `;
-
 export const MainChildBox = styled.div`
   flex: 1;
   display: flex;
