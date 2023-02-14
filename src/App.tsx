@@ -1,23 +1,37 @@
-import { Header } from "components/molecules/Header";
-import { ScreenChoose } from "components/organisms/ScreenChoose";
-import { useState } from "react";
-import { MainBodyBox, MainBox } from "theme/Main.styled";
 import GlobalStyle from "theme/globalStyles";
 import ThemeProvider from "theme/ThemeContext";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { MainBody } from "components/templates/MainBody/MainBody";
+import { LoginPage } from "components/pages/LoginPage";
+import { DashboardPage } from "components/pages/DashboardPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <MainBody value={true}>
+        <LoginPage />
+      </MainBody>
+    ),
+  },
+  {
+    path: "/dashboard",
+    element: (
+      <MainBody value={false} menu>
+        <DashboardPage />
+      </MainBody>
+    ),
+  },
+]);
 
 function App() {
-  const [isMenu, setIsMenu] = useState(false);
   return (
     <ThemeProvider>
-      <GlobalStyle/>
-    <MainBodyBox>
-      <nav>
-        <Header variant={isMenu} />
-      </nav>
-      <MainBox>
-        <ScreenChoose isMenu={isMenu} setIsMenu={setIsMenu} />
-      </MainBox>
-    </MainBodyBox>
+      <GlobalStyle />
+      <RouterProvider
+        router={router}
+        fallbackElement={<section>Space for spinner</section>}
+      />
     </ThemeProvider>
   );
 }
