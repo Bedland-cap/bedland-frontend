@@ -1,3 +1,3 @@
 export interface HeaderI {
-  variant: boolean;
+  variant: boolean | undefined;
 }

@@ -1,4 +1,4 @@
-import { MenuBarBox } from "theme/Menu.styled";
+import { MenuBarBox } from "./Menu.styled";
 
 export const MenuBar = () => {
   return (
