@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const MainBox = styled.main`
   display: flex;
@@ -7,11 +7,11 @@ export const MainBox = styled.main`
 
 export const MainBodyBox = styled.div`
   display: flex;
-  height: 100%;
   flex-direction: column;
+  height: 100%;
 `;
 export const MainChildBox = styled.div`
-  flex: 1;
   display: flex;
+  flex: 1;
   flex-direction: row;
 `;

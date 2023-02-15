@@ -52,6 +52,13 @@
     "no-duplicate-imports": "error",
     "better-styled-components/sort-declarations-alphabetically": 2,
     "react/jsx-filename-extension": [2, { "extensions": [".ts", ".tsx"] }],
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ]
   }
 }

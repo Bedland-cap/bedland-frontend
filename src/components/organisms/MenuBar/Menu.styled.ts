@@ -1,10 +1,12 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const MenuBarBox = styled.div`
+const MenuBarBox = styled.div`
+  align-items: flex-start;
+  background: #131f3e;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  width: 192px;
   height: 100%;
-  background: #131f3e;
+  width: 192px;
 `;
+
+export default MenuBarBox;
