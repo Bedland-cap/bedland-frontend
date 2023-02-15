@@ -1,11 +1,13 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const ChildBox = styled.div<{ theme: { color: string } }>`
+const ChildBox = styled.div<{ theme: { color: string } }>`
+  align-items: center;
+  background-color: ${({ theme }) => theme.color};
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
   height: 100%;
-  background-color: ${({ theme }) => theme.color};
+  justify-content: center;
+  width: 100%;
 `;
+
+export default ChildBox;
