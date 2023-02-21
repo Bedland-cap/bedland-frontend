@@ -1,4 +1,5 @@
 import type { StorybookConfig } from '@storybook/react-webpack5';
+import requireContext from 'require-context.macro';
 
 const config: StorybookConfig = {
   "stories": [
@@ -28,3 +29,8 @@ const config: StorybookConfig = {
   ]
 };
 export default config;
+
+import { configure } from '@storybook/react';
+
+const req = require.context('**/*', true, /\.stories\.ts$/);
+configure(req, module);

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import { useContext } from 'react';
 import loginRegexPattern from 'utils/constants/loginRegexPatterns';
 import { FieldValues, UseFormRegister } from 'react-hook-form';
