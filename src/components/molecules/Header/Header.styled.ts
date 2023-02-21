@@ -1,17 +1,23 @@
 import styled from 'styled-components';
 
-export const HeaderBox = styled.div<{ theme: { variant: string } }>`
+type TStyledHeader = {
+  theme: { logged: boolean };
+};
+
+export const HeaderBox = styled.div<TStyledHeader>`
   align-items: center;
-  background-color: #fcfeff;
+  background-color: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  height: 90px;
-  justify-content: ${({ theme }) => (theme.variant === true ? 'center' : 'flex-start')};
+  gap: 0.625rem;
+  height: 4.375rem;
+  justify-content: ${({ theme }) =>
+    theme.logged ? 'space-between' : 'center'};
+  padding-right: 1.25rem;
   width: 100%;
 `;
 
-export const Logo = styled.img`
-  margin-left: ${({ theme }) => (theme.variant === false ? '32px' : '0px')};
+export const Logo = styled.img<TStyledHeader>`
+  margin-left: ${({ theme }) => (theme.logged ? '2rem' : '0rem')};
 `;

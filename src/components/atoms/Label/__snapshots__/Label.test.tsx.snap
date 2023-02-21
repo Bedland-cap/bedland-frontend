@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label renders correctly 1`] = `
+<label
+  className="sc-bcXHqe EwzGf"
+  htmlFor="login"
+  size="small"
+>
+  login
+</label>
+`;

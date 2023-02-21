@@ -1,3 +1,4 @@
 export interface HeaderI {
-  variant: boolean | undefined;
+  variant: 'manager' | 'resident';
+  logged: boolean;
 }

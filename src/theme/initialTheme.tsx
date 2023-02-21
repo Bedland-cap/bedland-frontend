@@ -15,6 +15,8 @@ const initialTheme: Theme = {
     danger: '#FF4438',
     sidebarTabs: '#CACACA',
     notificationCircle: '#CF0000',
+    footer: '#3F4476',
+    backgroundLogin: '#0A1122',
   },
   typography: {
     paragraph: {

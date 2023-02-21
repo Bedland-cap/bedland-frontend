@@ -29,7 +29,7 @@
     "import"
   ],
   "settings": {
-    "import/extensions": [".ts", ".tsx"],
+    "import/extensions": [".ts", ".tsx", ".png", ".jpg"],
     "import/resolver": {
       "node": {
         "extensions": [".ts", ".tsx"]
@@ -37,18 +37,19 @@
       "typescript": {
         "alwaysTryTypes": true
       }
-    }, 
+    },
     "import/parsers": {
       "@typescript-eslint/parser": [".ts", ".tsx"]
     }
   },
- 
+
   "rules": {
     "import/no-unresolved": "error",
     "react/react-in-jsx-scope": "off",
     "camelcase": "error",
     "spaced-comment": "error",
     "quotes": ["error", "single"],
+    "react/jsx-props-no-spreading": "off",
     "no-duplicate-imports": "error",
     "better-styled-components/sort-declarations-alphabetically": 2,
     "react/jsx-filename-extension": [2, { "extensions": [".ts", ".tsx"] }],

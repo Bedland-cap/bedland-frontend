@@ -1,15 +1,31 @@
+import { useContext } from 'react';
+import Button from 'components/atoms/Button/Button';
 import { HeaderBox, Logo } from 'components/molecules/Header/Header.styled';
 import { HeaderI } from 'utils/interfaces/HeaderI';
-import logoImg from 'assets/Logo.png';
+import Logomanager from 'assets/Logomanager.svg';
+import Logoresident from 'assets/Logoresident.svg';
+import { ThemeContext } from 'theme/ThemeContext';
 
-const Header = (props: HeaderI) => {
-  const { variant } = props;
+const Header = ({ variant, logged = false }: HeaderI) => {
+  const { palette } = useContext(ThemeContext);
+
   return (
-    <nav>
-      <HeaderBox theme={{ variant }}>
-        <Logo src={logoImg} theme={{ variant }} />
-      </HeaderBox>
-    </nav>
+    <HeaderBox theme={{ logged }}>
+      <Logo
+        src={variant === 'resident' ? Logoresident : Logomanager}
+        theme={{ logged }}
+      />
+      {logged && (
+        <Button
+          backgroundColor={palette.secondaryDark}
+          type='button'
+          textColor='#ffffff'
+          variant='primary'
+        >
+          dropdown here
+        </Button>
+      )}
+    </HeaderBox>
   );
 };
 

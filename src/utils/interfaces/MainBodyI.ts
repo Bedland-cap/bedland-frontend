@@ -1,5 +1,5 @@
 export interface MainBodyI {
-  value?: boolean | undefined;
-  menu?: boolean | undefined;
+  variant: 'resident' | 'manager';
+  logged: boolean;
   children: React.ReactNode;
 }

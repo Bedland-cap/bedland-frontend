@@ -2,7 +2,7 @@ import type { Config } from 'jest';
 
 const config: Config = {
   moduleNameMapper: {
-    '\\.svg$': '<rootDir>/__mocks__/svg.ts',
+    '^.+\\.svg$': 'jest-svg-transformer',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json'],
   moduleDirectories: ['node_modules', 'src'],
