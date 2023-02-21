@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bcXHqe dJOXqN"
+>
+  <img
+    alt="Building"
+    className="sc-gswNZR djSoAM"
+    src="/assets/BuildingImg.png"
+  />
+  <h2
+    className="sc-dkrFOg izGeNl"
+  >
+    Building #
+    4293
+  </h2>
+  <p
+    className="sc-hLBbgP iunxbB"
+  >
+    Berry Street 27
+  </p>
+  <div
+    className="sc-eDvSVe kIwdaK"
+  >
+    <button
+      className="sc-jSUZER jCSFFe"
+    >
+      Open details
+    </button>
+  </div>
+</div>
+`;
