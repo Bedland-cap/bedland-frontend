@@ -12,6 +12,8 @@ type PaletteType = {
   danger: string;
   sidebarTabs: string;
   notificationCircle: string;
+  footer: string;
+  backgroundLogin: string;
 };
 
 type TypographyPropertiesType = {

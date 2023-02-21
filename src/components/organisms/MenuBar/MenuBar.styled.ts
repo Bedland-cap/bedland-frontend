@@ -6,7 +6,7 @@ const MenuBarBox = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 192px;
+  width: 12rem;
 `;
 
 export default MenuBarBox;
