@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly if logged is false 1`] = `
+<div
+  className="sc-gswNZR gWoDBj"
+>
+  <img
+    className="sc-dkrFOg VIrMd"
+  />
+</div>
+`;
+
+exports[`Header renders correctly if logged is true 1`] = `
+<div
+  className="sc-gswNZR kmdoPP"
+>
+  <img
+    className="sc-dkrFOg VIQMX"
+  />
+  <button
+    className="sc-bcXHqe iJLHBU"
+    type="button"
+  >
+    dropdown here
+  </button>
+</div>
+`;

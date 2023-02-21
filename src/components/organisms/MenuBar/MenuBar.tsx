@@ -1,4 +1,4 @@
-import MenuBarBox from './Menu.styled';
+import MenuBarBox from 'components/organisms/MenuBar/MenuBar.styled';
 
 const MenuBar = () => (
   <MenuBarBox>

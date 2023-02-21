@@ -1,18 +1,17 @@
+import { ChildBox } from 'components/templates/MainBody/MainBody.styled';
 import { useNavigate } from 'react-router-dom';
-import ChildBox from 'components/pages/Page.styled';
-import { PageI } from 'utils/interfaces/PageI';
 
-const DashboardPage = (props: PageI) => {
+const DashboardPage = () => {
   const nav = useNavigate();
 
   return (
-    <ChildBox theme={{ color: '#f5f6f8' }}>
+    <ChildBox backgroundColor='#f5f6f8'>
       <button
         type='button'
         style={{ width: '50px', height: '50px' }}
         onClick={() => nav('/')}
       >
-        Click me
+        Go Back to Login Page
       </button>
     </ChildBox>
   );

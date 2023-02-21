@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image snapshot renders correctly 1`] = `
+<img
+  alt="image"
+  className="sc-bcXHqe bSBJnN"
+/>
+`;
