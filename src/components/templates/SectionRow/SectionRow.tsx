@@ -1,7 +1,7 @@
-import { IChildren } from 'utils/interfaces/templates';
+import { PropsWithChildren } from 'react';
 import SectionRowLayout from './SectionRow.styled';
 
-const SectionRow = ({ children }: IChildren) => (
+const SectionRow = ({ children }: PropsWithChildren) => (
   <SectionRowLayout>{children}</SectionRowLayout>
 );
 

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { useForm, FieldValues, UseFormRegister } from 'react-hook-form';
+import { FieldValues, UseFormRegister } from 'react-hook-form';
 import GlobalStyle from 'theme/globalStyles';
 import ThemeProvider from 'theme/ThemeContext';
 import Input, { IInput } from './Input';
@@ -22,14 +22,6 @@ export default meta;
 type Story = StoryObj<typeof meta | IInput>;
 
 export const Default: Story = {
-  render: (args) => {
-    const { register } = useForm();
-    return (
-      <form>
-        <Input {...args} register={register} />
-      </form>
-    );
-  },
   args: {
     input: 'Name',
     type: 'Name',
