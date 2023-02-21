@@ -8,7 +8,7 @@ image: atlassian/default-image:3
 pipelines:
   default:
     - step:
-        name: Install & Lint
+        name: Install & Lint & Test
         caches:
           - node
         script:
@@ -16,13 +16,15 @@ pipelines:
           - npm install
           - echo "--- Check lint ---"
           - npm run lint
+          - echo "--- Test ---" 
+          - npm test
     - step:
         name: Build
         caches:
           - node
         script:
           - echo "--- Build ---"
-          - npm run build --dev --configuration=dev
+          - npm run build --dev --configuration=dev && react-scripts build
         artifacts:
           - build/**
       #- step:

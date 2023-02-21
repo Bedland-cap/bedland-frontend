@@ -1,18 +1,22 @@
 import { useContext } from 'react';
 import Button from 'components/atoms/Button/Button';
 import { HeaderBox, Logo } from 'components/molecules/Header/Header.styled';
-import { HeaderI } from 'utils/interfaces/HeaderI';
-import Logomanager from 'assets/Logomanager.svg';
-import Logoresident from 'assets/Logoresident.svg';
 import { ThemeContext } from 'theme/ThemeContext';
+import LogoManager from 'assets/Logomanager.svg';
+import LogoResident from 'assets/Logoresident.svg';
 
-const Header = ({ variant, logged = false }: HeaderI) => {
+type HeaderProps = {
+  variant: 'manager' | 'resident';
+  logged: boolean;
+};
+
+const Header = ({ variant, logged = false }: HeaderProps) => {
   const { palette } = useContext(ThemeContext);
 
   return (
     <HeaderBox theme={{ logged }}>
       <Logo
-        src={variant === 'resident' ? Logoresident : Logomanager}
+        src={variant === 'resident' ? LogoResident : LogoManager}
         theme={{ logged }}
       />
       {logged && (
