@@ -3,7 +3,7 @@ import DefaultImage from 'assets/Loginlogo.svg';
 import Image from './Image';
 
 const meta = {
-  title: 'Basic Components/Atoms/Image',
+  title: 'atoms/Image',
   component: Image,
   tags: ['autodocs'],
 } satisfies Meta<typeof Image>;

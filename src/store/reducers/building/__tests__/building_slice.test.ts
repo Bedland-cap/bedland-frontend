@@ -45,7 +45,10 @@ describe('buildingSlice', () => {
     updatedBuilding.name = 'updatedName';
 
     const action = updateBuilding({ id: 'fakeID', changes: updatedBuilding });
-    const newState = buildingReducer(buildingAdapter.getInitialState(initialState), action);
+    const newState = buildingReducer(
+      buildingAdapter.getInitialState(initialState),
+      action,
+    );
 
     expect(newState.entities).toEqual({ fakeID: updatedBuilding });
   });

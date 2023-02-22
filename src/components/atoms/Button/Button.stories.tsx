@@ -4,7 +4,7 @@ import ThemeProvider from 'theme/ThemeContext';
 import Button from './Button';
 
 const meta = {
-  title: 'Basic Components/Atoms/Button',
+  title: 'atoms/Button',
   component: Button,
   tags: ['autodocs'],
   decorators: [
