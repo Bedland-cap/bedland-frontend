@@ -1,17 +1,31 @@
 import { PropsWithChildren, useContext } from 'react';
-import styled from 'styled-components';
+import Footer from 'components/molecules/Footer/Footer';
+import Header from 'components/molecules/Header/Header';
+import {
+  MainBodyBox,
+  ChildBox,
+} from 'components/templates/MainBody/MainBody.styled';
 import { ThemeContext } from 'theme/ThemeContext';
-import { Palette } from 'theme/theme.types';
 
-const Box = styled.div<Palette>`
-  background: ${({ palette }) => palette.greyLight};
-  display: flex;
-  height: 90%;
-`;
+type MainBody = {
+  variant: 'resident' | 'manager';
+  logged: boolean;
+  children: React.ReactNode;
+};
 
-const MainBody = ({ children }: PropsWithChildren) => {
+const MainBody = ({
+  children,
+  logged = false,
+  variant = 'resident',
+}: PropsWithChildren<MainBody>) => {
   const { palette } = useContext(ThemeContext);
-  return <Box palette={palette}>{children}</Box>;
+  return (
+    <MainBodyBox>
+      <Header variant={variant} logged={logged} />
+      <ChildBox backgroundColor={palette.backgroundLogin}>{children}</ChildBox>
+      <Footer backgroundColor={palette.footer} />
+    </MainBodyBox>
+  );
 };
 
 export default MainBody;

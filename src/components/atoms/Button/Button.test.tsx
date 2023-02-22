@@ -7,7 +7,12 @@ describe('Button', () => {
     const snapshot = renderer
       .create(
         <ThemeProvider>
-          <Button backgroundColor='#ffffff' type='button' variant='primary' textColor='#ffffff'>
+          <Button
+            backgroundColor='#ffffff'
+            type='button'
+            variant='primary'
+            textColor='#ffffff'
+          >
             login
           </Button>
         </ThemeProvider>,

@@ -10,11 +10,11 @@ const initialStateLogout: User = {
 };
 
 const initialStateLogin: User = {
-  loggedIn: false,
+  loggedIn: undefined,
   userId: undefined,
   login: undefined,
   token: undefined,
-  status: 'idle',
+  status: undefined,
   error: undefined,
 };
 

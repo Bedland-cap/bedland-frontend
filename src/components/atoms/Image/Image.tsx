@@ -7,6 +7,8 @@ type IImage = {
   alt: string;
 };
 
-const Image = ({ src = DefaultImage, alt = '' }: IImage) => <Img src={src} alt={alt} />;
+const Image = ({ src = DefaultImage, alt = '' }: IImage) => (
+  <Img src={src} alt={alt} />
+);
 
 export default Image;

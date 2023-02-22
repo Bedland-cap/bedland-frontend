@@ -1,20 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { BrowserRouter } from 'react-router-dom';
-import initialTheme from 'theme/initialTheme';
-import ThemeProvider from 'theme/ThemeContext';
 import SectionRow from './SectionRow';
 
 const meta = {
-  title: 'Basic Components/Templates/SectionRow',
+  title: 'templates/SectionRow',
   component: SectionRow,
   tags: ['autodocs'],
-  decorators: [(Story) => (
-    <BrowserRouter>
-      <ThemeProvider>
-          {Story()}
-      </ThemeProvider>
-  </BrowserRouter>
-  )],
+  decorators: [(Story) => <BrowserRouter>{Story()}</BrowserRouter>],
 } satisfies Meta<typeof SectionRow>;
 
 export default meta;

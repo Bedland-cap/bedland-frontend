@@ -1,34 +1,18 @@
-import { HTMLInputTypeAttribute, useContext } from 'react';
+/* eslint-disable react/jsx-props-no-spreading */
+import { useContext } from 'react';
+import loginRegexPattern from 'utils/constants/loginRegexPatterns';
 import { FieldValues, UseFormRegister } from 'react-hook-form';
 import { ThemeContext } from 'theme/ThemeContext';
 import LoginInput from './Input.styled';
 
-const inputValues = ['login', 'password'] as const;
-
-type InputValues = (typeof inputValues)[number];
-
-type Getters<T extends string, K> = {
-  [k in T]: K;
-};
-
-type TRegister = {
-  pattern: RegExp;
-  required: boolean;
-  maxLength: number;
-  minLength: number;
-};
-
-export type LoginRegexProps = Getters<InputValues, TRegister>;
-
-export interface InputProps {
-  input: InputValues;
-  type: HTMLInputTypeAttribute;
+export interface IInput {
+  input: string;
+  type: string;
   placeholder: string;
   register: UseFormRegister<FieldValues>;
-  regexPattern: TRegister;
 }
 
-const Input = ({ input, type = 'text', placeholder, regexPattern, register }: InputProps) => {
+const Input = ({ input, type = 'text', placeholder, register }: IInput) => {
   const { palette } = useContext(ThemeContext);
 
   return (
@@ -37,7 +21,7 @@ const Input = ({ input, type = 'text', placeholder, regexPattern, register }: In
       type={type}
       placeholder={placeholder}
       borderColor={palette.primaryLight}
-      {...register(input, { ...regexPattern })}
+      {...register(input, { ...loginRegexPattern[input] })}
     />
   );
 };

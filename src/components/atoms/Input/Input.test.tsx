@@ -1,7 +1,6 @@
 import renderer from 'react-test-renderer';
 import { useForm } from 'react-hook-form';
 import ThemeProvider from 'theme/ThemeContext';
-import loginRegexPattern from 'components/organisms/LoginForm/loginRegexPatterns';
 import Input from './Input';
 
 const SnapshotInput = () => {
@@ -14,7 +13,6 @@ const SnapshotInput = () => {
           type='text'
           placeholder='login'
           register={register}
-          regexPattern={loginRegexPattern.login}
         />
       </form>
     </ThemeProvider>
