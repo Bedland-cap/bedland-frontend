@@ -24,7 +24,9 @@ pipelines:
           - node
         script:
           - echo "--- Build ---"
-          - npm run build --dev --configuration=dev && react-scripts build
+          - npm cache clean --force
+          - npm install
+          - npm run build --dev --configuration=dev
         artifacts:
           - build/**
       #- step:

@@ -1,12 +1,12 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import type { Meta, StoryObj } from '@storybook/react';
 import { useForm, FieldValues, UseFormRegister } from 'react-hook-form';
 import ThemeProvider from 'theme/ThemeContext';
 import GlobalStyle from 'theme/globalStyles';
+import loginRegexPattern from 'components/organisms/LoginForm/loginRegexPatterns';
 import InputWithLabel from './InputWithLabel';
 
 const meta = {
-  title: 'molecules/InputWithLabel',
+  title: 'Basic Components/Molecules/InputWithLabel',
   component: InputWithLabel,
   tags: ['autodocs'],
   decorators: [
@@ -32,10 +32,11 @@ export const Default: Story = {
     );
   },
   args: {
-    input: 'Name',
-    type: 'Name',
-    placeholder: 'Name',
-    label: 'Name',
+    input: 'login',
+    type: 'text',
+    placeholder: 'Your login',
+    label: 'Login',
     register: {} as UseFormRegister<FieldValues>,
+    regexPattern: loginRegexPattern.login,
   },
 };

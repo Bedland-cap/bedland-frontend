@@ -1,15 +1,10 @@
-import { FieldValues, UseFormRegister } from 'react-hook-form';
-import Input from 'components/atoms/Input/Input';
+import Input, { InputProps } from 'components/atoms/Input/Input';
 import Label from 'components/atoms/Label/Label';
 import InputContainer from './InputWithLabel.styled';
 
-export interface IInputWithLabel {
+type LabelProps = {
   label: string;
-  input: string;
-  type: string;
-  placeholder: string;
-  register: UseFormRegister<FieldValues>;
-}
+};
 
 const InputWithLabel = ({
   label,
@@ -17,7 +12,8 @@ const InputWithLabel = ({
   type = 'text',
   placeholder,
   register,
-}: IInputWithLabel) => (
+  regexPattern,
+}: InputProps & LabelProps) => (
   <InputContainer>
     <Label htmlFor={input} label={label} textColor='white' size='medium' />
     <Input
@@ -25,6 +21,7 @@ const InputWithLabel = ({
       placeholder={placeholder}
       register={register}
       type={type}
+      regexPattern={regexPattern}
     />
   </InputContainer>
 );

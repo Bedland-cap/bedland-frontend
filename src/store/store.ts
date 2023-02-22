@@ -1,15 +1,7 @@
-import {
-  combineReducers,
-  configureStore,
-  type PreloadedState,
-} from '@reduxjs/toolkit';
+import { combineReducers, configureStore, type PreloadedState } from '@reduxjs/toolkit';
 import { CurriedGetDefaultMiddleware } from '@reduxjs/toolkit/dist/getDefaultMiddleware';
 import loggerMiddleware from 'redux-logger';
-import {
-  residentReducer,
-  buildingReducer,
-  userReducer,
-} from './reducers/index';
+import { residentReducer, buildingReducer, userReducer } from './reducers/index';
 
 export const rootReducer = combineReducers({
   user: userReducer,
@@ -17,9 +9,8 @@ export const rootReducer = combineReducers({
   building: buildingReducer,
 });
 
-export const rootMiddleware = (
-  getDefaultMiddleware: CurriedGetDefaultMiddleware,
-) => getDefaultMiddleware().concat(loggerMiddleware);
+export const rootMiddleware = (getDefaultMiddleware: CurriedGetDefaultMiddleware) =>
+  getDefaultMiddleware().concat(loggerMiddleware);
 
 export type RootState = ReturnType<typeof rootReducer>;
 

@@ -3,17 +3,21 @@ import { BrowserRouter } from 'react-router-dom';
 import ThemeProvider from 'theme/ThemeContext';
 import GlobalStyle from 'theme/globalStyles';
 
+import { Provider } from 'react-redux';
+import { reduxStore } from 'store/store';
 import LoginPage from './LoginPage';
 
 const meta = {
-  title: 'pages/LoginPage',
+  title: 'Basic Components/Pages/LoginPage',
   component: LoginPage,
   tags: ['autodocs'],
   decorators: [
     (Story) => (
       <ThemeProvider>
         <GlobalStyle />
-        <BrowserRouter>{Story()}</BrowserRouter>
+        <Provider store={reduxStore}>
+          <BrowserRouter>{Story()}</BrowserRouter>
+        </Provider>
       </ThemeProvider>
     ),
   ],

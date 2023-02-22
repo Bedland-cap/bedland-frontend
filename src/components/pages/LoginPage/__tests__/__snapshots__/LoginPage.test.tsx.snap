@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Page renders correctly 1`] = `
+<div
+  className="sc-iBYQkv CPeRx"
+>
+  <img
+    alt=""
+    className="sc-bcXHqe bSBJnN"
+  />
+  <form
+    className="sc-gKPRtg jbAa-DI"
+    onSubmit={[Function]}
+  >
+    <h2
+      style={
+        {
+          "color": "#FCFEFF",
+          "fontFamily": "Poppins, sans-serif",
+          "fontSize": "2rem",
+          "fontWeight": 600,
+          "letterSpacing": "2px",
+          "lineHeight": 1.2,
+          "textAlign": "center",
+        }
+      }
+    >
+      Login
+    </h2>
+    <div
+      className="sc-eDvSVe jQppCF"
+    >
+      <label
+        className="sc-hLBbgP ejLlDr"
+        htmlFor="login"
+        size="medium"
+      >
+        Login
+      </label>
+      <input
+        className="sc-dkrFOg dVjFaO"
+        id="login"
+        name="login"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Enter your login"
+        type="text"
+      />
+    </div>
+    <div>
+      <div
+        className="sc-eDvSVe jQppCF"
+      >
+        <label
+          className="sc-hLBbgP ejLlDr"
+          htmlFor="password"
+          size="medium"
+        >
+          Password
+        </label>
+        <input
+          className="sc-dkrFOg dVjFaO"
+          id="password"
+          name="password"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Enter your password"
+          type="password"
+        />
+      </div>
+    </div>
+    <button
+      className="sc-jSUZER fKzcog"
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;

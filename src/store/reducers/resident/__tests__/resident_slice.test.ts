@@ -20,10 +20,7 @@ const fakeResident: Resident = {
 describe('residentSlice', () => {
   it(`should reset resident data after ${logout}`, () => {
     const action = logout();
-    const newState = residentReducer(
-      residentAdapter.getInitialState(fakeResident),
-      action,
-    );
+    const newState = residentReducer(residentAdapter.getInitialState(fakeResident), action);
 
     expect(newState.ids).toEqual([]);
     expect(newState.entities).toEqual({});
@@ -43,10 +40,7 @@ describe('residentSlice', () => {
     updatedResident.name = 'updatedName';
 
     const action = updateResident({ id: 'fakeID', changes: updatedResident });
-    const state = residentReducer(
-      residentAdapter.getInitialState(fakeResident),
-      addAction,
-    );
+    const state = residentReducer(residentAdapter.getInitialState(fakeResident), addAction);
     const newState = residentReducer(state, action);
 
     expect(newState.entities).toEqual({ fakeID: updatedResident });
@@ -54,10 +48,7 @@ describe('residentSlice', () => {
 
   it(`should remove resident when ${removeResident}`, () => {
     const action = removeResident('fakeID');
-    const state = residentReducer(
-      residentAdapter.getInitialState(fakeResident),
-      action,
-    );
+    const state = residentReducer(residentAdapter.getInitialState(fakeResident), action);
     const newState = residentReducer(state, action);
 
     expect(newState.entities).toEqual({});
