@@ -3,12 +3,12 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import type { RootState } from '../store';
 
 export type User = {
-  loggedIn: boolean;
-  status: string;
-  error?: string;
-  userId?: string;
-  login?: string;
-  token?: string;
+  loggedIn: boolean | undefined;
+  status: string | undefined;
+  error: string | undefined;
+  userId: string | undefined;
+  login: string | undefined;
+  token: string | undefined;
 };
 
 const initialState: User = {
@@ -25,7 +25,7 @@ export const UserSlice = createSlice({
   initialState,
   reducers: {
     // to remove, when we set api and extra reducer for login
-    login: (state, action: PayloadAction<Omit<User, 'loggedIn'>>) => {
+    login: (state, action: PayloadAction<User>) => {
       state.loggedIn = true;
       state.userId = action.payload.userId;
       state.login = action.payload.login;
@@ -37,7 +37,7 @@ export const UserSlice = createSlice({
       state.userId = undefined;
       state.login = undefined;
       state.token = undefined;
-      state.status = 'idle';
+      state.status = undefined;
     },
   },
   extraReducers: (/* builder */) => {

@@ -1,4 +1,5 @@
 import type { StorybookConfig } from '@storybook/react-webpack5';
+import requireContext from 'require-context.macro';
 
 const config: StorybookConfig = {
   "stories": [
@@ -11,17 +12,7 @@ const config: StorybookConfig = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-interactions",
     '@storybook/addon-a11y',
-    '@storybook/addon-viewport',
-    '@whitespace/storybook-addon-html',
-    {
-      name: '@storybook/addon-storysource',
-      options: {
-        injectStoryParameters: false,
-        loaderOptions: {
-          prettierConfig: { printWidth: 80, singleQuote: false },
-        },
-      },
-    },
+    '@storybook/addon-interactions'
   ],
   "features": {
     interactionsDebugger: true,
@@ -38,3 +29,8 @@ const config: StorybookConfig = {
   ]
 };
 export default config;
+
+import { configure } from '@storybook/react';
+
+const req = require.context('**/*', true, /\.stories\.ts$/);
+configure(req, module);

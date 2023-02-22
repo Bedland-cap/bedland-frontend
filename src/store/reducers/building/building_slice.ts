@@ -31,7 +31,8 @@ export const BuildingSlice = createSlice({
   },
 });
 
-export const { addBuilding, updateBuilding, setBuildingList } = BuildingSlice.actions;
+export const { addBuilding, updateBuilding, setBuildingList } =
+  BuildingSlice.actions;
 export const buildingReducer = BuildingSlice.reducer;
 
 export const selectBuildingList = (state: RootState) => state.building.entities;
