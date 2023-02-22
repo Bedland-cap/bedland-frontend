@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import ErrorMessage from './ErrorMessage';
 
 const meta = {
-  title: 'atoms/ErrorMessage',
+  title: 'Basic Components/Atoms/ErrorMessage',
   component: ErrorMessage,
   tags: ['autodocs'],
 } satisfies Meta<typeof ErrorMessage>;

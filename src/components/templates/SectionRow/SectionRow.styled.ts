@@ -1,12 +1,13 @@
+import { HexColor } from 'theme/theme.types';
 import styled from 'styled-components';
 
-const SectionRowLayout = styled.div`
+const SectionRowLayout = styled.div<{ backgroundColor: HexColor }>`
   align-items: center;
   display: flex;
-  gap: 2rem;
-  height: 100%;
+  gap: 1rem;
   justify-content: space-around;
-  max-width: 1600px;
   padding: 2rem;
+  background: ${({ backgroundColor }) => backgroundColor}};
+  width: 100%;
 `;
 export default SectionRowLayout;

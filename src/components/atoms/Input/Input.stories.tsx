@@ -1,11 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import loginRegexPattern from 'components/organisms/LoginForm/loginRegexPatterns';
 import { FieldValues, UseFormRegister } from 'react-hook-form';
 import GlobalStyle from 'theme/globalStyles';
 import ThemeProvider from 'theme/ThemeContext';
-import Input, { IInput } from './Input';
+import Input from './Input';
 
 const meta = {
-  title: 'atoms/Input',
+  title: 'Basic Components/Atoms/Input',
   component: Input,
   tags: ['autodocs'],
   decorators: [
@@ -19,13 +20,14 @@ const meta = {
 } satisfies Meta<typeof Input>;
 
 export default meta;
-type Story = StoryObj<typeof meta | IInput>;
+type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    input: 'Name',
-    type: 'Name',
+    input: 'login',
+    type: 'text',
     placeholder: 'Name',
     register: {} as UseFormRegister<FieldValues>,
+    regexPattern: loginRegexPattern.login,
   },
 };

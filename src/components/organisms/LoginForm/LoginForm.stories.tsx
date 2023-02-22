@@ -2,17 +2,21 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { BrowserRouter } from 'react-router-dom';
 import ThemeProvider from 'theme/ThemeContext';
 import GlobalStyle from 'theme/globalStyles';
+import { Provider } from 'react-redux';
+import { reduxStore } from 'store/store';
 import LoginForm from './LoginForm';
 
 const meta = {
-  title: 'organisms/LoginForm',
+  title: 'Basic Components/Organisms/LoginForm',
   component: LoginForm,
   tags: ['autodocs'],
   decorators: [
     (Story) => (
       <ThemeProvider>
-        <GlobalStyle />
-        <BrowserRouter>{Story()}</BrowserRouter>
+        <Provider store={reduxStore}>
+          <GlobalStyle />
+          <BrowserRouter>{Story()}</BrowserRouter>
+        </Provider>
       </ThemeProvider>
     ),
   ],

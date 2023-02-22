@@ -5,9 +5,7 @@ import Image from './Image';
 
 describe('Image', () => {
   it('snapshot renders correctly', () => {
-    const snapshot = renderer
-      .create(<Image src={DefaultImage} alt='image' />)
-      .toJSON();
+    const snapshot = renderer.create(<Image src={DefaultImage} alt='image' />).toJSON();
     expect(snapshot).toMatchSnapshot();
   });
 });
