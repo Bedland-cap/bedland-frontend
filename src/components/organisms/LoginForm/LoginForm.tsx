@@ -45,12 +45,7 @@ const LoginForm = () => {
         {errors.password || errors.login ? (
           <ErrorMessage>
             <img src={AlertIcon} alt='' />
-            <div>
-              Login or password are incorrect, please try again or&nbsp;
-              <Link to='/#' style={{ color: 'red' }}>
-                reset your password
-              </Link>
-            </div>
+            Your login or password is incorrect.
           </ErrorMessage>
         ) : null}
       </div>
@@ -62,6 +57,9 @@ const LoginForm = () => {
       >
         Login
       </Button>
+      <Link to='/#' style={{ color: palette.secondaryLight }}>
+        Forgot your password?
+      </Link>
     </LoginFormContainer>
   );
 };

@@ -2,7 +2,7 @@
 
 exports[`Header renders correctly if logged is false 1`] = `
 <div
-  className="sc-gswNZR gWoDBj"
+  className="sc-gswNZR iAYawr"
 >
   <img
     className="sc-dkrFOg VIrMd"
@@ -12,7 +12,7 @@ exports[`Header renders correctly if logged is false 1`] = `
 
 exports[`Header renders correctly if logged is true 1`] = `
 <div
-  className="sc-gswNZR kmdoPP"
+  className="sc-gswNZR dCqFrD"
 >
   <img
     className="sc-dkrFOg VIQMX"
