@@ -2,14 +2,14 @@
 
 exports[`Login Page renders correctly 1`] = `
 <div
-  className="sc-iBYQkv jAtNRV"
+  className="sc-iBYQkv ktVbst"
 >
   <img
     alt=""
     className="sc-bcXHqe bSBJnN"
   />
   <form
-    className="sc-gKPRtg jbAa-DI"
+    className="sc-gKPRtg efZPKw"
     onSubmit={[Function]}
   >
     <h1
@@ -69,6 +69,17 @@ exports[`Login Page renders correctly 1`] = `
     >
       Login
     </button>
+    <a
+      href="/"
+      onClick={[Function]}
+      style={
+        {
+          "color": "#FF7C33",
+        }
+      }
+    >
+      Forgot your password?
+    </a>
   </form>
 </div>
 `;

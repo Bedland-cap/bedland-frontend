@@ -14,7 +14,7 @@ const Header = ({ variant, logged = false }: HeaderProps) => {
   const { palette } = useContext(ThemeContext);
 
   return (
-    <HeaderBox theme={{ logged }}>
+    <HeaderBox theme={{ logged, color: palette.light }}>
       <Logo
         src={variant === 'resident' ? LogoResident : LogoManager}
         theme={{ logged }}
