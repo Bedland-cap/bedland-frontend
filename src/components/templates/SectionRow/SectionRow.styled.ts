@@ -7,6 +7,6 @@ const SectionRowLayout = styled.div`
   height: 100%;
   justify-content: space-around;
   max-width: 1600px;
-  padding: 2rem;
+  padding: 0 2rem;
 `;
 export default SectionRowLayout;

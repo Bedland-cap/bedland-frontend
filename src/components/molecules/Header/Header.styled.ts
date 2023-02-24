@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 type TStyledHeader = {
-  theme: { logged: boolean };
+  theme: { logged: boolean; color: string };
 };
 
 export const HeaderBox = styled.div<TStyledHeader>`
   align-items: center;
-  background-color: #d9d9d9;
+  background-color: ${({ theme }) => theme.color};
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: row;

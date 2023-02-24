@@ -2,7 +2,7 @@
 
 exports[`Login Form renders correctly 1`] = `
 <form
-  className="sc-jSUZER yoKQY"
+  className="sc-jSUZER lppXeQ"
   onSubmit={[Function]}
 >
   <h1
@@ -62,5 +62,16 @@ exports[`Login Form renders correctly 1`] = `
   >
     Login
   </button>
+  <a
+    href="/"
+    onClick={[Function]}
+    style={
+      {
+        "color": "#FF7C33",
+      }
+    }
+  >
+    Forgot your password?
+  </a>
 </form>
 `;
