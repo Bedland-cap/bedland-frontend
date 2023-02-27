@@ -16,7 +16,7 @@ pipelines:
           - npm install
           - echo "--- Check lint ---"
           - npm run lint
-          - echo "--- Test ---" 
+          - echo "--- Test ---"
           - npm test
     - step:
         name: Build
@@ -24,7 +24,7 @@ pipelines:
           - node
         script:
           - echo "--- Build ---"
-          - npm run build --dev --configuration=dev && react-scripts build
+          - npm run build --dev --configuration=dev
         artifacts:
           - build/**
       #- step:
