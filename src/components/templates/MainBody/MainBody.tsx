@@ -1,30 +1,28 @@
 import { PropsWithChildren, useContext } from 'react';
-import Footer from 'components/molecules/Footer/Footer';
-import Header from 'components/molecules/Header/Header';
-import {
-  MainBodyBox,
-  ChildBox,
-} from 'components/templates/MainBody/MainBody.styled';
+import styled from 'styled-components';
 import { ThemeContext } from 'theme/ThemeContext';
+import { Palette } from 'theme/theme.types';
+import { useAppSelector } from 'store/hooks';
+import { selectUserIsLoggedIn } from 'store/reducers/user_slice';
+import { HEADER_HEIGHT, FOOTER_HEIGHT } from 'utils/constans';
 
-type MainBody = {
-  variant: 'resident' | 'manager';
-  logged: boolean;
-  children: React.ReactNode;
-};
+const Box = styled.div<Palette & { isLoggedIn: boolean }>`
+  background: ${({ palette }) => palette.greyLight};
+  display: flex;
+  min-height: calc(
+    100vh -
+      ${({ isLoggedIn }) =>
+        isLoggedIn ? `${HEADER_HEIGHT}px` : `${HEADER_HEIGHT + FOOTER_HEIGHT}px`}
+  );
+`;
 
-const MainBody = ({
-  children,
-  logged = false,
-  variant = 'resident',
-}: PropsWithChildren<MainBody>) => {
+const MainBody = ({ children }: PropsWithChildren) => {
   const { palette } = useContext(ThemeContext);
+  const isLoggedIn = useAppSelector(selectUserIsLoggedIn);
   return (
-    <MainBodyBox>
-      <Header variant={variant} logged={logged} />
-      <ChildBox backgroundColor={palette.backgroundLogin}>{children}</ChildBox>
-      <Footer backgroundColor={palette.footer} />
-    </MainBodyBox>
+    <Box palette={palette} isLoggedIn={isLoggedIn}>
+      {children}
+    </Box>
   );
 };
 

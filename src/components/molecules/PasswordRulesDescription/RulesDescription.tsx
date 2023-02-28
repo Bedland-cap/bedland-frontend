@@ -1,4 +1,4 @@
-import {RulesDescriptionContainer,  OrderedRulesDesc } from './RulesDescription.styled';
+import { RulesDescriptionContainer, OrderedRulesDesc } from './RulesDescription.styled';
 
 const RulesDescription = () => (
   <RulesDescriptionContainer>

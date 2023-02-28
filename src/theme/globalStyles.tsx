@@ -1,8 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-html{
+html, #root, body{
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html, body {
+    height: 100%;
 }
 
 *, *:before, *:after {
@@ -13,12 +20,6 @@ html{
     outline: 0;
 }
 
-body {
-    min-height: 100vh;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 a {
     text-decoration: none;
 }
@@ -27,9 +28,10 @@ button {
     cursor: pointer;
 }
 
-ol, ul {
+ol, ul, li {
 	list-style: none;
 }
+
 `;
 
 export default GlobalStyle;

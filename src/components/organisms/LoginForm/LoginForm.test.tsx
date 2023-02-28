@@ -1,6 +1,8 @@
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 import ThemeProvider from 'theme/ThemeContext';
+import { Provider } from 'react-redux';
+import { reduxStore } from 'store/store';
 import LoginForm from './LoginForm';
 
 describe('Login Form', () => {
@@ -9,7 +11,9 @@ describe('Login Form', () => {
       .create(
         <ThemeProvider>
           <BrowserRouter>
-            <LoginForm />
+            <Provider store={reduxStore}>
+              <LoginForm />
+            </Provider>
           </BrowserRouter>
         </ThemeProvider>,
       )

@@ -1,8 +1,6 @@
-import ERROR_MESSAGES from 'utils/constants/messages';
+import ERROR_MESSAGES from 'utils/messages';
 
-export const errorMessageHandler = (
-  whichErrorMessageCondition: boolean,
-): string =>
+export const errorMessageHandler = (whichErrorMessageCondition: boolean): string =>
   whichErrorMessageCondition
     ? ERROR_MESSAGES.resetPasswordPage.notWithPasswordsRules
     : ERROR_MESSAGES.resetPasswordPage.passwordsDoesNotMatchUp;
