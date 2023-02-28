@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { PaletteType } from '../../../utils/types/theme.types';
+import { PaletteType } from 'theme/theme.types';
 
 const SetNewPasswordContainer = styled.div<{ palette: PaletteType }>`
   color: ${({ palette }) => (palette as PaletteType).light};

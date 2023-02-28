@@ -2,7 +2,7 @@ import renderer from 'react-test-renderer';
 import { BrowserRouter, MemoryRouter } from 'react-router-dom';
 import { act, fireEvent, render, screen } from '@testing-library/react';
 import ThemeProvider from 'theme/ThemeContext';
-import ERROR_MESSAGES from 'utils/constants/messages';
+import ERROR_MESSAGES from 'utils/messages';
 import ResetPasswordForm from './ResetPasswordForm';
 import { errorMessageHandler, watcher } from './ResetPasswordForm.utils';
 
@@ -44,9 +44,7 @@ describe('ResetPassword Form', () => {
     await act(async () => {
       resetPasswordButton = screen.getByRole('button');
       inputPassword = screen.getByPlaceholderText('Enter your new password');
-      inputConfirmPassword = screen.getByPlaceholderText(
-        'Confirm the password',
-      );
+      inputConfirmPassword = screen.getByPlaceholderText('Confirm the password');
 
       fireEvent.input(inputPassword, {
         target: {
@@ -86,9 +84,7 @@ describe('ResetPassword Form', () => {
     await act(async () => {
       resetPasswordButton = screen.getByRole('button');
       inputPassword = screen.getByPlaceholderText('Enter your new password');
-      inputConfirmPassword = screen.getByPlaceholderText(
-        'Confirm the password',
-      );
+      inputConfirmPassword = screen.getByPlaceholderText('Confirm the password');
 
       fireEvent.input(inputPassword, {
         target: {
@@ -106,9 +102,7 @@ describe('ResetPassword Form', () => {
     });
 
     expect(
-      await screen.getByText(
-        ERROR_MESSAGES.resetPasswordPage.passwordsDoesNotMatchUp,
-      ),
+      await screen.getByText(ERROR_MESSAGES.resetPasswordPage.passwordsDoesNotMatchUp),
     ).not.toBeNull();
   });
 
@@ -130,9 +124,7 @@ describe('ResetPassword Form', () => {
     await act(async () => {
       resetPasswordButton = screen.getByRole('button');
       inputPassword = screen.getByPlaceholderText('Enter your new password');
-      inputConfirmPassword = screen.getByPlaceholderText(
-        'Confirm the password',
-      );
+      inputConfirmPassword = screen.getByPlaceholderText('Confirm the password');
 
       fireEvent.input(inputPassword, {
         target: {
@@ -152,9 +144,7 @@ describe('ResetPassword Form', () => {
     // expect(window.location.pathname).toBe('/');
 
     expect(
-      await screen.getByText(
-        ERROR_MESSAGES.resetPasswordPage.notWithPasswordsRules,
-      ),
+      await screen.getByText(ERROR_MESSAGES.resetPasswordPage.notWithPasswordsRules),
     ).not.toBeNull();
   });
   it('The password is not according to the rules and passwords dont match ', async () => {
@@ -175,9 +165,7 @@ describe('ResetPassword Form', () => {
     await act(async () => {
       resetPasswordButton = screen.getByRole('button');
       inputPassword = screen.getByPlaceholderText('Enter your new password');
-      inputConfirmPassword = screen.getByPlaceholderText(
-        'Confirm the password',
-      );
+      inputConfirmPassword = screen.getByPlaceholderText('Confirm the password');
 
       fireEvent.input(inputPassword, {
         target: {
@@ -197,9 +185,7 @@ describe('ResetPassword Form', () => {
     // expect(window.location.pathname).toBe('/');
 
     expect(
-      await screen.getByText(
-        ERROR_MESSAGES.resetPasswordPage.notWithPasswordsRules,
-      ),
+      await screen.getByText(ERROR_MESSAGES.resetPasswordPage.notWithPasswordsRules),
     ).not.toBeNull();
   });
 });
@@ -210,9 +196,7 @@ describe('ResetPassword Utils', () => {
 
     const result = errorMessageHandler(watcher(password, confirmPassword));
 
-    expect(result).toBe(
-      ERROR_MESSAGES.resetPasswordPage.passwordsDoesNotMatchUp,
-    );
+    expect(result).toBe(ERROR_MESSAGES.resetPasswordPage.passwordsDoesNotMatchUp);
   });
 
   it('should return the correct error message when passwords do not meet requirements', () => {

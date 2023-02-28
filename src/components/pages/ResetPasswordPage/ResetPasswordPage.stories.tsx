@@ -4,15 +4,14 @@ import GlobalStyle from 'theme/globalStyles';
 import ThemeProvider from 'theme/ThemeContext';
 import PasswordResetPage from './ResetPasswordPage';
 
-// docs: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
 const meta = {
-  title: 'pages/PasswordResetPage',
+  title: 'Pages/PasswordResetPage',
   component: PasswordResetPage,
   tags: ['autodocs'],
   decorators: [
     (Story) => (
       <ThemeProvider>
-        <GlobalStyle   />
+        <GlobalStyle />
         <BrowserRouter>{Story()}</BrowserRouter>
       </ThemeProvider>
     ),

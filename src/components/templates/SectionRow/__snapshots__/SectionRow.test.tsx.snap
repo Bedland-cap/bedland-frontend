@@ -1,11 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Login Page Template renders correctly 1`] = `
-<div
-  className="sc-bcXHqe jFZlle"
->
-  <div>
-    renders correctly
-  </div>
-</div>
-`;
+exports[`Login Page Template renders correctly 1`] = `[Function]`;

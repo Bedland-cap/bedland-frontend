@@ -5,8 +5,9 @@ import { useNavigate } from 'react-router-dom';
 import InputWithLabel from 'components/molecules/InputWithLabel/InputWithLabel';
 import Button from 'components/atoms/Button/Button';
 import { ThemeContext } from 'theme/ThemeContext';
-import AlertIcon from 'assets/AlertIcon.svg';
+import AlertIcon from 'assets/icons/AlertIcon.svg';
 import { RegisterOptions } from 'components/atoms/Input/Input.types';
+import loginRegexPattern from 'utils/loginRegexPatterns';
 import ResetPasswordFormContainer from './ResetPasswordForm.styled';
 import { errorMessageHandler, watcher } from './ResetPasswordForm.utils';
 
@@ -22,9 +23,7 @@ const ResetPasswordForm = () => {
 
   const enteredPasswordWatch = watch('password', '');
 
-  const errorConditionWrongRules = Boolean(
-    errors.password || errors.confirmPassword,
-  );
+  const errorConditionWrongRules = Boolean(errors.password || errors.confirmPassword);
 
   let errorConditionIfPasswordsMatchUp = false;
 
@@ -53,6 +52,7 @@ const ResetPasswordForm = () => {
         placeholder='Enter your new password'
         type='password'
         register={register}
+        regexPattern={loginRegexPattern.password}
       />
       <div>
         <InputWithLabel
@@ -62,14 +62,12 @@ const ResetPasswordForm = () => {
           type='password'
           register={register}
           registerOptions={resetPasswordRegOptions}
+          regexPattern={loginRegexPattern.password}
         />
 
         {errorConditionWrongRules ? (
           <ErrorMessage>
-            <img
-              src={AlertIcon}
-              alt={errorMessageHandler(whichErrorMessageCondition)}
-            />
+            <img src={AlertIcon} alt={errorMessageHandler(whichErrorMessageCondition)} />
             <div>{errorMessageHandler(whichErrorMessageCondition)}</div>
           </ErrorMessage>
         ) : null}
