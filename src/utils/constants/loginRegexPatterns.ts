@@ -1,8 +1,8 @@
 type TRegister = {
-  pattern: RegExp;
+  pattern?: RegExp;
   required: boolean;
-  maxLength: number;
-  minLength: number;
+  maxLength?: number;
+  minLength?: number;
 };
 
 const loginRegexPattern: { [key: string]: TRegister } = {
@@ -13,10 +13,15 @@ const loginRegexPattern: { [key: string]: TRegister } = {
     minLength: 8,
   },
   password: {
-    pattern: /^[a-zA-Z]+$/,
+    // eslint-disable-next-line prefer-regex-literals
+    pattern:
+      /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*(),<.>/?;:'"]).{8,24}$/,
     required: true,
     maxLength: 36,
     minLength: 8,
+  },
+  confirmPassword: {
+    required: true,
   },
 };
 

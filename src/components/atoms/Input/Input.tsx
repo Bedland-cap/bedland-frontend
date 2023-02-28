@@ -1,18 +1,19 @@
 /* eslint-disable react/jsx-props-no-spreading */
+// without changing lint rules this component will block many tests,
+// and block the build itself.
 import { useContext } from 'react';
 import loginRegexPattern from 'utils/constants/loginRegexPatterns';
-import { FieldValues, UseFormRegister } from 'react-hook-form';
 import { ThemeContext } from 'theme/ThemeContext';
 import LoginInput from './Input.styled';
+import { IInput } from './Input.types';
 
-export interface IInput {
-  input: string;
-  type: string;
-  placeholder: string;
-  register: UseFormRegister<FieldValues>;
-}
-
-const Input = ({ input, type = 'text', placeholder, register }: IInput) => {
+const Input = ({
+  input,
+  type = 'text',
+  placeholder,
+  register,
+  registerOptions = null,
+}: IInput) => {
   const { palette } = useContext(ThemeContext);
 
   return (
@@ -21,7 +22,7 @@ const Input = ({ input, type = 'text', placeholder, register }: IInput) => {
       type={type}
       placeholder={placeholder}
       borderColor={palette.primaryLight}
-      {...register(input, { ...loginRegexPattern[input] })}
+      {...register(input, { ...loginRegexPattern[input], ...registerOptions })}
     />
   );
 };

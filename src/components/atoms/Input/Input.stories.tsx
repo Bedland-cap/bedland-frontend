@@ -2,7 +2,8 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { FieldValues, UseFormRegister } from 'react-hook-form';
 import GlobalStyle from 'theme/globalStyles';
 import ThemeProvider from 'theme/ThemeContext';
-import Input, { IInput } from './Input';
+import Input from './Input';
+import { IInput } from './Input.types';
 
 const meta = {
   title: 'atoms/Input',
