@@ -2,7 +2,7 @@
 
 exports[`Login Page renders correctly 1`] = `
 <div
-  className="sc-iBYQkv ktVbst"
+  className="sc-ftTHYK hfdcEX"
 >
   <img
     alt=""
@@ -70,11 +70,26 @@ exports[`Login Page renders correctly 1`] = `
       Login
     </button>
     <a
-      href="/"
+      className="sc-iBYQkv AUbuW"
+      href="/resetPassword"
       onClick={[Function]}
-      style={
+      palette={
         {
-          "color": "#FF7C33",
+          "accent": "#0E172D",
+          "backgroundLogin": "#0A1122",
+          "danger": "#FF4438",
+          "footer": "#3F4476",
+          "greyDark": "#767676",
+          "greyLight": "#F5F6F8",
+          "light": "#FCFEFF",
+          "notificationCircle": "#CF0000",
+          "primaryDark": "#4553DD",
+          "primaryLight": "#909AFF",
+          "secondaryDark": "#EF6517",
+          "secondaryLight": "#FF7C33",
+          "sidebarTabs": "#CACACA",
+          "success": "#83E57A",
+          "successDeep": "#3A9832",
         }
       }
     >

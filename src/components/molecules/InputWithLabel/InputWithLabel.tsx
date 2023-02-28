@@ -1,23 +1,17 @@
-import { FieldValues, UseFormRegister } from 'react-hook-form';
 import Input from 'components/atoms/Input/Input';
 import Label from 'components/atoms/Label/Label';
+import { FC } from 'react';
+import { IInputWithLabel } from './InputWithLabel.types';
 import InputContainer from './InputWithLabel.styled';
 
-export interface IInputWithLabel {
-  label: string;
-  input: string;
-  type: string;
-  placeholder: string;
-  register: UseFormRegister<FieldValues>;
-}
-
-const InputWithLabel = ({
+const InputWithLabel: FC<IInputWithLabel> = ({
   label,
   input,
   type = 'text',
   placeholder,
   register,
-}: IInputWithLabel) => (
+  registerOptions = null,
+}) => (
   <InputContainer>
     <Label htmlFor={input} label={label} textColor='white' size='medium' />
     <Input
@@ -25,6 +19,7 @@ const InputWithLabel = ({
       placeholder={placeholder}
       register={register}
       type={type}
+      registerOptions={registerOptions}
     />
   </InputContainer>
 );
