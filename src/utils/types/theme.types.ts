@@ -1,4 +1,4 @@
-type PaletteType = {
+export type PaletteType = {
   primaryLight: string;
   primaryDark: string;
   secondaryLight: string;

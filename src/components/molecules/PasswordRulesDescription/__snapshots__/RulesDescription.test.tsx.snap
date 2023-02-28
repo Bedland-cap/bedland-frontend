@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RulesDescription renders correctly 1`] = `
+<div
+  className="sc-bcXHqe frrnbC"
+>
+  <span>
+     Remember, your password must include:
+  </span>
+   
+  <ol
+    className="sc-gswNZR dnILCN"
+    style={
+      {
+        "listStyleType": "disc",
+      }
+    }
+  >
+    <li>
+      8-24 characters
+    </li>
+    <li>
+      At least one uppercase character
+    </li>
+    <li>
+      At least one special character
+    </li>
+  </ol>
+</div>
+`;

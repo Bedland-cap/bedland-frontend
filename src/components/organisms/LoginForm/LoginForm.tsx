@@ -1,12 +1,12 @@
 import { useForm, SubmitHandler, FieldValues } from 'react-hook-form';
 import { useContext } from 'react';
 import ErrorMessage from 'components/atoms/ErrorMessage/ErrorMessage';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import InputWithLabel from 'components/molecules/InputWithLabel/InputWithLabel';
 import Button from 'components/atoms/Button/Button';
 import { ThemeContext } from 'theme/ThemeContext';
 import AlertIcon from 'assets/AlertIcon.svg';
-import LoginFormContainer from './LoginForm.styled';
+import LoginFormContainer, { ResetPasswordLink } from './LoginForm.styled';
 
 const LoginForm = () => {
   const navigate = useNavigate();
@@ -49,6 +49,7 @@ const LoginForm = () => {
           </ErrorMessage>
         ) : null}
       </div>
+
       <Button
         backgroundColor={palette.secondaryDark}
         textColor='#ffffff'
@@ -57,9 +58,10 @@ const LoginForm = () => {
       >
         Login
       </Button>
-      <Link to='/#' style={{ color: palette.secondaryLight }}>
+
+      <ResetPasswordLink palette={palette} to='/resetPassword'>
         Forgot your password?
-      </Link>
+      </ResetPasswordLink>
     </LoginFormContainer>
   );
 };
