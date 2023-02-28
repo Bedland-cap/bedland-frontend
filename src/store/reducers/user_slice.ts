@@ -2,13 +2,17 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import type { RootState } from '../store';
 
+const userRole = ['manager', 'resident', undefined] as const;
+export type UserRoles = (typeof userRole)[number];
+
 export type User = {
-  loggedIn: boolean | undefined;
-  status: string | undefined;
-  error: string | undefined;
-  userId: string | undefined;
-  login: string | undefined;
-  token: string | undefined;
+  loggedIn: boolean;
+  status: string;
+  error?: string;
+  userId?: string;
+  login?: string;
+  token?: string;
+  role: UserRoles;
 };
 
 const initialState: User = {
@@ -18,6 +22,7 @@ const initialState: User = {
   userId: undefined,
   login: undefined,
   token: undefined,
+  role: 'manager',
 };
 
 export const UserSlice = createSlice({
@@ -25,7 +30,7 @@ export const UserSlice = createSlice({
   initialState,
   reducers: {
     // to remove, when we set api and extra reducer for login
-    login: (state, action: PayloadAction<User>) => {
+    login: (state, action: PayloadAction<Omit<User, 'loggedIn'>>) => {
       state.loggedIn = true;
       state.userId = action.payload.userId;
       state.login = action.payload.login;
@@ -37,7 +42,7 @@ export const UserSlice = createSlice({
       state.userId = undefined;
       state.login = undefined;
       state.token = undefined;
-      state.status = undefined;
+      state.status = 'idle';
     },
   },
   extraReducers: (/* builder */) => {
@@ -59,3 +64,4 @@ export const selectUserIsLoggedIn = (state: RootState) => state.user.loggedIn;
 export const selectUserResponseStatus = (state: RootState) => state.user.status;
 export const selectUserResponseError = (state: RootState) => state.user.error;
 export const selectUserLogin = (state: RootState) => state.user.login;
+export const selectUserRole = (state: RootState) => state.user.role;

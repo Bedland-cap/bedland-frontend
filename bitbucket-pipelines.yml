@@ -12,7 +12,8 @@ pipelines:
         caches:
           - node
         script:
-          - echo "--- Install dependecies ---"
+          - echo "--- Install dependencies ---"
+          - npm cache clean --force
           - npm install
           - echo "--- Check lint ---"
           - npm run lint

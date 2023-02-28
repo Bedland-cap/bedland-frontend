@@ -1,5 +1,5 @@
 import Image from 'components/atoms/Image/Image';
-import DefaultImage from 'assets/Loginlogo.svg';
+import DefaultImage from 'assets/img/Loginlogo.svg';
 import LoginForm from 'components/organisms/LoginForm/LoginForm';
 import SectionRow from 'components/templates/SectionRow/SectionRow';
 

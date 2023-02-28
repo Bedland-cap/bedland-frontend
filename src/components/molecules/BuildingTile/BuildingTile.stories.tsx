@@ -5,7 +5,7 @@ import ThemeProvider from 'theme/ThemeContext';
 import BuildingTile from './BuildingTile';
 
 const meta = {
-  title: 'molecules/BuildingTile',
+  title: 'Molecules/BuildingTile',
   component: BuildingTile,
   tags: ['autodocs'],
   decorators: [

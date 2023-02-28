@@ -1,5 +1,5 @@
 import Image from 'components/atoms/Image/Image';
-import DefaultImage from 'assets/Logoresident.svg';
+import DefaultImage from 'assets/img/LogoResident.svg';
 import SectionRow from 'components/templates/SectionRow/SectionRow';
 import SetNewPassword from 'components/organisms/SetNewPassword/SetNewPassword';
 

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { PaletteType } from 'utils/types/theme.types';
+import { PaletteType } from 'theme/theme.types';
 
 const LoginFormContainer = styled.form`
   align-items: center;

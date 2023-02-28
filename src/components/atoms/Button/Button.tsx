@@ -15,12 +15,7 @@ const Button = ({
   type = 'button',
   variant = 'primary',
 }: PropsWithChildren<ButtonProps>) => (
-  <Btn
-    type={type}
-    backgroundColor={backgroundColor}
-    textColor={textColor}
-    variant={variant}
-  >
+  <Btn type={type} backgroundColor={backgroundColor} textColor={textColor} variant={variant}>
     {children}
   </Btn>
 );

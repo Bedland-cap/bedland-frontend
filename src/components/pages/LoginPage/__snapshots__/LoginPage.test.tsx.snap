@@ -2,7 +2,7 @@
 
 exports[`Login Page renders correctly 1`] = `
 <div
-  className="sc-ftTHYK hfdcEX"
+  className="sc-ftTHYK kBitbE"
 >
   <img
     alt=""
@@ -12,15 +12,21 @@ exports[`Login Page renders correctly 1`] = `
     className="sc-gKPRtg efZPKw"
     onSubmit={[Function]}
   >
-    <h1
+    <h2
       style={
         {
-          "color": "white",
+          "color": "#FCFEFF",
+          "fontFamily": "Poppins, sans-serif",
+          "fontSize": "2rem",
+          "fontWeight": 600,
+          "letterSpacing": "2px",
+          "lineHeight": 1.2,
+          "textAlign": "center",
         }
       }
     >
       Login
-    </h1>
+    </h2>
     <div
       className="sc-eDvSVe jQppCF"
     >
@@ -76,13 +82,14 @@ exports[`Login Page renders correctly 1`] = `
       palette={
         {
           "accent": "#0E172D",
-          "backgroundLogin": "#0A1122",
+          "background": "#0A1122",
+          "badge": "#CF0000",
           "danger": "#FF4438",
+          "default": "#000",
           "footer": "#3F4476",
           "greyDark": "#767676",
           "greyLight": "#F5F6F8",
           "light": "#FCFEFF",
-          "notificationCircle": "#CF0000",
           "primaryDark": "#4553DD",
           "primaryLight": "#909AFF",
           "secondaryDark": "#EF6517",
