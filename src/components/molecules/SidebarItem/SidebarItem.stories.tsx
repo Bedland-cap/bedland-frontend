@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { iconsNames } from 'components/atoms/Icon/icons.utils';
+import { iconsNames } from 'components/atoms/Icon/icon.types';
 import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from 'theme/globalStyles';
 import initialTheme from 'theme/initialTheme';

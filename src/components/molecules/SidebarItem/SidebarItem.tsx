@@ -1,10 +1,10 @@
 import { PropsWithChildren, useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import Typography from 'components/atoms/Typography/Typography';
-import { IconName } from 'components/atoms/Icon/icons.utils';
 import { CSSProperties } from 'styled-components';
 import { ThemeContext } from 'theme/ThemeContext';
 import Icon from 'components/atoms/Icon/Icon';
+import { IconName } from 'components/atoms/Icon/icon.types';
 import { StyledItemList, StyledDiv, ContentDiv, Badge } from './SidebarItem.styled';
 
 export type SidebarItemProps = {
