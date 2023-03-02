@@ -18,6 +18,7 @@ export const colorNames = [
   'default',
   'background',
   'footer',
+  'widgetBackground',
 ] as const;
 
 export const typographyNames = [
@@ -26,6 +27,7 @@ export const typographyNames = [
   'sidebarItem',
   'paragraph',
   'caption',
+  'widgetTitle',
 ] as const;
 
 export type ColorNames = (typeof colorNames)[number];

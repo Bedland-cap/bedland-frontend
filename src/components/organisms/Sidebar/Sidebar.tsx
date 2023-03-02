@@ -1,4 +1,4 @@
-import { IconName } from 'components/atoms/Icon/icons.utils';
+import { IconName } from 'components/atoms/Icon/icon.types';
 import SidebarItem from 'components/molecules/SidebarItem/SidebarItem';
 import { useContext } from 'react';
 import { ThemeContext } from 'theme/ThemeContext';

@@ -1,0 +1,1203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Widget should renders correctly ContactsWidget 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gswNZR htFxcT"
+        mode="dark"
+      >
+        <div
+          class="sc-dkrFOg gTwKfn"
+          mode="dark"
+        >
+          <h5
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+          >
+            Widget in dark mode
+          </h5>
+          <button
+            class="sc-bcXHqe fIhUPA"
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 20 20"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask-arrowRight"
+              />
+              <path
+                d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+                stroke="#fff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.39167"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gswNZR htFxcT"
+      mode="dark"
+    >
+      <div
+        class="sc-dkrFOg gTwKfn"
+        mode="dark"
+      >
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+        >
+          Widget in dark mode
+        </h5>
+        <button
+          class="sc-bcXHqe fIhUPA"
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 20 20"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask-arrowRight"
+            />
+            <path
+              d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.39167"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Widget should renders correctly NotificationWidget 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gswNZR lcFSUD"
+        mode="dark"
+      >
+        <div
+          class="sc-dkrFOg gTwKfn"
+          mode="dark"
+        >
+          <h5
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+          >
+            Widget in dark mode
+          </h5>
+          <button
+            class="sc-bcXHqe fIhUPA"
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 20 20"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask-arrowRight"
+              />
+              <path
+                d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+                stroke="#fff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.39167"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gswNZR lcFSUD"
+      mode="dark"
+    >
+      <div
+        class="sc-dkrFOg gTwKfn"
+        mode="dark"
+      >
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+        >
+          Widget in dark mode
+        </h5>
+        <button
+          class="sc-bcXHqe fIhUPA"
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 20 20"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask-arrowRight"
+            />
+            <path
+              d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.39167"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Widget should renders correctly PaymentsWidget 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gswNZR vNTvR"
+        mode="dark"
+      >
+        <div
+          class="sc-dkrFOg gTwKfn"
+          mode="dark"
+        >
+          <h5
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+          >
+            Widget in dark mode
+          </h5>
+          <button
+            class="sc-bcXHqe fIhUPA"
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 20 20"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask-arrowRight"
+              />
+              <path
+                d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+                stroke="#fff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.39167"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gswNZR vNTvR"
+      mode="dark"
+    >
+      <div
+        class="sc-dkrFOg gTwKfn"
+        mode="dark"
+      >
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+        >
+          Widget in dark mode
+        </h5>
+        <button
+          class="sc-bcXHqe fIhUPA"
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 20 20"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask-arrowRight"
+            />
+            <path
+              d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.39167"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Widget should renders correctly VotingWidget 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gswNZR dlTyy"
+        mode="dark"
+      >
+        <div
+          class="sc-dkrFOg gTwKfn"
+          mode="dark"
+        >
+          <h5
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+          >
+            Widget in dark mode
+          </h5>
+          <button
+            class="sc-bcXHqe fIhUPA"
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 20 20"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask-arrowRight"
+              />
+              <path
+                d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+                stroke="#fff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.39167"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gswNZR dlTyy"
+      mode="dark"
+    >
+      <div
+        class="sc-dkrFOg gTwKfn"
+        mode="dark"
+      >
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+        >
+          Widget in dark mode
+        </h5>
+        <button
+          class="sc-bcXHqe fIhUPA"
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 20 20"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask-arrowRight"
+            />
+            <path
+              d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.39167"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Widget should renders correctly widget in dark mode 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gswNZR lcFSUD"
+        mode="dark"
+      >
+        <div
+          class="sc-dkrFOg gTwKfn"
+          mode="dark"
+        >
+          <h5
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+          >
+            Widget in dark mode
+          </h5>
+          <button
+            class="sc-bcXHqe fIhUPA"
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 20 20"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask-arrowRight"
+              />
+              <path
+                d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+                stroke="#fff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.39167"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gswNZR lcFSUD"
+      mode="dark"
+    >
+      <div
+        class="sc-dkrFOg gTwKfn"
+        mode="dark"
+      >
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+        >
+          Widget in dark mode
+        </h5>
+        <button
+          class="sc-bcXHqe fIhUPA"
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 20 20"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask-arrowRight"
+            />
+            <path
+              d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.39167"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Widget should renders correctly widget in light mode 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gswNZR lcFSUD"
+        mode="light"
+      >
+        <div
+          class="sc-dkrFOg euFzhI"
+          mode="light"
+        >
+          <h5
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+          >
+            Widget in dark mode
+          </h5>
+          <button
+            class="sc-bcXHqe fIhUPA"
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 20 20"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask-arrowRight"
+              />
+              <path
+                d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+                stroke="#4553DD"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.39167"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gswNZR lcFSUD"
+      mode="light"
+    >
+      <div
+        class="sc-dkrFOg euFzhI"
+        mode="light"
+      >
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+        >
+          Widget in dark mode
+        </h5>
+        <button
+          class="sc-bcXHqe fIhUPA"
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 20 20"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask-arrowRight"
+            />
+            <path
+              d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+              stroke="#4553DD"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.39167"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Widget should renders correctly with button 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gswNZR lcFSUD"
+        mode="dark"
+      >
+        <div
+          class="sc-dkrFOg gTwKfn"
+          mode="dark"
+        >
+          <h5
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+          >
+            Widget in dark mode
+          </h5>
+          <button
+            class="sc-bcXHqe fIhUPA"
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 20 20"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask-arrowRight"
+              />
+              <path
+                d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+                stroke="#fff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.39167"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gswNZR lcFSUD"
+      mode="dark"
+    >
+      <div
+        class="sc-dkrFOg gTwKfn"
+        mode="dark"
+      >
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+        >
+          Widget in dark mode
+        </h5>
+        <button
+          class="sc-bcXHqe fIhUPA"
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 20 20"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask-arrowRight"
+            />
+            <path
+              d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.39167"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Widget should renders correctly without button 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gswNZR lcFSUD"
+        mode="dark"
+      >
+        <div
+          class="sc-dkrFOg gTwKfn"
+          mode="dark"
+        >
+          <h5
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+          >
+            Widget in dark mode
+          </h5>
+        </div>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gswNZR lcFSUD"
+      mode="dark"
+    >
+      <div
+        class="sc-dkrFOg gTwKfn"
+        mode="dark"
+      >
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
+        >
+          Widget in dark mode
+        </h5>
+      </div>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

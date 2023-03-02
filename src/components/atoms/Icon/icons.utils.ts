@@ -1,42 +1,4 @@
-import { HexColor } from 'theme/theme.types';
-
-export const iconsNames = [
-  'building',
-  'dashboard',
-  'messages',
-  'payments',
-  'reports',
-  'residents',
-  'voting',
-  'wall',
-] as const;
-
-export type IconName = (typeof iconsNames)[number];
-
-type Path = {
-  d: string;
-  id: string;
-  isPathFill?: boolean;
-  strokeWidth?: string;
-  isMask?: boolean;
-};
-
-type Mask = {
-  path: Path[];
-  fill: HexColor;
-};
-
-export type IconItem = {
-  viewBox: string;
-  path: Path[];
-  mask?: Mask;
-};
-
-type Getters<T extends string, K> = {
-  [k in T]: K;
-};
-
-export type IconList = Getters<IconName, IconItem>;
+import { IconList, IconName, IconItem } from './icon.types';
 
 export const icons: IconList = {
   dashboard: {
@@ -130,6 +92,16 @@ export const icons: IconList = {
         id: 'wall-path-1',
         d: 'M1.33301 16.1667L5.49967 12M5.49967 12L8.79634 15.2967C8.89269 15.3929 9.01114 15.4641 9.14135 15.5039C9.27156 15.5438 9.40955 15.5511 9.54325 15.5253C9.67696 15.4995 9.80229 15.4413 9.9083 15.3558C10.0143 15.2703 10.0978 15.1602 10.1513 15.035L12.0305 10.6508C12.0736 10.5502 12.1361 10.459 12.2145 10.3825C12.2928 10.306 12.3855 10.2457 12.4872 10.205L15.1597 9.13584C15.2876 9.08462 15.4009 9.00246 15.4893 8.89671C15.5777 8.79097 15.6385 8.66495 15.6663 8.52993C15.694 8.39492 15.6878 8.25513 15.6483 8.12309C15.6088 7.99104 15.5371 7.87088 15.4397 7.77334L9.72634 2.06001C9.62881 1.96261 9.50864 1.89093 9.3766 1.85138C9.24456 1.81183 9.10477 1.80566 8.96975 1.8334C8.83474 1.86115 8.70871 1.92195 8.60297 2.01037C8.49722 2.09878 8.41506 2.21204 8.36384 2.34001L7.29467 5.01251C7.25401 5.11419 7.19371 5.20685 7.11721 5.28521C7.04071 5.36357 6.94952 5.42608 6.84884 5.46917L2.46467 7.34834C2.33949 7.40193 2.22935 7.48538 2.14388 7.59138C2.05841 7.69739 2.00022 7.82273 1.9744 7.95643C1.94858 8.09013 1.95592 8.22812 1.99577 8.35833C2.03562 8.48854 2.10678 8.607 2.20301 8.70334L5.49967 12Z',
         strokeWidth: '2',
+      },
+    ],
+  },
+  arrowRight: {
+    viewBox: '0 0 20 20',
+    path: [
+      {
+        id: 'arrowRight-path-1',
+        d: 'M8.33325 5.83334L12.4999 10L8.33325 14.1667',
+        strokeWidth: '1.39167',
       },
     ],
   },
