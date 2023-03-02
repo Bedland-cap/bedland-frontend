@@ -40,8 +40,10 @@
     "coverage": "jest --env=jsdom --coverage",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
     "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx,json}",
-    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc --loglevel log"
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc --loglevel log",
+    "server": "node server/server.cjs"
   },
+  "type": "module",
   "resolutions": {
     "react-test-renderer": "18.2.0"
   },
@@ -125,6 +127,7 @@
     "jest-environment-jsdom": "^29.4.2",
     "jest-styled-components": "^7.1.1",
     "jest-svg-transformer": "^1.0.0",
+    "json-server": "^0.17.2",
     "msw": "^1.0.0",
     "msw-storybook-addon": "^1.7.0",
     "prettier": "^2.8.3",
