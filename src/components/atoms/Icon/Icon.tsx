@@ -1,14 +1,19 @@
 import { PropsWithChildren, useContext } from 'react';
 import { ThemeContext } from 'theme/ThemeContext';
 import { ColorNames, PaletteType, Theme } from 'theme/theme.types';
-import { getIcon, IconItem, IconName } from './icons.utils';
+import { getIcon } from './icons.utils';
+import { IconName, IconItem } from './icon.types';
 
 export type IconProps = {
   name: IconName;
   color: ColorNames;
   size: number;
   isActive: boolean;
-  activeColor: ColorNames;
+  activeColor?: ColorNames | undefined;
+};
+
+const defaultProps = {
+  activeColor: undefined,
 };
 
 const Icon = ({
@@ -16,7 +21,7 @@ const Icon = ({
   size = 16,
   color = 'default',
   isActive = false,
-  activeColor = 'primaryLight',
+  activeColor,
 }: PropsWithChildren<IconProps>) => {
   const icon: IconItem = getIcon(name);
   const { palette }: Theme = useContext(ThemeContext);
@@ -64,5 +69,7 @@ const Icon = ({
     </svg>
   );
 };
+
+Icon.defaultProps = defaultProps;
 
 export default Icon;

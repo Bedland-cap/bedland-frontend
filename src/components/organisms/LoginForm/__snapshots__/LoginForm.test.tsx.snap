@@ -90,6 +90,7 @@ exports[`Login Form renders correctly 1`] = `
         "sidebarTabs": "#CACACA",
         "success": "#83E57A",
         "successDeep": "#3A9832",
+        "widgetBackground": "#fff",
       }
     }
   >

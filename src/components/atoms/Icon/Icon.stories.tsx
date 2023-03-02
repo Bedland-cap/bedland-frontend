@@ -3,7 +3,7 @@ import ThemeProvider from 'theme/ThemeContext';
 import GlobalStyle from 'theme/globalStyles';
 import { colorNames } from 'theme/theme.types';
 import Icon from './Icon';
-import { iconsNames } from './icons.utils';
+import { iconsNames } from './icon.types';
 
 const meta = {
   title: 'Atoms/Icon',

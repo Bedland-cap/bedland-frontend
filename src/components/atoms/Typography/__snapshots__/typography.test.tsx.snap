@@ -6,7 +6,7 @@ exports[`Typography should renders correctly typography - caption 1`] = `
   "baseElement": <body>
     <div>
       <p
-        style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.6; letter-spacing: 0; color: rgb(69, 83, 221);"
+        style="font-family: Source Sans Pro, sans-serif; font-weight: 400; line-height: 1.6; letter-spacing: 0; color: rgb(69, 83, 221);"
       >
         Caption
       </p>
@@ -19,7 +19,7 @@ exports[`Typography should renders correctly typography - caption 1`] = `
   </body>,
   "container": <div>
     <p
-      style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.6; letter-spacing: 0; color: rgb(69, 83, 221);"
+      style="font-family: Source Sans Pro, sans-serif; font-weight: 400; line-height: 1.6; letter-spacing: 0; color: rgb(69, 83, 221);"
     >
       Caption
     </p>

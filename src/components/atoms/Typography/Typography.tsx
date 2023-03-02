@@ -8,6 +8,7 @@ const variantToElement = {
   sidebarItem: 'span',
   paragraph: 'p',
   caption: 'p',
+  widgetTitle: 'h5',
 } as const;
 
 export type TypographyProps = {
