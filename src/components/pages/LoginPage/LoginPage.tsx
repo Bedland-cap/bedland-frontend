@@ -1,12 +1,12 @@
 import Image from 'components/atoms/Image/Image';
 import DefaultImage from 'assets/img/Loginlogo.svg';
 import LoginForm from 'components/organisms/LoginForm/LoginForm';
-import SectionRow from 'components/templates/SectionRow/SectionRow';
+import MainBodyFull from 'components/templates/MainBodyFull/MainBodyFull';
 
 const LoginPage = () => (
-  <SectionRow>
+  <MainBodyFull>
     <Image src={DefaultImage} alt='' />
     <LoginForm />
-  </SectionRow>
+  </MainBodyFull>
 );
 export default LoginPage;

@@ -1,6 +1,6 @@
 import Sidebar from 'components/organisms/Sidebar/Sidebar';
 import Header from 'components/organisms/Header/Header';
-import MainBody from 'components/templates/MainBody/MainBody';
+import MainBodySidebar from 'components/templates/MainBodySidebar/MainBodySidebar';
 import GlobalStyle from 'theme/globalStyles';
 import Footer from 'components/organisms/Footer/Footer';
 import { useAppSelector } from 'store/hooks';
@@ -15,10 +15,10 @@ const App = () => {
       <GlobalStyle />
       <GlobalFontsStyle />
       <Header />
-      <MainBody>
+      <MainBodySidebar>
         {isLoggedIn ? <Sidebar /> : null}
         {isLoggedIn ? <RoutesForLoggedIn /> : <RoutesForNotLoggedIn />}
-      </MainBody>
+      </MainBodySidebar>
       {isLoggedIn ? null : <Footer />}
     </>
   );

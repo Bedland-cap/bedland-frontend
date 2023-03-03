@@ -2,6 +2,8 @@ import { Meta, StoryObj } from '@storybook/react';
 import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from 'theme/globalStyles';
 import ThemeProvider from 'theme/ThemeContext';
+import { Provider } from 'react-redux';
+import { reduxStore } from 'store/store';
 import Sidebar from './Sidebar';
 
 const meta = {
@@ -13,8 +15,9 @@ const meta = {
     (Story) => (
       <BrowserRouter>
         <ThemeProvider>
-          <GlobalStyle />
-          {Story()}
+          <Provider store={reduxStore}>
+            <GlobalStyle /> {Story()}
+          </Provider>
         </ThemeProvider>
       </BrowserRouter>
     ),
