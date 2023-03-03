@@ -1,8 +1,8 @@
 import { render } from 'test.utils';
-import SectionRow from './SectionRow';
+import MainBodyFull from './MainBodyFull';
 
 describe('Login Page Template', () => {
-  const item = () => render(<SectionRow />, {});
+  const item = () => render(<MainBodyFull />, {});
   it('renders correctly', () => {
     expect(item).toMatchSnapshot();
   });
