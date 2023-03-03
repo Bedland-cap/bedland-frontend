@@ -16,7 +16,7 @@ const Box = styled.div<Palette & { isLoggedIn: boolean }>`
   );
 `;
 
-const MainBody = ({ children }: PropsWithChildren) => {
+const MainBodySidebar = ({ children }: PropsWithChildren) => {
   const { palette } = useContext(ThemeContext);
   const isLoggedIn = useAppSelector(selectUserIsLoggedIn);
   return (
@@ -26,4 +26,4 @@ const MainBody = ({ children }: PropsWithChildren) => {
   );
 };
 
-export default MainBody;
+export default MainBodySidebar;
