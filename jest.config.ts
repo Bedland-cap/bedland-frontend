@@ -27,7 +27,10 @@ const config: Config = {
       statements: 80,
     },
   },
-  transform: { '^.+\\.jsx?$': 'babel-jest' },
+  transform: {
+    '^.+\\.jsx?$': 'babel-jest',
+    '.+\\.(png|jpg)$': 'jest-transform-stub',
+  },
 };
 
 export default config;

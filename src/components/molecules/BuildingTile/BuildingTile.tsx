@@ -1,30 +1,40 @@
-import {
-  TileWrapper,
-  BuildingImage,
-  HeaderWrapper,
-  SubtitleWrapper,
-  ActionWrapper,
-  Button,
-} from './BuildingTile.styled';
+import Typography from 'components/atoms/Typography/Typography';
+import { useContext } from 'react';
+import { ThemeContext } from 'theme/ThemeContext';
+import BuildingImg from 'assets/img/BuildingImg.png';
+import * as Styled from './BuildingTile.styled';
 
-interface BuildingTileProps {
-  BuildingId: number;
-  BuildingAddress: string;
-  BuildingImg: string;
-}
+export type BuildingTileProps = {
+  buildingId: string;
+  buildingAddress: string;
+  buildingImg?: string;
+};
 
-const BuildingTile = ({
-  BuildingId,
-  BuildingAddress,
-  BuildingImg = 'assets/BuildingImg.png',
-}: BuildingTileProps) => (
-  <TileWrapper>
-    <BuildingImage src={BuildingImg} alt='Building' />
-    <HeaderWrapper>Building #{BuildingId}</HeaderWrapper>
-    <SubtitleWrapper>{BuildingAddress}</SubtitleWrapper>
-    <ActionWrapper>
-      <Button>Open details</Button>
-    </ActionWrapper>
-  </TileWrapper>
-);
+const defaultProps: { buildingImg: string } = {
+  buildingImg: BuildingImg,
+};
+
+const BuildingTile = ({ buildingId, buildingAddress, buildingImg }: BuildingTileProps) => {
+  const { palette } = useContext(ThemeContext);
+
+  return (
+    <Styled.TileWrapper shadowColor={palette.shadow}>
+      <Styled.BuildingImage src={buildingImg} alt='Building' />
+      <Styled.CardContent>
+        <Typography variant='cardTitle' color='inputGrey'>
+          Building #{buildingId}
+        </Typography>
+        <Typography variant='paragraph' color='inputGrey'>
+          {buildingAddress}
+        </Typography>
+        <Styled.ButtonWrapper>
+          <Styled.Button palette={palette}>Open details</Styled.Button>
+        </Styled.ButtonWrapper>
+      </Styled.CardContent>
+    </Styled.TileWrapper>
+  );
+};
+
+BuildingTile.defaultProps = defaultProps;
+
 export default BuildingTile;

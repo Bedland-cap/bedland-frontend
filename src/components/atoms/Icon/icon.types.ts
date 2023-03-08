@@ -11,6 +11,7 @@ export const iconsNames = [
   'voting',
   'wall',
   'arrowRight',
+  'search',
 ] as const;
 
 export type IconName = (typeof iconsNames)[number];
