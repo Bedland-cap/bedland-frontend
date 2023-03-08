@@ -1,0 +1,529 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuildingsPage renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-pyfCe hUihNU"
+      >
+        <div
+          class="sc-jrcTuL cwIoPC"
+        >
+          <h2
+            style="font-family: Poppins, sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.4; color: rgb(0, 0, 0);"
+          >
+            Buildings
+          </h2>
+        </div>
+        <div
+          class="sc-kDvujY fVGmTl"
+        >
+          <div
+            class="sc-csuSiG klgXyE"
+          >
+            <div
+              class="sc-ipEyDJ eLtYCz"
+            >
+              <div
+                class="sc-bcXHqe eCLQnL"
+              >
+                <div
+                  class="sc-dkrFOg fGrSpP"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask-search"
+                    />
+                    <path
+                      d="M14.6666 14.6666L11.2916 11.2916M11.2916 11.2916C11.8333 10.7499 12.263 10.1068 12.5562 9.39907C12.8494 8.6913 13.0003 7.93272 13.0003 7.16664C13.0003 6.40055 12.8494 5.64197 12.5562 4.9342C12.263 4.22644 11.8333 3.58334 11.2916 3.04164C10.7499 2.49994 10.1068 2.07023 9.39907 1.77707C8.6913 1.4839 7.93272 1.33301 7.16664 1.33301C6.40055 1.33301 5.64197 1.4839 4.9342 1.77707C4.22644 2.07023 3.58334 2.49994 3.04164 3.04164C1.94762 4.13566 1.33301 5.61946 1.33301 7.16664C1.33301 8.71381 1.94762 10.1976 3.04164 11.2916C4.13566 12.3857 5.61946 13.0003 7.16664 13.0003C8.71381 13.0003 10.1976 12.3857 11.2916 11.2916Z"
+                      stroke="#767676"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.15972"
+                    />
+                  </svg>
+                </div>
+                <input
+                  class="sc-gswNZR ffqmbe"
+                  placeholder="Search buildings..."
+                />
+              </div>
+            </div>
+            <div
+              class="sc-ftTHYK hSCmzV"
+            >
+              <div
+                class="sc-hLBbgP hBDkWb"
+              >
+                <img
+                  alt="Building"
+                  class="sc-eDvSVe cLYvOm"
+                  src=""
+                />
+                <div
+                  class="sc-jSUZER eefWGz"
+                >
+                  <h3
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                  >
+                    Building #
+                    1
+                  </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    Berry Street 21
+                  </p>
+                  <div
+                    class="sc-gKPRtg dvpPXt"
+                  >
+                    <button
+                      class="sc-iBYQkv ewCYwF"
+                    >
+                      Open details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="sc-hLBbgP hBDkWb"
+              >
+                <img
+                  alt="Building"
+                  class="sc-eDvSVe cLYvOm"
+                  src=""
+                />
+                <div
+                  class="sc-jSUZER eefWGz"
+                >
+                  <h3
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                  >
+                    Building #
+                    2
+                  </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    Miedziana Street 3
+                  </p>
+                  <div
+                    class="sc-gKPRtg dvpPXt"
+                  >
+                    <button
+                      class="sc-iBYQkv ewCYwF"
+                    >
+                      Open details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="sc-hLBbgP hBDkWb"
+              >
+                <img
+                  alt="Building"
+                  class="sc-eDvSVe cLYvOm"
+                  src=""
+                />
+                <div
+                  class="sc-jSUZER eefWGz"
+                >
+                  <h3
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                  >
+                    Building #
+                    3
+                  </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    Seaport Avenue 51
+                  </p>
+                  <div
+                    class="sc-gKPRtg dvpPXt"
+                  >
+                    <button
+                      class="sc-iBYQkv ewCYwF"
+                    >
+                      Open details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="sc-hLBbgP hBDkWb"
+              >
+                <img
+                  alt="Building"
+                  class="sc-eDvSVe cLYvOm"
+                  src=""
+                />
+                <div
+                  class="sc-jSUZER eefWGz"
+                >
+                  <h3
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                  >
+                    Building #
+                    4
+                  </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    Desert Street 2X
+                  </p>
+                  <div
+                    class="sc-gKPRtg dvpPXt"
+                  >
+                    <button
+                      class="sc-iBYQkv ewCYwF"
+                    >
+                      Open details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="sc-hLBbgP hBDkWb"
+              >
+                <img
+                  alt="Building"
+                  class="sc-eDvSVe cLYvOm"
+                  src=""
+                />
+                <div
+                  class="sc-jSUZER eefWGz"
+                >
+                  <h3
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                  >
+                    Building #
+                    5
+                  </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    Lakewood Avenue 57
+                  </p>
+                  <div
+                    class="sc-gKPRtg dvpPXt"
+                  >
+                    <button
+                      class="sc-iBYQkv ewCYwF"
+                    >
+                      Open details
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-pyfCe hUihNU"
+    >
+      <div
+        class="sc-jrcTuL cwIoPC"
+      >
+        <h2
+          style="font-family: Poppins, sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.4; color: rgb(0, 0, 0);"
+        >
+          Buildings
+        </h2>
+      </div>
+      <div
+        class="sc-kDvujY fVGmTl"
+      >
+        <div
+          class="sc-csuSiG klgXyE"
+        >
+          <div
+            class="sc-ipEyDJ eLtYCz"
+          >
+            <div
+              class="sc-bcXHqe eCLQnL"
+            >
+              <div
+                class="sc-dkrFOg fGrSpP"
+              >
+                <svg
+                  fill="none"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask-search"
+                  />
+                  <path
+                    d="M14.6666 14.6666L11.2916 11.2916M11.2916 11.2916C11.8333 10.7499 12.263 10.1068 12.5562 9.39907C12.8494 8.6913 13.0003 7.93272 13.0003 7.16664C13.0003 6.40055 12.8494 5.64197 12.5562 4.9342C12.263 4.22644 11.8333 3.58334 11.2916 3.04164C10.7499 2.49994 10.1068 2.07023 9.39907 1.77707C8.6913 1.4839 7.93272 1.33301 7.16664 1.33301C6.40055 1.33301 5.64197 1.4839 4.9342 1.77707C4.22644 2.07023 3.58334 2.49994 3.04164 3.04164C1.94762 4.13566 1.33301 5.61946 1.33301 7.16664C1.33301 8.71381 1.94762 10.1976 3.04164 11.2916C4.13566 12.3857 5.61946 13.0003 7.16664 13.0003C8.71381 13.0003 10.1976 12.3857 11.2916 11.2916Z"
+                    stroke="#767676"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.15972"
+                  />
+                </svg>
+              </div>
+              <input
+                class="sc-gswNZR ffqmbe"
+                placeholder="Search buildings..."
+              />
+            </div>
+          </div>
+          <div
+            class="sc-ftTHYK hSCmzV"
+          >
+            <div
+              class="sc-hLBbgP hBDkWb"
+            >
+              <img
+                alt="Building"
+                class="sc-eDvSVe cLYvOm"
+                src=""
+              />
+              <div
+                class="sc-jSUZER eefWGz"
+              >
+                <h3
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                >
+                  Building #
+                  1
+                </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  Berry Street 21
+                </p>
+                <div
+                  class="sc-gKPRtg dvpPXt"
+                >
+                  <button
+                    class="sc-iBYQkv ewCYwF"
+                  >
+                    Open details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-hLBbgP hBDkWb"
+            >
+              <img
+                alt="Building"
+                class="sc-eDvSVe cLYvOm"
+                src=""
+              />
+              <div
+                class="sc-jSUZER eefWGz"
+              >
+                <h3
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                >
+                  Building #
+                  2
+                </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  Miedziana Street 3
+                </p>
+                <div
+                  class="sc-gKPRtg dvpPXt"
+                >
+                  <button
+                    class="sc-iBYQkv ewCYwF"
+                  >
+                    Open details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-hLBbgP hBDkWb"
+            >
+              <img
+                alt="Building"
+                class="sc-eDvSVe cLYvOm"
+                src=""
+              />
+              <div
+                class="sc-jSUZER eefWGz"
+              >
+                <h3
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                >
+                  Building #
+                  3
+                </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  Seaport Avenue 51
+                </p>
+                <div
+                  class="sc-gKPRtg dvpPXt"
+                >
+                  <button
+                    class="sc-iBYQkv ewCYwF"
+                  >
+                    Open details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-hLBbgP hBDkWb"
+            >
+              <img
+                alt="Building"
+                class="sc-eDvSVe cLYvOm"
+                src=""
+              />
+              <div
+                class="sc-jSUZER eefWGz"
+              >
+                <h3
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                >
+                  Building #
+                  4
+                </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  Desert Street 2X
+                </p>
+                <div
+                  class="sc-gKPRtg dvpPXt"
+                >
+                  <button
+                    class="sc-iBYQkv ewCYwF"
+                  >
+                    Open details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-hLBbgP hBDkWb"
+            >
+              <img
+                alt="Building"
+                class="sc-eDvSVe cLYvOm"
+                src=""
+              />
+              <div
+                class="sc-jSUZER eefWGz"
+              >
+                <h3
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                >
+                  Building #
+                  5
+                </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  Lakewood Avenue 57
+                </p>
+                <div
+                  class="sc-gKPRtg dvpPXt"
+                >
+                  <button
+                    class="sc-iBYQkv ewCYwF"
+                  >
+                    Open details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
