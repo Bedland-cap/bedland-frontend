@@ -6,7 +6,7 @@ exports[`MainBody should renders correctly Page 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-bcXHqe hRlqBY"
+        class="sc-bcXHqe dFjLjc"
       >
         <div
           class="sc-gswNZR kKeZN"
@@ -28,7 +28,7 @@ exports[`MainBody should renders correctly Page 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-bcXHqe hRlqBY"
+      class="sc-bcXHqe dFjLjc"
     >
       <div
         class="sc-gswNZR kKeZN"

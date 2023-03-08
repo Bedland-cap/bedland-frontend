@@ -37,12 +37,12 @@
       "typescript": {
         "alwaysTryTypes": true
       }
-    }, 
+    },
     "import/parsers": {
       "@typescript-eslint/parser": [".ts", ".tsx"]
     }
   },
- 
+
   "rules": {
     "import/no-unresolved": "error",
     "react/react-in-jsx-scope": "off",

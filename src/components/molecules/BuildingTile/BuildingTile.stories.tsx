@@ -8,6 +8,24 @@ const meta = {
   title: 'Molecules/BuildingTile',
   component: BuildingTile,
   tags: ['autodocs'],
+  argTypes: {
+    buildingId: {
+      control: 'text',
+      description: 'Id of the building',
+    },
+    buildingAddress: {
+      control: 'text',
+      description: 'Address of the building',
+    },
+    buildingImg: {
+      table: {
+        disable: true,
+      },
+    },
+  },
+  parameters: {
+    backgrounds: { default: 'light' },
+  },
   decorators: [
     (Story) => (
       <ThemeProvider>
@@ -23,8 +41,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Main: Story = {
   args: {
-    BuildingAddress: 'Berry Street 27',
-    BuildingId: 4293,
-    BuildingImg: 'assets/BuildingImg.png',
+    buildingAddress: 'Berry Street 27',
+    buildingId: '4293',
   },
 };

@@ -19,6 +19,9 @@ const initialTheme: Theme = {
     background: '#0A1122',
     footer: '#3F4476',
     widgetBackground: '#fff',
+    inputGrey: '#4B4B4B',
+    backgroundGrey: '#F5F5F5',
+    shadow: '#4B4D62',
   },
   typography: {
     pageTitle: {
@@ -61,6 +64,13 @@ const initialTheme: Theme = {
       fontWeight: 400,
       lineHeight: 1.6,
       letterSpacing: '0',
+    },
+    cardTitle: {
+      fontFamily: 'Source Sans Pro, sans-serif',
+      fontWeight: 700,
+      fontSize: '1.25rem',
+      lineHeight: 1.75,
+      letterSpacing: '1px',
     },
   },
 };

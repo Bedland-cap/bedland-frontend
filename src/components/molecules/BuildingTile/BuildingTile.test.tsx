@@ -1,20 +1,17 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import ThemeProvider from 'theme/ThemeContext';
-
+import { renderWithProviders } from 'test.utils';
+import BuildingImage from 'assets/img/BuildingImg.png';
 import BuildingTile from './BuildingTile';
 
-it('renders correctly', () => {
-  const tree = renderer
-    .create(
-      <ThemeProvider>
-        <BuildingTile
-          BuildingId={4293}
-          BuildingImg='/assets/BuildingImg.png'
-          BuildingAddress='Berry Street 27'
-        />
-      </ThemeProvider>,
-    )
-    .toJSON();
-  expect(tree).toMatchSnapshot();
+describe('BuildingTile', () => {
+  it('renders correctly', () => {
+    const page = renderWithProviders(
+      <BuildingTile
+        buildingId='4293'
+        buildingAddress='Berry Street 27'
+        buildingImg={BuildingImage}
+      />,
+      {},
+    );
+    expect(page).toMatchSnapshot();
+  });
 });
