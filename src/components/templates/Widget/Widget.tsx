@@ -4,7 +4,7 @@ import { PropsWithChildren, useContext } from 'react';
 
 import { ThemeContext } from 'theme/ThemeContext';
 import { defaultWidgetProps, WidgetProps, WidgetSize } from './Widget.types';
-import { WidgetElement, WidgetHeader } from './Widget.styled';
+import * as Styled from './Widget.styled';
 
 const variantToSize: WidgetSize = {
   notifications: {
@@ -36,13 +36,13 @@ const Widget = ({
   const { palette } = useContext(ThemeContext);
 
   return (
-    <WidgetElement
+    <Styled.WidgetElement
       palette={palette}
       mode={mode}
       minHeight={variantToSize[variant].minHeight}
       minWidth={variantToSize[variant].minWidth}
     >
-      <WidgetHeader mode={mode} palette={palette}>
+      <Styled.WidgetHeader mode={mode} palette={palette}>
         <Typography
           variant='widgetTitle'
           color={mode === 'light' ? 'primaryDark' : 'widgetBackground'}
@@ -57,9 +57,9 @@ const Widget = ({
             onClick={onClick}
           />
         ) : null}
-      </WidgetHeader>
+      </Styled.WidgetHeader>
       {children}
-    </WidgetElement>
+    </Styled.WidgetElement>
   );
 };
 

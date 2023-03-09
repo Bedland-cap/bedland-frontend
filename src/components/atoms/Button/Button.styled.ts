@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Btn = styled.button<{
+export const Btn = styled.button<{
   backgroundColor: string;
   textColor: string;
   variant: 'primary' | 'secondary';

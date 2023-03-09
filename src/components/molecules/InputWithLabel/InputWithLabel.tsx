@@ -3,7 +3,7 @@ import Label from 'components/atoms/Label/Label';
 import { FC } from 'react';
 import { IInput } from 'components/atoms/Input/Input.types';
 import { IInputWithLabel } from './InputWithLabel.types';
-import InputContainer from './InputWithLabel.styled';
+import * as Styled from './InputWithLabel.styled';
 
 const InputWithLabel: FC<IInputWithLabel & IInput> = ({
   label,
@@ -14,7 +14,7 @@ const InputWithLabel: FC<IInputWithLabel & IInput> = ({
   registerOptions = null,
   regexPattern,
 }) => (
-  <InputContainer>
+  <Styled.InputContainer>
     <Label htmlFor={input} label={label} textColor='white' size='medium' />
     <Input
       input={input}
@@ -24,7 +24,7 @@ const InputWithLabel: FC<IInputWithLabel & IInput> = ({
       registerOptions={registerOptions}
       regexPattern={regexPattern}
     />
-  </InputContainer>
+  </Styled.InputContainer>
 );
 
 export default InputWithLabel;

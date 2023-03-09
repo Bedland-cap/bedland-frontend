@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { PaletteType } from 'theme/theme.types';
 
-const SetNewPasswordContainer = styled.div<{ palette: PaletteType }>`
+export const SetNewPasswordContainer = styled.div<{ palette: PaletteType }>`
   color: ${({ palette }) => (palette as PaletteType).light};
   display: flex;
   flex-direction: column;
@@ -15,4 +15,3 @@ export const ResPassCenteredHeading = styled.h1`
   justify-content: center;
 `;
 
-export default SetNewPasswordContainer;

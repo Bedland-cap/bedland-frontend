@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const ResetPasswordFormContainer = styled.form`
+export const ResetPasswordFormContainer = styled.form`
   display: flex;
   flex-direction: column;
   gap: 1rem;

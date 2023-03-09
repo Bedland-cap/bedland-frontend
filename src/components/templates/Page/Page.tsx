@@ -1,6 +1,6 @@
 import Typography from 'components/atoms/Typography/Typography';
 import { PropsWithChildren } from 'react';
-import { Box, Title, Content } from './Page.styled';
+import * as Styled from './Page.styled';
 
 type PageProps = {
   title?: string;
@@ -11,14 +11,14 @@ const defaultProps: PageProps = {
 };
 
 const Page = ({ title, children }: PropsWithChildren<PageProps>) => (
-  <Box>
-    <Title>
+  <Styled.Box>
+    <Styled.Title>
       <Typography variant='pageTitle' color='default'>
         {title}
       </Typography>
-    </Title>
-    <Content>{children}</Content>
-  </Box>
+    </Styled.Title>
+    <Styled.Content>{children}</Styled.Content>
+  </Styled.Box>
 );
 
 export default Page;
