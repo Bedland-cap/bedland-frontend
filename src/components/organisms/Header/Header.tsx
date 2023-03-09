@@ -1,6 +1,8 @@
+import routes from 'App/routing/routes';
 import LogoManager from 'assets/img/LogoManager.svg';
 import LogoResident from 'assets/img/LogoResident.svg';
 import { useContext } from 'react';
+import { useLocation } from 'react-router-dom';
 import { useAppSelector } from 'store/hooks';
 import { selectUserIsLoggedIn } from 'store/reducers/user_slice';
 import styled from 'styled-components';
@@ -25,12 +27,20 @@ const HeaderBox = styled.div<HeaderProps>`
 
 const Header = () => {
   const isLoggedIn: boolean = useAppSelector(selectUserIsLoggedIn);
+  const location = useLocation();
   const userRole = useAppSelector((state) => state.user.role);
   const { palette } = useContext(ThemeContext);
   return (
     <nav>
       <HeaderBox isLoggedIn={isLoggedIn} palette={palette}>
-        <img src={userRole === 'manager' ? LogoManager : LogoResident} alt='Logo Bedland' />
+        <img
+          src={
+            userRole === 'manager' || location.pathname === routes.homeForNotLoggedInManager
+              ? LogoManager
+              : LogoResident
+          }
+          alt='Logo Bedland'
+        />
       </HeaderBox>
     </nav>
   );
