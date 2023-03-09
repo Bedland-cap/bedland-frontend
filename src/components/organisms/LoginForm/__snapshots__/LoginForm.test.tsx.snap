@@ -2,7 +2,7 @@
 
 exports[`Login Form renders correctly 1`] = `
 <form
-  className="sc-jSUZER lppXeQ"
+  className="sc-gKPRtg hHDlNr"
   onSubmit={[Function]}
 >
   <h2
@@ -21,17 +21,17 @@ exports[`Login Form renders correctly 1`] = `
     Login
   </h2>
   <div
-    className="sc-hLBbgP sDjkJ"
+    className="sc-eDvSVe jQppCF"
   >
     <label
-      className="sc-dkrFOg jiCFWv"
+      className="sc-hLBbgP ejLlDr"
       htmlFor="login"
       size="medium"
     >
       Login
     </label>
     <input
-      className="sc-gswNZR gsrEOo"
+      className="sc-dkrFOg dVjFaO"
       id="login"
       name="login"
       onBlur={[Function]}
@@ -40,36 +40,37 @@ exports[`Login Form renders correctly 1`] = `
       type="text"
     />
   </div>
-  <div>
-    <div
-      className="sc-hLBbgP sDjkJ"
+  <div
+    className="sc-eDvSVe jQppCF"
+  >
+    <label
+      className="sc-hLBbgP ejLlDr"
+      htmlFor="password"
+      size="medium"
     >
-      <label
-        className="sc-dkrFOg jiCFWv"
-        htmlFor="password"
-        size="medium"
-      >
-        Password
-      </label>
-      <input
-        className="sc-gswNZR gsrEOo"
-        id="password"
-        name="password"
-        onBlur={[Function]}
-        onChange={[Function]}
-        placeholder="Enter your password"
-        type="password"
-      />
-    </div>
+      Password
+    </label>
+    <input
+      className="sc-dkrFOg dVjFaO"
+      id="password"
+      name="password"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="Enter your password"
+      type="password"
+    />
   </div>
+  <span
+    className="sc-bcXHqe egysXZ"
+  />
   <button
-    className="sc-eDvSVe bMubeO"
+    className="sc-jSUZER fKzcog"
     type="submit"
   >
     Login
   </button>
   <a
-    className="sc-gKPRtg fxvKVh"
+    className="sc-iBYQkv AUbuW"
     href="/resetPassword"
     onClick={[Function]}
     palette={

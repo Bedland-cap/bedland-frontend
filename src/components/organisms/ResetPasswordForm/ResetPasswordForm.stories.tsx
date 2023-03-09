@@ -13,7 +13,9 @@ const meta = {
     (Story) => (
       <ThemeProvider>
         <GlobalStyle />
-        <BrowserRouter>{Story()}</BrowserRouter>
+        <BrowserRouter>
+          <div style={{ width: '25.625rem' }}>{Story()}</div>
+        </BrowserRouter>
       </ThemeProvider>
     ),
   ],
