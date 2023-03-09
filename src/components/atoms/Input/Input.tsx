@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { ThemeContext } from 'theme/ThemeContext';
-import LoginInput from './Input.styled';
+import * as Styled from './Input.styled';
 import { IInput } from './Input.types';
 
 const Input = ({
@@ -14,7 +14,7 @@ const Input = ({
   const { palette } = useContext(ThemeContext);
 
   return (
-    <LoginInput
+    <Styled.LoginInput
       id={input}
       type={type}
       placeholder={placeholder}

@@ -1,4 +1,4 @@
-import Lbl from './Label.styled';
+import * as Styled from './Label.styled';
 
 interface ILabel {
   htmlFor: string;
@@ -8,9 +8,9 @@ interface ILabel {
 }
 
 const Label = ({ htmlFor, label, textColor, size }: ILabel) => (
-  <Lbl htmlFor={htmlFor} textColor={textColor} size={size}>
+  <Styled.Lbl htmlFor={htmlFor} textColor={textColor} size={size}>
     {label}
-  </Lbl>
+  </Styled.Lbl>
 );
 
 export default Label;

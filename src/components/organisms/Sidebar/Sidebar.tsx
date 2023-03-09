@@ -3,7 +3,7 @@ import SidebarItem from 'components/molecules/SidebarItem/SidebarItem';
 import { useContext } from 'react';
 import { ThemeContext } from 'theme/ThemeContext';
 import { Getters } from 'types/shared.types';
-import { Box, StyledList } from './Sidebar.styled';
+import * as Styled from './Sidebar.styled';
 import useSidebarItemList, { SidebarItemLabel, variantToLink } from './useSidebarItemList';
 
 type ItemToIcon = Getters<SidebarItemLabel, IconName>;
@@ -36,8 +36,8 @@ const Sidebar = () => {
   const { palette } = useContext(ThemeContext);
   const itemsList: SidebarItemLabel[] = useSidebarItemList();
   return (
-    <Box palette={palette}>
-      <StyledList>
+    <Styled.Box palette={palette}>
+      <Styled.StyledList>
         {itemsList.map((item) => (
           <SidebarItem
             key={`id-sidebarItem -${item}`}
@@ -46,8 +46,8 @@ const Sidebar = () => {
             linkTo={variantToLink[item]}
           />
         ))}
-      </StyledList>
-    </Box>
+      </Styled.StyledList>
+    </Styled.Box>
   );
 };
 

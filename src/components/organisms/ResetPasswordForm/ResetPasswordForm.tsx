@@ -8,8 +8,8 @@ import { ThemeContext } from 'theme/ThemeContext';
 import * as Styled from 'components/atoms/ErrorMessage/ErrorMessage.styled';
 import { RegisterOptions } from 'components/atoms/Input/Input.types';
 import loginRegexPattern from 'utils/loginRegexPatterns';
-import ResetPasswordFormContainer from './ResetPasswordForm.styled';
 import { handleErrorMessage, watcher } from './ResetPasswordForm.utils';
+import { ResetPasswordFormContainer } from './ResetPasswordForm.styled';
 
 const ResetPasswordForm = () => {
   const { palette } = useContext(ThemeContext);

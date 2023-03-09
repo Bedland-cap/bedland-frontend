@@ -1,7 +1,7 @@
 import { PropsWithChildren, useContext } from 'react';
 import { ColorNames } from 'theme/theme.types';
 import { ThemeContext } from 'theme/ThemeContext';
-import MainBodyFullLayout from './MainBodyFull.styled';
+import * as Styled from './MainBodyFull.styled';
 
 type MainBodyFullProps = {
   backgroundColor?: ColorNames;
@@ -17,7 +17,9 @@ const MainBodyFull = ({
 }: PropsWithChildren<MainBodyFullProps>) => {
   const { palette } = useContext(ThemeContext);
   return (
-    <MainBodyFullLayout backgroundColor={palette[backgroundColor]}>{children}</MainBodyFullLayout>
+    <Styled.MainBodyFullLayout backgroundColor={palette[backgroundColor]}>
+      {children}
+    </Styled.MainBodyFullLayout>
   );
 };
 

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { PaletteType } from 'theme/theme.types';
 
-const LoginFormContainer = styled.form`
+export const LoginFormContainer = styled.form`
   align-items: center;
   display: flex;
   flex-direction: column;
