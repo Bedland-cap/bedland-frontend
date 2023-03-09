@@ -8,11 +8,11 @@ export type UserRoles = (typeof userRole)[number];
 export type User = {
   loggedIn: boolean;
   status: string;
+  role: UserRoles;
   error?: string;
   userId?: string;
   login?: string;
   token?: string;
-  role: UserRoles;
 };
 
 const initialState: User = {
@@ -22,7 +22,7 @@ const initialState: User = {
   userId: undefined,
   login: undefined,
   token: undefined,
-  role: 'manager',
+  role: 'resident',
 };
 
 export const UserSlice = createSlice({
@@ -36,6 +36,7 @@ export const UserSlice = createSlice({
       state.login = action.payload.login;
       state.token = action.payload.token;
       state.status = action.payload.status;
+      state.role = action.payload.role;
     },
     logout: (state) => {
       state.loggedIn = false;
@@ -43,6 +44,7 @@ export const UserSlice = createSlice({
       state.login = undefined;
       state.token = undefined;
       state.status = 'idle';
+      state.role = 'resident';
     },
   },
   extraReducers: (/* builder */) => {

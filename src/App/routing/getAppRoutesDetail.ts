@@ -26,7 +26,15 @@ const getAppRoutesDetail = (route: RoutesUrl) => {
       routes.homeForNotLoggedIn,
       {
         component: LoginPage(),
-        accessForManager: true,
+        accessForManager: false,
+        accessForResident: true,
+      },
+    ],
+    [
+      routes.homeForNotLoggedInManager,
+      {
+        component: LoginPage(),
+        accessForManager: false,
         accessForResident: true,
       },
     ],

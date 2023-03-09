@@ -3,6 +3,7 @@ import { Getters } from 'types/shared.types';
 const routeFeature = [
   'homeForLoggedIn',
   'homeForNotLoggedIn',
+  'homeForNotLoggedInManager',
   'payments',
   'voting',
   'messages',
@@ -16,6 +17,7 @@ const routeFeature = [
 const routesUrl = [
   '/dashboard',
   '/login',
+  '/login-manager',
   '/payments',
   '/voting',
   '/messages',
@@ -34,6 +36,7 @@ type RoutesData = Getters<RouteFeature, RoutesUrl>;
 const routes: RoutesData = {
   homeForLoggedIn: '/dashboard',
   homeForNotLoggedIn: '/login',
+  homeForNotLoggedInManager: '/login-manager',
   payments: '/payments',
   voting: '/voting',
   messages: '/messages',
