@@ -11,6 +11,7 @@ const variantToElement = {
   widgetTitle: 'h5',
   cardTitle: 'h3',
   messageItem: 'h4',
+  error: 'p',
 } as const;
 
 export type TypographyProps = {

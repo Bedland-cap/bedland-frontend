@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import InputWithLabel from 'components/molecules/InputWithLabel/InputWithLabel';
 import Button from 'components/atoms/Button/Button';
 import { ThemeContext } from 'theme/ThemeContext';
-import AlertIcon from 'assets/icons/AlertIcon.svg';
+import * as Styled from 'components/atoms/ErrorMessage/ErrorMessage.styled';
 import { RegisterOptions } from 'components/atoms/Input/Input.types';
 import loginRegexPattern from 'utils/loginRegexPatterns';
 import ResetPasswordFormContainer from './ResetPasswordForm.styled';
@@ -54,24 +54,22 @@ const ResetPasswordForm = () => {
         register={register}
         regexPattern={loginRegexPattern.password}
       />
-      <div>
-        <InputWithLabel
-          label='Confirm the password'
-          input='confirmPassword'
-          placeholder='Confirm the password'
-          type='password'
-          register={register}
-          registerOptions={resetPasswordRegOptions}
-          regexPattern={loginRegexPattern.password}
-        />
 
+      <InputWithLabel
+        label='Confirm the password'
+        input='confirmPassword'
+        placeholder='Confirm the password'
+        type='password'
+        register={register}
+        registerOptions={resetPasswordRegOptions}
+        regexPattern={loginRegexPattern.password}
+      />
+
+      <Styled.ErrorMsg>
         {errorConditionWrongRules ? (
-          <ErrorMessage>
-            <img src={AlertIcon} alt={errorMessageHandler(whichErrorMessageCondition)} />
-            <div>{errorMessageHandler(whichErrorMessageCondition)}</div>
-          </ErrorMessage>
+          <ErrorMessage>{errorMessageHandler(whichErrorMessageCondition)}</ErrorMessage>
         ) : null}
-      </div>
+      </Styled.ErrorMsg>
 
       <Button
         backgroundColor={palette.secondaryDark}
