@@ -1,5 +1,5 @@
 import { PropsWithChildren } from 'react';
-import Btn from './Button.styled';
+import * as Styled from './Button.styled';
 
 interface ButtonProps {
   backgroundColor: string;
@@ -15,9 +15,9 @@ const Button = ({
   type = 'button',
   variant = 'primary',
 }: PropsWithChildren<ButtonProps>) => (
-  <Btn type={type} backgroundColor={backgroundColor} textColor={textColor} variant={variant}>
+  <Styled.Btn type={type} backgroundColor={backgroundColor} textColor={textColor} variant={variant}>
     {children}
-  </Btn>
+  </Styled.Btn>
 );
 
 export default Button;

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const sizes: { [key: string]: number } = { small: 10, medium: 16, large: 24 };
 
-const Lbl = styled.label<{
+export const Lbl = styled.label<{
   textColor: string;
   size: 'small' | 'medium' | 'large';
 }>`

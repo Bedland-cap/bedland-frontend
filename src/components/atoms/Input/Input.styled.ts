@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const LoginInput = styled.input<{ borderColor: string }>`
+export const LoginInput = styled.input<{ borderColor: string }>`
   border: 1px solid ${(props) => props.borderColor};
   border-radius: 0.5rem;
   display: flex;

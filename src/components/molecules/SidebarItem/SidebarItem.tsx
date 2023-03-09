@@ -5,7 +5,7 @@ import { CSSProperties } from 'styled-components';
 import { ThemeContext } from 'theme/ThemeContext';
 import Icon from 'components/atoms/Icon/Icon';
 import { IconName } from 'components/atoms/Icon/icon.types';
-import { StyledItemList, StyledDiv, ContentDiv, Badge } from './SidebarItem.styled';
+import * as Styled from './SidebarItem.styled';
 
 export type SidebarItemProps = {
   label: string;
@@ -18,17 +18,17 @@ const SidebarItem = ({ label, iconName, linkTo }: PropsWithChildren<SidebarItemP
   const amount = 1;
 
   return (
-    <StyledItemList palette={palette}>
+    <Styled.StyledItemList palette={palette}>
       <NavLink to={linkTo} id={`sidebar-item-${label}`}>
         {({ isActive }) => (
-          <StyledDiv
+          <Styled.StyledDiv
             style={
               {
                 borderLeft: `4px solid ${isActive ? palette.primaryLight : 'transparent'}`,
               } as CSSProperties
             }
           >
-            <ContentDiv>
+            <Styled.ContentDiv>
               <Icon
                 name={iconName}
                 color='sidebarTabs'
@@ -39,16 +39,16 @@ const SidebarItem = ({ label, iconName, linkTo }: PropsWithChildren<SidebarItemP
               <Typography variant='sidebarItem' color={isActive ? 'primaryLight' : 'sidebarTabs'}>
                 {label}
               </Typography>
-            </ContentDiv>
+            </Styled.ContentDiv>
             {label === 'voting' || label === 'messages' ? (
-              <Badge palette={palette} style={{ color: '#fff' }}>
+              <Styled.Badge palette={palette} style={{ color: '#fff' }}>
                 {amount}
-              </Badge>
+              </Styled.Badge>
             ) : null}
-          </StyledDiv>
+          </Styled.StyledDiv>
         )}
       </NavLink>
-    </StyledItemList>
+    </Styled.StyledItemList>
   );
 };
 

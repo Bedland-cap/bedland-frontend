@@ -1,13 +1,13 @@
-import { RulesDescriptionContainer, OrderedRulesDesc } from './RulesDescription.styled';
+import * as Styled from './RulesDescription.styled';
 
 const RulesDescription = () => (
-  <RulesDescriptionContainer>
+  <Styled.RulesDescriptionContainer>
     <span> Remember, your password must include:</span>{' '}
-    <OrderedRulesDesc style={{ listStyleType: 'disc' }}>
+    <Styled.OrderedRulesDesc style={{ listStyleType: 'disc' }}>
       <li>8-24 characters</li>
       <li>At least one uppercase character</li>
       <li>At least one special character</li>
-    </OrderedRulesDesc>
-  </RulesDescriptionContainer>
+    </Styled.OrderedRulesDesc>
+  </Styled.RulesDescriptionContainer>
 );
 export default RulesDescription;

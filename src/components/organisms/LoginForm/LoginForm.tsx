@@ -11,7 +11,7 @@ import { useAppDispatch } from 'store/hooks';
 import Typography from 'components/atoms/Typography/Typography';
 import { User, login } from 'store/reducers/user_slice';
 import loginRegexPattern from 'utils/loginRegexPatterns';
-import LoginFormContainer, { ResetPasswordLink } from './LoginForm.styled';
+import { LoginFormContainer,ResetPasswordLink } from './LoginForm.styled';
 
 const LoginForm = () => {
   const navigate = useNavigate();
