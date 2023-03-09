@@ -9,7 +9,7 @@ import * as Styled from 'components/atoms/ErrorMessage/ErrorMessage.styled';
 import { RegisterOptions } from 'components/atoms/Input/Input.types';
 import loginRegexPattern from 'utils/loginRegexPatterns';
 import ResetPasswordFormContainer from './ResetPasswordForm.styled';
-import { errorMessageHandler, watcher } from './ResetPasswordForm.utils';
+import { handleErrorMessage, watcher } from './ResetPasswordForm.utils';
 
 const ResetPasswordForm = () => {
   const { palette } = useContext(ThemeContext);
@@ -67,7 +67,7 @@ const ResetPasswordForm = () => {
 
       <Styled.ErrorMsg>
         {errorConditionWrongRules ? (
-          <ErrorMessage>{errorMessageHandler(whichErrorMessageCondition)}</ErrorMessage>
+          <ErrorMessage>{handleErrorMessage(whichErrorMessageCondition)}</ErrorMessage>
         ) : null}
       </Styled.ErrorMsg>
 
