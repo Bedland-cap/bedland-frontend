@@ -33,6 +33,7 @@ export const typographyNames = [
   'widgetTitle',
   'cardTitle',
   'messageItem',
+  'error',
 ] as const;
 
 export type ColorNames = (typeof colorNames)[number];

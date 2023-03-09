@@ -79,6 +79,13 @@ const initialTheme: Theme = {
       lineHeight: 1.4,
       letterSpacing: '1px',
     },
+    error: {
+      fontFamily: 'Source Sans Pro, sans-serif',
+      fontWeight: 400,
+      fontSize: '0.875rem',
+      lineHeight: 1.6,
+      letterSpacing: '0',
+    },
   },
 };
 

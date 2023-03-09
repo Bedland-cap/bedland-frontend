@@ -5,8 +5,8 @@ import ErrorMessage from 'components/atoms/ErrorMessage/ErrorMessage';
 import { useNavigate, useLocation } from 'react-router-dom';
 import InputWithLabel from 'components/molecules/InputWithLabel/InputWithLabel';
 import Button from 'components/atoms/Button/Button';
+import * as Styled from 'components/atoms/ErrorMessage/ErrorMessage.styled';
 import { ThemeContext } from 'theme/ThemeContext';
-import AlertIcon from 'assets/icons/AlertIcon.svg';
 import { useAppDispatch } from 'store/hooks';
 import Typography from 'components/atoms/Typography/Typography';
 import { User, login } from 'store/reducers/user_slice';
@@ -48,23 +48,20 @@ const LoginForm = () => {
         register={register}
         regexPattern={loginRegexPattern.login}
       />
-      <div>
-        <InputWithLabel
-          label='Password'
-          input='password'
-          placeholder='Enter your password'
-          type='password'
-          register={register}
-          regexPattern={loginRegexPattern.password}
-        />
 
+      <InputWithLabel
+        label='Password'
+        input='password'
+        placeholder='Enter your password'
+        type='password'
+        register={register}
+        regexPattern={loginRegexPattern.password}
+      />
+      <Styled.ErrorMsg>
         {errors.password || errors.login ? (
-          <ErrorMessage>
-            <img src={AlertIcon} alt='' />
-            Your login or password is incorrect.
-          </ErrorMessage>
+          <ErrorMessage>Your login or password is incorrect.</ErrorMessage>
         ) : null}
-      </div>
+      </Styled.ErrorMsg>
 
       <Button
         backgroundColor={palette.secondaryDark}

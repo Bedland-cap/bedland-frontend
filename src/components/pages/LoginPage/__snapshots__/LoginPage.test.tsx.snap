@@ -2,14 +2,14 @@
 
 exports[`Login Page renders correctly 1`] = `
 <div
-  className="sc-ftTHYK kBitbE"
+  className="sc-pyfCe hLiJWN"
 >
   <img
     alt=""
     className="sc-bcXHqe bSBJnN"
   />
   <form
-    className="sc-gKPRtg efZPKw"
+    className="sc-iBYQkv qrkfQ"
     onSubmit={[Function]}
   >
     <h2
@@ -28,17 +28,17 @@ exports[`Login Page renders correctly 1`] = `
       Login
     </h2>
     <div
-      className="sc-eDvSVe jQppCF"
+      className="sc-jSUZER igHxvv"
     >
       <label
-        className="sc-hLBbgP ejLlDr"
+        className="sc-eDvSVe kvGEhv"
         htmlFor="login"
         size="medium"
       >
         Login
       </label>
       <input
-        className="sc-dkrFOg dVjFaO"
+        className="sc-hLBbgP kgjgay"
         id="login"
         name="login"
         onBlur={[Function]}
@@ -47,36 +47,37 @@ exports[`Login Page renders correctly 1`] = `
         type="text"
       />
     </div>
-    <div>
-      <div
-        className="sc-eDvSVe jQppCF"
+    <div
+      className="sc-jSUZER igHxvv"
+    >
+      <label
+        className="sc-eDvSVe kvGEhv"
+        htmlFor="password"
+        size="medium"
       >
-        <label
-          className="sc-hLBbgP ejLlDr"
-          htmlFor="password"
-          size="medium"
-        >
-          Password
-        </label>
-        <input
-          className="sc-dkrFOg dVjFaO"
-          id="password"
-          name="password"
-          onBlur={[Function]}
-          onChange={[Function]}
-          placeholder="Enter your password"
-          type="password"
-        />
-      </div>
+        Password
+      </label>
+      <input
+        className="sc-hLBbgP kgjgay"
+        id="password"
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Enter your password"
+        type="password"
+      />
     </div>
+    <span
+      className="sc-gswNZR XsqEV"
+    />
     <button
-      className="sc-jSUZER fKzcog"
+      className="sc-gKPRtg liKPGY"
       type="submit"
     >
       Login
     </button>
     <a
-      className="sc-iBYQkv AUbuW"
+      className="sc-ftTHYK caMiFM"
       href="/resetPassword"
       onClick={[Function]}
       palette={
