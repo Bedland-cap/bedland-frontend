@@ -1,7 +1,8 @@
 import { useForm, SubmitHandler, FieldValues } from 'react-hook-form';
 import { useContext } from 'react';
+import routes from 'App/routing/routes';
 import ErrorMessage from 'components/atoms/ErrorMessage/ErrorMessage';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import InputWithLabel from 'components/molecules/InputWithLabel/InputWithLabel';
 import Button from 'components/atoms/Button/Button';
 import { ThemeContext } from 'theme/ThemeContext';
@@ -15,6 +16,7 @@ import LoginFormContainer, { ResetPasswordLink } from './LoginForm.styled';
 const LoginForm = () => {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
+  const location = useLocation();
   const { palette } = useContext(ThemeContext);
   const {
     register,
@@ -27,7 +29,7 @@ const LoginForm = () => {
       userId: '122',
       login: data.login,
       status: 'success',
-      role: 'manager',
+      role: location.pathname === routes.homeForNotLoggedInManager ? 'manager' : 'resident',
     };
     dispatch(login(testUser));
     navigate('/dashboard');
