@@ -1,3 +1,4 @@
+import AccountPage from 'components/pages/AccountPage/AccountPage';
 import BuildingsPage from 'components/pages/BuildingsPage/BuildingsPage';
 import DashboardPage from 'components/pages/DashboardPage/DashboardPage';
 import FlatsPage from 'components/pages/FlatsPage/Flats';
@@ -7,6 +8,7 @@ import PaymentsPage from 'components/pages/PaymentsPage/PaymentsPage';
 import ReportsPage from 'components/pages/ReportsPage/ReportsPage';
 import ResetPasswordPage from 'components/pages/ResetPasswordPage/ResetPasswordPage';
 import ResidentsPage from 'components/pages/ResidentsPage/ResidentsPage';
+import SettingsPage from 'components/pages/SettingsPage/SettingsPage';
 import VotingPage from 'components/pages/VotingPage/VotingPage';
 import WallPage from 'components/pages/WallPage/WallPage';
 import { ReactNode } from 'react';
@@ -114,6 +116,22 @@ const getAppRoutesDetail = (route: RoutesUrl) => {
       routes.resetPassword,
       {
         component: ResetPasswordPage(),
+        accessForManager: true,
+        accessForResident: true,
+      },
+    ],
+    [
+      routes.account,
+      {
+        component: AccountPage(),
+        accessForManager: true,
+        accessForResident: true,
+      },
+    ],
+    [
+      routes.settings,
+      {
+        component: SettingsPage(),
         accessForManager: true,
         accessForResident: true,
       },

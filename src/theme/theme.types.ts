@@ -22,6 +22,7 @@ export const colorNames = [
   'inputGrey',
   'backgroundGrey',
   'shadow',
+  'text',
 ] as const;
 
 export const typographyNames = [
@@ -34,6 +35,9 @@ export const typographyNames = [
   'cardTitle',
   'messageItem',
   'error',
+  'subHeader',
+  'header5',
+  'logout',
 ] as const;
 
 export type ColorNames = (typeof colorNames)[number];

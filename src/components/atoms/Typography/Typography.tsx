@@ -12,6 +12,9 @@ const variantToElement = {
   cardTitle: 'h3',
   messageItem: 'h4',
   error: 'p',
+  subHeader: 'h6',
+  header5: 'h5',
+  logout: 'p',
 } as const;
 
 export type TypographyProps = {

@@ -13,7 +13,8 @@ export const HeaderBox = styled.div<HeaderProps>`
   display: flex;
   gap: 10px;
   height: ${HEADER_HEIGHT}px;
-  justify-content: ${({ isLoggedIn }) => (!isLoggedIn ? 'center' : 'flex-start')};
+  justify-content: ${({ isLoggedIn }) => (!isLoggedIn ? 'center' : 'space-between')};
   width: 100%;
 `;
+
 export default HeaderBox;

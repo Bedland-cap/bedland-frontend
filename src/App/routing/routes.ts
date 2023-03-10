@@ -13,6 +13,8 @@ const routeFeature = [
   'reports',
   'residents',
   'resetPassword',
+  'account',
+  'settings',
 ] as const;
 const routesUrl = [
   '/dashboard',
@@ -27,6 +29,8 @@ const routesUrl = [
   '/reports',
   '/residents',
   '/resetPassword',
+  '/account',
+  '/settings',
 ] as const;
 type RouteFeature = (typeof routeFeature)[number];
 export type RoutesUrl = (typeof routesUrl)[number];
@@ -46,6 +50,8 @@ const routes: RoutesData = {
   reports: '/reports',
   residents: '/residents',
   resetPassword: '/resetPassword',
+  account: '/account',
+  settings: '/settings',
 } as const;
 
 export default routes;
