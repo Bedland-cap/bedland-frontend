@@ -15,6 +15,7 @@ const variantToElement = {
   subHeader: 'h6',
   header5: 'h5',
   logout: 'p',
+  notificationItem:'h4'
 } as const;
 
 export type TypographyProps = {

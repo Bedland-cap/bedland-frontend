@@ -105,6 +105,12 @@ const initialTheme: Theme = {
       fontWeight: 600,
       fontSize: '1rem',
       lineHeight: 1.4,
+    },
+    notificationItem: {
+      fontFamily: 'Source Sans Pro, sans-serif',
+      fontSize: '0.8rem',
+      fontWeight: 600,
+      lineHeight: 1.2,
       letterSpacing: '0',
     },
   },
