@@ -1,6 +1,7 @@
 import routes from 'App/routing/routes';
 import LogoManager from 'assets/img/LogoManager.svg';
 import LogoResident from 'assets/img/LogoResident.svg';
+import AccountDropdown from 'components/organisms/AccountDropdown/AccountDropdown';
 import { useContext } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useAppSelector } from 'store/hooks';
@@ -13,6 +14,7 @@ const Header = () => {
   const location = useLocation();
   const userRole = useAppSelector((state) => state.user.role);
   const { palette } = useContext(ThemeContext);
+
   return (
     <nav>
       <Styled.HeaderBox isLoggedIn={isLoggedIn} palette={palette}>
@@ -24,10 +26,10 @@ const Header = () => {
           }
           alt='Logo Bedland'
         />
+        {isLoggedIn ? <AccountDropdown /> : null}
       </Styled.HeaderBox>
     </nav>
   );
 };
 
 export default Header;
-

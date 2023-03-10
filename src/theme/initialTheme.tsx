@@ -22,6 +22,7 @@ const initialTheme: Theme = {
     inputGrey: '#4B4B4B',
     backgroundGrey: '#F5F5F5',
     shadow: '#4B4D62',
+    text: '#1B1A1A',
   },
   typography: {
     pageTitle: {
@@ -84,6 +85,26 @@ const initialTheme: Theme = {
       fontWeight: 400,
       fontSize: '0.875rem',
       lineHeight: 1.6,
+    },
+    subHeader: {
+      fontFamily: 'Source Sans Pro, sans-serif',
+      fontWeight: 400,
+      fontSize: '0.75rem',
+      lineHeight: 1.4,
+      letterSpacing: '0',
+    },
+    header5: {
+      fontFamily: 'Source Sans Pro, sans-serif',
+      fontWeight: 600,
+      fontSize: '0.875rem',
+      lineHeight: 1.4,
+      letterSpacing: '0',
+    },
+    logout: {
+      fontFamily: 'Source Sans Pro, sans-serif',
+      fontWeight: 600,
+      fontSize: '1rem',
+      lineHeight: 1.4,
       letterSpacing: '0',
     },
   },

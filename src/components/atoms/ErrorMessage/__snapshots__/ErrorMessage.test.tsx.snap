@@ -45,7 +45,7 @@ exports[`ErrorMessage renders correctly 1`] = `
           </svg>
         </div>
         <p
-          style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.6; letter-spacing: 0; color: rgb(255, 68, 56);"
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.6; color: rgb(255, 68, 56);"
         >
           Error message
         </p>
@@ -98,7 +98,7 @@ exports[`ErrorMessage renders correctly 1`] = `
         </svg>
       </div>
       <p
-        style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.6; letter-spacing: 0; color: rgb(255, 68, 56);"
+        style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.6; color: rgb(255, 68, 56);"
       >
         Error message
       </p>

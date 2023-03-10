@@ -30,6 +30,9 @@ export const RoutesForLoggedIn = () => (
     <Route path={routes.flats} element={getAppRoutesDetail(routes.flats)?.component} />
     <Route path={routes.reports} element={getAppRoutesDetail(routes.reports)?.component} />
     <Route path={routes.residents} element={getAppRoutesDetail(routes.residents)?.component} />
+    <Route path={routes.account} element={getAppRoutesDetail(routes.account)?.component} />
+    <Route path={routes.settings} element={getAppRoutesDetail(routes.settings)?.component} />
+
     <Route path='/*' element={getAppRoutesDetail(routes.homeForLoggedIn)?.component} />
   </Routes>
 );

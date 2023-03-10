@@ -14,6 +14,10 @@ export const iconsNames = [
   'search',
   'envelope',
   'alert',
+  'settings',
+  'logout',
+  'user',
+  'more',
 ] as const;
 
 export type IconName = (typeof iconsNames)[number];
