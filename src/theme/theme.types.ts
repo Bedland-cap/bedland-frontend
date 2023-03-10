@@ -38,6 +38,7 @@ export const typographyNames = [
   'subHeader',
   'header5',
   'logout',
+  'notificationItem',
 ] as const;
 
 export type ColorNames = (typeof colorNames)[number];
