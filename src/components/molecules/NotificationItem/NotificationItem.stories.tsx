@@ -4,7 +4,7 @@ import ThemeProvider from 'theme/ThemeContext';
 import NotificationItem from './NotificationItem';
 
 const meta = {
-  title: 'Basic Components/Molecules/NotificationItem',
+  title: 'Molecules/NotificationItem',
   component: NotificationItem,
   tags: ['autodocs'],
   decorators: [
