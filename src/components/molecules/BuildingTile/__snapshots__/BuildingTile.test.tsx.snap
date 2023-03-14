@@ -3,18 +3,63 @@
 exports[`BuildingTile renders correctly 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 8px #4B4D6220;
+  color: #4b4b4b;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.c1 {
+  height: 11rem;
+  object-fit: cover;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c2 {
+  padding: 0.5rem 1.031rem 0.938rem;
+}
+
+.c3 {
+  margin-top: 1rem;
+}
+
+.c4 {
+  background-color: #4553DD;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 0.563rem;
+  width: 100%;
+}
+
+.c4:hover {
+  background-color: #909AFF;
+}
+
+<body>
     <div>
       <div
-        class="sc-bcXHqe fBLOax"
+        class="c0"
       >
         <img
           alt="Building"
-          class="sc-gswNZR djSoAM"
+          class="c1"
           src=""
         />
         <div
-          class="sc-dkrFOg doHqxF"
+          class="c2"
         >
           <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -28,10 +73,10 @@ exports[`BuildingTile renders correctly 1`] = `
             Berry Street 27
           </p>
           <div
-            class="sc-hLBbgP koPdij"
+            class="c3"
           >
             <button
-              class="sc-eDvSVe hLvfrA"
+              class="c4"
             >
               Open details
             </button>
@@ -45,17 +90,62 @@ exports[`BuildingTile renders correctly 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 8px #4B4D6220;
+  color: #4b4b4b;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.c1 {
+  height: 11rem;
+  object-fit: cover;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c2 {
+  padding: 0.5rem 1.031rem 0.938rem;
+}
+
+.c3 {
+  margin-top: 1rem;
+}
+
+.c4 {
+  background-color: #4553DD;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 0.563rem;
+  width: 100%;
+}
+
+.c4:hover {
+  background-color: #909AFF;
+}
+
+<div>
     <div
-      class="sc-bcXHqe fBLOax"
+      class="c0"
     >
       <img
         alt="Building"
-        class="sc-gswNZR djSoAM"
+        class="c1"
         src=""
       />
       <div
-        class="sc-dkrFOg doHqxF"
+        class="c2"
       >
         <h3
           style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -69,10 +159,10 @@ exports[`BuildingTile renders correctly 1`] = `
           Berry Street 27
         </p>
         <div
-          class="sc-hLBbgP koPdij"
+          class="c3"
         >
           <button
-            class="sc-eDvSVe hLvfrA"
+            class="c4"
           >
             Open details
           </button>

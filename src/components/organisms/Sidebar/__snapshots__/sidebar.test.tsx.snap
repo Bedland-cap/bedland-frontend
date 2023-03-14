@@ -3,16 +3,107 @@
 exports[`Sidebar for manager should renders correctly sidebar 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c2 {
+  width: 200px;
+}
+
+.c2:hover {
+  background: #CACACA10;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #CF0000;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  font-weight: 600;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1rem;
+  width: 1rem;
+}
+
+.c0 {
+  background: #0A1122;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 200px;
+}
+
+.c1 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 1.625rem 0;
+}
+
+<body>
     <div>
       <div
-        class="sc-eDvSVe gTrKDE"
+        class="c0"
       >
         <ul
-          class="sc-jSUZER jxbmSH"
+          class="c1"
         >
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -20,11 +111,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
               id="sidebar-item-dashboard"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -54,7 +145,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -62,11 +153,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
               id="sidebar-item-buildings"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -96,7 +187,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -104,11 +195,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
               id="sidebar-item-residents"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -138,7 +229,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -146,11 +237,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
               id="sidebar-item-payments"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -193,7 +284,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -201,11 +292,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
               id="sidebar-item-voting"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -232,7 +323,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                   </span>
                 </div>
                 <div
-                  class="sc-hLBbgP ieZRFR"
+                  class="c5"
                   style="color: rgb(255, 255, 255);"
                 >
                   1
@@ -241,7 +332,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -249,11 +340,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
               id="sidebar-item-reports"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -283,7 +374,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -291,11 +382,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
               id="sidebar-item-wall"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -325,7 +416,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -333,11 +424,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
               id="sidebar-item-messages"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -364,7 +455,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                   </span>
                 </div>
                 <div
-                  class="sc-hLBbgP ieZRFR"
+                  class="c5"
                   style="color: rgb(255, 255, 255);"
                 >
                   1
@@ -381,15 +472,106 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c2 {
+  width: 200px;
+}
+
+.c2:hover {
+  background: #CACACA10;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #CF0000;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  font-weight: 600;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1rem;
+  width: 1rem;
+}
+
+.c0 {
+  background: #0A1122;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 200px;
+}
+
+.c1 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 1.625rem 0;
+}
+
+<div>
     <div
-      class="sc-eDvSVe gTrKDE"
+      class="c0"
     >
       <ul
-        class="sc-jSUZER jxbmSH"
+        class="c1"
       >
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -397,11 +579,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             id="sidebar-item-dashboard"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -431,7 +613,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -439,11 +621,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             id="sidebar-item-buildings"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -473,7 +655,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -481,11 +663,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             id="sidebar-item-residents"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -515,7 +697,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -523,11 +705,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             id="sidebar-item-payments"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -570,7 +752,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -578,11 +760,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             id="sidebar-item-voting"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -609,7 +791,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                 </span>
               </div>
               <div
-                class="sc-hLBbgP ieZRFR"
+                class="c5"
                 style="color: rgb(255, 255, 255);"
               >
                 1
@@ -618,7 +800,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -626,11 +808,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             id="sidebar-item-reports"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -660,7 +842,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -668,11 +850,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             id="sidebar-item-wall"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -702,7 +884,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -710,11 +892,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
             id="sidebar-item-messages"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -741,7 +923,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                 </span>
               </div>
               <div
-                class="sc-hLBbgP ieZRFR"
+                class="c5"
                 style="color: rgb(255, 255, 255);"
               >
                 1
@@ -821,16 +1003,107 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
 exports[`Sidebar for resident should renders correctly sidebar 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c2 {
+  width: 200px;
+}
+
+.c2:hover {
+  background: #CACACA10;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #CF0000;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  font-weight: 600;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1rem;
+  width: 1rem;
+}
+
+.c0 {
+  background: #0A1122;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 200px;
+}
+
+.c1 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 1.625rem 0;
+}
+
+<body>
     <div>
       <div
-        class="sc-eDvSVe gTrKDE"
+        class="c0"
       >
         <ul
-          class="sc-jSUZER jxbmSH"
+          class="c1"
         >
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -838,11 +1111,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
               id="sidebar-item-dashboard"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -872,7 +1145,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -880,11 +1153,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
               id="sidebar-item-flats"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -914,7 +1187,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -922,11 +1195,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
               id="sidebar-item-payments"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -969,7 +1242,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -977,11 +1250,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
               id="sidebar-item-voting"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -1008,7 +1281,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                   </span>
                 </div>
                 <div
-                  class="sc-hLBbgP ieZRFR"
+                  class="c5"
                   style="color: rgb(255, 255, 255);"
                 >
                   1
@@ -1017,7 +1290,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -1025,11 +1298,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
               id="sidebar-item-reports"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -1059,7 +1332,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -1067,11 +1340,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
               id="sidebar-item-wall"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -1101,7 +1374,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             </a>
           </li>
           <li
-            class="sc-bcXHqe hIZzLM"
+            class="c2"
           >
             <a
               class=""
@@ -1109,11 +1382,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
               id="sidebar-item-messages"
             >
               <div
-                class="sc-gswNZR boeidF"
+                class="c3"
                 style="border-left: 4px solid transparent;"
               >
                 <div
-                  class="sc-dkrFOg hEEbgY"
+                  class="c4"
                 >
                   <svg
                     fill="none"
@@ -1140,7 +1413,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                   </span>
                 </div>
                 <div
-                  class="sc-hLBbgP ieZRFR"
+                  class="c5"
                   style="color: rgb(255, 255, 255);"
                 >
                   1
@@ -1157,15 +1430,106 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c2 {
+  width: 200px;
+}
+
+.c2:hover {
+  background: #CACACA10;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #CF0000;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  font-weight: 600;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1rem;
+  width: 1rem;
+}
+
+.c0 {
+  background: #0A1122;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 200px;
+}
+
+.c1 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 1.625rem 0;
+}
+
+<div>
     <div
-      class="sc-eDvSVe gTrKDE"
+      class="c0"
     >
       <ul
-        class="sc-jSUZER jxbmSH"
+        class="c1"
       >
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -1173,11 +1537,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             id="sidebar-item-dashboard"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -1207,7 +1571,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -1215,11 +1579,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             id="sidebar-item-flats"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -1249,7 +1613,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -1257,11 +1621,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             id="sidebar-item-payments"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -1304,7 +1668,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -1312,11 +1676,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             id="sidebar-item-voting"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -1343,7 +1707,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                 </span>
               </div>
               <div
-                class="sc-hLBbgP ieZRFR"
+                class="c5"
                 style="color: rgb(255, 255, 255);"
               >
                 1
@@ -1352,7 +1716,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -1360,11 +1724,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             id="sidebar-item-reports"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -1394,7 +1758,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -1402,11 +1766,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             id="sidebar-item-wall"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -1436,7 +1800,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
           </a>
         </li>
         <li
-          class="sc-bcXHqe hIZzLM"
+          class="c2"
         >
           <a
             class=""
@@ -1444,11 +1808,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
             id="sidebar-item-messages"
           >
             <div
-              class="sc-gswNZR boeidF"
+              class="c3"
               style="border-left: 4px solid transparent;"
             >
               <div
-                class="sc-dkrFOg hEEbgY"
+                class="c4"
               >
                 <svg
                   fill="none"
@@ -1475,7 +1839,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                 </span>
               </div>
               <div
-                class="sc-hLBbgP ieZRFR"
+                class="c5"
                 style="color: rgb(255, 255, 255);"
               >
                 1

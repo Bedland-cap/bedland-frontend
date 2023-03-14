@@ -3,10 +3,22 @@
 exports[`DropdownItem renders correctly 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.25rem;
+}
+
+<body>
     <div>
       <a
-        class="sc-bcXHqe dehZPe"
+        class="c0"
         data-testid="dropdown-item"
         href="/account"
       >
@@ -48,9 +60,21 @@ exports[`DropdownItem renders correctly 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.25rem;
+}
+
+<div>
     <a
-      class="sc-bcXHqe dehZPe"
+      class="c0"
       data-testid="dropdown-item"
       href="/account"
     >

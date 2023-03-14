@@ -1,18 +1,20 @@
 import { useState, useEffect, useRef } from 'react';
-import { useAppDispatch, useAppSelector } from 'store/hooks';
-import { logout } from 'store/reducers/user/user_slice';
+import { useAppSelector } from 'store/hooks';
+import { useLogoutMutation } from 'services/user/userApi';
 import AccountInfo from 'components/atoms/AccountInfo/AccountInfo';
 import routes from 'App/routing/routes';
 import Avatar from 'assets/img/Avatar.svg';
 import IconButton from 'components/atoms/IconButton/IconButton';
 import ProfileImage from 'components/atoms/ProfileImage/ProfileImage';
+import DropdownItem from 'components/molecules/DropdownItem/DropdownItem';
+import { useNavigate } from 'react-router-dom';
 import * as Styled from './AccountDropdown.styled';
-import DropdownItem from '../../molecules/DropdownItem/DropdownItem';
 
 const AccountDropdown = () => {
-  const dispatch = useAppDispatch();
   const userRole = useAppSelector((state) => state.user.role);
   const userLogin = useAppSelector((state) => state.user.login);
+  const navigate = useNavigate();
+  const [logout] = useLogoutMutation();
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
 
   const ref = useRef<HTMLDivElement | null>(null);
@@ -24,8 +26,21 @@ const AccountDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
-  const handleLogout = (): void => {
-    dispatch(logout());
+  const handleLogout = async (): Promise<void> => {
+    const currentUser = {
+      login: userLogin,
+      role: userRole,
+    };
+
+    try {
+      const data = await logout(currentUser);
+      if (data) {
+        navigate(currentUser.role === 'manager' ? '/login-manager' : '/login' );;
+      }
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.log(err);
+    }
   };
 
   useEffect(() => {

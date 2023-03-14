@@ -3,13 +3,197 @@
 exports[`BuildingsPage renders correctly 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.5rem;
+  padding: 0.5rem;
+  width: 17.5rem;
+}
+
+.c5:focus-within {
+  outline: 1px solid #4553DD;
+}
+
+.c7 {
+  background-color: transparent;
+  color: #4B4B4B;
+  height: 1.75rem;
+  width: 15rem;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #767676;
+}
+
+.c7::-moz-placeholder {
+  color: #767676;
+}
+
+.c7:-ms-input-placeholder {
+  color: #767676;
+}
+
+.c7::placeholder {
+  color: #767676;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0.583rem;
+  margin-right: 0.771rem;
+}
+
+.c9 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 8px #4B4D6220;
+  color: #4b4b4b;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.c10 {
+  height: 11rem;
+  object-fit: cover;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c11 {
+  padding: 0.5rem 1.031rem 0.938rem;
+}
+
+.c12 {
+  margin-top: 1rem;
+}
+
+.c13 {
+  background-color: #4553DD;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 0.563rem;
+  width: 100%;
+}
+
+.c13:hover {
+  background-color: #909AFF;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.c0 {
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  width: 100%;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<body>
     <div>
       <div
-        class="sc-pyfCe hUihNU"
+        class="c0"
       >
         <div
-          class="sc-jrcTuL cwIoPC"
+          class="c1"
         >
           <h2
             style="font-family: Poppins, sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.4; color: rgb(0, 0, 0);"
@@ -18,19 +202,19 @@ exports[`BuildingsPage renders correctly 1`] = `
           </h2>
         </div>
         <div
-          class="sc-kDvujY fVGmTl"
+          class="c2"
         >
           <div
-            class="sc-csuSiG klgXyE"
+            class="c3"
           >
             <div
-              class="sc-ipEyDJ eLtYCz"
+              class="c4"
             >
               <div
-                class="sc-bcXHqe eCLQnL"
+                class="c5"
               >
                 <div
-                  class="sc-dkrFOg fGrSpP"
+                  class="c6"
                 >
                   <svg
                     fill="none"
@@ -52,24 +236,24 @@ exports[`BuildingsPage renders correctly 1`] = `
                   </svg>
                 </div>
                 <input
-                  class="sc-gswNZR ffqmbe"
+                  class="c7"
                   placeholder="Search buildings..."
                 />
               </div>
             </div>
             <div
-              class="sc-ftTHYK hSCmzV"
+              class="c8"
             >
               <div
-                class="sc-hLBbgP hBDkWb"
+                class="c9"
               >
                 <img
                   alt="Building"
-                  class="sc-eDvSVe cLYvOm"
+                  class="c10"
                   src=""
                 />
                 <div
-                  class="sc-jSUZER eefWGz"
+                  class="c11"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -83,10 +267,10 @@ exports[`BuildingsPage renders correctly 1`] = `
                     Berry Street 21
                   </p>
                   <div
-                    class="sc-gKPRtg dvpPXt"
+                    class="c12"
                   >
                     <button
-                      class="sc-iBYQkv ewCYwF"
+                      class="c13"
                     >
                       Open details
                     </button>
@@ -94,15 +278,15 @@ exports[`BuildingsPage renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="sc-hLBbgP hBDkWb"
+                class="c9"
               >
                 <img
                   alt="Building"
-                  class="sc-eDvSVe cLYvOm"
+                  class="c10"
                   src=""
                 />
                 <div
-                  class="sc-jSUZER eefWGz"
+                  class="c11"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -116,10 +300,10 @@ exports[`BuildingsPage renders correctly 1`] = `
                     Miedziana Street 3
                   </p>
                   <div
-                    class="sc-gKPRtg dvpPXt"
+                    class="c12"
                   >
                     <button
-                      class="sc-iBYQkv ewCYwF"
+                      class="c13"
                     >
                       Open details
                     </button>
@@ -127,15 +311,15 @@ exports[`BuildingsPage renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="sc-hLBbgP hBDkWb"
+                class="c9"
               >
                 <img
                   alt="Building"
-                  class="sc-eDvSVe cLYvOm"
+                  class="c10"
                   src=""
                 />
                 <div
-                  class="sc-jSUZER eefWGz"
+                  class="c11"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -149,10 +333,10 @@ exports[`BuildingsPage renders correctly 1`] = `
                     Seaport Avenue 51
                   </p>
                   <div
-                    class="sc-gKPRtg dvpPXt"
+                    class="c12"
                   >
                     <button
-                      class="sc-iBYQkv ewCYwF"
+                      class="c13"
                     >
                       Open details
                     </button>
@@ -160,15 +344,15 @@ exports[`BuildingsPage renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="sc-hLBbgP hBDkWb"
+                class="c9"
               >
                 <img
                   alt="Building"
-                  class="sc-eDvSVe cLYvOm"
+                  class="c10"
                   src=""
                 />
                 <div
-                  class="sc-jSUZER eefWGz"
+                  class="c11"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -182,10 +366,10 @@ exports[`BuildingsPage renders correctly 1`] = `
                     Desert Street 2X
                   </p>
                   <div
-                    class="sc-gKPRtg dvpPXt"
+                    class="c12"
                   >
                     <button
-                      class="sc-iBYQkv ewCYwF"
+                      class="c13"
                     >
                       Open details
                     </button>
@@ -193,15 +377,15 @@ exports[`BuildingsPage renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="sc-hLBbgP hBDkWb"
+                class="c9"
               >
                 <img
                   alt="Building"
-                  class="sc-eDvSVe cLYvOm"
+                  class="c10"
                   src=""
                 />
                 <div
-                  class="sc-jSUZER eefWGz"
+                  class="c11"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -215,10 +399,10 @@ exports[`BuildingsPage renders correctly 1`] = `
                     Lakewood Avenue 57
                   </p>
                   <div
-                    class="sc-gKPRtg dvpPXt"
+                    class="c12"
                   >
                     <button
-                      class="sc-iBYQkv ewCYwF"
+                      class="c13"
                     >
                       Open details
                     </button>
@@ -236,12 +420,196 @@ exports[`BuildingsPage renders correctly 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.5rem;
+  padding: 0.5rem;
+  width: 17.5rem;
+}
+
+.c5:focus-within {
+  outline: 1px solid #4553DD;
+}
+
+.c7 {
+  background-color: transparent;
+  color: #4B4B4B;
+  height: 1.75rem;
+  width: 15rem;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #767676;
+}
+
+.c7::-moz-placeholder {
+  color: #767676;
+}
+
+.c7:-ms-input-placeholder {
+  color: #767676;
+}
+
+.c7::placeholder {
+  color: #767676;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0.583rem;
+  margin-right: 0.771rem;
+}
+
+.c9 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 8px #4B4D6220;
+  color: #4b4b4b;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.c10 {
+  height: 11rem;
+  object-fit: cover;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c11 {
+  padding: 0.5rem 1.031rem 0.938rem;
+}
+
+.c12 {
+  margin-top: 1rem;
+}
+
+.c13 {
+  background-color: #4553DD;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 0.563rem;
+  width: 100%;
+}
+
+.c13:hover {
+  background-color: #909AFF;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.c0 {
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  width: 100%;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
     <div
-      class="sc-pyfCe hUihNU"
+      class="c0"
     >
       <div
-        class="sc-jrcTuL cwIoPC"
+        class="c1"
       >
         <h2
           style="font-family: Poppins, sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.4; color: rgb(0, 0, 0);"
@@ -250,19 +618,19 @@ exports[`BuildingsPage renders correctly 1`] = `
         </h2>
       </div>
       <div
-        class="sc-kDvujY fVGmTl"
+        class="c2"
       >
         <div
-          class="sc-csuSiG klgXyE"
+          class="c3"
         >
           <div
-            class="sc-ipEyDJ eLtYCz"
+            class="c4"
           >
             <div
-              class="sc-bcXHqe eCLQnL"
+              class="c5"
             >
               <div
-                class="sc-dkrFOg fGrSpP"
+                class="c6"
               >
                 <svg
                   fill="none"
@@ -284,24 +652,24 @@ exports[`BuildingsPage renders correctly 1`] = `
                 </svg>
               </div>
               <input
-                class="sc-gswNZR ffqmbe"
+                class="c7"
                 placeholder="Search buildings..."
               />
             </div>
           </div>
           <div
-            class="sc-ftTHYK hSCmzV"
+            class="c8"
           >
             <div
-              class="sc-hLBbgP hBDkWb"
+              class="c9"
             >
               <img
                 alt="Building"
-                class="sc-eDvSVe cLYvOm"
+                class="c10"
                 src=""
               />
               <div
-                class="sc-jSUZER eefWGz"
+                class="c11"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -315,10 +683,10 @@ exports[`BuildingsPage renders correctly 1`] = `
                   Berry Street 21
                 </p>
                 <div
-                  class="sc-gKPRtg dvpPXt"
+                  class="c12"
                 >
                   <button
-                    class="sc-iBYQkv ewCYwF"
+                    class="c13"
                   >
                     Open details
                   </button>
@@ -326,15 +694,15 @@ exports[`BuildingsPage renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="sc-hLBbgP hBDkWb"
+              class="c9"
             >
               <img
                 alt="Building"
-                class="sc-eDvSVe cLYvOm"
+                class="c10"
                 src=""
               />
               <div
-                class="sc-jSUZER eefWGz"
+                class="c11"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -348,10 +716,10 @@ exports[`BuildingsPage renders correctly 1`] = `
                   Miedziana Street 3
                 </p>
                 <div
-                  class="sc-gKPRtg dvpPXt"
+                  class="c12"
                 >
                   <button
-                    class="sc-iBYQkv ewCYwF"
+                    class="c13"
                   >
                     Open details
                   </button>
@@ -359,15 +727,15 @@ exports[`BuildingsPage renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="sc-hLBbgP hBDkWb"
+              class="c9"
             >
               <img
                 alt="Building"
-                class="sc-eDvSVe cLYvOm"
+                class="c10"
                 src=""
               />
               <div
-                class="sc-jSUZER eefWGz"
+                class="c11"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -381,10 +749,10 @@ exports[`BuildingsPage renders correctly 1`] = `
                   Seaport Avenue 51
                 </p>
                 <div
-                  class="sc-gKPRtg dvpPXt"
+                  class="c12"
                 >
                   <button
-                    class="sc-iBYQkv ewCYwF"
+                    class="c13"
                   >
                     Open details
                   </button>
@@ -392,15 +760,15 @@ exports[`BuildingsPage renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="sc-hLBbgP hBDkWb"
+              class="c9"
             >
               <img
                 alt="Building"
-                class="sc-eDvSVe cLYvOm"
+                class="c10"
                 src=""
               />
               <div
-                class="sc-jSUZER eefWGz"
+                class="c11"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -414,10 +782,10 @@ exports[`BuildingsPage renders correctly 1`] = `
                   Desert Street 2X
                 </p>
                 <div
-                  class="sc-gKPRtg dvpPXt"
+                  class="c12"
                 >
                   <button
-                    class="sc-iBYQkv ewCYwF"
+                    class="c13"
                   >
                     Open details
                   </button>
@@ -425,15 +793,15 @@ exports[`BuildingsPage renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="sc-hLBbgP hBDkWb"
+              class="c9"
             >
               <img
                 alt="Building"
-                class="sc-eDvSVe cLYvOm"
+                class="c10"
                 src=""
               />
               <div
-                class="sc-jSUZER eefWGz"
+                class="c11"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -447,10 +815,10 @@ exports[`BuildingsPage renders correctly 1`] = `
                   Lakewood Avenue 57
                 </p>
                 <div
-                  class="sc-gKPRtg dvpPXt"
+                  class="c12"
                 >
                   <button
-                    class="sc-iBYQkv ewCYwF"
+                    class="c13"
                   >
                     Open details
                   </button>

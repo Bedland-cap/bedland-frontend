@@ -1,21 +1,19 @@
 import { useForm, SubmitHandler, FieldValues } from 'react-hook-form';
 import { useContext } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import routes from 'App/routing/routes';
 import ErrorMessage from 'components/atoms/ErrorMessage/ErrorMessage';
-import { useNavigate, useLocation } from 'react-router-dom';
 import InputWithLabel from 'components/molecules/InputWithLabel/InputWithLabel';
 import Button from 'components/atoms/Button/Button';
 import * as Styled from 'components/atoms/ErrorMessage/ErrorMessage.styled';
 import { ThemeContext } from 'theme/ThemeContext';
-import { useAppDispatch } from 'store/hooks';
 import Typography from 'components/atoms/Typography/Typography';
-import { User, login } from 'store/reducers/user_slice';
 import loginRegexPattern from 'utils/loginRegexPatterns';
-import { LoginFormContainer,ResetPasswordLink } from './LoginForm.styled';
+import { LoginRequest, useLoginAndGetUserMutation } from 'services/user/userApi';
+import { LoginFormContainer, ResetPasswordLink } from './LoginForm.styled';
 
 const LoginForm = () => {
   const navigate = useNavigate();
-  const dispatch = useAppDispatch();
   const location = useLocation();
   const { palette } = useContext(ThemeContext);
   const {
@@ -24,15 +22,23 @@ const LoginForm = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit: SubmitHandler<FieldValues> = (data: FieldValues) => {
-    const testUser: Omit<User, 'loggedIn'> = {
-      userId: '122',
-      login: data.login,
-      status: 'success',
+  const [login] = useLoginAndGetUserMutation();
+  const onSubmit: SubmitHandler<FieldValues> = async (formData: FieldValues) => {
+    const currentUser: LoginRequest = {
+      login: formData.login,
       role: location.pathname === routes.homeForNotLoggedInManager ? 'manager' : 'resident',
+      password: formData.password,
     };
-    dispatch(login(testUser));
-    navigate('/dashboard');
+
+    try {
+      const data = await login(currentUser);
+      if (data) {
+        navigate('/dashboard');;
+      }
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.log(err);
+    }
   };
 
   return (

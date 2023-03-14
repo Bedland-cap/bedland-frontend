@@ -3,10 +3,52 @@
 exports[`SidebarItem should render correctly sidebarItem for Buildings 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<body>
     <div>
       <li
-        class="sc-bcXHqe hIZzLM"
+        class="c0"
       >
         <a
           aria-current="page"
@@ -15,11 +57,11 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 1`] = `
           id="sidebar-item-buildings"
         >
           <div
-            class="sc-gswNZR boeidF"
+            class="c1"
             style="border-left: 4px solid #909AFF;"
           >
             <div
-              class="sc-dkrFOg hEEbgY"
+              class="c2"
             >
               <svg
                 fill="none"
@@ -55,9 +97,51 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<div>
     <li
-      class="sc-bcXHqe hIZzLM"
+      class="c0"
     >
       <a
         aria-current="page"
@@ -66,11 +150,11 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 1`] = `
         id="sidebar-item-buildings"
       >
         <div
-          class="sc-gswNZR boeidF"
+          class="c1"
           style="border-left: 4px solid #909AFF;"
         >
           <div
-            class="sc-dkrFOg hEEbgY"
+            class="c2"
           >
             <svg
               fill="none"
@@ -169,10 +253,74 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 1`] = `
 exports[`SidebarItem should render correctly sidebarItem for Buildings 2`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #CF0000;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  font-weight: 600;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1rem;
+  width: 1rem;
+}
+
+<body>
     <div>
       <li
-        class="sc-bcXHqe hIZzLM"
+        class="c0"
       >
         <a
           aria-current="page"
@@ -181,11 +329,11 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 2`] = `
           id="sidebar-item-voting"
         >
           <div
-            class="sc-gswNZR boeidF"
+            class="c1"
             style="border-left: 4px solid #909AFF;"
           >
             <div
-              class="sc-dkrFOg hEEbgY"
+              class="c2"
             >
               <svg
                 fill="none"
@@ -212,7 +360,7 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 2`] = `
               </span>
             </div>
             <div
-              class="sc-hLBbgP ieZRFR"
+              class="c3"
               style="color: rgb(255, 255, 255);"
             >
               1
@@ -227,9 +375,73 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 2`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #CF0000;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  font-weight: 600;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1rem;
+  width: 1rem;
+}
+
+<div>
     <li
-      class="sc-bcXHqe hIZzLM"
+      class="c0"
     >
       <a
         aria-current="page"
@@ -238,11 +450,11 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 2`] = `
         id="sidebar-item-voting"
       >
         <div
-          class="sc-gswNZR boeidF"
+          class="c1"
           style="border-left: 4px solid #909AFF;"
         >
           <div
-            class="sc-dkrFOg hEEbgY"
+            class="c2"
           >
             <svg
               fill="none"
@@ -269,7 +481,7 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 2`] = `
             </span>
           </div>
           <div
-            class="sc-hLBbgP ieZRFR"
+            class="c3"
             style="color: rgb(255, 255, 255);"
           >
             1
@@ -347,10 +559,52 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 2`] = `
 exports[`SidebarItem should render correctly sidebarItem for Dashboard 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<body>
     <div>
       <li
-        class="sc-bcXHqe hIZzLM"
+        class="c0"
       >
         <a
           aria-current="page"
@@ -359,11 +613,11 @@ exports[`SidebarItem should render correctly sidebarItem for Dashboard 1`] = `
           id="sidebar-item-dashboard"
         >
           <div
-            class="sc-gswNZR boeidF"
+            class="c1"
             style="border-left: 4px solid #909AFF;"
           >
             <div
-              class="sc-dkrFOg hEEbgY"
+              class="c2"
             >
               <svg
                 fill="none"
@@ -399,9 +653,51 @@ exports[`SidebarItem should render correctly sidebarItem for Dashboard 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<div>
     <li
-      class="sc-bcXHqe hIZzLM"
+      class="c0"
     >
       <a
         aria-current="page"
@@ -410,11 +706,11 @@ exports[`SidebarItem should render correctly sidebarItem for Dashboard 1`] = `
         id="sidebar-item-dashboard"
       >
         <div
-          class="sc-gswNZR boeidF"
+          class="c1"
           style="border-left: 4px solid #909AFF;"
         >
           <div
-            class="sc-dkrFOg hEEbgY"
+            class="c2"
           >
             <svg
               fill="none"
@@ -513,10 +809,52 @@ exports[`SidebarItem should render correctly sidebarItem for Dashboard 1`] = `
 exports[`SidebarItem should render correctly sidebarItem for Flats 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<body>
     <div>
       <li
-        class="sc-bcXHqe hIZzLM"
+        class="c0"
       >
         <a
           aria-current="page"
@@ -525,11 +863,11 @@ exports[`SidebarItem should render correctly sidebarItem for Flats 1`] = `
           id="sidebar-item-flats"
         >
           <div
-            class="sc-gswNZR boeidF"
+            class="c1"
             style="border-left: 4px solid #909AFF;"
           >
             <div
-              class="sc-dkrFOg hEEbgY"
+              class="c2"
             >
               <svg
                 fill="none"
@@ -565,9 +903,51 @@ exports[`SidebarItem should render correctly sidebarItem for Flats 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<div>
     <li
-      class="sc-bcXHqe hIZzLM"
+      class="c0"
     >
       <a
         aria-current="page"
@@ -576,11 +956,11 @@ exports[`SidebarItem should render correctly sidebarItem for Flats 1`] = `
         id="sidebar-item-flats"
       >
         <div
-          class="sc-gswNZR boeidF"
+          class="c1"
           style="border-left: 4px solid #909AFF;"
         >
           <div
-            class="sc-dkrFOg hEEbgY"
+            class="c2"
           >
             <svg
               fill="none"
@@ -679,10 +1059,74 @@ exports[`SidebarItem should render correctly sidebarItem for Flats 1`] = `
 exports[`SidebarItem should render correctly sidebarItem for Messages 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #CF0000;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  font-weight: 600;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1rem;
+  width: 1rem;
+}
+
+<body>
     <div>
       <li
-        class="sc-bcXHqe hIZzLM"
+        class="c0"
       >
         <a
           aria-current="page"
@@ -691,11 +1135,11 @@ exports[`SidebarItem should render correctly sidebarItem for Messages 1`] = `
           id="sidebar-item-messages"
         >
           <div
-            class="sc-gswNZR boeidF"
+            class="c1"
             style="border-left: 4px solid #909AFF;"
           >
             <div
-              class="sc-dkrFOg hEEbgY"
+              class="c2"
             >
               <svg
                 fill="none"
@@ -722,7 +1166,7 @@ exports[`SidebarItem should render correctly sidebarItem for Messages 1`] = `
               </span>
             </div>
             <div
-              class="sc-hLBbgP ieZRFR"
+              class="c3"
               style="color: rgb(255, 255, 255);"
             >
               1
@@ -737,9 +1181,73 @@ exports[`SidebarItem should render correctly sidebarItem for Messages 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #CF0000;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  font-weight: 600;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1rem;
+  width: 1rem;
+}
+
+<div>
     <li
-      class="sc-bcXHqe hIZzLM"
+      class="c0"
     >
       <a
         aria-current="page"
@@ -748,11 +1256,11 @@ exports[`SidebarItem should render correctly sidebarItem for Messages 1`] = `
         id="sidebar-item-messages"
       >
         <div
-          class="sc-gswNZR boeidF"
+          class="c1"
           style="border-left: 4px solid #909AFF;"
         >
           <div
-            class="sc-dkrFOg hEEbgY"
+            class="c2"
           >
             <svg
               fill="none"
@@ -779,7 +1287,7 @@ exports[`SidebarItem should render correctly sidebarItem for Messages 1`] = `
             </span>
           </div>
           <div
-            class="sc-hLBbgP ieZRFR"
+            class="c3"
             style="color: rgb(255, 255, 255);"
           >
             1
@@ -857,10 +1365,52 @@ exports[`SidebarItem should render correctly sidebarItem for Messages 1`] = `
 exports[`SidebarItem should render correctly sidebarItem for Payments 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<body>
     <div>
       <li
-        class="sc-bcXHqe hIZzLM"
+        class="c0"
       >
         <a
           aria-current="page"
@@ -869,11 +1419,11 @@ exports[`SidebarItem should render correctly sidebarItem for Payments 1`] = `
           id="sidebar-item-payments"
         >
           <div
-            class="sc-gswNZR boeidF"
+            class="c1"
             style="border-left: 4px solid #909AFF;"
           >
             <div
-              class="sc-dkrFOg hEEbgY"
+              class="c2"
             >
               <svg
                 fill="none"
@@ -922,9 +1472,51 @@ exports[`SidebarItem should render correctly sidebarItem for Payments 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<div>
     <li
-      class="sc-bcXHqe hIZzLM"
+      class="c0"
     >
       <a
         aria-current="page"
@@ -933,11 +1525,11 @@ exports[`SidebarItem should render correctly sidebarItem for Payments 1`] = `
         id="sidebar-item-payments"
       >
         <div
-          class="sc-gswNZR boeidF"
+          class="c1"
           style="border-left: 4px solid #909AFF;"
         >
           <div
-            class="sc-dkrFOg hEEbgY"
+            class="c2"
           >
             <svg
               fill="none"
@@ -1049,10 +1641,52 @@ exports[`SidebarItem should render correctly sidebarItem for Payments 1`] = `
 exports[`SidebarItem should render correctly sidebarItem for Reports 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<body>
     <div>
       <li
-        class="sc-bcXHqe hIZzLM"
+        class="c0"
       >
         <a
           aria-current="page"
@@ -1061,11 +1695,11 @@ exports[`SidebarItem should render correctly sidebarItem for Reports 1`] = `
           id="sidebar-item-reports"
         >
           <div
-            class="sc-gswNZR boeidF"
+            class="c1"
             style="border-left: 4px solid #909AFF;"
           >
             <div
-              class="sc-dkrFOg hEEbgY"
+              class="c2"
             >
               <svg
                 fill="none"
@@ -1101,9 +1735,51 @@ exports[`SidebarItem should render correctly sidebarItem for Reports 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<div>
     <li
-      class="sc-bcXHqe hIZzLM"
+      class="c0"
     >
       <a
         aria-current="page"
@@ -1112,11 +1788,11 @@ exports[`SidebarItem should render correctly sidebarItem for Reports 1`] = `
         id="sidebar-item-reports"
       >
         <div
-          class="sc-gswNZR boeidF"
+          class="c1"
           style="border-left: 4px solid #909AFF;"
         >
           <div
-            class="sc-dkrFOg hEEbgY"
+            class="c2"
           >
             <svg
               fill="none"
@@ -1215,10 +1891,52 @@ exports[`SidebarItem should render correctly sidebarItem for Reports 1`] = `
 exports[`SidebarItem should render correctly sidebarItem for Residents 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<body>
     <div>
       <li
-        class="sc-bcXHqe hIZzLM"
+        class="c0"
       >
         <a
           aria-current="page"
@@ -1227,11 +1945,11 @@ exports[`SidebarItem should render correctly sidebarItem for Residents 1`] = `
           id="sidebar-item-residents"
         >
           <div
-            class="sc-gswNZR boeidF"
+            class="c1"
             style="border-left: 4px solid #909AFF;"
           >
             <div
-              class="sc-dkrFOg hEEbgY"
+              class="c2"
             >
               <svg
                 fill="none"
@@ -1267,9 +1985,51 @@ exports[`SidebarItem should render correctly sidebarItem for Residents 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<div>
     <li
-      class="sc-bcXHqe hIZzLM"
+      class="c0"
     >
       <a
         aria-current="page"
@@ -1278,11 +2038,11 @@ exports[`SidebarItem should render correctly sidebarItem for Residents 1`] = `
         id="sidebar-item-residents"
       >
         <div
-          class="sc-gswNZR boeidF"
+          class="c1"
           style="border-left: 4px solid #909AFF;"
         >
           <div
-            class="sc-dkrFOg hEEbgY"
+            class="c2"
           >
             <svg
               fill="none"
@@ -1381,10 +2141,52 @@ exports[`SidebarItem should render correctly sidebarItem for Residents 1`] = `
 exports[`SidebarItem should render correctly sidebarItem for Wall 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<body>
     <div>
       <li
-        class="sc-bcXHqe hIZzLM"
+        class="c0"
       >
         <a
           aria-current="page"
@@ -1393,11 +2195,11 @@ exports[`SidebarItem should render correctly sidebarItem for Wall 1`] = `
           id="sidebar-item-wall"
         >
           <div
-            class="sc-gswNZR boeidF"
+            class="c1"
             style="border-left: 4px solid #909AFF;"
           >
             <div
-              class="sc-dkrFOg hEEbgY"
+              class="c2"
             >
               <svg
                 fill="none"
@@ -1433,9 +2235,51 @@ exports[`SidebarItem should render correctly sidebarItem for Wall 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  width: 200px;
+}
+
+.c0:hover {
+  background: #CACACA10;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  height: 2.625rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<div>
     <li
-      class="sc-bcXHqe hIZzLM"
+      class="c0"
     >
       <a
         aria-current="page"
@@ -1444,11 +2288,11 @@ exports[`SidebarItem should render correctly sidebarItem for Wall 1`] = `
         id="sidebar-item-wall"
       >
         <div
-          class="sc-gswNZR boeidF"
+          class="c1"
           style="border-left: 4px solid #909AFF;"
         >
           <div
-            class="sc-dkrFOg hEEbgY"
+            class="c2"
           >
             <svg
               fill="none"
