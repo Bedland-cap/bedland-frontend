@@ -1,8 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button renders correctly 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.625rem 1rem 0.625rem 1rem;
+  width: 19.875rem;
+}
+
+.c0:disabled,
+.c0:hover,
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
 <button
-  className="sc-bcXHqe eEIAEe"
+  className="c0"
   type="button"
 >
   login

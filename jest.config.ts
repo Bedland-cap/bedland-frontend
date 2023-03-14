@@ -31,6 +31,9 @@ const config: Config = {
     '^.+\\.jsx?$': 'babel-jest',
     '.+\\.(png|jpg)$': 'jest-transform-stub',
   },
+  'setupFilesAfterEnv': [
+    '<rootDir>/setupTests.ts'
+  ]
 };
 
 export default config;

@@ -1,6 +1,7 @@
 /* eslint-disable no-param-reassign */
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import type { RootState } from '../../store';
+import { createSlice } from '@reduxjs/toolkit';
+import { userApi } from 'services/user/userApi';
+import type { RootState } from 'store/store';
 
 const userRole = ['manager', 'resident', undefined] as const;
 export type UserRoles = (typeof userRole)[number];
@@ -22,41 +23,40 @@ const initialState: User = {
   userId: undefined,
   login: undefined,
   token: undefined,
-  role: 'manager',
+  role: 'resident',
 };
 
 export const UserSlice = createSlice({
   name: 'user',
   initialState,
-  reducers: {
-    // to remove, when we set api and extra reducer for login
-    login: (state, action: PayloadAction<Omit<User, 'loggedIn'>>) => {
+  reducers: {},
+  extraReducers: (builder) => {
+    builder.addMatcher(userApi.endpoints.login.matchFulfilled, (state, { payload }) => {
       state.loggedIn = true;
-      state.userId = action.payload.userId;
-      state.login = action.payload.login;
-      state.token = action.payload.token;
-      state.status = action.payload.status;
-    },
-    logout: (state) => {
+      state.status = 'active';
+      state.role = payload.role;
+      state.login = payload.login;
+      state.token = payload.token;
+      state.userId = payload.id;
+    });
+    builder.addMatcher(userApi.endpoints.loginAndGetUser.matchFulfilled, (state, { payload }) => {
+      state.loggedIn = true;
+      state.status = 'active';
+      state.role = payload.role;
+      state.login = payload.login;
+      state.token = payload.token;
+      state.userId = payload.id;
+    });
+    builder.addMatcher(userApi.endpoints.logout.matchFulfilled, (state) => {
       state.loggedIn = false;
       state.userId = undefined;
       state.login = undefined;
       state.token = undefined;
       state.status = 'idle';
-    },
-  },
-  extraReducers: (/* builder */) => {
-    // --->> add reducer for response from API
-    // builder.addMatcher(userApi.endpoints.login.matchFulfilled, (state, { payload }) => {
-    //  state.loggedIn = true;
-    //  state.userId = action.payload.userId;
-    //  state.login = action.payload.login;
-    //  state.token = action.payload.token;
-    //  state.status = action.payload.status;
+    });
   },
 });
 
-export const { login, logout } = UserSlice.actions;
 export const userReducer = UserSlice.reducer;
 
 export const selectUserUserId = (state: RootState) => state.user.userId;

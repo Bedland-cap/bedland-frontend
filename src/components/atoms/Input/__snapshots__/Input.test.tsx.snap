@@ -1,11 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Input renders correctly 1`] = `
+.c0 {
+  border: 1px solid #909AFF;
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.875rem;
+  padding: 0.625rem 1rem 0.625rem 1rem;
+  width: 19.875rem;
+}
+
+.c0:disabled,
+.c0:hover,
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
 <form
   action=""
 >
   <input
-    className="sc-bcXHqe dMnLRc"
+    className="c0"
     id="login"
     name="login"
     onBlur={[Function]}

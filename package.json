@@ -76,7 +76,8 @@
     "storybook": "^7.0.0-beta.43",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
-    "webpack": "^5.75.0"
+    "webpack": "^5.75.0",
+    "whatwg-fetch": "^3.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -85,7 +86,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=token",
-    "test": "jest --env=jsdom",
+    "test": "jest --env=jsdom --detectOpenHandles",
     "test:watch": "jest --env=jsdom --watchAll",
     "coverage": "jest --env=jsdom --coverage",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",

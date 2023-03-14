@@ -3,14 +3,57 @@
 exports[`Widget should renders correctly ContactsWidget 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 25rem;
+  min-width: 24.875rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-gswNZR htFxcT"
+        class="c0"
         mode="dark"
       >
         <div
-          class="sc-dkrFOg gTwKfn"
+          class="c1"
           mode="dark"
         >
           <h5
@@ -19,7 +62,7 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
             Widget in dark mode
           </h5>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -50,13 +93,56 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 25rem;
+  min-width: 24.875rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<div>
     <div
-      class="sc-gswNZR htFxcT"
+      class="c0"
       mode="dark"
     >
       <div
-        class="sc-dkrFOg gTwKfn"
+        class="c1"
         mode="dark"
       >
         <h5
@@ -65,7 +151,7 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
           Widget in dark mode
         </h5>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -159,14 +245,57 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
 exports[`Widget should renders correctly NotificationWidget 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 31.375rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-gswNZR lcFSUD"
+        class="c0"
         mode="dark"
       >
         <div
-          class="sc-dkrFOg gTwKfn"
+          class="c1"
           mode="dark"
         >
           <h5
@@ -175,7 +304,7 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
             Widget in dark mode
           </h5>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -206,13 +335,56 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 31.375rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<div>
     <div
-      class="sc-gswNZR lcFSUD"
+      class="c0"
       mode="dark"
     >
       <div
-        class="sc-dkrFOg gTwKfn"
+        class="c1"
         mode="dark"
       >
         <h5
@@ -221,7 +393,7 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
           Widget in dark mode
         </h5>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -315,14 +487,57 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
 exports[`Widget should renders correctly PaymentsWidget 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 30.875rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-gswNZR vNTvR"
+        class="c0"
         mode="dark"
       >
         <div
-          class="sc-dkrFOg gTwKfn"
+          class="c1"
           mode="dark"
         >
           <h5
@@ -331,7 +546,7 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
             Widget in dark mode
           </h5>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -362,13 +577,56 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 30.875rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<div>
     <div
-      class="sc-gswNZR vNTvR"
+      class="c0"
       mode="dark"
     >
       <div
-        class="sc-dkrFOg gTwKfn"
+        class="c1"
         mode="dark"
       >
         <h5
@@ -377,7 +635,7 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
           Widget in dark mode
         </h5>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -471,14 +729,57 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
 exports[`Widget should renders correctly VotingWidget 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 25rem;
+  min-width: 37.5rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-gswNZR dlTyy"
+        class="c0"
         mode="dark"
       >
         <div
-          class="sc-dkrFOg gTwKfn"
+          class="c1"
           mode="dark"
         >
           <h5
@@ -487,7 +788,7 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
             Widget in dark mode
           </h5>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -518,13 +819,56 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 25rem;
+  min-width: 37.5rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<div>
     <div
-      class="sc-gswNZR dlTyy"
+      class="c0"
       mode="dark"
     >
       <div
-        class="sc-dkrFOg gTwKfn"
+        class="c1"
         mode="dark"
       >
         <h5
@@ -533,7 +877,7 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
           Widget in dark mode
         </h5>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -627,14 +971,57 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
 exports[`Widget should renders correctly widget in dark mode 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 31.375rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-gswNZR lcFSUD"
+        class="c0"
         mode="dark"
       >
         <div
-          class="sc-dkrFOg gTwKfn"
+          class="c1"
           mode="dark"
         >
           <h5
@@ -643,7 +1030,7 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
             Widget in dark mode
           </h5>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -674,13 +1061,56 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 31.375rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<div>
     <div
-      class="sc-gswNZR lcFSUD"
+      class="c0"
       mode="dark"
     >
       <div
-        class="sc-dkrFOg gTwKfn"
+        class="c1"
         mode="dark"
       >
         <h5
@@ -689,7 +1119,7 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
           Widget in dark mode
         </h5>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -783,14 +1213,57 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
 exports[`Widget should renders correctly widget in light mode 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 31.375rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #4553DD;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-gswNZR lcFSUD"
+        class="c0"
         mode="light"
       >
         <div
-          class="sc-dkrFOg euFzhI"
+          class="c1"
           mode="light"
         >
           <h5
@@ -799,7 +1272,7 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
             Widget in dark mode
           </h5>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -830,13 +1303,56 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 31.375rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #4553DD;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<div>
     <div
-      class="sc-gswNZR lcFSUD"
+      class="c0"
       mode="light"
     >
       <div
-        class="sc-dkrFOg euFzhI"
+        class="c1"
         mode="light"
       >
         <h5
@@ -845,7 +1361,7 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
           Widget in dark mode
         </h5>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -939,14 +1455,57 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
 exports[`Widget should renders correctly with button 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 31.375rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-gswNZR lcFSUD"
+        class="c0"
         mode="dark"
       >
         <div
-          class="sc-dkrFOg gTwKfn"
+          class="c1"
           mode="dark"
         >
           <h5
@@ -955,7 +1514,7 @@ exports[`Widget should renders correctly with button 1`] = `
             Widget in dark mode
           </h5>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -986,13 +1545,56 @@ exports[`Widget should renders correctly with button 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 31.375rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<div>
     <div
-      class="sc-gswNZR lcFSUD"
+      class="c0"
       mode="dark"
     >
       <div
-        class="sc-dkrFOg gTwKfn"
+        class="c1"
         mode="dark"
       >
         <h5
@@ -1001,7 +1603,7 @@ exports[`Widget should renders correctly with button 1`] = `
           Widget in dark mode
         </h5>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -1095,14 +1697,41 @@ exports[`Widget should renders correctly with button 1`] = `
 exports[`Widget should renders correctly without button 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 31.375rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-gswNZR lcFSUD"
+        class="c0"
         mode="dark"
       >
         <div
-          class="sc-dkrFOg gTwKfn"
+          class="c1"
           mode="dark"
         >
           <h5
@@ -1119,13 +1748,40 @@ exports[`Widget should renders correctly without button 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 22.125rem;
+  min-width: 31.375rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border-bottom: 1px solid none;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<div>
     <div
-      class="sc-gswNZR lcFSUD"
+      class="c0"
       mode="dark"
     >
       <div
-        class="sc-dkrFOg gTwKfn"
+        class="c1"
         mode="dark"
       >
         <h5

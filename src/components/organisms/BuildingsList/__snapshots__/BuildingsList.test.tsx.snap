@@ -3,21 +3,78 @@
 exports[`BuildingsList renders correctly 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c1 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 8px #4B4D6220;
+  color: #4b4b4b;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.c2 {
+  height: 11rem;
+  object-fit: cover;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c3 {
+  padding: 0.5rem 1.031rem 0.938rem;
+}
+
+.c4 {
+  margin-top: 1rem;
+}
+
+.c5 {
+  background-color: #4553DD;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 0.563rem;
+  width: 100%;
+}
+
+.c5:hover {
+  background-color: #909AFF;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-jSUZER cbQclI"
+        class="c0"
       >
         <div
-          class="sc-bcXHqe fBLOax"
+          class="c1"
         >
           <img
             alt="Building"
-            class="sc-gswNZR djSoAM"
+            class="c2"
             src=""
           />
           <div
-            class="sc-dkrFOg doHqxF"
+            class="c3"
           >
             <h3
               style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -31,10 +88,10 @@ exports[`BuildingsList renders correctly 1`] = `
               Berry Street 21
             </p>
             <div
-              class="sc-hLBbgP koPdij"
+              class="c4"
             >
               <button
-                class="sc-eDvSVe hLvfrA"
+                class="c5"
               >
                 Open details
               </button>
@@ -42,15 +99,15 @@ exports[`BuildingsList renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="sc-bcXHqe fBLOax"
+          class="c1"
         >
           <img
             alt="Building"
-            class="sc-gswNZR djSoAM"
+            class="c2"
             src=""
           />
           <div
-            class="sc-dkrFOg doHqxF"
+            class="c3"
           >
             <h3
               style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -64,10 +121,10 @@ exports[`BuildingsList renders correctly 1`] = `
               Miedziana Street 3
             </p>
             <div
-              class="sc-hLBbgP koPdij"
+              class="c4"
             >
               <button
-                class="sc-eDvSVe hLvfrA"
+                class="c5"
               >
                 Open details
               </button>
@@ -75,15 +132,15 @@ exports[`BuildingsList renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="sc-bcXHqe fBLOax"
+          class="c1"
         >
           <img
             alt="Building"
-            class="sc-gswNZR djSoAM"
+            class="c2"
             src=""
           />
           <div
-            class="sc-dkrFOg doHqxF"
+            class="c3"
           >
             <h3
               style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -97,10 +154,10 @@ exports[`BuildingsList renders correctly 1`] = `
               Seaport Avenue 51
             </p>
             <div
-              class="sc-hLBbgP koPdij"
+              class="c4"
             >
               <button
-                class="sc-eDvSVe hLvfrA"
+                class="c5"
               >
                 Open details
               </button>
@@ -108,15 +165,15 @@ exports[`BuildingsList renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="sc-bcXHqe fBLOax"
+          class="c1"
         >
           <img
             alt="Building"
-            class="sc-gswNZR djSoAM"
+            class="c2"
             src=""
           />
           <div
-            class="sc-dkrFOg doHqxF"
+            class="c3"
           >
             <h3
               style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -130,10 +187,10 @@ exports[`BuildingsList renders correctly 1`] = `
               Desert Street 2X
             </p>
             <div
-              class="sc-hLBbgP koPdij"
+              class="c4"
             >
               <button
-                class="sc-eDvSVe hLvfrA"
+                class="c5"
               >
                 Open details
               </button>
@@ -141,15 +198,15 @@ exports[`BuildingsList renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="sc-bcXHqe fBLOax"
+          class="c1"
         >
           <img
             alt="Building"
-            class="sc-gswNZR djSoAM"
+            class="c2"
             src=""
           />
           <div
-            class="sc-dkrFOg doHqxF"
+            class="c3"
           >
             <h3
               style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -163,10 +220,10 @@ exports[`BuildingsList renders correctly 1`] = `
               Lakewood Avenue 57
             </p>
             <div
-              class="sc-hLBbgP koPdij"
+              class="c4"
             >
               <button
-                class="sc-eDvSVe hLvfrA"
+                class="c5"
               >
                 Open details
               </button>
@@ -181,20 +238,77 @@ exports[`BuildingsList renders correctly 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c1 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 8px #4B4D6220;
+  color: #4b4b4b;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.c2 {
+  height: 11rem;
+  object-fit: cover;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c3 {
+  padding: 0.5rem 1.031rem 0.938rem;
+}
+
+.c4 {
+  margin-top: 1rem;
+}
+
+.c5 {
+  background-color: #4553DD;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 0.563rem;
+  width: 100%;
+}
+
+.c5:hover {
+  background-color: #909AFF;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+<div>
     <div
-      class="sc-jSUZER cbQclI"
+      class="c0"
     >
       <div
-        class="sc-bcXHqe fBLOax"
+        class="c1"
       >
         <img
           alt="Building"
-          class="sc-gswNZR djSoAM"
+          class="c2"
           src=""
         />
         <div
-          class="sc-dkrFOg doHqxF"
+          class="c3"
         >
           <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -208,10 +322,10 @@ exports[`BuildingsList renders correctly 1`] = `
             Berry Street 21
           </p>
           <div
-            class="sc-hLBbgP koPdij"
+            class="c4"
           >
             <button
-              class="sc-eDvSVe hLvfrA"
+              class="c5"
             >
               Open details
             </button>
@@ -219,15 +333,15 @@ exports[`BuildingsList renders correctly 1`] = `
         </div>
       </div>
       <div
-        class="sc-bcXHqe fBLOax"
+        class="c1"
       >
         <img
           alt="Building"
-          class="sc-gswNZR djSoAM"
+          class="c2"
           src=""
         />
         <div
-          class="sc-dkrFOg doHqxF"
+          class="c3"
         >
           <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -241,10 +355,10 @@ exports[`BuildingsList renders correctly 1`] = `
             Miedziana Street 3
           </p>
           <div
-            class="sc-hLBbgP koPdij"
+            class="c4"
           >
             <button
-              class="sc-eDvSVe hLvfrA"
+              class="c5"
             >
               Open details
             </button>
@@ -252,15 +366,15 @@ exports[`BuildingsList renders correctly 1`] = `
         </div>
       </div>
       <div
-        class="sc-bcXHqe fBLOax"
+        class="c1"
       >
         <img
           alt="Building"
-          class="sc-gswNZR djSoAM"
+          class="c2"
           src=""
         />
         <div
-          class="sc-dkrFOg doHqxF"
+          class="c3"
         >
           <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -274,10 +388,10 @@ exports[`BuildingsList renders correctly 1`] = `
             Seaport Avenue 51
           </p>
           <div
-            class="sc-hLBbgP koPdij"
+            class="c4"
           >
             <button
-              class="sc-eDvSVe hLvfrA"
+              class="c5"
             >
               Open details
             </button>
@@ -285,15 +399,15 @@ exports[`BuildingsList renders correctly 1`] = `
         </div>
       </div>
       <div
-        class="sc-bcXHqe fBLOax"
+        class="c1"
       >
         <img
           alt="Building"
-          class="sc-gswNZR djSoAM"
+          class="c2"
           src=""
         />
         <div
-          class="sc-dkrFOg doHqxF"
+          class="c3"
         >
           <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -307,10 +421,10 @@ exports[`BuildingsList renders correctly 1`] = `
             Desert Street 2X
           </p>
           <div
-            class="sc-hLBbgP koPdij"
+            class="c4"
           >
             <button
-              class="sc-eDvSVe hLvfrA"
+              class="c5"
             >
               Open details
             </button>
@@ -318,15 +432,15 @@ exports[`BuildingsList renders correctly 1`] = `
         </div>
       </div>
       <div
-        class="sc-bcXHqe fBLOax"
+        class="c1"
       >
         <img
           alt="Building"
-          class="sc-gswNZR djSoAM"
+          class="c2"
           src=""
         />
         <div
-          class="sc-dkrFOg doHqxF"
+          class="c3"
         >
           <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -340,10 +454,10 @@ exports[`BuildingsList renders correctly 1`] = `
             Lakewood Avenue 57
           </p>
           <div
-            class="sc-hLBbgP koPdij"
+            class="c4"
           >
             <button
-              class="sc-eDvSVe hLvfrA"
+              class="c5"
             >
               Open details
             </button>

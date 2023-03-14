@@ -1,21 +1,61 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Input with Label renders correctly 1`] = `
+.c2 {
+  border: 1px solid #909AFF;
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.875rem;
+  padding: 0.625rem 1rem 0.625rem 1rem;
+  width: 19.875rem;
+}
+
+.c2:disabled,
+.c2:hover,
+.c2:active,
+.c2:focus {
+  outline: none;
+}
+
+.c1 {
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.6875rem;
+  width: 19.875rem;
+}
+
 <form
   action=""
 >
   <div
-    className="sc-dkrFOg fRpHDN"
+    className="c0"
   >
     <label
-      className="sc-gswNZR fZqYNh"
+      className="c1"
       htmlFor="login"
       size="medium"
     >
       login
     </label>
     <input
-      className="sc-bcXHqe dMnLRc"
+      className="c2"
       id="login"
       name="login"
       onBlur={[Function]}

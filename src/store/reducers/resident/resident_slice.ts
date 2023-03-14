@@ -1,6 +1,5 @@
 import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
 import type { RootState } from 'store/store';
-import { logout } from '../user_slice';
 
 export type Resident = {
   id: string;
@@ -24,12 +23,12 @@ export const ResidentSlice = createSlice({
     removeResident: residentAdapter.removeOne,
     setResidentList: residentAdapter.setAll, // to remove, when we set api and extra reducer for set ResidentList
   },
-  extraReducers: (builder) => {
+  extraReducers: (/* builder */) => {
     // --->> add reducer for response from API
     // builder.addMatcher(userApi.endpoints.getAllResidentList.matchFulfilled, (residentAdapter.setAll);
     // builder.addMatcher(userApi.endpoints.getAllResidentListByBuildingId.matchFulfilled, (residentAdapter.setAll);
     //
-    builder.addCase(logout, residentAdapter.removeAll);
+    // builder.addCase(logout, residentAdapter.removeAll);
   },
 });
 

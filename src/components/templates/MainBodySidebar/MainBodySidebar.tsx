@@ -1,7 +1,7 @@
 import { PropsWithChildren, useContext } from 'react';
 import { ThemeContext } from 'theme/ThemeContext';
 import { useAppSelector } from 'store/hooks';
-import { selectUserIsLoggedIn } from 'store/reducers/user_slice';
+import { selectUserIsLoggedIn } from 'store/reducers/user/user_slice';
 import * as Styled from './MainBodySidebar.styled';
 
 const MainBodySidebar = ({ children }: PropsWithChildren) => {
