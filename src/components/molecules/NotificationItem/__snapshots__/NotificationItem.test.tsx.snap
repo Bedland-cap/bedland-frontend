@@ -3,10 +3,42 @@
 exports[`NotificationItem should renders correctly NotificationItem 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #CACACA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-left: 0.94rem;
+  padding: 0.875rem 1.458rem 0.875rem 0.518rem;
+  position: relative;
+}
+
+.c0:last-child {
+  border-bottom: none;
+}
+
+.c1 {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: -0.203rem;
+  white-space: nowrap;
+  width: 14rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-bcXHqe hHLwoI"
+        class="c0"
       >
         <svg
           fill="none"
@@ -48,7 +80,7 @@ exports[`NotificationItem should renders correctly NotificationItem 1`] = `
           style="font-family: Source Sans Pro, sans-serif; font-size: 0.8rem; font-weight: 600; line-height: 1.2; letter-spacing: 0; color: rgb(0, 0, 0);"
         >
           <div
-            class="sc-gswNZR jpoZHJ"
+            class="c1"
           >
             New payment from Joe Livingstone
           </div>
@@ -67,9 +99,41 @@ exports[`NotificationItem should renders correctly NotificationItem 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #CACACA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-left: 0.94rem;
+  padding: 0.875rem 1.458rem 0.875rem 0.518rem;
+  position: relative;
+}
+
+.c0:last-child {
+  border-bottom: none;
+}
+
+.c1 {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: -0.203rem;
+  white-space: nowrap;
+  width: 14rem;
+}
+
+<div>
     <div
-      class="sc-bcXHqe hHLwoI"
+      class="c0"
     >
       <svg
         fill="none"
@@ -111,7 +175,7 @@ exports[`NotificationItem should renders correctly NotificationItem 1`] = `
         style="font-family: Source Sans Pro, sans-serif; font-size: 0.8rem; font-weight: 600; line-height: 1.2; letter-spacing: 0; color: rgb(0, 0, 0);"
       >
         <div
-          class="sc-gswNZR jpoZHJ"
+          class="c1"
         >
           New payment from Joe Livingstone
         </div>

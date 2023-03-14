@@ -62,6 +62,16 @@
       "login": "aBray",
       "password": "AlBray",
       "id": 7
+    },
+    {
+      "id": 8,
+      "login": "testmanager",
+      "password": "!Test123!",
+      "name": "Jack",
+      "lastName": "Sparrow",
+      "email": "jackx@email.com",
+      "phoneNumber": "213721372",
+      "role": "manager"
     }
   ],
   "member": [
@@ -132,6 +142,18 @@
       "lastName": "Perry",
       "email": "isabel.perry@email.com",
       "phoneNumber": "123456789",
+      "flatId": 4,
+      "owner": false
+    },
+    {
+      "id": 6,
+      "login": "testmember",
+      "password": "!Test123!",
+      "name": "Jack",
+      "lastName": "Sparrow",
+      "email": "jackx@email.com",
+      "phoneNumber": "213721372",
+      "role": "resident",
       "flatId": 4,
       "owner": false
     }

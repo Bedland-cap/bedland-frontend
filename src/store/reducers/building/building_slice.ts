@@ -1,5 +1,4 @@
 import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
-import { logout } from 'store/reducers/user_slice';
 import type { RootState } from 'store/store';
 
 export type Building = {
@@ -23,11 +22,11 @@ export const BuildingSlice = createSlice({
     updateBuilding: buildingAdapter.updateOne,
     setBuildingList: buildingAdapter.setAll,
   },
-  extraReducers: (builder) => {
+  extraReducers: (/* builder */) => {
     // --->> add reducer for response from API
     // builder.addMatcher(userApi.endpoints.getAllBuildingByManagerId.matchFulfilled, buildingAdapter.setAll);
     //
-    builder.addCase(logout, buildingAdapter.removeAll);
+    // builder.addCase(logout, buildingAdapter.removeAll);
   },
 });
 

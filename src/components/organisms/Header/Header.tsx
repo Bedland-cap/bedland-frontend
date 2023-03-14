@@ -5,7 +5,7 @@ import AccountDropdown from 'components/organisms/AccountDropdown/AccountDropdow
 import { useContext } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useAppSelector } from 'store/hooks';
-import { selectUserIsLoggedIn } from 'store/reducers/user_slice';
+import { selectUserIsLoggedIn } from 'store/reducers/user/user_slice';
 import { ThemeContext } from 'theme/ThemeContext';
 import * as Styled from './Header.styled';
 

@@ -1,15 +1,157 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Login Page renders correctly 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 17.625rem;
+  margin: 0rem 4rem;
+  width: 22.5rem;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.875rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  width: 100%;
+}
+
+.c5 {
+  border: 1px solid #909AFF;
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.875rem;
+  padding: 0.625rem 1rem 0.625rem 1rem;
+  width: 19.875rem;
+}
+
+.c5:disabled,
+.c5:hover,
+.c5:active,
+.c5:focus {
+  outline: none;
+}
+
+.c4 {
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.6875rem;
+  width: 19.875rem;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #EF6517;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.625rem 1rem 0.625rem 1rem;
+  width: 19.875rem;
+}
+
+.c7:disabled,
+.c7:hover,
+.c7:active,
+.c7:focus {
+  outline: none;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 25.625rem;
+}
+
+.c8 {
+  color: #EF6517;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #0A1122;
+  width: 100%;
+}
+
 <div
-  className="sc-pyfCe hLiJWN"
+  className="c0"
 >
   <img
     alt=""
-    className="sc-bcXHqe bSBJnN"
+    className="c1"
   />
   <form
-    className="sc-iBYQkv qrkfQ"
+    className="c2"
     onSubmit={[Function]}
   >
     <h2
@@ -28,17 +170,17 @@ exports[`Login Page renders correctly 1`] = `
       Login
     </h2>
     <div
-      className="sc-jSUZER igHxvv"
+      className="c3"
     >
       <label
-        className="sc-eDvSVe kvGEhv"
+        className="c4"
         htmlFor="login"
         size="medium"
       >
         Login
       </label>
       <input
-        className="sc-hLBbgP kgjgay"
+        className="c5"
         id="login"
         name="login"
         onBlur={[Function]}
@@ -48,17 +190,17 @@ exports[`Login Page renders correctly 1`] = `
       />
     </div>
     <div
-      className="sc-jSUZER igHxvv"
+      className="c3"
     >
       <label
-        className="sc-eDvSVe kvGEhv"
+        className="c4"
         htmlFor="password"
         size="medium"
       >
         Password
       </label>
       <input
-        className="sc-hLBbgP kgjgay"
+        className="c5"
         id="password"
         name="password"
         onBlur={[Function]}
@@ -68,16 +210,16 @@ exports[`Login Page renders correctly 1`] = `
       />
     </div>
     <span
-      className="sc-gswNZR XsqEV"
+      className="c6"
     />
     <button
-      className="sc-gKPRtg liKPGY"
+      className="c7"
       type="submit"
     >
       Login
     </button>
     <a
-      className="sc-ftTHYK caMiFM"
+      className="c8"
       href="/resetPassword"
       onClick={[Function]}
       palette={

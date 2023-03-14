@@ -4,5 +4,6 @@ const router = require('express').Router();
 const managerController = require('../controller/managerController.cjs');
 
 router.post('/', managerController.login);
+router.post('/', managerController.logout);
 
 module.exports = router;

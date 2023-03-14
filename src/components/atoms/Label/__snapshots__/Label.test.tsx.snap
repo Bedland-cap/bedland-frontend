@@ -1,8 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Label renders correctly 1`] = `
+.c0 {
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10;
+}
+
 <label
-  className="sc-bcXHqe EwzGf"
+  className="c0"
   htmlFor="login"
   size="small"
 >

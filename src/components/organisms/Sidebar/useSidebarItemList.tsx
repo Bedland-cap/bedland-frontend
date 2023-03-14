@@ -1,7 +1,7 @@
 import getAppRoutesDetail from 'App/routing/getAppRoutesDetail';
 import routes, { RoutesUrl } from 'App/routing/routes';
 import { useAppSelector } from 'store/hooks';
-import { selectUserRole } from 'store/reducers/user_slice';
+import { selectUserRole } from 'store/reducers/user/user_slice';
 import { Getters } from 'types/shared.types';
 
 export const sidebarItems = [

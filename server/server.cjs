@@ -11,9 +11,11 @@ const router = jsonServer.router(require('../db.json'));
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
-server.use(jsonServer.bodyParser)
+server.use(jsonServer.bodyParser);
 server.use('/member/login', memberController.login);
+server.use('/member/logout', memberController.logout);
 server.use('/manager/login', managerController.login);
+server.use('/manager/logout', managerController.logout);
 
 server.use(router);
 

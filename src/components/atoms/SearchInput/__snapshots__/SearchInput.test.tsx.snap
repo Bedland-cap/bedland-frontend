@@ -3,13 +3,69 @@
 exports[`SearchInput renders correctly 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.5rem;
+  padding: 0.5rem;
+  width: 17.5rem;
+}
+
+.c0:focus-within {
+  outline: 1px solid #4553DD;
+}
+
+.c2 {
+  background-color: transparent;
+  color: #4B4B4B;
+  height: 1.75rem;
+  width: 15rem;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #767676;
+}
+
+.c2::-moz-placeholder {
+  color: #767676;
+}
+
+.c2:-ms-input-placeholder {
+  color: #767676;
+}
+
+.c2::placeholder {
+  color: #767676;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0.583rem;
+  margin-right: 0.771rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-bcXHqe eCLQnL"
+        class="c0"
       >
         <div
-          class="sc-dkrFOg fGrSpP"
+          class="c1"
         >
           <svg
             fill="none"
@@ -31,7 +87,7 @@ exports[`SearchInput renders correctly 1`] = `
           </svg>
         </div>
         <input
-          class="sc-gswNZR ffqmbe"
+          class="c2"
           placeholder="Search buildings..."
         />
       </div>
@@ -42,12 +98,68 @@ exports[`SearchInput renders correctly 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.5rem;
+  padding: 0.5rem;
+  width: 17.5rem;
+}
+
+.c0:focus-within {
+  outline: 1px solid #4553DD;
+}
+
+.c2 {
+  background-color: transparent;
+  color: #4B4B4B;
+  height: 1.75rem;
+  width: 15rem;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #767676;
+}
+
+.c2::-moz-placeholder {
+  color: #767676;
+}
+
+.c2:-ms-input-placeholder {
+  color: #767676;
+}
+
+.c2::placeholder {
+  color: #767676;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0.583rem;
+  margin-right: 0.771rem;
+}
+
+<div>
     <div
-      class="sc-bcXHqe eCLQnL"
+      class="c0"
     >
       <div
-        class="sc-dkrFOg fGrSpP"
+        class="c1"
       >
         <svg
           fill="none"
@@ -69,7 +181,7 @@ exports[`SearchInput renders correctly 1`] = `
         </svg>
       </div>
       <input
-        class="sc-gswNZR ffqmbe"
+        class="c2"
         placeholder="Search buildings..."
       />
     </div>

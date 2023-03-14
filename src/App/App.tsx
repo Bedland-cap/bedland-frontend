@@ -4,7 +4,7 @@ import MainBodySidebar from 'components/templates/MainBodySidebar/MainBodySideba
 import GlobalStyle from 'theme/globalStyles';
 import Footer from 'components/organisms/Footer/Footer';
 import { useAppSelector } from 'store/hooks';
-import { selectUserIsLoggedIn } from 'store/reducers/user_slice';
+import { selectUserIsLoggedIn } from 'store/reducers/user/user_slice';
 import GlobalFontsStyle from 'assets/fonts/fonts';
 import { RoutesForLoggedIn, RoutesForNotLoggedIn } from './routing/routing';
 

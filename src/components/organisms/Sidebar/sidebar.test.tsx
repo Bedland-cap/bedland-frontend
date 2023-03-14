@@ -1,7 +1,7 @@
 import { renderWithProviders } from 'test.utils';
 import { act, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { User } from 'store/reducers/user_slice';
+import { User } from 'store/reducers/user/user_slice';
 
 import routes from 'App/routing/routes';
 import Sidebar from './Sidebar';

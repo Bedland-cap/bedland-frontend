@@ -3,14 +3,81 @@
 exports[`ContactsWidget renders correctly 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  border-radius: 50%;
+  height: 1.5rem;
+  margin-right: 1rem;
+  width: 1.5rem;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #CACACA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.875rem 1.938rem 0.875rem 1.438rem;
+}
+
+.c3:hover {
+  background: #909AFF10;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 25rem;
+  min-width: 24.875rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #4553DD;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-hLBbgP eeZsbF"
+        class="c0"
         mode="light"
       >
         <div
-          class="sc-eDvSVe lgnunw"
+          class="c1"
           mode="light"
         >
           <h5
@@ -19,7 +86,7 @@ exports[`ContactsWidget renders correctly 1`] = `
             Recent contacts
           </h5>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -43,11 +110,11 @@ exports[`ContactsWidget renders correctly 1`] = `
           </button>
         </div>
         <div
-          class="sc-dkrFOg ALmme"
+          class="c3"
         >
           <img
             alt="profile"
-            class="sc-gswNZR dHLbYZ"
+            class="c4"
             size="1.5"
           />
           <h4
@@ -56,7 +123,7 @@ exports[`ContactsWidget renders correctly 1`] = `
             Joe Livingstone
           </h4>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -80,11 +147,11 @@ exports[`ContactsWidget renders correctly 1`] = `
           </button>
         </div>
         <div
-          class="sc-dkrFOg ALmme"
+          class="c3"
         >
           <img
             alt="profile"
-            class="sc-gswNZR dHLbYZ"
+            class="c4"
             size="1.5"
           />
           <h4
@@ -93,7 +160,7 @@ exports[`ContactsWidget renders correctly 1`] = `
             Hiram Bosh
           </h4>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -117,11 +184,11 @@ exports[`ContactsWidget renders correctly 1`] = `
           </button>
         </div>
         <div
-          class="sc-dkrFOg ALmme"
+          class="c3"
         >
           <img
             alt="profile"
-            class="sc-gswNZR dHLbYZ"
+            class="c4"
             size="1.5"
           />
           <h4
@@ -130,7 +197,7 @@ exports[`ContactsWidget renders correctly 1`] = `
             Hannah Comberstone
           </h4>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -154,11 +221,11 @@ exports[`ContactsWidget renders correctly 1`] = `
           </button>
         </div>
         <div
-          class="sc-dkrFOg ALmme"
+          class="c3"
         >
           <img
             alt="profile"
-            class="sc-gswNZR dHLbYZ"
+            class="c4"
             size="1.5"
           />
           <h4
@@ -167,7 +234,7 @@ exports[`ContactsWidget renders correctly 1`] = `
             Thomas Blake
           </h4>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -191,11 +258,11 @@ exports[`ContactsWidget renders correctly 1`] = `
           </button>
         </div>
         <div
-          class="sc-dkrFOg ALmme"
+          class="c3"
         >
           <img
             alt="profile"
-            class="sc-gswNZR dHLbYZ"
+            class="c4"
             size="1.5"
           />
           <h4
@@ -204,7 +271,7 @@ exports[`ContactsWidget renders correctly 1`] = `
             Jessie Burton
           </h4>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -228,11 +295,11 @@ exports[`ContactsWidget renders correctly 1`] = `
           </button>
         </div>
         <div
-          class="sc-dkrFOg ALmme"
+          class="c3"
         >
           <img
             alt="profile"
-            class="sc-gswNZR dHLbYZ"
+            class="c4"
             size="1.5"
           />
           <h4
@@ -241,7 +308,7 @@ exports[`ContactsWidget renders correctly 1`] = `
             Jack Sparrow
           </h4>
           <button
-            class="sc-bcXHqe fIhUPA"
+            class="c2"
             type="button"
           >
             <svg
@@ -272,13 +339,80 @@ exports[`ContactsWidget renders correctly 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  border-radius: 50%;
+  height: 1.5rem;
+  margin-right: 1rem;
+  width: 1.5rem;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #CACACA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.875rem 1.938rem 0.875rem 1.438rem;
+}
+
+.c3:hover {
+  background: #909AFF10;
+}
+
+.c0 {
+  background-color: #FCFEFF;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
+  min-height: 25rem;
+  min-width: 24.875rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #4553DD;
+  border-radius: 8px 8px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+}
+
+<div>
     <div
-      class="sc-hLBbgP eeZsbF"
+      class="c0"
       mode="light"
     >
       <div
-        class="sc-eDvSVe lgnunw"
+        class="c1"
         mode="light"
       >
         <h5
@@ -287,7 +421,7 @@ exports[`ContactsWidget renders correctly 1`] = `
           Recent contacts
         </h5>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -311,11 +445,11 @@ exports[`ContactsWidget renders correctly 1`] = `
         </button>
       </div>
       <div
-        class="sc-dkrFOg ALmme"
+        class="c3"
       >
         <img
           alt="profile"
-          class="sc-gswNZR dHLbYZ"
+          class="c4"
           size="1.5"
         />
         <h4
@@ -324,7 +458,7 @@ exports[`ContactsWidget renders correctly 1`] = `
           Joe Livingstone
         </h4>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -348,11 +482,11 @@ exports[`ContactsWidget renders correctly 1`] = `
         </button>
       </div>
       <div
-        class="sc-dkrFOg ALmme"
+        class="c3"
       >
         <img
           alt="profile"
-          class="sc-gswNZR dHLbYZ"
+          class="c4"
           size="1.5"
         />
         <h4
@@ -361,7 +495,7 @@ exports[`ContactsWidget renders correctly 1`] = `
           Hiram Bosh
         </h4>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -385,11 +519,11 @@ exports[`ContactsWidget renders correctly 1`] = `
         </button>
       </div>
       <div
-        class="sc-dkrFOg ALmme"
+        class="c3"
       >
         <img
           alt="profile"
-          class="sc-gswNZR dHLbYZ"
+          class="c4"
           size="1.5"
         />
         <h4
@@ -398,7 +532,7 @@ exports[`ContactsWidget renders correctly 1`] = `
           Hannah Comberstone
         </h4>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -422,11 +556,11 @@ exports[`ContactsWidget renders correctly 1`] = `
         </button>
       </div>
       <div
-        class="sc-dkrFOg ALmme"
+        class="c3"
       >
         <img
           alt="profile"
-          class="sc-gswNZR dHLbYZ"
+          class="c4"
           size="1.5"
         />
         <h4
@@ -435,7 +569,7 @@ exports[`ContactsWidget renders correctly 1`] = `
           Thomas Blake
         </h4>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -459,11 +593,11 @@ exports[`ContactsWidget renders correctly 1`] = `
         </button>
       </div>
       <div
-        class="sc-dkrFOg ALmme"
+        class="c3"
       >
         <img
           alt="profile"
-          class="sc-gswNZR dHLbYZ"
+          class="c4"
           size="1.5"
         />
         <h4
@@ -472,7 +606,7 @@ exports[`ContactsWidget renders correctly 1`] = `
           Jessie Burton
         </h4>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
@@ -496,11 +630,11 @@ exports[`ContactsWidget renders correctly 1`] = `
         </button>
       </div>
       <div
-        class="sc-dkrFOg ALmme"
+        class="c3"
       >
         <img
           alt="profile"
-          class="sc-gswNZR dHLbYZ"
+          class="c4"
           size="1.5"
         />
         <h4
@@ -509,7 +643,7 @@ exports[`ContactsWidget renders correctly 1`] = `
           Jack Sparrow
         </h4>
         <button
-          class="sc-bcXHqe fIhUPA"
+          class="c2"
           type="button"
         >
           <svg
