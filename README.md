@@ -73,6 +73,12 @@ npm install
 npm start
 ```
 
+5. Start local development server
+
+```
+npm run server
+```
+
 ## Available scripts
 
 In the project directory, you can run:
