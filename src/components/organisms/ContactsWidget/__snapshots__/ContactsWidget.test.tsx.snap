@@ -22,7 +22,6 @@ exports[`ContactsWidget renders correctly 1`] = `
 .c4 {
   border-radius: 50%;
   height: 1.5rem;
-  margin-right: 1rem;
   width: 1.5rem;
 }
 
@@ -358,7 +357,6 @@ exports[`ContactsWidget renders correctly 1`] = `
 .c4 {
   border-radius: 50%;
   height: 1.5rem;
-  margin-right: 1rem;
   width: 1.5rem;
 }
 

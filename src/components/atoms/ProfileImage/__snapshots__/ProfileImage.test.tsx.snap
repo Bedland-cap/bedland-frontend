@@ -6,7 +6,6 @@ exports[`ProfileImage renders correctly 1`] = `
   "baseElement": .c0 {
   border-radius: 50%;
   height: 1.5rem;
-  margin-right: 1rem;
   width: 1.5rem;
 }
 
@@ -27,7 +26,6 @@ exports[`ProfileImage renders correctly 1`] = `
   "container": .c0 {
   border-radius: 50%;
   height: 1.5rem;
-  margin-right: 1rem;
   width: 1.5rem;
 }
 

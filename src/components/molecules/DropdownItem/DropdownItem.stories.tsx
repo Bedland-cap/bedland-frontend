@@ -25,6 +25,9 @@ const meta = {
   parameters: {
     backgrounds: { default: 'light' },
   },
+  argTypes: {
+    linkRoute: { table: { disable: true } },
+  },
 } satisfies Meta<typeof DropdownItem>;
 
 export default meta;

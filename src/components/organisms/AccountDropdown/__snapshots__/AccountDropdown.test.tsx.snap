@@ -4,6 +4,19 @@ exports[`AccountDropdown renders correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -22,7 +35,6 @@ exports[`AccountDropdown renders correctly 1`] = `
 .c2 {
   border-radius: 50%;
   height: 2rem;
-  margin-right: 1rem;
   width: 2rem;
 }
 
@@ -48,6 +60,7 @@ exports[`AccountDropdown renders correctly 1`] = `
   gap: 1rem;
   height: 70px;
   margin-right: 2rem;
+  min-width: 11.5rem;
 }
 
 <body>
@@ -64,7 +77,9 @@ exports[`AccountDropdown renders correctly 1`] = `
             class="c2"
             size="2"
           />
-          <div>
+          <div
+            class="c3"
+          >
             <h5
               style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
             />
@@ -75,7 +90,7 @@ exports[`AccountDropdown renders correctly 1`] = `
             </h6>
           </div>
           <button
-            class="c3"
+            class="c4"
             type="button"
           >
             <svg
@@ -107,6 +122,19 @@ exports[`AccountDropdown renders correctly 1`] = `
     </div>
   </body>,
   "container": .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -125,7 +153,6 @@ exports[`AccountDropdown renders correctly 1`] = `
 .c2 {
   border-radius: 50%;
   height: 2rem;
-  margin-right: 1rem;
   width: 2rem;
 }
 
@@ -151,6 +178,7 @@ exports[`AccountDropdown renders correctly 1`] = `
   gap: 1rem;
   height: 70px;
   margin-right: 2rem;
+  min-width: 11.5rem;
 }
 
 <div>
@@ -166,7 +194,9 @@ exports[`AccountDropdown renders correctly 1`] = `
           class="c2"
           size="2"
         />
-        <div>
+        <div
+          class="c3"
+        >
           <h5
             style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
           />
@@ -177,7 +207,7 @@ exports[`AccountDropdown renders correctly 1`] = `
           </h6>
         </div>
         <button
-          class="c3"
+          class="c4"
           type="button"
         >
           <svg

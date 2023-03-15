@@ -1,4 +1,4 @@
-import { renderWithProviders } from 'test.utils';
+import { renderWithProviders } from 'utils/test.utils';
 import NotificationWidget from './NotificationWidget';
 
 describe('NotificationWidget', () => {

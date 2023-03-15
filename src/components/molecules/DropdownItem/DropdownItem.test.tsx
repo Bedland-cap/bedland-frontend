@@ -1,5 +1,5 @@
 import routes from 'App/routing/routes';
-import { renderWithProviders } from 'test.utils';
+import { renderWithProviders } from 'utils/test.utils';
 import { fireEvent, screen } from '@testing-library/react';
 
 import DropdownItem from './DropdownItem';
