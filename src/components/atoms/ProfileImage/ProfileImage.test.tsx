@@ -1,5 +1,5 @@
 import Avatar from 'assets/img/Avatar.svg';
-import { renderWithProviders } from 'test.utils';
+import { renderWithProviders } from 'utils/test.utils';
 import ProfileImage from './ProfileImage';
 
 describe('ProfileImage', () => {

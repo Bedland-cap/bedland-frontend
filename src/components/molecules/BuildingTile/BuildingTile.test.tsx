@@ -1,4 +1,4 @@
-import { renderWithProviders } from 'test.utils';
+import { renderWithProviders } from 'utils/test.utils';
 import BuildingImage from 'assets/img/BuildingImg.png';
 import BuildingTile from './BuildingTile';
 
