@@ -3,7 +3,7 @@
 # -----
 # You can specify a custom docker image from Docker Hub as your build environment.
 
-image: atlassian/default-image:4
+image: 'atlassian/default-image:4'
 
 options:
   max-time: 7
@@ -11,12 +11,25 @@ options:
 pipelines:
   default:
     - step:
+        name: Clear cache if dependency changed
+        script:
+          - pipe: 'atlassian/bitbucket-clear-cache:3.2.0'
+            variables:
+              BITBUCKET_USERNAME: $BB_USERNAME
+              BITBUCKET_APP_PASSWORD: $BB_APP_PASS
+              CACHES:
+                - node
+        condition:
+          changesets:
+            includePaths:
+              - package.json
+              - package-lock.json
+    - step:
         name: Install & Lint & Test
         caches:
           - node
         script:
           - echo "--- Install dependencies ---"
-          - npm cache clean --force
           - npm install
           - echo "--- Check lint ---"
           - npm run lint
