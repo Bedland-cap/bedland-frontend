@@ -1,5 +1,5 @@
 import { PropsWithChildren } from 'react';
-import { renderWithProviders } from 'test.utils';
+import { renderWithProviders } from 'utils/test.utils';
 import Typography, { TypographyProps } from './Typography';
 
 describe('Typography', () => {

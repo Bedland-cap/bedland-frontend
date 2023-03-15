@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useContext } from 'react';
 import { useAppSelector } from 'store/hooks';
 import { useLogoutMutation } from 'services/user/userApi';
 import AccountInfo from 'components/atoms/AccountInfo/AccountInfo';
@@ -8,9 +8,12 @@ import IconButton from 'components/atoms/IconButton/IconButton';
 import ProfileImage from 'components/atoms/ProfileImage/ProfileImage';
 import DropdownItem from 'components/molecules/DropdownItem/DropdownItem';
 import { useNavigate } from 'react-router-dom';
+import { ThemeContext } from 'theme/ThemeContext';
 import * as Styled from './AccountDropdown.styled';
 
 const AccountDropdown = () => {
+  const { palette } = useContext(ThemeContext);
+
   const userRole = useAppSelector((state) => state.user.role);
   const userLogin = useAppSelector((state) => state.user.login);
   const navigate = useNavigate();
@@ -35,7 +38,7 @@ const AccountDropdown = () => {
     try {
       const data = await logout(currentUser);
       if (data) {
-        navigate(currentUser.role === 'manager' ? '/login-manager' : '/login' );;
+        navigate(currentUser.role === 'manager' ? '/login-manager' : '/login');
       }
     } catch (err) {
       // eslint-disable-next-line no-console
@@ -64,7 +67,7 @@ const AccountDropdown = () => {
       </Styled.UserInfoBox>
 
       {isDropdownOpen ? (
-        <Styled.DropdownMenu data-testid='dropdown-open'>
+        <Styled.DropdownMenu data-testid='dropdown-open' palette={palette}>
           <DropdownItem
             linkRoute={routes.account}
             iconName='user'

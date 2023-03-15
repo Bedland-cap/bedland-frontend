@@ -22,7 +22,6 @@ exports[`MessageItem active renders correctly 1`] = `
 .c1 {
   border-radius: 50%;
   height: 1.5rem;
-  margin-right: 1rem;
   width: 1.5rem;
 }
 
@@ -108,7 +107,6 @@ exports[`MessageItem active renders correctly 1`] = `
 .c1 {
   border-radius: 50%;
   height: 1.5rem;
-  margin-right: 1rem;
   width: 1.5rem;
 }
 
@@ -256,7 +254,6 @@ exports[`MessageItem inactive renders correctly 1`] = `
 .c1 {
   border-radius: 50%;
   height: 1.5rem;
-  margin-right: 1rem;
   width: 1.5rem;
 }
 
@@ -342,7 +339,6 @@ exports[`MessageItem inactive renders correctly 1`] = `
 .c1 {
   border-radius: 50%;
   height: 1.5rem;
-  margin-right: 1rem;
   width: 1.5rem;
 }
 
