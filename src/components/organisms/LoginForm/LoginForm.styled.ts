@@ -7,7 +7,7 @@ export const LoginFormContainer = styled.form`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 25.625rem;
+  width: 25.625rem;
 `;
 
 export const ResetPasswordLink = styled(Link)<{ palette: PaletteType }>`

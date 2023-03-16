@@ -100,7 +100,7 @@ exports[`Login Form renders correctly 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 1rem;
-  max-width: 25.625rem;
+  width: 25.625rem;
 }
 
 .c6 {

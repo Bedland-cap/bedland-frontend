@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const MainBodyFullLayout = styled.div<{ backgroundColor: HexColor }>`
   align-items: center;
   display: flex;
-  gap: 1rem;
+  gap: 11.25rem;
   justify-content: center;
   background: ${({ backgroundColor }) => backgroundColor}};
   width: 100%;
