@@ -1,8 +1,9 @@
 import { renderWithProviders } from 'utils/test.utils';
-import { screen } from '@testing-library/react';
+import { screen, cleanup } from '@testing-library/react';
 import AccountInfo from './AccountInfo';
 
 describe('Account info', () => {
+  afterEach(cleanup);
   it('renders correctly for role manager', () => {
     const snapshot = renderWithProviders(
       <AccountInfo userRole='manager' userLogin='John Doe' />,

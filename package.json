@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
+    "addon-redux": "^2.0.11",
     "@storybook/react": "^7.0.0-beta.43",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^13.5.0",

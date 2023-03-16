@@ -1,6 +1,6 @@
 import renderer from 'react-test-renderer';
 import { BrowserRouter, MemoryRouter } from 'react-router-dom';
-import { act, fireEvent, render, screen } from '@testing-library/react';
+import { act, fireEvent, render, screen, cleanup } from '@testing-library/react';
 import ThemeProvider from 'theme/ThemeContext';
 import ERROR_MESSAGES from 'utils/messages';
 import ResetPasswordForm from './ResetPasswordForm';
@@ -13,6 +13,7 @@ jest.mock('react-router-dom', () => ({
 }));
 
 describe('ResetPassword Form', () => {
+  afterEach(cleanup);
   it('renders correctly', () => {
     const snapshot = renderer
       .create(

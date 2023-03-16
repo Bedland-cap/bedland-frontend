@@ -1,5 +1,5 @@
 import { renderWithProviders } from 'utils/test.utils';
-import { act, screen } from '@testing-library/react';
+import { act, screen, cleanup } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { User } from 'store/reducers/user/user_slice';
 
@@ -19,6 +19,7 @@ const defaultUser = {
 const managerUser = { ...defaultUser, role: 'manager' } as User;
 
 describe('Sidebar for manager', () => {
+  afterEach(cleanup);
   const item = () =>
     renderWithProviders(<Sidebar />, {
       preloadedState: {

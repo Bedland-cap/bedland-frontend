@@ -1,8 +1,10 @@
+import { cleanup } from '@testing-library/react';
 import { renderWithProviders } from 'utils/test.utils';
 import BuildingImage from 'assets/img/BuildingImg.png';
 import BuildingTile from './BuildingTile';
 
 describe('BuildingTile', () => {
+  afterEach(cleanup);
   it('renders correctly', () => {
     const page = renderWithProviders(
       <BuildingTile
