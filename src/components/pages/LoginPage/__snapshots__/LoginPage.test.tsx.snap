@@ -7,7 +7,6 @@ exports[`Login Page renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   height: 17.625rem;
-  margin: 0rem 4rem;
   width: 22.5rem;
 }
 
@@ -110,7 +109,7 @@ exports[`Login Page renders correctly 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 1rem;
-  max-width: 25.625rem;
+  width: 25.625rem;
 }
 
 .c8 {
@@ -134,7 +133,7 @@ exports[`Login Page renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 1rem;
+  gap: 11.25rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
