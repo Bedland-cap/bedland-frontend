@@ -1,5 +1,5 @@
-import { IInput } from 'components/atoms/Input/Input.types';
+import { InputProps } from 'components/atoms/Input/Input.types';
 
-export interface IInputWithLabel extends IInput {
+export type InputWithLabelProps = InputProps & {
   label: string;
-}
+};

@@ -1,12 +1,12 @@
 import { PropsWithChildren } from 'react';
 import * as Styled from './Button.styled';
 
-interface ButtonProps {
+type ButtonProps = {
   backgroundColor: string;
   type: 'submit' | 'reset' | 'button' | undefined;
   textColor: string;
   variant: 'primary' | 'secondary';
-}
+};
 
 const Button = ({
   backgroundColor,
