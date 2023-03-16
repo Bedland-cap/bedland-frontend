@@ -1,7 +1,9 @@
+import { cleanup } from '@testing-library/react';
 import { renderWithProviders } from 'utils/test.utils';
 import SidebarItem, { SidebarItemProps } from './SidebarItem';
 
 describe('SidebarItem', () => {
+  afterEach(cleanup);
   const item = ({ iconName, label, linkTo }: SidebarItemProps) =>
     renderWithProviders(<SidebarItem label={label} iconName={iconName} linkTo={linkTo} />, {});
 

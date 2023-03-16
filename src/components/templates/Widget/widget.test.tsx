@@ -1,4 +1,5 @@
 import { renderWithProviders } from 'utils/test.utils';
+import { cleanup } from '@testing-library/react';
 import Widget from './Widget';
 import { WidgetVariant, WidgetMode } from './Widget.types';
 
@@ -17,6 +18,7 @@ describe('Widget', () => {
       {},
     );
 
+  afterEach(cleanup);
   it('should renders correctly widget in dark mode', () => {
     expect(
       widget({ variant: 'notifications', isArrowButton: true, mode: 'dark' }),

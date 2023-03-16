@@ -1,8 +1,9 @@
 import { renderWithProviders } from 'utils/test.utils';
-import { fireEvent, screen } from '@testing-library/react';
+import { fireEvent, screen, cleanup } from '@testing-library/react';
 import AccountDropdown from './AccountDropdown';
 
 describe('AccountDropdown', () => {
+  afterEach(cleanup);
   it('renders correctly', () => {
     const snapshot = renderWithProviders(<AccountDropdown />, {});
 

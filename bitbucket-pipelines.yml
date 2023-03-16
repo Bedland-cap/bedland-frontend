@@ -35,6 +35,7 @@ pipelines:
           - npm run lint
           - echo "--- Test ---"
           - npm test
+
     - step:
         name: Build
         caches:
@@ -44,6 +45,7 @@ pipelines:
           - npm run build --dev --configuration=dev
         artifacts:
           - build/**
+
       #- step:
       #    name: 'Security scan'
       #    script:

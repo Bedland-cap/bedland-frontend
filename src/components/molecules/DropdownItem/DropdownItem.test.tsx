@@ -1,10 +1,11 @@
 import routes from 'App/routing/routes';
 import { renderWithProviders } from 'utils/test.utils';
-import { fireEvent, screen } from '@testing-library/react';
+import { fireEvent, screen, cleanup } from '@testing-library/react';
 
 import DropdownItem from './DropdownItem';
 
 describe('DropdownItem', () => {
+  afterEach(cleanup);
   it('renders correctly', () => {
     const snapshot = renderWithProviders(
       <DropdownItem linkRoute={routes.account} iconName='user' label='My Account' color='text' />,

@@ -1,4 +1,5 @@
 import { renderWithProviders } from 'utils/test.utils';
+import { cleanup } from '@testing-library/react';
 import Icon, { IconProps } from './Icon';
 
 describe('Icon', () => {
@@ -7,7 +8,7 @@ describe('Icon', () => {
       <Icon name={name} size={size} color={color} isActive={isActive} activeColor={activeColor} />,
       {},
     );
-
+  afterEach(cleanup);
   it('should render correctly active building icon', () => {
     expect(
       item({
