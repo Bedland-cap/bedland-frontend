@@ -14,11 +14,11 @@ export type InputVariant = (typeof inputVariants)[number];
 
 export type RegisterOptions = { validate: (value: string) => boolean } | null;
 
-export interface IInput {
+export type InputProps = {
   input: InputVariant;
   type: HTMLInputTypeAttribute;
   placeholder: string;
   register: UseFormRegister<FieldValues>;
   registerOptions?: RegisterOptions;
   regexPattern: TRegister;
-}
+};

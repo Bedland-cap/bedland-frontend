@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { ThemeContext } from 'theme/ThemeContext';
 import * as Styled from './Input.styled';
-import { IInput } from './Input.types';
+import { InputProps } from './Input.types';
 
 const Input = ({
   input,
@@ -10,7 +10,7 @@ const Input = ({
   register,
   registerOptions = null,
   regexPattern,
-}: IInput) => {
+}: InputProps) => {
   const { palette } = useContext(ThemeContext);
 
   return (

@@ -1,11 +1,11 @@
 import Input from 'components/atoms/Input/Input';
 import Label from 'components/atoms/Label/Label';
 import { FC } from 'react';
-import { IInput } from 'components/atoms/Input/Input.types';
-import { IInputWithLabel } from './InputWithLabel.types';
+import { InputProps } from 'components/atoms/Input/Input.types';
+import { InputWithLabelProps } from './InputWithLabel.types';
 import * as Styled from './InputWithLabel.styled';
 
-const InputWithLabel: FC<IInputWithLabel & IInput> = ({
+const InputWithLabel: FC<InputWithLabelProps & InputProps> = ({
   label,
   input,
   type = 'text',
