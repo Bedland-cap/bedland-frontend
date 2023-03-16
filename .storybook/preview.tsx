@@ -1,11 +1,11 @@
-import {INITIAL_VIEWPORTS} from '@storybook/addon-viewport';
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import initialTheme from '../src/theme/initialTheme';
 import GlobalStyle from '../src/theme/globalStyles';
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
       color: /(background|color)$/i,
@@ -13,7 +13,7 @@ export const parameters = {
       expanded: true,
       backgrounds: {
         default: 'dark',
-      }
+      },
     },
   },
   viewport: {
@@ -26,21 +26,27 @@ export const parameters = {
       showLineNumbers: false,
       wrapLines: true,
     },
-    removeComments: /^\s*remove me\s*$/, 
-    removeEmptyComments: true, 
+    removeComments: /^\s*remove me\s*$/,
+    removeEmptyComments: true,
     prettier: {
       tabWidth: 4,
       useTabs: false,
-      htmlWhitespaceSensitivity: "strict",
+      htmlWhitespaceSensitivity: 'strict',
     },
-  }
+  },
 };
 
 const decorators = [
   (Story) => (
     <ThemeProvider theme={initialTheme}>
-          <GlobalStyle />
-            {Story()}
+      <GlobalStyle />
+      {Story()}
     </ThemeProvider>
   ),
-]
+];
+
+export const loaders = [
+  async () => ({
+    store: await import('../src/store/store'),
+  }),
+];

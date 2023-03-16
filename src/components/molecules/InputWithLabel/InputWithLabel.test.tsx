@@ -1,3 +1,4 @@
+import { cleanup } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import { useForm } from 'react-hook-form';
 import ThemeProvider from 'theme/ThemeContext';
@@ -6,6 +7,7 @@ import InputWithLabel from './InputWithLabel';
 
 const SnapshotInput = () => {
   const { register } = useForm();
+
   return (
     <ThemeProvider>
       <form action=''>
@@ -23,6 +25,7 @@ const SnapshotInput = () => {
 };
 
 describe('Input with Label', () => {
+  afterEach(cleanup);
   it('renders correctly', () => {
     const snapshot = renderer.create(<SnapshotInput />).toJSON();
     expect(snapshot).toMatchSnapshot();

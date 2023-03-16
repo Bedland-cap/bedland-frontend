@@ -1,8 +1,10 @@
+import { cleanup } from '@testing-library/react';
 import { PropsWithChildren } from 'react';
 import { renderWithProviders } from 'utils/test.utils';
 import Typography, { TypographyProps } from './Typography';
 
 describe('Typography', () => {
+  afterEach(cleanup);
   const item = ({ variant, color, children }: PropsWithChildren<TypographyProps>) =>
     renderWithProviders(
       <Typography variant={variant} color={color}>
