@@ -1,10 +1,8 @@
 import Icon from 'components/atoms/Icon/Icon';
 import { MouseEventHandler } from 'react';
 import { ColorNames } from 'theme/theme.types';
-import * as Styled from './iconButton.styled'
+import * as Styled from './iconButton.styled';
 import { IconName } from '../Icon/icon.types';
-
-
 
 export type IconButtonProps = {
   icon: IconName;

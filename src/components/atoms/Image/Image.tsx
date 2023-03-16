@@ -2,11 +2,11 @@
 import DefaultImage from 'assets/img/Loginlogo.svg';
 import * as Styled from './Image.styled';
 
-type IImage = {
+type ImageProps = {
   src: string;
   alt: string;
 };
 
-const Image = ({ src = DefaultImage, alt = '' }: IImage) => <Styled.Img src={src} alt={alt} />;
+const Image = ({ src = DefaultImage, alt = '' }: ImageProps) => <Styled.Img src={src} alt={alt} />;
 
 export default Image;
