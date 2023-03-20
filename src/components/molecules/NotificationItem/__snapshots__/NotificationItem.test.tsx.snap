@@ -17,13 +17,14 @@ exports[`NotificationItem should renders correctly NotificationItem 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-left: 0.94rem;
+  margin-left: 1.125rem;
+  margin-right: 1rem;
   padding: 0.875rem 1.458rem 0.875rem 0.518rem;
   position: relative;
 }
 
 .c0:last-child {
-  border-bottom: none;
+  margin-bottom: 1.125rem;
 }
 
 .c1 {
@@ -113,13 +114,14 @@ exports[`NotificationItem should renders correctly NotificationItem 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-left: 0.94rem;
+  margin-left: 1.125rem;
+  margin-right: 1rem;
   padding: 0.875rem 1.458rem 0.875rem 0.518rem;
   position: relative;
 }
 
 .c0:last-child {
-  border-bottom: none;
+  margin-bottom: 1.125rem;
 }
 
 .c1 {
