@@ -5,20 +5,12 @@ import MessageItem from './MessageItem';
 
 describe('MessageItem', () => {
   afterEach(cleanup);
-  it('active renders correctly', () => {
+  it('renders correctly', () => {
     const messageItem = renderWithProviders(
-      <MessageItem name='Jessie Burton' image={Avatar} active />,
+      <MessageItem name='Jessie Burton' image={Avatar} />,
       {},
     );
 
-    expect(messageItem).toMatchSnapshot();
-  });
-
-  it('inactive renders correctly', () => {
-    const messageItem = renderWithProviders(
-      <MessageItem name='Jessie Burton' image={Avatar} active={false} />,
-      {},
-    );
     expect(messageItem).toMatchSnapshot();
   });
 });
