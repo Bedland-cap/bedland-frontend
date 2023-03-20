@@ -6,11 +6,12 @@ export const NotificationItemContainer = styled.div<{ palette: PaletteType }>`
   border-bottom: 1px solid ${({ palette }) => palette.sidebarTabs};
   display: flex;
   justify-content: space-between;
-  margin-left: 0.94rem;
+  margin-left: 1.125rem;
+  margin-right: 1rem;
   padding: 0.875rem 1.458rem 0.875rem 0.518rem;
   position: relative;
   :last-child {
-    border-bottom: none;
+    margin-bottom: 1.125rem;
   }
 `;
 

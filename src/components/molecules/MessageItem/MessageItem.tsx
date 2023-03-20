@@ -8,29 +8,23 @@ import * as Styled from './MessageItem.styled';
 type MessageItemProps = {
   name: string;
   image: string;
-  active: boolean;
 };
 
-const MessageItem = ({ name, image, active }: MessageItemProps) => {
+const MessageItem = ({ name, image }: MessageItemProps) => {
   const { palette } = useContext(ThemeContext);
 
   return (
-    <Styled.MessageItemContainer palette={palette} active={active}>
-      <ProfileImage src={image} size={1.5} />
-      <Typography
-        variant='messageItem'
-        color={active ? 'primaryDark' : 'inputGrey'}
-        style={{ flex: 1 }}
-      >
-        {name}
-      </Typography>
-      <IconButton
-        icon='envelope'
-        size={20}
-        color={active ? 'primaryDark' : 'inputGrey'}
-        onClick={() => null}
-      />
-    </Styled.MessageItemContainer>
+    <Styled.HoverContainer palette={palette}>
+      <Styled.MessageContainer palette={palette}>
+        <ProfileImage src={image} size={1.5} />
+        <Styled.NameWrapper>
+          <Typography variant='messageItem' color='primaryDark'>
+            {name}
+          </Typography>
+        </Styled.NameWrapper>
+        <IconButton icon='envelope' size={20} color='primaryDark' onClick={() => null} />
+      </Styled.MessageContainer>
+    </Styled.HoverContainer>
   );
 };
 
