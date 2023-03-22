@@ -1,46 +1,27 @@
-import renderer from 'react-test-renderer';
-import { BrowserRouter, MemoryRouter } from 'react-router-dom';
-import { act, fireEvent, render, screen, cleanup } from '@testing-library/react';
-import ThemeProvider from 'theme/ThemeContext';
+import { act, fireEvent, screen, cleanup } from '@testing-library/react';
+import { renderWithProviders } from 'utils/test.utils';
 import ERROR_MESSAGES from 'utils/messages';
 import ResetPasswordForm from './ResetPasswordForm';
 import { handleErrorMessage, watcher } from './ResetPasswordForm.utils';
 
 const mockUseNavigate = jest.fn();
 jest.mock('react-router-dom', () => ({
-  ...(jest.requireActual('react-router-dom') as any),
+  ...jest.requireActual('react-router-dom'),
   useNavigate: () => mockUseNavigate,
 }));
 
 describe('ResetPassword Form', () => {
   afterEach(cleanup);
   it('renders correctly', () => {
-    const snapshot = renderer
-      .create(
-        <ThemeProvider>
-          <BrowserRouter>
-            <ResetPasswordForm />
-          </BrowserRouter>
-        </ThemeProvider>,
-      )
-      .toJSON();
+    const snapshot = renderWithProviders(<ResetPasswordForm />, {});
     expect(snapshot).toMatchSnapshot();
   });
 
   it('The password is according to the rules and passwords match', async () => {
-    let resetPasswordButton: any | null = null;
-    let inputPassword: any | null = null;
-    let inputConfirmPassword: any | null = null;
-
-    await act(() => {
-      render(
-        <ThemeProvider>
-          <MemoryRouter initialEntries={['/resetPassword']}>
-            <ResetPasswordForm />
-          </MemoryRouter>
-        </ThemeProvider>,
-      );
-    });
+    renderWithProviders(<ResetPasswordForm />, {});
+    let resetPasswordButton: Element | null = null;
+    let inputPassword: Element | null = null;
+    let inputConfirmPassword: Element | null = null;
 
     await act(async () => {
       resetPasswordButton = screen.getByRole('button');
@@ -68,19 +49,10 @@ describe('ResetPassword Form', () => {
   });
 
   it('The password is according to the rules and passwords dont match', async () => {
-    let resetPasswordButton: any | null = null;
-    let inputPassword: any | null = null;
-    let inputConfirmPassword: any | null = null;
-
-    await act(() => {
-      render(
-        <ThemeProvider>
-          <MemoryRouter>
-            <ResetPasswordForm />
-          </MemoryRouter>
-        </ThemeProvider>,
-      );
-    });
+    renderWithProviders(<ResetPasswordForm />, {});
+    let resetPasswordButton: Element | null = null;
+    let inputPassword: Element | null = null;
+    let inputConfirmPassword: Element | null = null;
 
     await act(async () => {
       resetPasswordButton = screen.getByRole('button');
@@ -108,19 +80,10 @@ describe('ResetPassword Form', () => {
   });
 
   it('The password is not according to the rules and passwords match ', async () => {
-    let resetPasswordButton: any | null = null;
-    let inputPassword: any | null = null;
-    let inputConfirmPassword: any | null = null;
-
-    await act(() => {
-      render(
-        <ThemeProvider>
-          <MemoryRouter>
-            <ResetPasswordForm />
-          </MemoryRouter>
-        </ThemeProvider>,
-      );
-    });
+    renderWithProviders(<ResetPasswordForm />, {});
+    let resetPasswordButton: Element | null = null;
+    let inputPassword: Element | null = null;
+    let inputConfirmPassword: Element | null = null;
 
     await act(async () => {
       resetPasswordButton = screen.getByRole('button');
@@ -149,19 +112,10 @@ describe('ResetPassword Form', () => {
     ).not.toBeNull();
   });
   it('The password is not according to the rules and passwords dont match ', async () => {
-    let resetPasswordButton: any | null = null;
-    let inputPassword: any | null = null;
-    let inputConfirmPassword: any | null = null;
-
-    await act(() => {
-      render(
-        <ThemeProvider>
-          <MemoryRouter>
-            <ResetPasswordForm />
-          </MemoryRouter>
-        </ThemeProvider>,
-      );
-    });
+    renderWithProviders(<ResetPasswordForm />, {});
+    let resetPasswordButton: Element | null = null;
+    let inputPassword: Element | null = null;
+    let inputConfirmPassword: Element | null = null;
 
     await act(async () => {
       resetPasswordButton = screen.getByRole('button');
