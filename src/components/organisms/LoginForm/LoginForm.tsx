@@ -33,7 +33,7 @@ const LoginForm = () => {
     try {
       const data = await login(currentUser);
       if (data) {
-        navigate('/dashboard');;
+        navigate(routes.homeForLoggedIn);
       }
     } catch (err) {
       // eslint-disable-next-line no-console
@@ -78,7 +78,7 @@ const LoginForm = () => {
         Login
       </Button>
 
-      <ResetPasswordLink palette={palette} to='/resetPassword'>
+      <ResetPasswordLink palette={palette} to={routes.resetPassword}>
         Forgot your password?
       </ResetPasswordLink>
     </LoginFormContainer>
