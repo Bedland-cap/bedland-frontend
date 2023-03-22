@@ -23,6 +23,12 @@ const initialTheme: Theme = {
     backgroundGrey: '#F5F5F5',
     shadow: '#4B4D62',
     text: '#1B1A1A',
+    green_light: '#83E57A',
+    green_dark: '#30BA57',
+    red_light: '#FF4438',
+    blue_light: '#6573FF',
+    yellow:'#FFD541'
+    
   },
   typography: {
     pageTitle: {

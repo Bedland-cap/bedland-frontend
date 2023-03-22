@@ -3,27 +3,9 @@ import IconButton from 'components/atoms/IconButton/IconButton';
 import { PropsWithChildren, useContext } from 'react';
 
 import { ThemeContext } from 'theme/ThemeContext';
-import { defaultWidgetProps, WidgetProps, WidgetSize } from './Widget.types';
+import { defaultWidgetProps, WidgetProps } from './Widget.types';
 import * as Styled from './Widget.styled';
-
-const variantToSize: WidgetSize = {
-  notifications: {
-    minWidth: '31.375rem',
-    minHeight: '22.125rem',
-  },
-  payments: {
-    minWidth: '30.875rem',
-    minHeight: '22.125rem',
-  },
-  contacts: {
-    minWidth: '24.875rem',
-    minHeight: '25rem',
-  },
-  votings: {
-    minWidth: '37.5rem',
-    minHeight: '25rem',
-  },
-} as const;
+import variantToSize from './Widget.utils';
 
 const Widget = ({
   variant,

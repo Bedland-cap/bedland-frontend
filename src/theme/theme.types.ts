@@ -1,5 +1,5 @@
-import { Getters } from 'types/shared.types';
 import { CSSProperties } from 'react';
+import { Getters } from 'types/shared.types';
 
 export const colorNames = [
   'primaryLight',
@@ -23,6 +23,11 @@ export const colorNames = [
   'backgroundGrey',
   'shadow',
   'text',
+  'green_light',
+  'green_dark',
+  'red_light',
+  'blue_light',
+  'yellow',
 ] as const;
 
 export const typographyNames = [
