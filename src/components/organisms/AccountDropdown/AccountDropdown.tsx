@@ -38,7 +38,11 @@ const AccountDropdown = () => {
     try {
       const data = await logout(currentUser);
       if (data) {
-        navigate(currentUser.role === 'manager' ? '/login-manager' : '/login');
+        navigate(
+          currentUser.role === 'manager'
+            ? routes.homeForNotLoggedInManager
+            : routes.homeForNotLoggedIn,
+        );
       }
     } catch (err) {
       // eslint-disable-next-line no-console
