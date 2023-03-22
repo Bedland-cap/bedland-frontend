@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import routes from 'App/routing/routes';
 import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from 'theme/globalStyles';
 import ThemeProvider from 'theme/ThemeContext';
@@ -35,7 +36,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Main: Story = {
   args: {
-    linkRoute: '/account',
+    linkRoute: routes.account,
     iconName: 'user',
     label: 'My Account',
     color: 'inputGrey',

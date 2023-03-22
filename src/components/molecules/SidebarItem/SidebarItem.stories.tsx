@@ -1,4 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
+import routes from 'App/routing/routes';
 import { iconsNames } from 'components/atoms/Icon/icon.types';
 import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from 'theme/globalStyles';
@@ -60,7 +61,7 @@ export const BuildingsItem: Story = {
   args: {
     iconName: 'building',
     label: 'Buildings',
-    linkTo: '/buildings',
+    linkTo: routes.buildings,
   },
 };
 
@@ -68,7 +69,7 @@ export const ResidentsItem: Story = {
   args: {
     iconName: 'residents',
     label: 'Residents',
-    linkTo: '/residents',
+    linkTo: routes.residents,
   },
 };
 
@@ -76,7 +77,7 @@ export const ReportsItem: Story = {
   args: {
     iconName: 'reports',
     label: 'Reports',
-    linkTo: '/reports',
+    linkTo: routes.reports,
   },
 };
 
@@ -84,7 +85,7 @@ export const VotingItem: Story = {
   args: {
     iconName: 'voting',
     label: 'Voting',
-    linkTo: '/voting',
+    linkTo: routes.voting,
   },
 };
 
@@ -92,7 +93,7 @@ export const FlatsItem: Story = {
   args: {
     iconName: 'building',
     label: 'Flats',
-    linkTo: '/flats',
+    linkTo: routes.flats,
   },
 };
 
@@ -100,7 +101,7 @@ export const PaymentsItem: Story = {
   args: {
     iconName: 'payments',
     label: 'Payments',
-    linkTo: '/payments',
+    linkTo: routes.payments,
   },
 };
 
@@ -108,7 +109,7 @@ export const WallItem: Story = {
   args: {
     iconName: 'wall',
     label: 'Wall',
-    linkTo: '/wall',
+    linkTo: routes.wall,
   },
 };
 
@@ -116,7 +117,7 @@ export const DashboardItem: Story = {
   args: {
     iconName: 'dashboard',
     label: 'Dashboard',
-    linkTo: '/dashboard',
+    linkTo: routes.homeForLoggedIn,
   },
 };
 
@@ -124,6 +125,6 @@ export const MessagesItem: Story = {
   args: {
     iconName: 'messages',
     label: 'Messages',
-    linkTo: '/messages',
+    linkTo: routes.messages,
   },
 };
