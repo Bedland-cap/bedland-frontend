@@ -25,6 +25,7 @@ exports[`Input renders correctly 1`] = `
 >
   <input
     className="c0"
+    data-testid="login"
     id="login"
     name="login"
     onBlur={[Function]}

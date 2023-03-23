@@ -17,23 +17,24 @@ export type LoginRequest = {
   password: string;
   role: UserRoles;
 };
-export type LogoutRequest = Pick<User, 'login' | 'role' >;
-type LoginResponse = {
-  status: string,
-  data: {message: string},
-  token: string,
-  id: string,
-  login: string,
-  role: UserRoles,
+export type LogoutRequest = Pick<User, 'login' | 'role'>;
+export type LoginResponse = {
+  status: string;
+  data: { message: string };
+  token: string;
+  id: string;
+  login: string;
+  role: UserRoles;
 };
 export type LogoutResponse = {
-  status: string,
-  data: {message: string},
+  status: string;
+  data: { message: string };
 };
-type UserResponse = Manager & User | Resident & User;
+export type UserResponse = (Manager & User) | (Resident & User);
 
 // Since we have two different names on FE and BE for resident/member, we need to resolve it
-const resolveUserRole = (user: LoginRequest | LogoutRequest) => user.role === 'resident' ? 'member' : 'manager';
+const resolveUserRole = (user: LoginRequest | LogoutRequest) =>
+  user.role === 'resident' ? 'member' : 'manager';
 
 // Define a service using a base URL and expected endpoints
 export const userApi = createApi({
@@ -60,7 +61,7 @@ export const userApi = createApi({
     loginAndGetUser: builder.mutation<UserResponse, LoginRequest>({
       async queryFn(queryArg, _queryApi, _extraOptions, fetchWithBaseQuery) {
         const user = queryArg;
-        
+
         const loginResponse = await fetchWithBaseQuery({
           url: `${resolveUserRole(user)}/login`,
           method: 'POST',
@@ -74,12 +75,12 @@ export const userApi = createApi({
         const userDetails = await fetchWithBaseQuery({
           url: `${resolveUserRole(user)}/${userInfo.id}`,
           method: 'GET',
-        })
+        });
 
         if (userDetails.error) return { error: userDetails.error };
 
-        return { data: userDetails.data as UserResponse};
-      }
+        return { data: userDetails.data as UserResponse };
+      },
     }),
     logout: builder.mutation<LogoutResponse, LogoutRequest>({
       query: (user) => ({

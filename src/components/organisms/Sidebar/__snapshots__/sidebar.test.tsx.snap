@@ -1426,7 +1426,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
       <div
         data-testid="location-display"
       >
-        /residents
+        /
       </div>
     </div>
   </body>,
@@ -1852,7 +1852,7 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
     <div
       data-testid="location-display"
     >
-      /residents
+      /
     </div>
   </div>,
   "debug": [Function],
