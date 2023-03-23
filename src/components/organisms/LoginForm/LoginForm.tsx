@@ -9,6 +9,7 @@ import * as Styled from 'components/atoms/ErrorMessage/ErrorMessage.styled';
 import { ThemeContext } from 'theme/ThemeContext';
 import Typography from 'components/atoms/Typography/Typography';
 import loginRegexPattern from 'utils/loginRegexPatterns';
+import ERROR_MESSAGES from 'utils/messages';
 import { LoginRequest, useLoginAndGetUserMutation } from 'services/user/userApi';
 import { LoginFormContainer, ResetPasswordLink } from './LoginForm.styled';
 
@@ -65,7 +66,7 @@ const LoginForm = () => {
       />
       <Styled.ErrorMsg>
         {errors.password || errors.login ? (
-          <ErrorMessage>Your login or password is incorrect.</ErrorMessage>
+          <ErrorMessage>{ERROR_MESSAGES.loginPage.errorMessage}</ErrorMessage>
         ) : null}
       </Styled.ErrorMsg>
 
@@ -74,6 +75,7 @@ const LoginForm = () => {
         textColor='#ffffff'
         type='submit'
         variant='primary'
+        data-testid='login-button'
       >
         Login
       </Button>

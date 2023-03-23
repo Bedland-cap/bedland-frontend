@@ -146,6 +146,7 @@ exports[`Login Form renders correctly 1`] = `
     </label>
     <input
       className="c3"
+      data-testid="login"
       id="login"
       name="login"
       onBlur={[Function]}
@@ -166,6 +167,7 @@ exports[`Login Form renders correctly 1`] = `
     </label>
     <input
       className="c3"
+      data-testid="password"
       id="password"
       name="password"
       onBlur={[Function]}

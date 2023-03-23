@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AccountDropdown renders correctly 1`] = `
+exports[`AccountDropdown Renders correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c3 {
