@@ -195,6 +195,16 @@ export const icons: IconList = {
       },
     ],
   },
+  document: {
+    viewBox: ' 0 0 20 19',
+    path: [
+      {
+        id: 'document-path-1',
+        d: 'M17 17.5H3C1.4 17.5 1 16.167 1 15.5V3.5C1 2.96957 1.21071 2.46086 1.58579 2.08579C1.96086 1.71071 2.46957 1.5 3 1.5H13C13.5304 1.5 14.0391 1.71071 14.4142 2.08579C14.7893 2.46086 15 2.96957 15 3.5V9.5M17 17.5C16.333 17.5 15 17.1 15 15.5V9.5M17 17.5C18.6 17.5 19 16.167 19 15.5V9.5H15',
+        strokeWidth: '1.67',
+      },
+    ],
+  },
 };
 
 export const getIcon = (name: IconName): IconItem => (icons[name] ? icons[name] : icons.dashboard);

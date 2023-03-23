@@ -27,8 +27,7 @@ const initialTheme: Theme = {
     green_dark: '#30BA57',
     red_light: '#FF4438',
     blue_light: '#6573FF',
-    yellow:'#FFD541'
-    
+    yellow: '#FFD541',
   },
   typography: {
     pageTitle: {
