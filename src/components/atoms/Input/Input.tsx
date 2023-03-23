@@ -19,6 +19,7 @@ const Input = ({
       type={type}
       placeholder={placeholder}
       borderColor={palette.primaryLight}
+      data-testid={input}
       {...register(input, { ...regexPattern, ...registerOptions })}
     />
   );

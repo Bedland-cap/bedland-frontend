@@ -1,7 +1,6 @@
 import routes from 'App/routing/routes';
 import { renderWithProviders } from 'utils/test.utils';
-import { fireEvent, screen, cleanup } from '@testing-library/react';
-
+import { fireEvent, screen, cleanup, act } from '@testing-library/react';
 import DropdownItem from './DropdownItem';
 
 describe('DropdownItem', () => {
@@ -18,9 +17,10 @@ describe('DropdownItem', () => {
       <DropdownItem linkRoute={routes.account} iconName='user' label='My Account' color='text' />,
       {},
     );
-    const dropdownitem = screen.getByTestId('dropdown-item');
-    await fireEvent.click(dropdownitem);
-
-    expect(window.location.href).toEqual(`http://localhost${routes.account}`);
+    await act(async () => {
+      const dropdownitem = screen.getByTestId('dropdown-item');
+      await fireEvent.click(dropdownitem);
+    });
+    expect(screen.getByTestId('location-display').innerHTML).toEqual(routes.account);
   });
 });

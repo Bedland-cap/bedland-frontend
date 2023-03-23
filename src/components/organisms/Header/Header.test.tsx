@@ -1,27 +1,8 @@
 import { cleanup, screen } from '@testing-library/react';
-import { User } from 'store/reducers/user/user_slice';
+import { loggedInManagerUser, loggedInResidentUser } from 'utils/mockUser';
 import { renderWithProviders } from 'utils/test.utils';
 import Header from './Header';
 
-const loggedInManagerUser = {
-  loggedIn: true,
-  status: 'success',
-  error: undefined,
-  userId: '122',
-  login: 'abcdefghij',
-  token: undefined,
-  role: 'manager',
-} as User;
-
-const loggedInResidentUser = {
-  loggedIn: true,
-  status: 'success',
-  error: undefined,
-  userId: '122',
-  login: 'abcdefghij',
-  token: undefined,
-  role: 'resident',
-} as User;
 describe('Header', () => {
   afterEach(cleanup);
   it('headers renders correctly for logged out user', () => {

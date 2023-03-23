@@ -5,6 +5,9 @@ const ERROR_MESSAGES = {
 
     passwordsDoesNotMatchUp: 'Passwords do not match to each other',
   },
+  loginPage: {
+    errorMessage: 'Your login or password is incorrect.',
+  },
 };
 
 export default ERROR_MESSAGES;
