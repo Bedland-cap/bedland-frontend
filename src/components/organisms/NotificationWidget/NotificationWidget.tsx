@@ -6,7 +6,7 @@ import notifications from './NotificationWidget.utils';
 
 const NotificationWidget = () => {
   const size = 10;
-  return (
+  return (  
     <Widget variant='notifications' mode='dark' title='Latest Notifications' onClick={() => null}>
       <Scroll contentSize={18.75}>
         {notifications.slice(0, size).map((notification) => (
