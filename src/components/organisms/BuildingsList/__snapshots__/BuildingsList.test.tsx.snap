@@ -15,7 +15,6 @@ exports[`BuildingsList renders correctly 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 20rem;
 }
 
 .c2 {
@@ -49,14 +48,9 @@ exports[`BuildingsList renders correctly 1`] = `
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+  display: grid;
   gap: 2rem;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
   margin-top: 1.5rem;
 }
 
@@ -250,7 +244,6 @@ exports[`BuildingsList renders correctly 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 20rem;
 }
 
 .c2 {
@@ -284,14 +277,9 @@ exports[`BuildingsList renders correctly 1`] = `
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+  display: grid;
   gap: 2rem;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
   margin-top: 1.5rem;
 }
 

@@ -4,7 +4,7 @@ export const Box = styled.div`
   align-items: start;
   display: flex;
   flex-direction: column;
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   width: 100%;
 `;
 
