@@ -8,7 +8,6 @@ export const TileWrapper = styled.div<{ shadowColor: HexColor }>`
   color: #4b4b4b;
   display: flex;
   flex-direction: column;
-  width: 20rem;
 `;
 
 export const BuildingImage = styled.img`

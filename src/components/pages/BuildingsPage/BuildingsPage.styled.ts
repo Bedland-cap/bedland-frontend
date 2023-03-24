@@ -9,4 +9,5 @@ export const SearchInputContainer = styled.div`
 export const BuildingsPageContent = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100%;
 `;
