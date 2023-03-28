@@ -15,8 +15,8 @@ describe('Icon', () => {
         name: 'building',
         size: 20,
         isActive: false,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -27,8 +27,8 @@ describe('Icon', () => {
         name: 'building',
         size: 20,
         isActive: true,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -39,8 +39,8 @@ describe('Icon', () => {
         name: 'residents',
         size: 20,
         isActive: true,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -51,8 +51,8 @@ describe('Icon', () => {
         name: 'residents',
         size: 20,
         isActive: false,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -63,8 +63,8 @@ describe('Icon', () => {
         name: 'wall',
         size: 20,
         isActive: false,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -75,8 +75,8 @@ describe('Icon', () => {
         name: 'wall',
         size: 20,
         isActive: true,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -87,8 +87,8 @@ describe('Icon', () => {
         name: 'dashboard',
         size: 20,
         isActive: false,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -99,8 +99,8 @@ describe('Icon', () => {
         name: 'dashboard',
         size: 20,
         isActive: true,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -111,8 +111,8 @@ describe('Icon', () => {
         name: 'wall',
         size: 20,
         isActive: false,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -123,8 +123,8 @@ describe('Icon', () => {
         name: 'reports',
         size: 20,
         isActive: false,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -135,8 +135,8 @@ describe('Icon', () => {
         name: 'reports',
         size: 20,
         isActive: true,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -147,8 +147,8 @@ describe('Icon', () => {
         name: 'voting',
         size: 20,
         isActive: false,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -159,8 +159,8 @@ describe('Icon', () => {
         name: 'voting',
         size: 20,
         isActive: true,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -171,8 +171,8 @@ describe('Icon', () => {
         name: 'payments',
         size: 20,
         isActive: false,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -183,8 +183,8 @@ describe('Icon', () => {
         name: 'payments',
         size: 20,
         isActive: true,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -195,8 +195,8 @@ describe('Icon', () => {
         name: 'messages',
         size: 20,
         isActive: true,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });
@@ -207,8 +207,8 @@ describe('Icon', () => {
         name: 'messages',
         size: 20,
         isActive: false,
-        color: 'primaryLight',
-        activeColor: 'primaryDark',
+        color: 'sidebarTabsPressed',
+        activeColor: 'blueDark',
       }),
     ).toMatchSnapshot();
   });

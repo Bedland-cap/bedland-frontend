@@ -18,11 +18,11 @@ const MessageItem = ({ name, image }: MessageItemProps) => {
       <Styled.MessageContainer palette={palette}>
         <ProfileImage src={image} size={1.5} />
         <Styled.NameWrapper>
-          <Typography variant='messageItem' color='primaryDark'>
+          <Typography variant='header4' color='blueDark'>
             {name}
           </Typography>
         </Styled.NameWrapper>
-        <IconButton icon='envelope' size={20} color='primaryDark' onClick={() => null} />
+        <IconButton icon='envelope' size={20} color='blueDark' onClick={() => null} />
       </Styled.MessageContainer>
     </Styled.HoverContainer>
   );

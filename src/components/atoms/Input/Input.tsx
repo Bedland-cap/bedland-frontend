@@ -18,7 +18,7 @@ const Input = ({
       id={input}
       type={type}
       placeholder={placeholder}
-      borderColor={palette.primaryLight}
+      borderColor={palette.sidebarTabsPressed}
       data-testid={input}
       {...register(input, { ...regexPattern, ...registerOptions })}
     />

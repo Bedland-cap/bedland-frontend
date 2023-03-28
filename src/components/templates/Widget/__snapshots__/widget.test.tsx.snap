@@ -56,11 +56,11 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
           class="c1"
           mode="dark"
         >
-          <h5
+          <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
           >
             Widget in dark mode
-          </h5>
+          </h3>
           <button
             class="c2"
             type="button"
@@ -145,11 +145,11 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
         class="c1"
         mode="dark"
       >
-        <h5
+        <h3
           style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
         >
           Widget in dark mode
-        </h5>
+        </h3>
         <button
           class="c2"
           type="button"
@@ -298,11 +298,11 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
           class="c1"
           mode="dark"
         >
-          <h5
+          <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
           >
             Widget in dark mode
-          </h5>
+          </h3>
           <button
             class="c2"
             type="button"
@@ -387,11 +387,11 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
         class="c1"
         mode="dark"
       >
-        <h5
+        <h3
           style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
         >
           Widget in dark mode
-        </h5>
+        </h3>
         <button
           class="c2"
           type="button"
@@ -540,11 +540,11 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
           class="c1"
           mode="dark"
         >
-          <h5
+          <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
           >
             Widget in dark mode
-          </h5>
+          </h3>
           <button
             class="c2"
             type="button"
@@ -629,11 +629,11 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
         class="c1"
         mode="dark"
       >
-        <h5
+        <h3
           style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
         >
           Widget in dark mode
-        </h5>
+        </h3>
         <button
           class="c2"
           type="button"
@@ -782,11 +782,11 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
           class="c1"
           mode="dark"
         >
-          <h5
+          <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
           >
             Widget in dark mode
-          </h5>
+          </h3>
           <button
             class="c2"
             type="button"
@@ -871,11 +871,11 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
         class="c1"
         mode="dark"
       >
-        <h5
+        <h3
           style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
         >
           Widget in dark mode
-        </h5>
+        </h3>
         <button
           class="c2"
           type="button"
@@ -1024,11 +1024,11 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
           class="c1"
           mode="dark"
         >
-          <h5
+          <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
           >
             Widget in dark mode
-          </h5>
+          </h3>
           <button
             class="c2"
             type="button"
@@ -1113,11 +1113,11 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
         class="c1"
         mode="dark"
       >
-        <h5
+        <h3
           style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
         >
           Widget in dark mode
-        </h5>
+        </h3>
         <button
           class="c2"
           type="button"
@@ -1266,11 +1266,11 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
           class="c1"
           mode="light"
         >
-          <h5
+          <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
           >
             Widget in dark mode
-          </h5>
+          </h3>
           <button
             class="c2"
             type="button"
@@ -1355,11 +1355,11 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
         class="c1"
         mode="light"
       >
-        <h5
+        <h3
           style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
         >
           Widget in dark mode
-        </h5>
+        </h3>
         <button
           class="c2"
           type="button"
@@ -1508,11 +1508,11 @@ exports[`Widget should renders correctly with button 1`] = `
           class="c1"
           mode="dark"
         >
-          <h5
+          <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
           >
             Widget in dark mode
-          </h5>
+          </h3>
           <button
             class="c2"
             type="button"
@@ -1597,11 +1597,11 @@ exports[`Widget should renders correctly with button 1`] = `
         class="c1"
         mode="dark"
       >
-        <h5
+        <h3
           style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
         >
           Widget in dark mode
-        </h5>
+        </h3>
         <button
           class="c2"
           type="button"
@@ -1734,11 +1734,11 @@ exports[`Widget should renders correctly without button 1`] = `
           class="c1"
           mode="dark"
         >
-          <h5
+          <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
           >
             Widget in dark mode
-          </h5>
+          </h3>
         </div>
       </div>
       <div
@@ -1784,11 +1784,11 @@ exports[`Widget should renders correctly without button 1`] = `
         class="c1"
         mode="dark"
       >
-        <h5
+        <h3
           style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
         >
           Widget in dark mode
-        </h5>
+        </h3>
       </div>
     </div>
     <div

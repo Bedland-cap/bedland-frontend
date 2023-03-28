@@ -8,14 +8,9 @@ const SearchInput = ({ placeholder }: { placeholder: string }) => {
   const { palette } = useContext(ThemeContext);
 
   return (
-    <Styled.InputContainer outlineColor={palette.primaryDark}>
+    <Styled.InputContainer outlineColor={palette.blueDark}>
       <Styled.IconWrapper>
-        <Icon
-          name='search'
-          size={16}
-          color={hasFocus ? 'primaryDark' : 'greyDark'}
-          isActive={false}
-        />
+        <Icon name='search' size={16} color={hasFocus ? 'blueDark' : 'greyDark'} isActive={false} />
       </Styled.IconWrapper>
       <Styled.Input
         placeholder={placeholder}

@@ -49,7 +49,7 @@ const meta = {
     ),
   ],
   parameters: {
-    backgrounds: { default: initialTheme.palette.background },
+    backgrounds: { default: initialTheme.palette.sidebar },
   },
 } satisfies Meta<typeof SidebarItem>;
 

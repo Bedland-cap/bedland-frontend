@@ -26,7 +26,7 @@ exports[`MessageItem renders correctly 1`] = `
 }
 
 .c0:hover {
-  background: #909AFF10;
+  background: #919AFF10;
 }
 
 .c0:last-child {
@@ -132,7 +132,7 @@ exports[`MessageItem renders correctly 1`] = `
 }
 
 .c0:hover {
-  background: #909AFF10;
+  background: #919AFF10;
 }
 
 .c0:last-child {

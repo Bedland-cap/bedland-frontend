@@ -6,7 +6,7 @@ exports[`BuildingTile renders correctly 1`] = `
   "baseElement": .c0 {
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0px 5px 8px #4B4D6220;
+  box-shadow: 0px 5px 8px #D9D9D920;
   color: #4b4b4b;
   display: -webkit-box;
   display: -webkit-flex;
@@ -44,7 +44,7 @@ exports[`BuildingTile renders correctly 1`] = `
 }
 
 .c4:hover {
-  background-color: #909AFF;
+  background-color: #919AFF;
 }
 
 <body>
@@ -61,7 +61,7 @@ exports[`BuildingTile renders correctly 1`] = `
           class="c2"
         >
           <h3
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
           >
             Building #
             4293
@@ -92,7 +92,7 @@ exports[`BuildingTile renders correctly 1`] = `
   "container": .c0 {
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0px 5px 8px #4B4D6220;
+  box-shadow: 0px 5px 8px #D9D9D920;
   color: #4b4b4b;
   display: -webkit-box;
   display: -webkit-flex;
@@ -130,7 +130,7 @@ exports[`BuildingTile renders correctly 1`] = `
 }
 
 .c4:hover {
-  background-color: #909AFF;
+  background-color: #919AFF;
 }
 
 <div>
@@ -146,7 +146,7 @@ exports[`BuildingTile renders correctly 1`] = `
         class="c2"
       >
         <h3
-          style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.75; letter-spacing: 1px; color: rgb(75, 75, 75);"
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
         >
           Building #
           4293

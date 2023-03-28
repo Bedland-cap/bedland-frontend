@@ -44,7 +44,7 @@ const LoginForm = () => {
 
   return (
     <LoginFormContainer onSubmit={handleSubmit(onSubmit)}>
-      <Typography variant='sectionTitle' color='light' style={{ textAlign: 'center' }}>
+      <Typography variant='header1' color='light' style={{ textAlign: 'center' }}>
         Login
       </Typography>
       <InputWithLabel
@@ -71,7 +71,7 @@ const LoginForm = () => {
       </Styled.ErrorMsg>
 
       <Button
-        backgroundColor={palette.secondaryDark}
+        backgroundColor={palette.orangeDark}
         textColor='#ffffff'
         type='submit'
         variant='primary'

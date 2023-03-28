@@ -135,11 +135,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                       stroke-width="1.6"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     dashboard
-                  </span>
+                  </h4>
                 </div>
               </div>
             </a>
@@ -177,11 +177,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                       stroke-width="2"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     buildings
-                  </span>
+                  </h4>
                 </div>
               </div>
             </a>
@@ -219,11 +219,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                       stroke-linejoin="round"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     residents
-                  </span>
+                  </h4>
                 </div>
               </div>
             </a>
@@ -274,11 +274,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                       stroke-width="1.6"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     payments
-                  </span>
+                  </h4>
                 </div>
               </div>
             </a>
@@ -316,11 +316,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                       stroke-width="1.6"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     voting
-                  </span>
+                  </h4>
                 </div>
                 <div
                   class="c5"
@@ -364,11 +364,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                       stroke-width="1.6"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     reports
-                  </span>
+                  </h4>
                 </div>
               </div>
             </a>
@@ -406,11 +406,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                       stroke-width="2"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     wall
-                  </span>
+                  </h4>
                 </div>
               </div>
             </a>
@@ -448,11 +448,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                       stroke-width="2"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     messages
-                  </span>
+                  </h4>
                 </div>
                 <div
                   class="c5"
@@ -603,11 +603,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                     stroke-width="1.6"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   dashboard
-                </span>
+                </h4>
               </div>
             </div>
           </a>
@@ -645,11 +645,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                     stroke-width="2"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   buildings
-                </span>
+                </h4>
               </div>
             </div>
           </a>
@@ -687,11 +687,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                     stroke-linejoin="round"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   residents
-                </span>
+                </h4>
               </div>
             </div>
           </a>
@@ -742,11 +742,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                     stroke-width="1.6"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   payments
-                </span>
+                </h4>
               </div>
             </div>
           </a>
@@ -784,11 +784,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                     stroke-width="1.6"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   voting
-                </span>
+                </h4>
               </div>
               <div
                 class="c5"
@@ -832,11 +832,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                     stroke-width="1.6"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   reports
-                </span>
+                </h4>
               </div>
             </div>
           </a>
@@ -874,11 +874,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                     stroke-width="2"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   wall
-                </span>
+                </h4>
               </div>
             </div>
           </a>
@@ -916,11 +916,11 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
                     stroke-width="2"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   messages
-                </span>
+                </h4>
               </div>
               <div
                 class="c5"
@@ -1135,11 +1135,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                       stroke-width="1.6"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     dashboard
-                  </span>
+                  </h4>
                 </div>
               </div>
             </a>
@@ -1177,11 +1177,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                       stroke-width="2"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     flats
-                  </span>
+                  </h4>
                 </div>
               </div>
             </a>
@@ -1232,11 +1232,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                       stroke-width="1.6"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     payments
-                  </span>
+                  </h4>
                 </div>
               </div>
             </a>
@@ -1274,11 +1274,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                       stroke-width="1.6"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     voting
-                  </span>
+                  </h4>
                 </div>
                 <div
                   class="c5"
@@ -1322,11 +1322,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                       stroke-width="1.6"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     reports
-                  </span>
+                  </h4>
                 </div>
               </div>
             </a>
@@ -1364,11 +1364,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                       stroke-width="2"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     wall
-                  </span>
+                  </h4>
                 </div>
               </div>
             </a>
@@ -1406,11 +1406,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                       stroke-width="2"
                     />
                   </svg>
-                  <span
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                  <h4
+                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                   >
                     messages
-                  </span>
+                  </h4>
                 </div>
                 <div
                   class="c5"
@@ -1561,11 +1561,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                     stroke-width="1.6"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   dashboard
-                </span>
+                </h4>
               </div>
             </div>
           </a>
@@ -1603,11 +1603,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                     stroke-width="2"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   flats
-                </span>
+                </h4>
               </div>
             </div>
           </a>
@@ -1658,11 +1658,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                     stroke-width="1.6"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   payments
-                </span>
+                </h4>
               </div>
             </div>
           </a>
@@ -1700,11 +1700,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                     stroke-width="1.6"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   voting
-                </span>
+                </h4>
               </div>
               <div
                 class="c5"
@@ -1748,11 +1748,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                     stroke-width="1.6"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   reports
-                </span>
+                </h4>
               </div>
             </div>
           </a>
@@ -1790,11 +1790,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                     stroke-width="2"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   wall
-                </span>
+                </h4>
               </div>
             </div>
           </a>
@@ -1832,11 +1832,11 @@ exports[`Sidebar for resident should renders correctly sidebar 1`] = `
                     stroke-width="2"
                   />
                 </svg>
-                <span
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; text-transform: capitalize; color: rgb(202, 202, 202);"
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(202, 202, 202);"
                 >
                   messages
-                </span>
+                </h4>
               </div>
               <div
                 class="c5"

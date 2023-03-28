@@ -12,7 +12,7 @@ describe('Icon', () => {
       item({
         icon: 'arrowRight',
         size: 20,
-        color: 'primaryLight',
+        color: 'sidebarTabsPressed',
         onClick: () => null,
       }),
     ).toMatchSnapshot();

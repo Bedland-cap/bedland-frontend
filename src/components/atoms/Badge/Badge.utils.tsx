@@ -22,9 +22,9 @@ const badgeStyleAndColors: BadgeStyleAndColorsType = {
   [BADGE_VARIANTS.primary]: {
     StyledBadge: Styled.PrimaryBadge,
     colors: {
-      bgColor: initialTheme.palette.green_dark,
+      bgColor: initialTheme.palette.greenDark,
       borderColor: 'transparent',
-      color: initialTheme.palette.widgetBackground,
+      color: initialTheme.palette.white,
     },
   },
   [BADGE_VARIANTS.secondary]: {
@@ -40,9 +40,9 @@ const badgeStyleAndColors: BadgeStyleAndColorsType = {
     StyledBadge: Styled.DangerBadge,
 
     colors: {
-      bgColor: initialTheme.palette.danger,
+      bgColor: initialTheme.palette.redLight,
       borderColor: 'transparent',
-      color: initialTheme.palette.widgetBackground,
+      color: initialTheme.palette.white,
     },
   },
   [BADGE_VARIANTS.warning]: {

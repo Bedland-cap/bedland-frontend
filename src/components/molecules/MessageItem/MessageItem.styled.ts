@@ -3,7 +3,7 @@ import { PaletteType } from 'theme/theme.types';
 
 export const HoverContainer = styled.div<{ palette: PaletteType }>`
   :hover {
-    background: ${({ palette }) => `${palette.primaryLight}10`};
+    background: ${({ palette }) => `${palette.sidebarTabsPressed}10`};
   }
   :last-child {
     margin-bottom: 0.75rem;

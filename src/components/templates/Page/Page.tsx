@@ -13,7 +13,7 @@ const defaultProps: PageProps = {
 const Page = ({ title, children }: PropsWithChildren<PageProps>) => (
   <Styled.Box>
     <Styled.Title>
-      <Typography variant='pageTitle' color='default'>
+      <Typography variant='header2' color='text'>
         {title}
       </Typography>
     </Styled.Title>

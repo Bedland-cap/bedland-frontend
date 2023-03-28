@@ -18,10 +18,10 @@ const BuildingTile = ({ buildingId, buildingAddress, buildingImg }: BuildingTile
   const { palette } = useContext(ThemeContext);
 
   return (
-    <Styled.TileWrapper shadowColor={palette.shadow}>
+    <Styled.TileWrapper shadowColor={palette.widgetsShadows}>
       <Styled.BuildingImage src={buildingImg} alt='Building' />
       <Styled.CardContent>
-        <Typography variant='cardTitle' color='inputGrey'>
+        <Typography variant='header3' color='inputGrey'>
           Building #{buildingId}
         </Typography>
         <Typography variant='paragraph' color='inputGrey'>

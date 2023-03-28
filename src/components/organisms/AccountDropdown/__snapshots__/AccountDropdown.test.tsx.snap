@@ -83,11 +83,11 @@ exports[`AccountDropdown Renders correctly 1`] = `
             <h5
               style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
             />
-            <h6
+            <h5
               style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
             >
               resident
-            </h6>
+            </h5>
           </div>
           <button
             class="c4"
@@ -200,11 +200,11 @@ exports[`AccountDropdown Renders correctly 1`] = `
           <h5
             style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
           />
-          <h6
+          <h5
             style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
           >
             resident
-          </h6>
+          </h5>
         </div>
         <button
           class="c4"
