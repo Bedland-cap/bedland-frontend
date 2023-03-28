@@ -7,7 +7,7 @@ const Footer = () => {
   const { palette } = useContext(ThemeContext);
   return (
     <Styled.FooterBox palette={palette}>
-      <Typography variant='caption' color='light' style={{ fontWeight: 600 }}>
+      <Typography variant='paragraph' color='light' style={{ fontWeight: 600 }}>
         ©BedLand 2023
       </Typography>
     </Styled.FooterBox>

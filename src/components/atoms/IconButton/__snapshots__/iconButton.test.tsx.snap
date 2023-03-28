@@ -37,7 +37,7 @@ exports[`Icon should renders correctly arrowRight IconButton 1`] = `
           />
           <path
             d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
-            stroke="#909AFF"
+            stroke="#919AFF"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="1.39167"
@@ -84,7 +84,7 @@ exports[`Icon should renders correctly arrowRight IconButton 1`] = `
         />
         <path
           d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
-          stroke="#909AFF"
+          stroke="#919AFF"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.39167"

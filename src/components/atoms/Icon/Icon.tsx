@@ -19,7 +19,7 @@ const defaultProps = {
 const Icon = ({
   name,
   size = 16,
-  color = 'default',
+  color = 'text',
   isActive = false,
   activeColor,
 }: PropsWithChildren<IconProps>) => {

@@ -111,11 +111,11 @@ exports[`Header headers renders correctly for logged in manager 1`] = `
                 >
                   testmanager
                 </h5>
-                <h6
+                <h5
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
                 >
                   manager
-                </h6>
+                </h5>
               </div>
               <button
                 class="c5"
@@ -258,11 +258,11 @@ exports[`Header headers renders correctly for logged in manager 1`] = `
               >
                 testmanager
               </h5>
-              <h6
+              <h5
                 style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
               >
                 manager
-              </h6>
+              </h5>
             </div>
             <button
               class="c5"
@@ -469,11 +469,11 @@ exports[`Header headers renders correctly for logged in resident 1`] = `
                 >
                   testmember
                 </h5>
-                <h6
+                <h5
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
                 >
                   resident
-                </h6>
+                </h5>
               </div>
               <button
                 class="c5"
@@ -616,11 +616,11 @@ exports[`Header headers renders correctly for logged in resident 1`] = `
               >
                 testmember
               </h5>
-              <h6
+              <h5
                 style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
               >
                 resident
-              </h6>
+              </h5>
             </div>
             <button
               class="c5"

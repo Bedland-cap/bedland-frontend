@@ -8,11 +8,11 @@ type MainBodyFullProps = {
 };
 
 const defaultProps: MainBodyFullProps = {
-  backgroundColor: 'background',
+  backgroundColor: 'sidebar',
 };
 
 const MainBodyFull = ({
-  backgroundColor = 'background',
+  backgroundColor = 'sidebar',
   children,
 }: PropsWithChildren<MainBodyFullProps>) => {
   const { palette } = useContext(ThemeContext);

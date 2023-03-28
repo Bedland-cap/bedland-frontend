@@ -15,19 +15,14 @@ describe('Typography', () => {
 
   it('should renders correctly typography - paragraph', () => {
     expect(
-      item({ variant: 'paragraph', color: 'primaryDark', children: 'Paragraph' }),
+      item({ variant: 'paragraph', color: 'blueDark', children: 'Paragraph' }),
     ).toMatchSnapshot();
   });
 
-  it('should renders correctly typography - sidebarItem', () => {
+  it('should renders correctly typography - header4', () => {
     expect(
-      item({ variant: 'sidebarItem', color: 'primaryDark', children: 'SidebarItem' }),
+      item({ variant: 'header4', color: 'blueDark', children: 'header4' }),
     ).toMatchSnapshot();
   });
 
-  it('should renders correctly typography - caption', () => {
-    expect(
-      item({ variant: 'caption', color: 'primaryDark', children: 'Caption' }),
-    ).toMatchSnapshot();
-  });
 });

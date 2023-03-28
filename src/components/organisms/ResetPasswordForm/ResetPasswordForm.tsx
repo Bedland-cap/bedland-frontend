@@ -72,7 +72,7 @@ const ResetPasswordForm = () => {
       </Styled.ErrorMsg>
 
       <Button
-        backgroundColor={palette.secondaryDark}
+        backgroundColor={palette.orangeDark}
         textColor={palette.light}
         type='submit'
         variant='primary'

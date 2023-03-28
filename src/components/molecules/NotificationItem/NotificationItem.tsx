@@ -21,10 +21,10 @@ const NotificationItem = ({ icon, date, text }: NotificationItemProps) => {
     <Styled.NotificationItemContainer palette={palette}>
       <Icon name={icon} size={18} color='inputGrey' isActive={false} />
 
-      <Typography variant='notificationItem' style={{ fontWeight: isClicked ? '400' : '600' }}>
+      <Typography variant='header5' style={{ fontWeight: isClicked ? '400' : '600' }}>
         {date}
       </Typography>
-      <Typography variant='notificationItem' style={{ fontWeight: isClicked ? '400' : '600' }}>
+      <Typography variant='header5' style={{ fontWeight: isClicked ? '400' : '600' }}>
         <Styled.NotificationItemText>{text}</Styled.NotificationItemText>
       </Typography>
 

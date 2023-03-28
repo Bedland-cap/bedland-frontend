@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Palette } from 'theme/theme.types';
 
 export const Box = styled.div<Palette>`
-  background: ${({ palette }) => palette.background};
+  background: ${({ palette }) => palette.sidebar};
   display: flex;
   flex-direction: column;
   width: 200px;

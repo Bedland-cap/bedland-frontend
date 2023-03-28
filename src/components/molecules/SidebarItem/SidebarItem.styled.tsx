@@ -26,7 +26,7 @@ export const ContentDiv = styled.div`
 
 export const Badge = styled.div<Palette>`
   align-items: center;
-  background: ${({ palette }) => palette.badge};
+  background: ${({ palette }) => palette.redDark};
   border-radius: 50%;
   display: flex;
   font-size: 11px;
