@@ -22,8 +22,8 @@ export const DropdownMenu = styled.div<{ palette: PaletteType }>`
   zindex: 1;
 `;
 
-export const DropdownBreak = styled.hr`
-  border-bottom: 1px solid #d9d9d9;
+export const DropdownBreak = styled.hr<{ palette: PaletteType }>`
+  border-bottom: 1px solid ${({ palette }) => palette.sidebarTabs};
   margin-top: 0.5rem;
 `;
 

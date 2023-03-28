@@ -3,19 +3,17 @@ import { ThemeContext } from 'theme/ThemeContext';
 import { ColorNames, TypographyName } from 'theme/theme.types';
 
 const variantToElement = {
-  pageTitle: 'h2',
-  sectionTitle: 'h2',
-  sidebarItem: 'span',
-  paragraph: 'p',
-  caption: 'p',
-  widgetTitle: 'h5',
-  cardTitle: 'h3',
-  messageItem: 'h4',
-  error: 'p',
-  subHeader: 'h6',
+  header1: 'h1',
+  header2: 'h2',
+  subtitles: 'h2',
+  header3: 'h3',
+  header4: 'h4',
   header5: 'h5',
-  logout: 'h4',
-  notificationItem: 'h4',
+  subHeader: 'h5',
+  paragraph: 'p',
+  dataInputsAndTooltips: 'p',
+  unerlined: 'p',
+  captions: 'p',
 } as const;
 
 export type TypographyProps = {
@@ -26,7 +24,7 @@ export type TypographyProps = {
 
 const defaultProps: TypographyProps = {
   variant: 'paragraph',
-  color: 'default',
+  color: 'text',
   style: {},
 };
 

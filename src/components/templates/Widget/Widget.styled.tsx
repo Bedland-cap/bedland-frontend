@@ -12,10 +12,8 @@ export const WidgetElement = styled.div<WidgetELementProps & Palette>`
 
 export const WidgetHeader = styled.div<Palette & Pick<WidgetProps, 'mode'>>`
   align-items: center;
-  background-color: ${({ palette, mode }) =>
-    mode === 'dark' ? palette.primaryDark : palette.widgetBackground};
-  border-bottom: 1px solid
-    ${({ palette, mode }) => (mode === 'light' ? palette.primaryDark : 'none')};
+  background-color: ${({ palette, mode }) => (mode === 'dark' ? palette.blueDark : palette.white)};
+  border-bottom: 1px solid ${({ palette, mode }) => (mode === 'light' ? palette.blueDark : 'none')};
   border-radius: 8px 8px 0 0;
   display: flex;
   justify-content: space-between;

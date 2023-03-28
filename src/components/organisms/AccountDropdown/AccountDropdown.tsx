@@ -84,14 +84,14 @@ const AccountDropdown = () => {
             label='Settings'
             color='inputGrey'
           />
-          <Styled.DropdownBreak />
+          <Styled.DropdownBreak palette={palette} />
           <DropdownItem
             linkRoute={
               userRole === 'manager' ? routes.homeForNotLoggedInManager : routes.homeForNotLoggedIn
             }
             iconName='logout'
             label='Log out'
-            color='primaryDark'
+            color='blueDark'
             onClick={handleLogout}
           />
         </Styled.DropdownMenu>

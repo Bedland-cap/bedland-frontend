@@ -26,7 +26,7 @@ exports[`ContactsWidget renders correctly 1`] = `
 }
 
 .c4:hover {
-  background: #909AFF10;
+  background: #919AFF10;
 }
 
 .c4:last-child {
@@ -126,11 +126,11 @@ exports[`ContactsWidget renders correctly 1`] = `
           class="c1"
           mode="light"
         >
-          <h5
+          <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
           >
             Recent contacts
-          </h5>
+          </h3>
           <button
             class="c2"
             type="button"
@@ -505,7 +505,7 @@ exports[`ContactsWidget renders correctly 1`] = `
 }
 
 .c4:hover {
-  background: #909AFF10;
+  background: #919AFF10;
 }
 
 .c4:last-child {
@@ -604,11 +604,11 @@ exports[`ContactsWidget renders correctly 1`] = `
         class="c1"
         mode="light"
       >
-        <h5
+        <h3
           style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
         >
           Recent contacts
-        </h5>
+        </h3>
         <button
           class="c2"
           type="button"

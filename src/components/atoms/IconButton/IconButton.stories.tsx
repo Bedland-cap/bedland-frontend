@@ -11,7 +11,7 @@ const meta = {
   tags: ['autodocs'],
   args: {
     icon: 'arrowRight',
-    color: 'default',
+    color: 'text',
     size: 40,
   },
   argTypes: {
@@ -67,7 +67,7 @@ type Story = StoryObj<typeof meta>;
 export const ArrowRightIconButton: Story = {
   args: {
     icon: 'arrowRight',
-    color: 'primaryDark',
+    color: 'blueDark',
     onClick: () => null,
   },
 };

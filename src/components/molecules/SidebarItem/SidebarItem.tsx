@@ -24,7 +24,7 @@ const SidebarItem = ({ label, iconName, linkTo }: PropsWithChildren<SidebarItemP
           <Styled.StyledDiv
             style={
               {
-                borderLeft: `4px solid ${isActive ? palette.primaryLight : 'transparent'}`,
+                borderLeft: `4px solid ${isActive ? palette.sidebarTabsPressed : 'transparent'}`,
               } as CSSProperties
             }
           >
@@ -34,9 +34,9 @@ const SidebarItem = ({ label, iconName, linkTo }: PropsWithChildren<SidebarItemP
                 color='sidebarTabs'
                 size={18}
                 isActive={isActive}
-                activeColor='primaryLight'
+                activeColor='sidebarTabsPressed'
               />
-              <Typography variant='sidebarItem' color={isActive ? 'primaryLight' : 'sidebarTabs'}>
+              <Typography variant='header4' color={isActive ? 'sidebarTabsPressed' : 'sidebarTabs'}>
                 {label}
               </Typography>
             </Styled.ContentDiv>

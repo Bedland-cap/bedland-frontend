@@ -30,7 +30,7 @@ exports[`Login Page renders correctly 1`] = `
 }
 
 .c5 {
-  border: 1px solid #909AFF;
+  border: 1px solid #919AFF;
   border-radius: 0.5rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -74,7 +74,7 @@ exports[`Login Page renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #EF6517;
+  background-color: #F56513;
   border: 1px solid black;
   border-radius: 0.5rem;
   color: #ffffff;
@@ -115,7 +115,7 @@ exports[`Login Page renders correctly 1`] = `
 }
 
 .c8 {
-  color: #EF6517;
+  color: #F56513;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -156,11 +156,11 @@ exports[`Login Page renders correctly 1`] = `
         <form
           class="c2"
         >
-          <h2
+          <h1
             style="font-family: Poppins, sans-serif; font-weight: 600; font-size: 2rem; letter-spacing: 2px; line-height: 1.2; color: rgb(252, 254, 255); text-align: center;"
           >
             Login
-          </h2>
+          </h1>
           <div
             class="c3"
           >
@@ -249,7 +249,7 @@ exports[`Login Page renders correctly 1`] = `
 }
 
 .c5 {
-  border: 1px solid #909AFF;
+  border: 1px solid #919AFF;
   border-radius: 0.5rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -293,7 +293,7 @@ exports[`Login Page renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #EF6517;
+  background-color: #F56513;
   border: 1px solid black;
   border-radius: 0.5rem;
   color: #ffffff;
@@ -334,7 +334,7 @@ exports[`Login Page renders correctly 1`] = `
 }
 
 .c8 {
-  color: #EF6517;
+  color: #F56513;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -374,11 +374,11 @@ exports[`Login Page renders correctly 1`] = `
       <form
         class="c2"
       >
-        <h2
+        <h1
           style="font-family: Poppins, sans-serif; font-weight: 600; font-size: 2rem; letter-spacing: 2px; line-height: 1.2; color: rgb(252, 254, 255); text-align: center;"
         >
           Login
-        </h2>
+        </h1>
         <div
           class="c3"
         >

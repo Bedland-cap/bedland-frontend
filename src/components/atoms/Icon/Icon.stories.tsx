@@ -10,9 +10,9 @@ const meta = {
   component: Icon,
   tags: ['autodocs'],
   args: {
-    activeColor: 'primaryLight',
+    activeColor: 'sidebarTabsPressed',
     isActive: false,
-    color: 'default',
+    color: 'text',
     size: 40,
   },
   argTypes: {
@@ -56,7 +56,7 @@ const meta = {
     activeColor: {
       description: 'Color of the icon when it is active',
       options: colorNames,
-      defaultValue: 'primaryLight',
+      defaultValue: 'sidebarTabsPressed',
       control: {
         type: 'select',
       },
@@ -64,7 +64,7 @@ const meta = {
         type: {
           summary: colorNames.toString().replaceAll(',', ' | '),
         },
-        defaultValue: { summary: 'primaryLight' },
+        defaultValue: { summary: 'sidebarTabsPressed' },
       },
     },
   },

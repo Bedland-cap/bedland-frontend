@@ -24,7 +24,7 @@ const VotingsItem = ({ deadlineDate }: VotingsItemProps) => {
     <Styled.VotingsItemContainer palette={palette}>
       <Icon name='document' color='inputGrey' size={20} isActive={false} />
       <Typography
-        variant='logout'
+        variant='header4'
         style={{
           marginLeft: '1.188rem',
           flex: 1,
@@ -35,7 +35,7 @@ const VotingsItem = ({ deadlineDate }: VotingsItemProps) => {
         Resolution {dataForm}
       </Typography>
       <Typography
-        variant='logout'
+        variant='header4'
         color='inputGrey'
         style={{ fontWeight: dateDiffinDays(curDate, newDeadlineDate) < 0 ? '400' : '600' }}
       >

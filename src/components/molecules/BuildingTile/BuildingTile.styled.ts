@@ -25,7 +25,7 @@ export const ButtonWrapper = styled.div`
   margin-top: 1rem;
 `;
 export const Button = styled.button<{ palette: PaletteType }>`
-  background-color: ${({ palette }) => palette.primaryDark};
+  background-color: ${({ palette }) => palette.blueDark};
   border-radius: 8px;
   color: #fff;
   font-size: 1rem;
@@ -35,6 +35,6 @@ export const Button = styled.button<{ palette: PaletteType }>`
   width: 100%;
 
   :hover {
-    background-color: ${({ palette }) => palette.primaryLight};
+    background-color: ${({ palette }) => palette.sidebarTabsPressed};
   }
 `;

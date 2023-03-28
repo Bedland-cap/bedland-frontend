@@ -109,38 +109,10 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
   width: 5.875rem;
 }
 
-.c11 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #FFD541;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  color: #1B1A1A;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 1.5rem;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
-}
-
 .c6 {
   background-color: #F5F6F8;
   border: 1px solid #CACACA;
   color: #4B4B4B;
-}
-
-.c12 {
-  background-color: #FFD541;
-  border: 1px solid transparent;
-  color: #1B1A1A;
 }
 
 .c10 {
@@ -220,11 +192,11 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
           class="c1"
           mode="dark"
         >
-          <h5
+          <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
           >
             Votings
-          </h5>
+          </h3>
           <button
             class="c2"
             type="button"
@@ -274,18 +246,18 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
               />
             </svg>
             <h4
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
             >
               Resolution 
               03/2023
             </h4>
             <h4
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75);"
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
             >
               <div
                 class="c5 c6"
               >
-                8
+                12
                  ago
               </div>
             </h4>
@@ -339,18 +311,18 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
               />
             </svg>
             <h4
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
             >
               Resolution 
               10/2023
             </h4>
             <h4
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75);"
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
             >
               <div
                 class="c8"
               >
-                192
+                188
                  left
               </div>
             </h4>
@@ -404,18 +376,18 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
               />
             </svg>
             <h4
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
             >
               Resolution 
               03/2023
             </h4>
             <h4
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75);"
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
             >
               <div
                 class="c5 c6"
               >
-                2
+                6
                  ago
               </div>
             </h4>
@@ -469,18 +441,18 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
               />
             </svg>
             <h4
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
             >
               Resolution 
               03/2023
             </h4>
             <h4
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75);"
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
             >
               <div
                 class="c9 c10"
               >
-                4
+                0
                  left
               </div>
             </h4>
@@ -534,18 +506,18 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
               />
             </svg>
             <h4
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
             >
               Resolution 
               04/2023
             </h4>
             <h4
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75);"
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
             >
               <div
-                class="c11 c12"
+                class="c9 c10"
               >
-                11
+                7
                  left
               </div>
             </h4>
@@ -692,38 +664,10 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
   width: 5.875rem;
 }
 
-.c11 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #FFD541;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  color: #1B1A1A;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 1.5rem;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
-}
-
 .c6 {
   background-color: #F5F6F8;
   border: 1px solid #CACACA;
   color: #4B4B4B;
-}
-
-.c12 {
-  background-color: #FFD541;
-  border: 1px solid transparent;
-  color: #1B1A1A;
 }
 
 .c10 {
@@ -802,11 +746,11 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
         class="c1"
         mode="dark"
       >
-        <h5
+        <h3
           style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 255, 255);"
         >
           Votings
-        </h5>
+        </h3>
         <button
           class="c2"
           type="button"
@@ -856,18 +800,18 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
             />
           </svg>
           <h4
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
           >
             Resolution 
             03/2023
           </h4>
           <h4
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75);"
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
           >
             <div
               class="c5 c6"
             >
-              8
+              12
                ago
             </div>
           </h4>
@@ -921,18 +865,18 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
             />
           </svg>
           <h4
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
           >
             Resolution 
             10/2023
           </h4>
           <h4
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75);"
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
           >
             <div
               class="c8"
             >
-              192
+              188
                left
             </div>
           </h4>
@@ -986,18 +930,18 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
             />
           </svg>
           <h4
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
           >
             Resolution 
             03/2023
           </h4>
           <h4
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75);"
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
           >
             <div
               class="c5 c6"
             >
-              2
+              6
                ago
             </div>
           </h4>
@@ -1051,18 +995,18 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
             />
           </svg>
           <h4
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
           >
             Resolution 
             03/2023
           </h4>
           <h4
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75);"
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
           >
             <div
               class="c9 c10"
             >
-              4
+              0
                left
             </div>
           </h4>
@@ -1116,18 +1060,18 @@ exports[`VotingsWidget renders correctly VotingsWidget 1`] = `
             />
           </svg>
           <h4
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
           >
             Resolution 
             04/2023
           </h4>
           <h4
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.4; color: rgb(75, 75, 75);"
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
           >
             <div
-              class="c11 c12"
+              class="c9 c10"
             >
-              11
+              7
                left
             </div>
           </h4>

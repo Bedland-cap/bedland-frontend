@@ -13,13 +13,13 @@ import {
 
 export const ChartsColorsValue: ChartsColorsTypes = {
   votingChart: {
-    chartVoting_1stColumn: initialTheme.palette.green_light,
-    chartVotingNo_2ndColumn: initialTheme.palette.red_light,
-    chartVoting_3rdColumn: initialTheme.palette.blue_light,
+    chartVoting_1stColumn: initialTheme.palette.greenLight,
+    chartVotingNo_2ndColumn: initialTheme.palette.redLight,
+    chartVoting_3rdColumn: initialTheme.palette.blueLight,
   },
   paymentChart: {
-    chartPaymentPaid: initialTheme.palette.green_dark,
-    chartPaymentOverdue: initialTheme.palette.red_light,
+    chartPaymentPaid: initialTheme.palette.greenDark,
+    chartPaymentOverdue: initialTheme.palette.redLight,
     chartPaymentAwaiting: initialTheme.palette.yellow,
   },
 } as const;

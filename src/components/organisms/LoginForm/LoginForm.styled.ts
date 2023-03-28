@@ -11,7 +11,7 @@ export const LoginFormContainer = styled.form`
 `;
 
 export const ResetPasswordLink = styled(Link)<{ palette: PaletteType }>`
-  color: ${({ palette }) => (palette as PaletteType).secondaryDark};
+  color: ${({ palette }) => (palette as PaletteType).orangeDark};
   display: flex;
   justify-content: center;
 `;

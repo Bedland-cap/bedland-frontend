@@ -2,7 +2,7 @@
 
 exports[`Input with Label renders correctly 1`] = `
 .c2 {
-  border: 1px solid #909AFF;
+  border: 1px solid #919AFF;
   border-radius: 0.5rem;
   display: -webkit-box;
   display: -webkit-flex;

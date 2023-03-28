@@ -26,11 +26,11 @@ exports[`Account info renders correctly for role manager 1`] = `
         >
           John Doe
         </h5>
-        <h6
+        <h5
           style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
         >
           manager
-        </h6>
+        </h5>
       </div>
       <div
         data-testid="location-display"
@@ -61,11 +61,11 @@ exports[`Account info renders correctly for role manager 1`] = `
       >
         John Doe
       </h5>
-      <h6
+      <h5
         style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
       >
         manager
-      </h6>
+      </h5>
     </div>
     <div
       data-testid="location-display"
@@ -160,11 +160,11 @@ exports[`Account info renders correctly for role resident 1`] = `
         >
           John Doe
         </h5>
-        <h6
+        <h5
           style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
         >
           resident
-        </h6>
+        </h5>
       </div>
       <div
         data-testid="location-display"
@@ -195,11 +195,11 @@ exports[`Account info renders correctly for role resident 1`] = `
       >
         John Doe
       </h5>
-      <h6
+      <h5
         style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
       >
         resident
-      </h6>
+      </h5>
     </div>
     <div
       data-testid="location-display"

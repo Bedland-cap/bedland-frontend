@@ -32,7 +32,7 @@ export const ScrollBar = styled.div<{
 
   ::-webkit-scrollbar-track {
     margin-bottom: 0.5rem;
-    scrollbar-color: ${({ palette }) => palette.widgetBackground};
+    scrollbar-color: ${({ palette }) => palette.white};
   }
 `;
 

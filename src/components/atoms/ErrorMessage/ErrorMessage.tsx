@@ -7,9 +7,9 @@ import * as Styled from './ErrorMessage.styled';
 const ErrorMessage: FC<PropsWithChildren> = ({ children }) => (
   <Styled.ErrorRow>
     <div style={{ display: 'flex' }}>
-      <Icon name='alert' color='danger' size={20} isActive={false} />
+      <Icon name='alert' color='redLight' size={20} isActive={false} />
     </div>
-    <Typography variant='error' color='danger'>
+    <Typography variant='dataInputsAndTooltips' color='redLight'>
       {children}
     </Typography>
   </Styled.ErrorRow>

@@ -2,102 +2,67 @@ import { Theme } from './theme.types';
 
 const initialTheme: Theme = {
   palette: {
-    primaryLight: '#909AFF',
-    primaryDark: '#4553DD',
-    secondaryLight: '#FF7C33',
-    secondaryDark: '#EF6517',
+    sidebarTabsPressed: '#919AFF',
+    blueDark: '#4553DD',
+    blueLight: '#6573FF',
+    orangeLight: '#FF7C33',
+    orangeDark: '#F56513',
     light: '#FCFEFF',
-    accent: '#0E172D',
     greyLight: '#F5F6F8',
     greyDark: '#767676',
-    success: '#83E57A',
-    successDeep: '#3A9832',
-    danger: '#FF4438',
+    greenLight: '#83E57A',
+    greenDark: '#30BA57',
+    redLight: '#FF4438',
     sidebarTabs: '#CACACA',
-    badge: '#CF0000',
-    default: '#000',
-    background: '#0A1122',
+    redDark: '#CF0000',
+    sidebar: '#0A1122',
     footer: '#3F4476',
-    widgetBackground: '#fff',
+    white: '#fff',
     inputGrey: '#4B4B4B',
-    backgroundGrey: '#F5F5F5',
-    shadow: '#4B4D62',
+    widgetsShadows: '#D9D9D9',
     text: '#1B1A1A',
-    green_light: '#83E57A',
-    green_dark: '#30BA57',
-    red_light: '#FF4438',
-    blue_light: '#6573FF',
     yellow: '#FFD541',
   },
   typography: {
-    pageTitle: {
-      fontFamily: 'Poppins, sans-serif',
-      fontWeight: 700,
-      fontSize: '1.5rem',
-      lineHeight: 1.4,
-    },
-    sectionTitle: {
+    header1: {
       fontFamily: 'Poppins, sans-serif',
       fontWeight: 600,
       fontSize: '2rem',
       letterSpacing: '2px',
       lineHeight: 1.2,
     },
-    sidebarItem: {
-      fontFamily: 'Source Sans Pro, sans-serif',
-      fontSize: '1rem',
-      fontWeight: 600,
+
+    header2: {
+      fontFamily: 'Poppins, sans-serif',
+      fontWeight: 700,
+      fontSize: '1.5rem',
+      lineHeight: 1.4,
+    },
+
+    subtitles: {
+      fontFamily: 'Poppins, sans-serif',
+      fontWeight: 500,
+      fontSize: '1.25rem',
       lineHeight: 1.4,
       letterSpacing: '1px',
-      textTransform: 'capitalize',
     },
-    widgetTitle: {
+
+    header3: {
       fontFamily: 'Source Sans Pro, sans-serif',
       fontWeight: 700,
       fontSize: '1.25rem',
       lineHeight: 1.4,
       letterSpacing: '1px',
     },
-    paragraph: {
-      fontFamily: 'Source Sans Pro, sans-serif',
-      fontWeight: 400,
-      fontSize: '1rem',
-      lineHeight: 1.6,
-      letterSpacing: '0',
-    },
-    caption: {
-      fontFamily: 'Source Sans Pro, sans-serif',
-      fontWeight: 400,
-      lineHeight: 1.6,
-      letterSpacing: '0',
-    },
-    cardTitle: {
-      fontFamily: 'Source Sans Pro, sans-serif',
-      fontWeight: 700,
-      fontSize: '1.25rem',
-      lineHeight: 1.75,
-      letterSpacing: '1px',
-    },
-    messageItem: {
+
+    header4: {
       fontFamily: 'Source Sans Pro, sans-serif',
       fontSize: '1rem',
       fontWeight: 600,
       lineHeight: 1.4,
       letterSpacing: '1px',
     },
-    error: {
-      fontFamily: 'Source Sans Pro, sans-serif',
-      fontWeight: 400,
-      fontSize: '0.875rem',
-      lineHeight: 1.6,
-    },
-    subHeader: {
-      fontFamily: 'Source Sans Pro, sans-serif',
-      fontWeight: 400,
-      fontSize: '0.75rem',
-      lineHeight: 1.4,
-      letterSpacing: '0',
-    },
+
     header5: {
       fontFamily: 'Source Sans Pro, sans-serif',
       fontWeight: 600,
@@ -105,18 +70,45 @@ const initialTheme: Theme = {
       lineHeight: 1.4,
       letterSpacing: '0',
     },
-    logout: {
+
+    subHeader: {
       fontFamily: 'Source Sans Pro, sans-serif',
-      fontWeight: 600,
-      fontSize: '1rem',
+      fontWeight: 400,
+      fontSize: '0.75rem',
       lineHeight: 1.4,
-    },
-    notificationItem: {
-      fontFamily: 'Source Sans Pro, sans-serif',
-      fontSize: '0.8rem',
-      fontWeight: 600,
-      lineHeight: 1.2,
       letterSpacing: '0',
+    },
+
+    paragraph: {
+      fontFamily: 'Source Sans Pro, sans-serif',
+      fontWeight: 400,
+      fontSize: '1rem',
+      lineHeight: 1.6,
+      letterSpacing: '0',
+    },
+
+    dataInputsAndTooltips: {
+      fontFamily: 'Source Sans Pro, sans-serif',
+      fontWeight: 400,
+      fontSize: '0.875rem',
+      lineHeight: 1.4,
+      letterSpacing: '1px',
+    },
+
+    unerlined: {
+      fontFamily: 'Source Sans Pro, sans-serif',
+      fontWeight: 400,
+      fontSize: '0.875rem',
+      lineHeight: 1.6,
+      textDecoration: 'underline',
+    },
+
+    captions: {
+      fontFamily: 'Source Sans Pro, sans-serif',
+      fontWeight: 600,
+      fontSize: '0.75rem',
+      lineHeight: 1.6,
+      letterSpacing: '1px',
     },
   },
 };

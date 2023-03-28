@@ -26,15 +26,15 @@ const Widget = ({
     >
       <Styled.WidgetHeader mode={mode} palette={palette}>
         <Typography
-          variant='widgetTitle'
-          color={mode === 'light' ? 'primaryDark' : 'widgetBackground'}
+          variant='header3'
+          color={mode === 'light' ? 'blueDark' : 'white'}
         >
           {title}
         </Typography>
         {isArrowButton ? (
           <IconButton
             icon='arrowRight'
-            color={mode === 'light' ? 'primaryDark' : 'widgetBackground'}
+            color={mode === 'light' ? 'blueDark' : 'white'}
             size={24}
             onClick={onClick}
           />
