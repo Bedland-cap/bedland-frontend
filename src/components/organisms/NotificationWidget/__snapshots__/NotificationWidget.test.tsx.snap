@@ -31,6 +31,50 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
   scrollbar-color: #fff;
 }
 
+.c5 {
+  height: 2rem;
+  width: 4.69rem;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #F56513;
+  border-radius: 0.5rem;
+  color: #F56513;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  width: 100%;
+}
+
+.c6:hover {
+  background-color: #F565131A;
+  border: 1px solid #F56513;
+}
+
+.c7 {
+  background-color: transparent;
+  border: 1.75px solid #F56513;
+  color: #F56513;
+  padding: 0.3125rem 1rem;
+}
+
+.c7:hover {
+  background-color: #F565131A;
+  border: 1.75px solid #F56513;
+}
+
 .c3 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -151,12 +195,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               />
             </svg>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               21/02/23
             </h5>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               <div
                 class="c4"
@@ -164,12 +208,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
                 New payment from Joe Livingstone
               </div>
             </h5>
-            <button
-              style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-              type="submit"
+            <div
+              class="c5"
             >
-              Placeholder
-            </button>
+              <button
+                class="c6 c7"
+                type="submit"
+              >
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+                >
+                  Details
+                </h4>
+              </button>
+            </div>
           </div>
           <div
             class="c3"
@@ -206,12 +258,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               />
             </svg>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               22/02/23
             </h5>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               <div
                 class="c4"
@@ -219,12 +271,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
                 New payment from Joe Livingstone
               </div>
             </h5>
-            <button
-              style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-              type="submit"
+            <div
+              class="c5"
             >
-              Placeholder
-            </button>
+              <button
+                class="c6 c7"
+                type="submit"
+              >
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+                >
+                  Details
+                </h4>
+              </button>
+            </div>
           </div>
           <div
             class="c3"
@@ -248,12 +308,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               />
             </svg>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               23/02/23
             </h5>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               <div
                 class="c4"
@@ -261,12 +321,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
                 New message from Joe LivingstoneNew message from Joe LivingstoneNew message from Joe Livingstone
               </div>
             </h5>
-            <button
-              style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-              type="submit"
+            <div
+              class="c5"
             >
-              Placeholder
-            </button>
+              <button
+                class="c6 c7"
+                type="submit"
+              >
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+                >
+                  Details
+                </h4>
+              </button>
+            </div>
           </div>
           <div
             class="c3"
@@ -290,12 +358,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               />
             </svg>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               15/02/23
             </h5>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               <div
                 class="c4"
@@ -303,12 +371,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
                 Spilled substance near the flat 21
               </div>
             </h5>
-            <button
-              style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-              type="submit"
+            <div
+              class="c5"
             >
-              Placeholder
-            </button>
+              <button
+                class="c6 c7"
+                type="submit"
+              >
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+                >
+                  Details
+                </h4>
+              </button>
+            </div>
           </div>
           <div
             class="c3"
@@ -345,12 +421,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               />
             </svg>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               14/02/23
             </h5>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               <div
                 class="c4"
@@ -358,12 +434,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
                 New payment from Gabriela Ferez
               </div>
             </h5>
-            <button
-              style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-              type="submit"
+            <div
+              class="c5"
             >
-              Placeholder
-            </button>
+              <button
+                class="c6 c7"
+                type="submit"
+              >
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+                >
+                  Details
+                </h4>
+              </button>
+            </div>
           </div>
           <div
             class="c3"
@@ -387,12 +471,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               />
             </svg>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               27/02/23
             </h5>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               <div
                 class="c4"
@@ -400,12 +484,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
                 Clogged garbage chute on 4th floor
               </div>
             </h5>
-            <button
-              style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-              type="submit"
+            <div
+              class="c5"
             >
-              Placeholder
-            </button>
+              <button
+                class="c6 c7"
+                type="submit"
+              >
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+                >
+                  Details
+                </h4>
+              </button>
+            </div>
           </div>
           <div
             class="c3"
@@ -429,12 +521,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               />
             </svg>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               24/02/23
             </h5>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
             >
               <div
                 class="c4"
@@ -442,12 +534,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
                 Clogged garbage chute on 4th floor
               </div>
             </h5>
-            <button
-              style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-              type="submit"
+            <div
+              class="c5"
             >
-              Placeholder
-            </button>
+              <button
+                class="c6 c7"
+                type="submit"
+              >
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+                >
+                  Details
+                </h4>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -484,6 +584,50 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
   -moz-scrollbar-color: #fff;
   -ms-scrollbar-color: #fff;
   scrollbar-color: #fff;
+}
+
+.c5 {
+  height: 2rem;
+  width: 4.69rem;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #F56513;
+  border-radius: 0.5rem;
+  color: #F56513;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  width: 100%;
+}
+
+.c6:hover {
+  background-color: #F565131A;
+  border: 1px solid #F56513;
+}
+
+.c7 {
+  background-color: transparent;
+  border: 1.75px solid #F56513;
+  color: #F56513;
+  padding: 0.3125rem 1rem;
+}
+
+.c7:hover {
+  background-color: #F565131A;
+  border: 1.75px solid #F56513;
 }
 
 .c3 {
@@ -605,12 +749,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
             />
           </svg>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             21/02/23
           </h5>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             <div
               class="c4"
@@ -618,12 +762,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               New payment from Joe Livingstone
             </div>
           </h5>
-          <button
-            style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-            type="submit"
+          <div
+            class="c5"
           >
-            Placeholder
-          </button>
+            <button
+              class="c6 c7"
+              type="submit"
+            >
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+              >
+                Details
+              </h4>
+            </button>
+          </div>
         </div>
         <div
           class="c3"
@@ -660,12 +812,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
             />
           </svg>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             22/02/23
           </h5>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             <div
               class="c4"
@@ -673,12 +825,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               New payment from Joe Livingstone
             </div>
           </h5>
-          <button
-            style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-            type="submit"
+          <div
+            class="c5"
           >
-            Placeholder
-          </button>
+            <button
+              class="c6 c7"
+              type="submit"
+            >
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+              >
+                Details
+              </h4>
+            </button>
+          </div>
         </div>
         <div
           class="c3"
@@ -702,12 +862,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
             />
           </svg>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             23/02/23
           </h5>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             <div
               class="c4"
@@ -715,12 +875,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               New message from Joe LivingstoneNew message from Joe LivingstoneNew message from Joe Livingstone
             </div>
           </h5>
-          <button
-            style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-            type="submit"
+          <div
+            class="c5"
           >
-            Placeholder
-          </button>
+            <button
+              class="c6 c7"
+              type="submit"
+            >
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+              >
+                Details
+              </h4>
+            </button>
+          </div>
         </div>
         <div
           class="c3"
@@ -744,12 +912,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
             />
           </svg>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             15/02/23
           </h5>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             <div
               class="c4"
@@ -757,12 +925,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               Spilled substance near the flat 21
             </div>
           </h5>
-          <button
-            style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-            type="submit"
+          <div
+            class="c5"
           >
-            Placeholder
-          </button>
+            <button
+              class="c6 c7"
+              type="submit"
+            >
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+              >
+                Details
+              </h4>
+            </button>
+          </div>
         </div>
         <div
           class="c3"
@@ -799,12 +975,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
             />
           </svg>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             14/02/23
           </h5>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             <div
               class="c4"
@@ -812,12 +988,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               New payment from Gabriela Ferez
             </div>
           </h5>
-          <button
-            style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-            type="submit"
+          <div
+            class="c5"
           >
-            Placeholder
-          </button>
+            <button
+              class="c6 c7"
+              type="submit"
+            >
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+              >
+                Details
+              </h4>
+            </button>
+          </div>
         </div>
         <div
           class="c3"
@@ -841,12 +1025,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
             />
           </svg>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             27/02/23
           </h5>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             <div
               class="c4"
@@ -854,12 +1038,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               Clogged garbage chute on 4th floor
             </div>
           </h5>
-          <button
-            style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-            type="submit"
+          <div
+            class="c5"
           >
-            Placeholder
-          </button>
+            <button
+              class="c6 c7"
+              type="submit"
+            >
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+              >
+                Details
+              </h4>
+            </button>
+          </div>
         </div>
         <div
           class="c3"
@@ -883,12 +1075,12 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
             />
           </svg>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             24/02/23
           </h5>
           <h5
-            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
           >
             <div
               class="c4"
@@ -896,12 +1088,20 @@ exports[`NotificationWidget renders correctly NotificationWidget 1`] = `
               Clogged garbage chute on 4th floor
             </div>
           </h5>
-          <button
-            style="width: 4.69rem; height: 2rem; border: 1.75px solid #f56513;"
-            type="submit"
+          <div
+            class="c5"
           >
-            Placeholder
-          </button>
+            <button
+              class="c6 c7"
+              type="submit"
+            >
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+              >
+                Details
+              </h4>
+            </button>
+          </div>
         </div>
       </div>
     </div>

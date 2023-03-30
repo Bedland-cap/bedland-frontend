@@ -1,5 +1,6 @@
 export const HEADER_HEIGHT = 70;
 export const FOOTER_HEIGHT = 52;
+export const LOGIN_INPUT_WIDTH = 19.875;
 
 // TODO
 // BASE_URL points to json server

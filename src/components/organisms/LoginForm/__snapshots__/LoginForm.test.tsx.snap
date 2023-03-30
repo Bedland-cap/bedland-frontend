@@ -59,32 +59,34 @@ exports[`Login Form renders correctly 1`] = `
 }
 
 .c5 {
+  width: 19.875rem;
+}
+
+.c6 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   background-color: #F56513;
-  border: 1px solid black;
+  border: 1px solid #F56513;
   border-radius: 0.5rem;
-  color: #ffffff;
+  color: #FCFEFF;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 2.5rem;
+  gap: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0.625rem 1rem 0.625rem 1rem;
-  width: 19.875rem;
+  padding: 0.5625rem 1rem;
+  width: 100%;
 }
 
-.c5:disabled,
-.c5:hover,
-.c5:active,
-.c5:focus {
-  outline: none;
+.c6:hover {
+  background-color: #FF7C33;
+  border: 1px solid #FF7C33;
 }
 
 .c0 {
@@ -103,7 +105,7 @@ exports[`Login Form renders correctly 1`] = `
   width: 25.625rem;
 }
 
-.c6 {
+.c7 {
   color: #F56513;
   display: -webkit-box;
   display: -webkit-flex;
@@ -179,14 +181,32 @@ exports[`Login Form renders correctly 1`] = `
   <span
     className="c4"
   />
-  <button
+  <div
     className="c5"
-    type="submit"
+    style={{}}
   >
-    Login
-  </button>
+    <button
+      className="c6"
+      type="submit"
+    >
+      <h4
+        style={
+          {
+            "color": "#FCFEFF",
+            "fontFamily": "Source Sans Pro, sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 600,
+            "letterSpacing": "1px",
+            "lineHeight": 1.4,
+          }
+        }
+      >
+        Login
+      </h4>
+    </button>
+  </div>
   <a
-    className="c6"
+    className="c7"
     href="/resetPassword"
     onClick={[Function]}
     palette={

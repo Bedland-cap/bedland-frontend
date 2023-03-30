@@ -9,6 +9,7 @@ exports[`ContactsWidget renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -133,7 +134,6 @@ exports[`ContactsWidget renders correctly 1`] = `
           </h3>
           <button
             class="c2"
-            type="button"
           >
             <svg
               fill="none"
@@ -153,6 +153,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                 stroke-width="1.39167"
               />
             </svg>
+            <h4
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+            />
           </button>
         </div>
         <div
@@ -180,7 +183,6 @@ exports[`ContactsWidget renders correctly 1`] = `
               </div>
               <button
                 class="c2"
-                type="button"
               >
                 <svg
                   fill="none"
@@ -200,6 +202,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                     stroke-width="1.67"
                   />
                 </svg>
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+                />
               </button>
             </div>
           </div>
@@ -225,7 +230,6 @@ exports[`ContactsWidget renders correctly 1`] = `
               </div>
               <button
                 class="c2"
-                type="button"
               >
                 <svg
                   fill="none"
@@ -245,6 +249,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                     stroke-width="1.67"
                   />
                 </svg>
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+                />
               </button>
             </div>
           </div>
@@ -270,7 +277,6 @@ exports[`ContactsWidget renders correctly 1`] = `
               </div>
               <button
                 class="c2"
-                type="button"
               >
                 <svg
                   fill="none"
@@ -290,6 +296,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                     stroke-width="1.67"
                   />
                 </svg>
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+                />
               </button>
             </div>
           </div>
@@ -315,7 +324,6 @@ exports[`ContactsWidget renders correctly 1`] = `
               </div>
               <button
                 class="c2"
-                type="button"
               >
                 <svg
                   fill="none"
@@ -335,6 +343,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                     stroke-width="1.67"
                   />
                 </svg>
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+                />
               </button>
             </div>
           </div>
@@ -360,7 +371,6 @@ exports[`ContactsWidget renders correctly 1`] = `
               </div>
               <button
                 class="c2"
-                type="button"
               >
                 <svg
                   fill="none"
@@ -380,6 +390,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                     stroke-width="1.67"
                   />
                 </svg>
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+                />
               </button>
             </div>
           </div>
@@ -405,7 +418,6 @@ exports[`ContactsWidget renders correctly 1`] = `
               </div>
               <button
                 class="c2"
-                type="button"
               >
                 <svg
                   fill="none"
@@ -425,6 +437,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                     stroke-width="1.67"
                   />
                 </svg>
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+                />
               </button>
             </div>
           </div>
@@ -450,7 +465,6 @@ exports[`ContactsWidget renders correctly 1`] = `
               </div>
               <button
                 class="c2"
-                type="button"
               >
                 <svg
                   fill="none"
@@ -470,6 +484,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                     stroke-width="1.67"
                   />
                 </svg>
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+                />
               </button>
             </div>
           </div>
@@ -488,6 +505,7 @@ exports[`ContactsWidget renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -611,7 +629,6 @@ exports[`ContactsWidget renders correctly 1`] = `
         </h3>
         <button
           class="c2"
-          type="button"
         >
           <svg
             fill="none"
@@ -631,6 +648,9 @@ exports[`ContactsWidget renders correctly 1`] = `
               stroke-width="1.39167"
             />
           </svg>
+          <h4
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+          />
         </button>
       </div>
       <div
@@ -658,7 +678,6 @@ exports[`ContactsWidget renders correctly 1`] = `
             </div>
             <button
               class="c2"
-              type="button"
             >
               <svg
                 fill="none"
@@ -678,6 +697,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                   stroke-width="1.67"
                 />
               </svg>
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+              />
             </button>
           </div>
         </div>
@@ -703,7 +725,6 @@ exports[`ContactsWidget renders correctly 1`] = `
             </div>
             <button
               class="c2"
-              type="button"
             >
               <svg
                 fill="none"
@@ -723,6 +744,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                   stroke-width="1.67"
                 />
               </svg>
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+              />
             </button>
           </div>
         </div>
@@ -748,7 +772,6 @@ exports[`ContactsWidget renders correctly 1`] = `
             </div>
             <button
               class="c2"
-              type="button"
             >
               <svg
                 fill="none"
@@ -768,6 +791,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                   stroke-width="1.67"
                 />
               </svg>
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+              />
             </button>
           </div>
         </div>
@@ -793,7 +819,6 @@ exports[`ContactsWidget renders correctly 1`] = `
             </div>
             <button
               class="c2"
-              type="button"
             >
               <svg
                 fill="none"
@@ -813,6 +838,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                   stroke-width="1.67"
                 />
               </svg>
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+              />
             </button>
           </div>
         </div>
@@ -838,7 +866,6 @@ exports[`ContactsWidget renders correctly 1`] = `
             </div>
             <button
               class="c2"
-              type="button"
             >
               <svg
                 fill="none"
@@ -858,6 +885,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                   stroke-width="1.67"
                 />
               </svg>
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+              />
             </button>
           </div>
         </div>
@@ -883,7 +913,6 @@ exports[`ContactsWidget renders correctly 1`] = `
             </div>
             <button
               class="c2"
-              type="button"
             >
               <svg
                 fill="none"
@@ -903,6 +932,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                   stroke-width="1.67"
                 />
               </svg>
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+              />
             </button>
           </div>
         </div>
@@ -928,7 +960,6 @@ exports[`ContactsWidget renders correctly 1`] = `
             </div>
             <button
               class="c2"
-              type="button"
             >
               <svg
                 fill="none"
@@ -948,6 +979,9 @@ exports[`ContactsWidget renders correctly 1`] = `
                   stroke-width="1.67"
                 />
               </svg>
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+              />
             </button>
           </div>
         </div>

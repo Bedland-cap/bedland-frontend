@@ -9,6 +9,7 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -63,7 +64,6 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
           </h3>
           <button
             class="c2"
-            type="button"
           >
             <svg
               fill="none"
@@ -83,6 +83,9 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
                 stroke-width="1.39167"
               />
             </svg>
+            <h4
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+            />
           </button>
         </div>
       </div>
@@ -99,6 +102,7 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -152,7 +156,6 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
         </h3>
         <button
           class="c2"
-          type="button"
         >
           <svg
             fill="none"
@@ -172,6 +175,9 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
               stroke-width="1.39167"
             />
           </svg>
+          <h4
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+          />
         </button>
       </div>
     </div>
@@ -251,6 +257,7 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -305,7 +312,6 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
           </h3>
           <button
             class="c2"
-            type="button"
           >
             <svg
               fill="none"
@@ -325,6 +331,9 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
                 stroke-width="1.39167"
               />
             </svg>
+            <h4
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+            />
           </button>
         </div>
       </div>
@@ -341,6 +350,7 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -394,7 +404,6 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
         </h3>
         <button
           class="c2"
-          type="button"
         >
           <svg
             fill="none"
@@ -414,6 +423,9 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
               stroke-width="1.39167"
             />
           </svg>
+          <h4
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+          />
         </button>
       </div>
     </div>
@@ -493,6 +505,7 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -547,7 +560,6 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
           </h3>
           <button
             class="c2"
-            type="button"
           >
             <svg
               fill="none"
@@ -567,6 +579,9 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
                 stroke-width="1.39167"
               />
             </svg>
+            <h4
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+            />
           </button>
         </div>
       </div>
@@ -583,6 +598,7 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -636,7 +652,6 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
         </h3>
         <button
           class="c2"
-          type="button"
         >
           <svg
             fill="none"
@@ -656,6 +671,9 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
               stroke-width="1.39167"
             />
           </svg>
+          <h4
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+          />
         </button>
       </div>
     </div>
@@ -735,6 +753,7 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -789,7 +808,6 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
           </h3>
           <button
             class="c2"
-            type="button"
           >
             <svg
               fill="none"
@@ -809,6 +827,9 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
                 stroke-width="1.39167"
               />
             </svg>
+            <h4
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+            />
           </button>
         </div>
       </div>
@@ -825,6 +846,7 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -878,7 +900,6 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
         </h3>
         <button
           class="c2"
-          type="button"
         >
           <svg
             fill="none"
@@ -898,6 +919,9 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
               stroke-width="1.39167"
             />
           </svg>
+          <h4
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+          />
         </button>
       </div>
     </div>
@@ -977,6 +1001,7 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1031,7 +1056,6 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
           </h3>
           <button
             class="c2"
-            type="button"
           >
             <svg
               fill="none"
@@ -1051,6 +1075,9 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
                 stroke-width="1.39167"
               />
             </svg>
+            <h4
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+            />
           </button>
         </div>
       </div>
@@ -1067,6 +1094,7 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1120,7 +1148,6 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
         </h3>
         <button
           class="c2"
-          type="button"
         >
           <svg
             fill="none"
@@ -1140,6 +1167,9 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
               stroke-width="1.39167"
             />
           </svg>
+          <h4
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+          />
         </button>
       </div>
     </div>
@@ -1219,6 +1249,7 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1273,7 +1304,6 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
           </h3>
           <button
             class="c2"
-            type="button"
           >
             <svg
               fill="none"
@@ -1293,6 +1323,9 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
                 stroke-width="1.39167"
               />
             </svg>
+            <h4
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+            />
           </button>
         </div>
       </div>
@@ -1309,6 +1342,7 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1362,7 +1396,6 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
         </h3>
         <button
           class="c2"
-          type="button"
         >
           <svg
             fill="none"
@@ -1382,6 +1415,9 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
               stroke-width="1.39167"
             />
           </svg>
+          <h4
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+          />
         </button>
       </div>
     </div>
@@ -1461,6 +1497,7 @@ exports[`Widget should renders correctly with button 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1515,7 +1552,6 @@ exports[`Widget should renders correctly with button 1`] = `
           </h3>
           <button
             class="c2"
-            type="button"
           >
             <svg
               fill="none"
@@ -1535,6 +1571,9 @@ exports[`Widget should renders correctly with button 1`] = `
                 stroke-width="1.39167"
               />
             </svg>
+            <h4
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+            />
           </button>
         </div>
       </div>
@@ -1551,6 +1590,7 @@ exports[`Widget should renders correctly with button 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1604,7 +1644,6 @@ exports[`Widget should renders correctly with button 1`] = `
         </h3>
         <button
           class="c2"
-          type="button"
         >
           <svg
             fill="none"
@@ -1624,6 +1663,9 @@ exports[`Widget should renders correctly with button 1`] = `
               stroke-width="1.39167"
             />
           </svg>
+          <h4
+            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+          />
         </button>
       </div>
     </div>

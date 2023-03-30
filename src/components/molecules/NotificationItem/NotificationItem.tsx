@@ -1,3 +1,4 @@
+import Button from 'components/atoms/Button/Button';
 import { ThemeContext } from 'theme/ThemeContext';
 import { useContext, useState } from 'react';
 import Typography from 'components/atoms/Typography/Typography';
@@ -27,14 +28,11 @@ const NotificationItem = ({ icon, date, text }: NotificationItemProps) => {
       <Typography variant='header5' style={{ fontWeight: isClicked ? '400' : '600' }}>
         <Styled.NotificationItemText>{text}</Styled.NotificationItemText>
       </Typography>
-
-      <button
-        type='submit'
-        style={{ width: '4.69rem', height: '2rem', border: '1.75px solid #F56513' }}
-        onClick={handleClick}
-      >
-        Placeholder
-      </button>
+      <Button wrapper width={4.69} height={2}>
+        <Button type='submit' variant='notificationItem' onClick={handleClick}>
+          Details
+        </Button>
+      </Button>
     </Styled.NotificationItemContainer>
   );
 };

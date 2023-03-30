@@ -31,12 +31,40 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
   color: #fff;
 }
 
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F56513;
+  border: 1px solid #F56513;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  width: 100%;
+}
+
+.c7:hover {
+  background-color: #FF7C33;
+  border: 1px solid #FF7C33;
+}
+
 .c5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -45,35 +73,6 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-.c8 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: orange;
-  border: 1px solid black;
-  border-radius: 0.5rem;
-  color: white;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 2.5rem;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.625rem 1rem 0.625rem 1rem;
-  width: 19.875rem;
-}
-
-.c8:disabled,
-.c8:hover,
-.c8:active,
-.c8:focus {
-  outline: none;
 }
 
 .c0 {
@@ -126,18 +125,6 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
   transition: opacity 0.25s linear,height 0.3s linear,visibility 0.3s linear;
   visibility: hidden;
   width: 35.25rem;
-}
-
-.c7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  width: 100%;
 }
 
 .c4 {
@@ -197,7 +184,6 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
           >
             <button
               class="c5"
-              type="button"
             >
               <svg
                 fill="none"
@@ -217,6 +203,9 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
                   stroke-width="1.39167"
                 />
               </svg>
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+              />
             </button>
           </div>
         </div>
@@ -230,14 +219,27 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
             Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
           </p>
           <div
-            class="c7"
+            class=""
+            style="display: flex; justify-content: flex-end; width: 100%;"
           >
-            <button
-              class="c8"
-              type="button"
+            <div
+              class=""
             >
-              Vote Now
-            </button>
+              <button
+                class="c7"
+                type="button"
+              >
+                <h4
+                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                >
+                  <h5
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
+                  >
+                    Vote now
+                  </h5>
+                </h4>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -276,12 +278,40 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
   color: #fff;
 }
 
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F56513;
+  border: 1px solid #F56513;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  width: 100%;
+}
+
+.c7:hover {
+  background-color: #FF7C33;
+  border: 1px solid #FF7C33;
+}
+
 .c5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  color: #4553DD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -290,35 +320,6 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-.c8 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: orange;
-  border: 1px solid black;
-  border-radius: 0.5rem;
-  color: white;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 2.5rem;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.625rem 1rem 0.625rem 1rem;
-  width: 19.875rem;
-}
-
-.c8:disabled,
-.c8:hover,
-.c8:active,
-.c8:focus {
-  outline: none;
 }
 
 .c0 {
@@ -371,18 +372,6 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
   transition: opacity 0.25s linear,height 0.3s linear,visibility 0.3s linear;
   visibility: hidden;
   width: 35.25rem;
-}
-
-.c7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  width: 100%;
 }
 
 .c4 {
@@ -441,7 +430,6 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
         >
           <button
             class="c5"
-            type="button"
           >
             <svg
               fill="none"
@@ -461,6 +449,9 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
                 stroke-width="1.39167"
               />
             </svg>
+            <h4
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
+            />
           </button>
         </div>
       </div>
@@ -474,14 +465,27 @@ exports[`VotingsItem should renders correctly VotingsItem 1`] = `
           Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
         </p>
         <div
-          class="c7"
+          class=""
+          style="display: flex; justify-content: flex-end; width: 100%;"
         >
-          <button
-            class="c8"
-            type="button"
+          <div
+            class=""
           >
-            Vote Now
-          </button>
+            <button
+              class="c7"
+              type="button"
+            >
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+              >
+                <h5
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
+                >
+                  Vote now
+                </h5>
+              </h4>
+            </button>
+          </div>
         </div>
       </div>
     </div>
