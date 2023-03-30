@@ -1,5 +1,4 @@
 import Icon from 'components/atoms/Icon/Icon';
-import IconButton from 'components/atoms/IconButton/IconButton';
 import Typography from 'components/atoms/Typography/Typography';
 import { useContext, useState } from 'react';
 import { mockDataForVotingChart } from 'utils/mock/chartsMockData';
@@ -50,9 +49,16 @@ const VotingsItem = ({ deadlineDate }: VotingsItemProps) => {
           {switchVariant(curDate, newDeadlineDate)}
         </Typography>
         <Styled.IconWrapper isUnfold={isUnfold} data-testid='votings-item-icon'>
-          <IconButton icon='arrowRight' color='inputGrey' size={20} onClick={() => null} />
+          <Button
+            variant='icon'
+            icon='arrowRight'
+            iconSize={20}
+            iconColor='inputGrey'
+            onClick={() => null}
+          />
         </Styled.IconWrapper>
       </Styled.VotingsItemHeader>
+
       <Styled.UnfoldContainer
         isUnfold={isUnfold}
         date={dateDiffinDays(curDate, newDeadlineDate)}
@@ -72,11 +78,13 @@ const VotingsItem = ({ deadlineDate }: VotingsItemProps) => {
             <CustomChart variant='voting' data={mockDataForVotingChart} title='voting example' />
           </Styled.ChartWrapper>
         ) : (
-          <Styled.ButtonWrapper>
-            <Button textColor='white' backgroundColor='orange' type='button' variant='primary'>
-              Vote Now
+          <Button wrapper style={{ display: 'flex', justifyContent: 'flex-end', width: '100%' }}>
+            <Button wrapper>
+              <Button variant='primary' type='button'>
+                <Typography variant='header5'>Vote now</Typography>
+              </Button>
             </Button>
-          </Styled.ButtonWrapper>
+          </Button>
         )}
       </Styled.UnfoldContainer>
     </Styled.VotingsItemContainer>

@@ -1,4 +1,4 @@
-import IconButton from 'components/atoms/IconButton/IconButton';
+import Button from 'components/atoms/Button/Button';
 import ProfileImage from 'components/atoms/ProfileImage/ProfileImage';
 import Typography from 'components/atoms/Typography/Typography';
 import { useContext } from 'react';
@@ -22,7 +22,7 @@ const MessageItem = ({ name, image }: MessageItemProps) => {
             {name}
           </Typography>
         </Styled.NameWrapper>
-        <IconButton icon='envelope' size={20} color='blueDark' onClick={() => null} />
+        <Button variant='icon' icon='envelope' />
       </Styled.MessageContainer>
     </Styled.HoverContainer>
   );

@@ -1,10 +1,8 @@
 import { useForm, SubmitHandler, FieldValues } from 'react-hook-form';
-import { useContext } from 'react';
 import ErrorMessage from 'components/atoms/ErrorMessage/ErrorMessage';
 import { useNavigate } from 'react-router-dom';
 import InputWithLabel from 'components/molecules/InputWithLabel/InputWithLabel';
 import Button from 'components/atoms/Button/Button';
-import { ThemeContext } from 'theme/ThemeContext';
 import * as Styled from 'components/atoms/ErrorMessage/ErrorMessage.styled';
 import { RegisterOptions } from 'components/atoms/Input/Input.types';
 import loginRegexPattern from 'utils/loginRegexPatterns';
@@ -12,7 +10,6 @@ import { handleErrorMessage, watcher } from './ResetPasswordForm.utils';
 import { ResetPasswordFormContainer } from './ResetPasswordForm.styled';
 
 const ResetPasswordForm = () => {
-  const { palette } = useContext(ThemeContext);
   const navigate = useNavigate();
   const {
     register,
@@ -71,12 +68,7 @@ const ResetPasswordForm = () => {
         ) : null}
       </Styled.ErrorMsg>
 
-      <Button
-        backgroundColor={palette.orangeDark}
-        textColor={palette.light}
-        type='submit'
-        variant='primary'
-      >
+      <Button type='submit' variant='text'>
         Reset my password
       </Button>
     </ResetPasswordFormContainer>

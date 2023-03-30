@@ -1,5 +1,5 @@
+import Button from 'components/atoms/Button/Button';
 import Typography from 'components/atoms/Typography/Typography';
-import IconButton from 'components/atoms/IconButton/IconButton';
 import { PropsWithChildren, useContext } from 'react';
 
 import { ThemeContext } from 'theme/ThemeContext';
@@ -16,6 +16,7 @@ const Widget = ({
   children,
 }: PropsWithChildren<WidgetProps>) => {
   const { palette } = useContext(ThemeContext);
+  const colorCondition = mode === 'light' ? 'blueDark' : 'white';
 
   return (
     <Styled.WidgetElement
@@ -25,17 +26,15 @@ const Widget = ({
       minWidth={variantToSize[variant].minWidth}
     >
       <Styled.WidgetHeader mode={mode} palette={palette}>
-        <Typography
-          variant='header3'
-          color={mode === 'light' ? 'blueDark' : 'white'}
-        >
+        <Typography variant='header3' color={colorCondition}>
           {title}
         </Typography>
         {isArrowButton ? (
-          <IconButton
+          <Button
+            variant='icon'
             icon='arrowRight'
-            color={mode === 'light' ? 'blueDark' : 'white'}
-            size={24}
+            iconColor={colorCondition}
+            iconSize={24}
             onClick={onClick}
           />
         ) : null}
