@@ -35,7 +35,7 @@ const CustomChart: FC<PropsWithChildren<CustomChartProps>> = ({
           <Styled.ChartTitle>{title}</Styled.ChartTitle>
           <Styled.ChartContainer size={size}>
             <Styled.DoughnutChartWrapper size={size}>
-              <Styled.DoughnutChartContainer size={size}>
+              <Styled.DoughnutChartContainer>
                 <Doughnut
                   redraw
                   updateMode='resize'

@@ -36,7 +36,7 @@ const meta = {
     (Story) => (
       <ThemeProvider>
         <GlobalStyle />
-        {Story()}
+        <div style={{ width: '30.875rem' }}>{Story()}</div>
       </ThemeProvider>
     ),
   ],
