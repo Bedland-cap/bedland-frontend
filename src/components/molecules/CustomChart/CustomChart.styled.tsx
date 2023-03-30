@@ -1,12 +1,11 @@
-import variantToSize from 'components/templates/Widget/Widget.utils';
 import styled from 'styled-components';
 
 export const ChartWrapper = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: space-between;
-  min-width: ${variantToSize.payments.minWidth};
 `;
 export const ChartContainer = styled.div<{ size: number }>`
   align-items: center;
@@ -24,7 +23,7 @@ export const DoughnutChartWrapper = styled.div<{ size: number }>`
   width: 100%;
 `;
 
-export const DoughnutChartContainer = styled.div<{ size: number }>`
+export const DoughnutChartContainer = styled.div`
   height: 100%;
   position: absolute;
   width: 100%;
