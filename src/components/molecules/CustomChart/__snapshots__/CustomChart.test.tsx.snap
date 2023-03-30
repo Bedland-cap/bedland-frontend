@@ -15,11 +15,11 @@ exports[`Custom Chart should renders correctly bar chart for voting 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  height: 100%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  min-width: 30.875rem;
 }
 
 <body>
@@ -46,11 +46,11 @@ exports[`Custom Chart should renders correctly bar chart for voting 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  height: 100%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  min-width: 30.875rem;
 }
 
 <div>
@@ -139,11 +139,11 @@ exports[`Custom Chart should renders correctly doughnut payment chart for manage
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  height: 100%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  min-width: 30.875rem;
 }
 
 .c2 {
@@ -311,7 +311,6 @@ exports[`Custom Chart should renders correctly doughnut payment chart for manage
           >
             <div
               class="c4"
-              size="200"
             />
           </div>
           <div
@@ -382,11 +381,11 @@ exports[`Custom Chart should renders correctly doughnut payment chart for manage
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  height: 100%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  min-width: 30.875rem;
 }
 
 .c2 {
@@ -553,7 +552,6 @@ exports[`Custom Chart should renders correctly doughnut payment chart for manage
         >
           <div
             class="c4"
-            size="200"
           />
         </div>
         <div

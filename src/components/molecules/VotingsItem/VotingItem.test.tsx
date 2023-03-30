@@ -1,9 +1,11 @@
 import { renderWithProviders } from 'utils/test.utils';
 import Badge from 'components/atoms/Badge/Badge';
+import { fireEvent, screen, cleanup } from '@testing-library/react';
 import VotingsItem, { VotingsItemProps } from './VotingsItem';
 import { addLeadingZero, dateDiffinDays, switchVariant } from './VotingsItem.utils';
 
 describe('VotingsItem', () => {
+  afterEach(cleanup);
   const item = ({ deadlineDate }: VotingsItemProps) =>
     renderWithProviders(<VotingsItem deadlineDate={deadlineDate} />, {});
 
@@ -38,5 +40,31 @@ describe('VotingsItem', () => {
         {dateDiffinDays(new Date(2023, 10, 5), new Date(2023, 10, 6))} left
       </Badge>,
     );
+  });
+  it('votings item with voting successfuly unfolds and arrow icon rotates', async () => {
+    item({
+      deadlineDate: new Date(),
+    });
+    const unfold = screen.getByTestId('votings-item');
+    const votingsItemIcon = screen.getByTestId('votings-item-icon');
+    const unfoldedContainer = screen.getByTestId('unfolded-container');
+    expect(unfoldedContainer).toHaveStyle('height: 0');
+    expect(votingsItemIcon).toHaveStyle('transform: rotate(90deg)');
+    await fireEvent.click(unfold);
+    expect(unfoldedContainer).toHaveStyle('height: 10rem');
+    expect(votingsItemIcon).toHaveStyle('transform: rotate(270deg)');
+  });
+  it('votings item with chart successfuly unfolds and arrow icon rotates', async () => {
+    item({
+      deadlineDate: new Date(1995, 11, 17),
+    });
+    const unfold = screen.getByTestId('votings-item');
+    const votingsItemIcon = screen.getByTestId('votings-item-icon');
+    const unfoldedContainer = screen.getByTestId('unfolded-container');
+    expect(unfoldedContainer).toHaveStyle('height: 0');
+    expect(votingsItemIcon).toHaveStyle('transform: rotate(90deg)');
+    await fireEvent.click(unfold);
+    expect(unfoldedContainer).toHaveStyle('height: 20rem');
+    expect(votingsItemIcon).toHaveStyle('transform: rotate(270deg)');
   });
 });
