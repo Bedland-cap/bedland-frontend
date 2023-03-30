@@ -9,6 +9,7 @@ import * as Styled from 'components/atoms/ErrorMessage/ErrorMessage.styled';
 import { ThemeContext } from 'theme/ThemeContext';
 import Typography from 'components/atoms/Typography/Typography';
 import loginRegexPattern from 'utils/loginRegexPatterns';
+import { LOGIN_INPUT_WIDTH } from 'utils/constans';
 import ERROR_MESSAGES from 'utils/messages';
 import { LoginRequest, useLoginAndGetUserMutation } from 'services/user/userApi';
 import { LoginFormContainer, ResetPasswordLink } from './LoginForm.styled';
@@ -69,15 +70,10 @@ const LoginForm = () => {
           <ErrorMessage>{ERROR_MESSAGES.loginPage.errorMessage}</ErrorMessage>
         ) : null}
       </Styled.ErrorMsg>
-
-      <Button
-        backgroundColor={palette.orangeDark}
-        textColor='#ffffff'
-        type='submit'
-        variant='primary'
-        data-testid='login-button'
-      >
-        Login
+      <Button wrapper width={LOGIN_INPUT_WIDTH} data-testid='login-button'>
+        <Button type='submit' variant='primary'>
+          Login
+        </Button>
       </Button>
 
       <ResetPasswordLink palette={palette} to={routes.resetPassword}>

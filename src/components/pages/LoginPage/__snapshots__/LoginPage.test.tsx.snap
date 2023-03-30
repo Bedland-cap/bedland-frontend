@@ -70,32 +70,34 @@ exports[`Login Page renders correctly 1`] = `
 }
 
 .c7 {
+  width: 19.875rem;
+}
+
+.c8 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   background-color: #F56513;
-  border: 1px solid black;
+  border: 1px solid #F56513;
   border-radius: 0.5rem;
-  color: #ffffff;
+  color: #FCFEFF;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 2.5rem;
+  gap: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0.625rem 1rem 0.625rem 1rem;
-  width: 19.875rem;
+  padding: 0.5625rem 1rem;
+  width: 100%;
 }
 
-.c7:disabled,
-.c7:hover,
-.c7:active,
-.c7:focus {
-  outline: none;
+.c8:hover {
+  background-color: #FF7C33;
+  border: 1px solid #FF7C33;
 }
 
 .c2 {
@@ -114,7 +116,7 @@ exports[`Login Page renders correctly 1`] = `
   width: 25.625rem;
 }
 
-.c8 {
+.c9 {
   color: #F56513;
   display: -webkit-box;
   display: -webkit-flex;
@@ -200,14 +202,22 @@ exports[`Login Page renders correctly 1`] = `
           <span
             class="c6"
           />
-          <button
+          <div
             class="c7"
-            type="submit"
           >
-            Login
-          </button>
+            <button
+              class="c8"
+              type="submit"
+            >
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+              >
+                Login
+              </h4>
+            </button>
+          </div>
           <a
-            class="c8"
+            class="c9"
             href="/resetPassword"
             palette="[object Object]"
           >
@@ -289,32 +299,34 @@ exports[`Login Page renders correctly 1`] = `
 }
 
 .c7 {
+  width: 19.875rem;
+}
+
+.c8 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   background-color: #F56513;
-  border: 1px solid black;
+  border: 1px solid #F56513;
   border-radius: 0.5rem;
-  color: #ffffff;
+  color: #FCFEFF;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 2.5rem;
+  gap: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0.625rem 1rem 0.625rem 1rem;
-  width: 19.875rem;
+  padding: 0.5625rem 1rem;
+  width: 100%;
 }
 
-.c7:disabled,
-.c7:hover,
-.c7:active,
-.c7:focus {
-  outline: none;
+.c8:hover {
+  background-color: #FF7C33;
+  border: 1px solid #FF7C33;
 }
 
 .c2 {
@@ -333,7 +345,7 @@ exports[`Login Page renders correctly 1`] = `
   width: 25.625rem;
 }
 
-.c8 {
+.c9 {
   color: #F56513;
   display: -webkit-box;
   display: -webkit-flex;
@@ -418,14 +430,22 @@ exports[`Login Page renders correctly 1`] = `
         <span
           class="c6"
         />
-        <button
+        <div
           class="c7"
-          type="submit"
         >
-          Login
-        </button>
+          <button
+            class="c8"
+            type="submit"
+          >
+            <h4
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+            >
+              Login
+            </h4>
+          </button>
+        </div>
         <a
-          class="c8"
+          class="c9"
           href="/resetPassword"
           palette="[object Object]"
         >

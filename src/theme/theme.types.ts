@@ -38,6 +38,8 @@ export const typographyNames = [
   'captions',
 ] as const;
 
+const typographyTypes = ['p', 'span', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'] as const;
+
 export type ColorNames = (typeof colorNames)[number];
 export type HexColor = `#${string}`;
 
@@ -45,7 +47,11 @@ export type PaletteType = Getters<ColorNames, HexColor>;
 
 export type TypographyName = (typeof typographyNames)[number];
 
-type TypographyType = Getters<TypographyName, CSSProperties>;
+type TypographyTypes = (typeof typographyTypes)[number];
+
+export type TypographyVariants = { [key in TypographyName]: TypographyTypes };
+
+export type TypographyType = Getters<TypographyName, CSSProperties>;
 
 export type Theme = {
   palette: PaletteType;

@@ -59,6 +59,37 @@ exports[`BuildingsPage renders correctly 1`] = `
   margin-right: 0.771rem;
 }
 
+.c12 {
+  margin-top: 1rem;
+}
+
+.c13 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border: 1px solid #4553DD;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  width: 100%;
+}
+
+.c13:hover {
+  background-color: #6573FF;
+  border: 1px solid #6573FF;
+}
+
 .c9 {
   background-color: #fff;
   border-radius: 8px;
@@ -82,25 +113,6 @@ exports[`BuildingsPage renders correctly 1`] = `
 
 .c11 {
   padding: 0.5rem 1.031rem 0.938rem;
-}
-
-.c12 {
-  margin-top: 1rem;
-}
-
-.c13 {
-  background-color: #4553DD;
-  border-radius: 8px;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 140%;
-  padding: 0.563rem;
-  width: 100%;
-}
-
-.c13:hover {
-  background-color: #919AFF;
 }
 
 .c8 {
@@ -267,7 +279,11 @@ exports[`BuildingsPage renders correctly 1`] = `
                     <button
                       class="c13"
                     >
-                      Open details
+                      <h4
+                        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                      >
+                        Open details
+                      </h4>
                     </button>
                   </div>
                 </div>
@@ -300,7 +316,11 @@ exports[`BuildingsPage renders correctly 1`] = `
                     <button
                       class="c13"
                     >
-                      Open details
+                      <h4
+                        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                      >
+                        Open details
+                      </h4>
                     </button>
                   </div>
                 </div>
@@ -333,7 +353,11 @@ exports[`BuildingsPage renders correctly 1`] = `
                     <button
                       class="c13"
                     >
-                      Open details
+                      <h4
+                        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                      >
+                        Open details
+                      </h4>
                     </button>
                   </div>
                 </div>
@@ -366,7 +390,11 @@ exports[`BuildingsPage renders correctly 1`] = `
                     <button
                       class="c13"
                     >
-                      Open details
+                      <h4
+                        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                      >
+                        Open details
+                      </h4>
                     </button>
                   </div>
                 </div>
@@ -399,7 +427,11 @@ exports[`BuildingsPage renders correctly 1`] = `
                     <button
                       class="c13"
                     >
-                      Open details
+                      <h4
+                        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                      >
+                        Open details
+                      </h4>
                     </button>
                   </div>
                 </div>
@@ -471,6 +503,37 @@ exports[`BuildingsPage renders correctly 1`] = `
   margin-right: 0.771rem;
 }
 
+.c12 {
+  margin-top: 1rem;
+}
+
+.c13 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border: 1px solid #4553DD;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  width: 100%;
+}
+
+.c13:hover {
+  background-color: #6573FF;
+  border: 1px solid #6573FF;
+}
+
 .c9 {
   background-color: #fff;
   border-radius: 8px;
@@ -494,25 +557,6 @@ exports[`BuildingsPage renders correctly 1`] = `
 
 .c11 {
   padding: 0.5rem 1.031rem 0.938rem;
-}
-
-.c12 {
-  margin-top: 1rem;
-}
-
-.c13 {
-  background-color: #4553DD;
-  border-radius: 8px;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 140%;
-  padding: 0.563rem;
-  width: 100%;
-}
-
-.c13:hover {
-  background-color: #919AFF;
 }
 
 .c8 {
@@ -678,7 +722,11 @@ exports[`BuildingsPage renders correctly 1`] = `
                   <button
                     class="c13"
                   >
-                    Open details
+                    <h4
+                      style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                    >
+                      Open details
+                    </h4>
                   </button>
                 </div>
               </div>
@@ -711,7 +759,11 @@ exports[`BuildingsPage renders correctly 1`] = `
                   <button
                     class="c13"
                   >
-                    Open details
+                    <h4
+                      style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                    >
+                      Open details
+                    </h4>
                   </button>
                 </div>
               </div>
@@ -744,7 +796,11 @@ exports[`BuildingsPage renders correctly 1`] = `
                   <button
                     class="c13"
                   >
-                    Open details
+                    <h4
+                      style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                    >
+                      Open details
+                    </h4>
                   </button>
                 </div>
               </div>
@@ -777,7 +833,11 @@ exports[`BuildingsPage renders correctly 1`] = `
                   <button
                     class="c13"
                   >
-                    Open details
+                    <h4
+                      style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                    >
+                      Open details
+                    </h4>
                   </button>
                 </div>
               </div>
@@ -810,7 +870,11 @@ exports[`BuildingsPage renders correctly 1`] = `
                   <button
                     class="c13"
                   >
-                    Open details
+                    <h4
+                      style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                    >
+                      Open details
+                    </h4>
                   </button>
                 </div>
               </div>

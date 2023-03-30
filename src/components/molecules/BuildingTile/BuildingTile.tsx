@@ -1,3 +1,4 @@
+import Button from 'components/atoms/Button/Button';
 import Typography from 'components/atoms/Typography/Typography';
 import { useContext } from 'react';
 import { ThemeContext } from 'theme/ThemeContext';
@@ -27,9 +28,11 @@ const BuildingTile = ({ buildingId, buildingAddress, buildingImg }: BuildingTile
         <Typography variant='paragraph' color='inputGrey'>
           {buildingAddress}
         </Typography>
-        <Styled.ButtonWrapper>
-          <Styled.Button palette={palette}>Open details</Styled.Button>
-        </Styled.ButtonWrapper>
+        <Button wrapper marginTop={1}>
+          <Button variant='primary' color='blue'>
+            Open details
+          </Button>
+        </Button>
       </Styled.CardContent>
     </Styled.TileWrapper>
   );

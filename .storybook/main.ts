@@ -31,6 +31,9 @@ const config: StorybookConfig = {
   docs: {
     autodocs: 'tag',
   },
+  typescript: {
+    reactDocgen: 'react-docgen',
+  },
   staticDirs: ['..\\public'],
 };
 export default config;

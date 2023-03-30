@@ -1,7 +1,8 @@
 import { cleanup } from '@testing-library/react';
 import { PropsWithChildren } from 'react';
 import { renderWithProviders } from 'utils/test.utils';
-import Typography, { TypographyProps } from './Typography';
+import Typography from './Typography';
+import { TypographyProps } from './Typography.types';
 
 describe('Typography', () => {
   afterEach(cleanup);

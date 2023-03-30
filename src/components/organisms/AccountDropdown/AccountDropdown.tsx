@@ -1,10 +1,10 @@
+import Icon from 'components/atoms/Icon/Icon';
 import { useState, useEffect, useRef, useContext } from 'react';
 import { useAppSelector } from 'store/hooks';
 import { useLogoutMutation } from 'services/user/userApi';
 import AccountInfo from 'components/atoms/AccountInfo/AccountInfo';
 import routes from 'App/routing/routes';
 import Avatar from 'assets/img/Avatar.svg';
-import IconButton from 'components/atoms/IconButton/IconButton';
 import ProfileImage from 'components/atoms/ProfileImage/ProfileImage';
 import DropdownItem from 'components/molecules/DropdownItem/DropdownItem';
 import { useNavigate } from 'react-router-dom';
@@ -67,7 +67,7 @@ const AccountDropdown = () => {
       <Styled.UserInfoBox onClick={handleDropdown} data-testid='dropdown'>
         <ProfileImage size={2} src={Avatar} />
         <AccountInfo userRole={userRole} userLogin={userLogin ?? ''} />
-        <IconButton icon='more' color='text' size={20} onClick={handleDropdown} />
+        <Icon name='more' color='text' size={20} isActive={false} />
       </Styled.UserInfoBox>
 
       {isDropdownOpen ? (

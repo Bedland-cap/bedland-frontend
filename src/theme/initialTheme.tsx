@@ -31,14 +31,12 @@ const initialTheme: Theme = {
       letterSpacing: '2px',
       lineHeight: 1.2,
     },
-
     header2: {
       fontFamily: 'Poppins, sans-serif',
       fontWeight: 700,
       fontSize: '1.5rem',
       lineHeight: 1.4,
     },
-
     subtitles: {
       fontFamily: 'Poppins, sans-serif',
       fontWeight: 500,
@@ -46,7 +44,6 @@ const initialTheme: Theme = {
       lineHeight: 1.4,
       letterSpacing: '1px',
     },
-
     header3: {
       fontFamily: 'Source Sans Pro, sans-serif',
       fontWeight: 700,
@@ -54,7 +51,6 @@ const initialTheme: Theme = {
       lineHeight: 1.4,
       letterSpacing: '1px',
     },
-
     header4: {
       fontFamily: 'Source Sans Pro, sans-serif',
       fontSize: '1rem',
@@ -62,7 +58,6 @@ const initialTheme: Theme = {
       lineHeight: 1.4,
       letterSpacing: '1px',
     },
-
     header5: {
       fontFamily: 'Source Sans Pro, sans-serif',
       fontWeight: 600,
@@ -70,7 +65,6 @@ const initialTheme: Theme = {
       lineHeight: 1.4,
       letterSpacing: '0',
     },
-
     subHeader: {
       fontFamily: 'Source Sans Pro, sans-serif',
       fontWeight: 400,
@@ -78,7 +72,6 @@ const initialTheme: Theme = {
       lineHeight: 1.4,
       letterSpacing: '0',
     },
-
     paragraph: {
       fontFamily: 'Source Sans Pro, sans-serif',
       fontWeight: 400,
@@ -86,7 +79,6 @@ const initialTheme: Theme = {
       lineHeight: 1.6,
       letterSpacing: '0',
     },
-
     dataInputsAndTooltips: {
       fontFamily: 'Source Sans Pro, sans-serif',
       fontWeight: 400,
@@ -94,7 +86,6 @@ const initialTheme: Theme = {
       lineHeight: 1.4,
       letterSpacing: '1px',
     },
-
     unerlined: {
       fontFamily: 'Source Sans Pro, sans-serif',
       fontWeight: 400,
@@ -102,7 +93,6 @@ const initialTheme: Theme = {
       lineHeight: 1.6,
       textDecoration: 'underline',
     },
-
     captions: {
       fontFamily: 'Source Sans Pro, sans-serif',
       fontWeight: 600,

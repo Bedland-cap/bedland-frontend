@@ -43,11 +43,6 @@ export const ChartWrapper = styled.div`
   height: 12.5rem;
   width: 27.25rem;
 `;
-export const ButtonWrapper = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-`;
 
 export const IconWrapper = styled.div<{ isUnfold: boolean }>`
   transform: ${({ isUnfold }) => (isUnfold ? 'rotate(270deg)' : 'rotate(90deg)')};

@@ -9,6 +9,7 @@ const meta = {
   title: 'organisms/ResetPasswordForm',
   component: ResetPasswordForm,
   tags: ['autodocs'],
+  
   decorators: [
     (Story) => (
       <ThemeProvider>
