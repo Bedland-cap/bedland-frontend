@@ -21,9 +21,6 @@ describe('Typography', () => {
   });
 
   it('should renders correctly typography - header4', () => {
-    expect(
-      item({ variant: 'header4', color: 'blueDark', children: 'header4' }),
-    ).toMatchSnapshot();
+    expect(item({ variant: 'header4', color: 'blueDark', children: 'header4' })).toMatchSnapshot();
   });
-
 });

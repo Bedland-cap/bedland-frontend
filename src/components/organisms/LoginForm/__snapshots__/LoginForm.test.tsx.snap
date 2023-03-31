@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Login Form renders correctly 1`] = `
+exports[`Login Form > renders correctly 1`] = `
 .c4 {
   -webkit-align-items: center;
   -webkit-box-align: center;

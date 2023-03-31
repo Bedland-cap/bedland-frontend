@@ -41,7 +41,7 @@ pipelines:
           - node
         script:
           - echo "--- Build ---"
-          - npm run build --dev --configuration=dev
+          - npm run build
         artifacts:
           - build/**
 

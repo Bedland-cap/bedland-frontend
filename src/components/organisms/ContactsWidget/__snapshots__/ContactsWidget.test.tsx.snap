@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ContactsWidget renders correctly 1`] = `
+exports[`ContactsWidget > renders correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c2 {
@@ -171,6 +171,7 @@ exports[`ContactsWidget renders correctly 1`] = `
                 alt="profile"
                 class="c6"
                 size="1.5"
+                src="/src/assets/img/Avatar.svg"
               />
               <div
                 class="c7"
@@ -218,6 +219,7 @@ exports[`ContactsWidget renders correctly 1`] = `
                 alt="profile"
                 class="c6"
                 size="1.5"
+                src="/src/assets/img/Avatar.svg"
               />
               <div
                 class="c7"
@@ -265,6 +267,7 @@ exports[`ContactsWidget renders correctly 1`] = `
                 alt="profile"
                 class="c6"
                 size="1.5"
+                src="/src/assets/img/Avatar.svg"
               />
               <div
                 class="c7"
@@ -312,6 +315,7 @@ exports[`ContactsWidget renders correctly 1`] = `
                 alt="profile"
                 class="c6"
                 size="1.5"
+                src="/src/assets/img/Avatar.svg"
               />
               <div
                 class="c7"
@@ -359,6 +363,7 @@ exports[`ContactsWidget renders correctly 1`] = `
                 alt="profile"
                 class="c6"
                 size="1.5"
+                src="/src/assets/img/Avatar.svg"
               />
               <div
                 class="c7"
@@ -406,6 +411,7 @@ exports[`ContactsWidget renders correctly 1`] = `
                 alt="profile"
                 class="c6"
                 size="1.5"
+                src="/src/assets/img/Avatar.svg"
               />
               <div
                 class="c7"
@@ -453,6 +459,7 @@ exports[`ContactsWidget renders correctly 1`] = `
                 alt="profile"
                 class="c6"
                 size="1.5"
+                src="/src/assets/img/Avatar.svg"
               />
               <div
                 class="c7"
@@ -666,6 +673,7 @@ exports[`ContactsWidget renders correctly 1`] = `
               alt="profile"
               class="c6"
               size="1.5"
+              src="/src/assets/img/Avatar.svg"
             />
             <div
               class="c7"
@@ -713,6 +721,7 @@ exports[`ContactsWidget renders correctly 1`] = `
               alt="profile"
               class="c6"
               size="1.5"
+              src="/src/assets/img/Avatar.svg"
             />
             <div
               class="c7"
@@ -760,6 +769,7 @@ exports[`ContactsWidget renders correctly 1`] = `
               alt="profile"
               class="c6"
               size="1.5"
+              src="/src/assets/img/Avatar.svg"
             />
             <div
               class="c7"
@@ -807,6 +817,7 @@ exports[`ContactsWidget renders correctly 1`] = `
               alt="profile"
               class="c6"
               size="1.5"
+              src="/src/assets/img/Avatar.svg"
             />
             <div
               class="c7"
@@ -854,6 +865,7 @@ exports[`ContactsWidget renders correctly 1`] = `
               alt="profile"
               class="c6"
               size="1.5"
+              src="/src/assets/img/Avatar.svg"
             />
             <div
               class="c7"
@@ -901,6 +913,7 @@ exports[`ContactsWidget renders correctly 1`] = `
               alt="profile"
               class="c6"
               size="1.5"
+              src="/src/assets/img/Avatar.svg"
             />
             <div
               class="c7"
@@ -948,6 +961,7 @@ exports[`ContactsWidget renders correctly 1`] = `
               alt="profile"
               class="c6"
               size="1.5"
+              src="/src/assets/img/Avatar.svg"
             />
             <div
               class="c7"

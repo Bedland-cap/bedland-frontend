@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`BuildingsPage renders correctly 1`] = `
+exports[`BuildingsPage > renders correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c5 {
@@ -257,7 +257,7 @@ exports[`BuildingsPage renders correctly 1`] = `
                 <img
                   alt="Building"
                   class="c10"
-                  src=""
+                  src="/src/assets/img/BuildingImg.png"
                 />
                 <div
                   class="c11"
@@ -294,7 +294,7 @@ exports[`BuildingsPage renders correctly 1`] = `
                 <img
                   alt="Building"
                   class="c10"
-                  src=""
+                  src="/src/assets/img/BuildingImg.png"
                 />
                 <div
                   class="c11"
@@ -331,7 +331,7 @@ exports[`BuildingsPage renders correctly 1`] = `
                 <img
                   alt="Building"
                   class="c10"
-                  src=""
+                  src="/src/assets/img/BuildingImg.png"
                 />
                 <div
                   class="c11"
@@ -368,7 +368,7 @@ exports[`BuildingsPage renders correctly 1`] = `
                 <img
                   alt="Building"
                   class="c10"
-                  src=""
+                  src="/src/assets/img/BuildingImg.png"
                 />
                 <div
                   class="c11"
@@ -405,7 +405,7 @@ exports[`BuildingsPage renders correctly 1`] = `
                 <img
                   alt="Building"
                   class="c10"
-                  src=""
+                  src="/src/assets/img/BuildingImg.png"
                 />
                 <div
                   class="c11"
@@ -700,7 +700,7 @@ exports[`BuildingsPage renders correctly 1`] = `
               <img
                 alt="Building"
                 class="c10"
-                src=""
+                src="/src/assets/img/BuildingImg.png"
               />
               <div
                 class="c11"
@@ -737,7 +737,7 @@ exports[`BuildingsPage renders correctly 1`] = `
               <img
                 alt="Building"
                 class="c10"
-                src=""
+                src="/src/assets/img/BuildingImg.png"
               />
               <div
                 class="c11"
@@ -774,7 +774,7 @@ exports[`BuildingsPage renders correctly 1`] = `
               <img
                 alt="Building"
                 class="c10"
-                src=""
+                src="/src/assets/img/BuildingImg.png"
               />
               <div
                 class="c11"
@@ -811,7 +811,7 @@ exports[`BuildingsPage renders correctly 1`] = `
               <img
                 alt="Building"
                 class="c10"
-                src=""
+                src="/src/assets/img/BuildingImg.png"
               />
               <div
                 class="c11"
@@ -848,7 +848,7 @@ exports[`BuildingsPage renders correctly 1`] = `
               <img
                 alt="Building"
                 class="c10"
-                src=""
+                src="/src/assets/img/BuildingImg.png"
               />
               <div
                 class="c11"

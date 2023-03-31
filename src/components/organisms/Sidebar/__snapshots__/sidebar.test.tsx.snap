@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Sidebar for manager should renders correctly sidebar 1`] = `
+exports[`Sidebar for manager > should renders correctly sidebar 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c2 {
@@ -1000,7 +1000,7 @@ exports[`Sidebar for manager should renders correctly sidebar 1`] = `
 }
 `;
 
-exports[`Sidebar for resident should renders correctly sidebar 1`] = `
+exports[`Sidebar for resident > should renders correctly sidebar 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c2 {
