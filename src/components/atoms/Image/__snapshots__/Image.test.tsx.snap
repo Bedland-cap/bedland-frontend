@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Image snapshot renders correctly 1`] = `
+exports[`Image > snapshot renders correctly 1`] = `
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -13,5 +13,6 @@ exports[`Image snapshot renders correctly 1`] = `
 <img
   alt="image"
   className="c0"
+  src="/src/assets/img/Loginlogo.svg"
 />
 `;

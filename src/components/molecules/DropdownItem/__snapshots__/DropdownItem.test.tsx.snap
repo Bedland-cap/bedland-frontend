@@ -1,120 +1,12 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`DropdownItem renders correctly 1`] = `
+exports[`DropdownItem > renders correctly 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": .c0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 1.25rem;
-}
-
-<body>
-    <div>
-      <a
-        class="c0"
-        data-testid="dropdown-item"
-        href="/account"
-      >
-        <svg
-          fill="none"
-          height="20"
-          viewBox="0 0 20 20"
-          width="20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <mask
-            id="mask-user"
-          />
-          <path
-            d="M10.0003 10.8333C12.3015 10.8333 14.167 8.96785 14.167 6.66667C14.167 4.36548 12.3015 2.5 10.0003 2.5C7.69916 2.5 5.83368 4.36548 5.83368 6.66667C5.83368 8.96785 7.69916 10.8333 10.0003 10.8333Z"
-            stroke="#1B1A1A"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="1.67"
-          />
-          <path
-            d="M16.667 17.5002C16.667 15.7321 15.9646 14.0364 14.7144 12.7861C13.4641 11.5359 11.7685 10.8335 10.0003 10.8335C8.23224 10.8335 6.53654 11.5359 5.2863 12.7861C4.03606 14.0364 3.33368 15.7321 3.33368 17.5002"
-            stroke="#1B1A1A"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="1.67"
-          />
-        </svg>
-        <p
-          style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(27, 26, 26);"
-        >
-          My Account
-        </p>
-      </a>
-      <div
-        data-testid="location-display"
-      >
-        /
-      </div>
-    </div>
+  "baseElement": <body>
+    <div />
   </body>,
-  "container": .c0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 1.25rem;
-}
-
-<div>
-    <a
-      class="c0"
-      data-testid="dropdown-item"
-      href="/account"
-    >
-      <svg
-        fill="none"
-        height="20"
-        viewBox="0 0 20 20"
-        width="20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <mask
-          id="mask-user"
-        />
-        <path
-          d="M10.0003 10.8333C12.3015 10.8333 14.167 8.96785 14.167 6.66667C14.167 4.36548 12.3015 2.5 10.0003 2.5C7.69916 2.5 5.83368 4.36548 5.83368 6.66667C5.83368 8.96785 7.69916 10.8333 10.0003 10.8333Z"
-          stroke="#1B1A1A"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="1.67"
-        />
-        <path
-          d="M16.667 17.5002C16.667 15.7321 15.9646 14.0364 14.7144 12.7861C13.4641 11.5359 11.7685 10.8335 10.0003 10.8335C8.23224 10.8335 6.53654 11.5359 5.2863 12.7861C4.03606 14.0364 3.33368 15.7321 3.33368 17.5002"
-          stroke="#1B1A1A"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="1.67"
-        />
-      </svg>
-      <p
-        style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(27, 26, 26);"
-      >
-        My Account
-      </p>
-    </a>
-    <div
-      data-testid="location-display"
-    >
-      /
-    </div>
-  </div>,
+  "container": <div />,
   "debug": [Function],
   "findAllByAltText": [Function],
   "findAllByDisplayValue": [Function],

@@ -63,5 +63,4 @@ describe('residentSlice', () => {
     expect(newState.ids).toEqual(['fakeID']);
     expect(newState.entities).toEqual({ fakeID: fakeResident });
   });
-  
 });

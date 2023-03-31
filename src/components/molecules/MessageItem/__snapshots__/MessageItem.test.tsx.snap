@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`MessageItem renders correctly 1`] = `
+exports[`MessageItem > renders correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c4 {
@@ -68,6 +68,7 @@ exports[`MessageItem renders correctly 1`] = `
             alt="profile"
             class="c2"
             size="1.5"
+            src="/src/assets/img/Avatar.svg"
           />
           <div
             class="c3"
@@ -176,6 +177,7 @@ exports[`MessageItem renders correctly 1`] = `
           alt="profile"
           class="c2"
           size="1.5"
+          src="/src/assets/img/Avatar.svg"
         />
         <div
           class="c3"

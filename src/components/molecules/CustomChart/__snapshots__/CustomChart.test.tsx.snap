@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Custom Chart should renders correctly bar chart for voting 1`] = `
+exports[`Custom Chart > should renders correctly bar chart for voting 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -124,7 +124,7 @@ exports[`Custom Chart should renders correctly bar chart for voting 1`] = `
 }
 `;
 
-exports[`Custom Chart should renders correctly doughnut payment chart for manager 1`] = `
+exports[`Custom Chart > should renders correctly doughnut payment chart for manager 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {

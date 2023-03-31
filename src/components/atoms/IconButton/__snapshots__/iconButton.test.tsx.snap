@@ -1,73 +1,49 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`MainBody > should renders correctly Page 1`] = `
+exports[`Icon > should renders correctly arrowRight IconButton 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding: 1rem;
-  width: 100%;
-}
-
-.c1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: transparent;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 1rem;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  width: 100%;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 <body>
     <div>
-      <div
+      <button
         class="c0"
+        type="button"
       >
-        <div
-          class="c1"
+        <svg
+          fill="none"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <h2
-            style="font-family: Poppins, sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.4; color: rgb(27, 26, 26);"
+          <mask
+            id="mask-arrowRight"
           />
-        </div>
-        <div
-          class="c2"
-        />
-      </div>
+          <path
+            d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+            stroke="#919AFF"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.39167"
+          />
+        </svg>
+      </button>
       <div
         data-testid="location-display"
       >
@@ -76,69 +52,45 @@ exports[`MainBody > should renders correctly Page 1`] = `
     </div>
   </body>,
   "container": .c0 {
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding: 1rem;
-  width: 100%;
-}
-
-.c1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: transparent;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 1rem;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  width: 100%;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 <div>
-    <div
+    <button
       class="c0"
+      type="button"
     >
-      <div
-        class="c1"
+      <svg
+        fill="none"
+        height="20"
+        viewBox="0 0 20 20"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <h2
-          style="font-family: Poppins, sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.4; color: rgb(27, 26, 26);"
+        <mask
+          id="mask-arrowRight"
         />
-      </div>
-      <div
-        class="c2"
-      />
-    </div>
+        <path
+          d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+          stroke="#919AFF"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.39167"
+        />
+      </svg>
+    </button>
     <div
       data-testid="location-display"
     >

@@ -1,11 +1,12 @@
 import { renderWithProviders } from 'utils/test.utils';
 import { fireEvent, screen } from '@testing-library/react';
 import routes from 'App/routing/routes';
+import { vi } from 'vitest';
 import PaymentWidget from './PaymentWidget';
 
-const mockUseNavigate = jest.fn();
-jest.mock('react-router-dom', () => ({
-  ...jest.requireActual('react-router-dom'),
+const mockUseNavigate = vi.fn();
+vi.mock('react-router-dom', async () => ({
+  ...((await vi.importActual('react-router-dom')) as any),
   useNavigate: () => mockUseNavigate,
 }));
 

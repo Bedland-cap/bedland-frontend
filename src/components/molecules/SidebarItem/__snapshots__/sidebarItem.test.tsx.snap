@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`SidebarItem should render correctly sidebarItem for Buildings 1`] = `
+exports[`SidebarItem > should render correctly sidebarItem for Buildings 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -250,7 +250,7 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 1`] = `
 }
 `;
 
-exports[`SidebarItem should render correctly sidebarItem for Buildings 2`] = `
+exports[`SidebarItem > should render correctly sidebarItem for Buildings 2`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -556,7 +556,7 @@ exports[`SidebarItem should render correctly sidebarItem for Buildings 2`] = `
 }
 `;
 
-exports[`SidebarItem should render correctly sidebarItem for Dashboard 1`] = `
+exports[`SidebarItem > should render correctly sidebarItem for Dashboard 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -806,7 +806,7 @@ exports[`SidebarItem should render correctly sidebarItem for Dashboard 1`] = `
 }
 `;
 
-exports[`SidebarItem should render correctly sidebarItem for Flats 1`] = `
+exports[`SidebarItem > should render correctly sidebarItem for Flats 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -1056,7 +1056,7 @@ exports[`SidebarItem should render correctly sidebarItem for Flats 1`] = `
 }
 `;
 
-exports[`SidebarItem should render correctly sidebarItem for Messages 1`] = `
+exports[`SidebarItem > should render correctly sidebarItem for Messages 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -1362,7 +1362,7 @@ exports[`SidebarItem should render correctly sidebarItem for Messages 1`] = `
 }
 `;
 
-exports[`SidebarItem should render correctly sidebarItem for Payments 1`] = `
+exports[`SidebarItem > should render correctly sidebarItem for Payments 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -1638,7 +1638,7 @@ exports[`SidebarItem should render correctly sidebarItem for Payments 1`] = `
 }
 `;
 
-exports[`SidebarItem should render correctly sidebarItem for Reports 1`] = `
+exports[`SidebarItem > should render correctly sidebarItem for Reports 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -1888,7 +1888,7 @@ exports[`SidebarItem should render correctly sidebarItem for Reports 1`] = `
 }
 `;
 
-exports[`SidebarItem should render correctly sidebarItem for Residents 1`] = `
+exports[`SidebarItem > should render correctly sidebarItem for Residents 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -2138,7 +2138,7 @@ exports[`SidebarItem should render correctly sidebarItem for Residents 1`] = `
 }
 `;
 
-exports[`SidebarItem should render correctly sidebarItem for Wall 1`] = `
+exports[`SidebarItem > should render correctly sidebarItem for Wall 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {

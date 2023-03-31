@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Account info renders correctly for role manager 1`] = `
+exports[`Account info > renders correctly for role manager 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -134,7 +134,7 @@ exports[`Account info renders correctly for role manager 1`] = `
 }
 `;
 
-exports[`Account info renders correctly for role resident 1`] = `
+exports[`Account info > renders correctly for role resident 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {

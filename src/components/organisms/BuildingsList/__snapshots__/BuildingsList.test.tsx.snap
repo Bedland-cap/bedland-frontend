@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`BuildingsList renders correctly 1`] = `
+exports[`BuildingsList > renders correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c4 {
@@ -77,7 +77,7 @@ exports[`BuildingsList renders correctly 1`] = `
           <img
             alt="Building"
             class="c2"
-            src=""
+            src="/src/assets/img/BuildingImg.png"
           />
           <div
             class="c3"
@@ -114,7 +114,7 @@ exports[`BuildingsList renders correctly 1`] = `
           <img
             alt="Building"
             class="c2"
-            src=""
+            src="/src/assets/img/BuildingImg.png"
           />
           <div
             class="c3"
@@ -151,7 +151,7 @@ exports[`BuildingsList renders correctly 1`] = `
           <img
             alt="Building"
             class="c2"
-            src=""
+            src="/src/assets/img/BuildingImg.png"
           />
           <div
             class="c3"
@@ -188,7 +188,7 @@ exports[`BuildingsList renders correctly 1`] = `
           <img
             alt="Building"
             class="c2"
-            src=""
+            src="/src/assets/img/BuildingImg.png"
           />
           <div
             class="c3"
@@ -225,7 +225,7 @@ exports[`BuildingsList renders correctly 1`] = `
           <img
             alt="Building"
             class="c2"
-            src=""
+            src="/src/assets/img/BuildingImg.png"
           />
           <div
             class="c3"
@@ -337,7 +337,7 @@ exports[`BuildingsList renders correctly 1`] = `
         <img
           alt="Building"
           class="c2"
-          src=""
+          src="/src/assets/img/BuildingImg.png"
         />
         <div
           class="c3"
@@ -374,7 +374,7 @@ exports[`BuildingsList renders correctly 1`] = `
         <img
           alt="Building"
           class="c2"
-          src=""
+          src="/src/assets/img/BuildingImg.png"
         />
         <div
           class="c3"
@@ -411,7 +411,7 @@ exports[`BuildingsList renders correctly 1`] = `
         <img
           alt="Building"
           class="c2"
-          src=""
+          src="/src/assets/img/BuildingImg.png"
         />
         <div
           class="c3"
@@ -448,7 +448,7 @@ exports[`BuildingsList renders correctly 1`] = `
         <img
           alt="Building"
           class="c2"
-          src=""
+          src="/src/assets/img/BuildingImg.png"
         />
         <div
           class="c3"
@@ -485,7 +485,7 @@ exports[`BuildingsList renders correctly 1`] = `
         <img
           alt="Building"
           class="c2"
-          src=""
+          src="/src/assets/img/BuildingImg.png"
         />
         <div
           class="c3"

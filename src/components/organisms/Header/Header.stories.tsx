@@ -1,27 +1,13 @@
 import { PARAM_REDUX_MERGE_STATE } from 'addon-redux';
 import type { Meta, StoryObj } from '@storybook/react';
-import ThemeProvider from 'theme/ThemeContext';
-import GlobalStyle from 'theme/globalStyles';
 import { BrowserRouter } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import { reduxStore } from 'store/store';
 import Header from './Header';
 
 const meta = {
   title: 'Molecules/Header',
   component: Header,
   tags: ['autodocs'],
-
-  decorators: [
-    (Story) => (
-      <ThemeProvider>
-        <Provider store={reduxStore}>
-          <GlobalStyle />
-          <BrowserRouter>{Story()}</BrowserRouter>
-        </Provider>
-      </ThemeProvider>
-    ),
-  ],
+  decorators: [(Story) => <BrowserRouter>{Story()}</BrowserRouter>],
 } satisfies Meta<typeof Header>;
 
 export default meta;

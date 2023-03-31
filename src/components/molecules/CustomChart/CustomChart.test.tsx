@@ -1,11 +1,12 @@
 import { renderWithProviders } from 'utils/test.utils';
 import { HexColor } from 'theme/theme.types';
 import { mockDataForPaymentChart, mockDataForVotingChart } from 'utils/mock/chartsMockData';
+import { vi } from 'vitest';
 import CustomChart from './CustomChart';
 import { CustomChartProps, PaymentChartInputDataType } from './CustomChart.types';
 import { chartDataAdapter, getSortedValuesOutOfInputData } from './CustomChart.utils';
 
-jest.mock('react-chartjs-2', () => ({
+vi.mock('react-chartjs-2', () => ({
   Doughnut: () => null,
   Bar: () => null,
 }));

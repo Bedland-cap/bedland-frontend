@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`RulesDescription renders correctly 1`] = `
+exports[`RulesDescription > renders correctly 1`] = `
 .c0 {
   padding: 0rem 2px 0rem 2.9375rem;
   width: 100%;

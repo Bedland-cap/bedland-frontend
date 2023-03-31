@@ -1,17 +1,18 @@
-import { act, fireEvent, screen, cleanup } from '@testing-library/react';
+import { act, fireEvent, screen } from '@testing-library/react';
 import { renderWithProviders } from 'utils/test.utils';
 import ERROR_MESSAGES from 'utils/messages';
+import { vi } from 'vitest';
 import ResetPasswordForm from './ResetPasswordForm';
 import { handleErrorMessage, watcher } from './ResetPasswordForm.utils';
 
-const mockUseNavigate = jest.fn();
-jest.mock('react-router-dom', () => ({
-  ...jest.requireActual('react-router-dom'),
+const mockUseNavigate = vi.fn();
+
+vi.mock('react-router-dom', async () => ({
+  ...((await vi.importActual('react-router-dom')) as any),
   useNavigate: () => mockUseNavigate,
 }));
 
 describe('ResetPassword Form', () => {
-  afterEach(cleanup);
   it('renders correctly', () => {
     const snapshot = renderWithProviders(<ResetPasswordForm />, {});
     expect(snapshot).toMatchSnapshot();
