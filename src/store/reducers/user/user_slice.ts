@@ -29,7 +29,11 @@ const initialState: User = {
 export const UserSlice = createSlice({
   name: 'user',
   initialState,
-  reducers: {},
+  reducers: {
+    updateUserRole: (state, action) => {
+      state.role = action.payload;
+    },
+  },
   extraReducers: (builder) => {
     builder.addMatcher(userApi.endpoints.login.matchFulfilled, (state, { payload }) => {
       state.loggedIn = true;
@@ -58,6 +62,7 @@ export const UserSlice = createSlice({
 });
 
 export const userReducer = UserSlice.reducer;
+export const { updateUserRole } = UserSlice.actions;
 
 export const selectUserUserId = (state: RootState) => state.user.userId;
 export const selectUserIsLoggedIn = (state: RootState) => state.user.loggedIn;

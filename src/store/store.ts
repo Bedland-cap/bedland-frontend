@@ -1,5 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { enhancer as withReduxEnhancer } from 'addon-redux';
 import { combineReducers, configureStore, type PreloadedState } from '@reduxjs/toolkit';
 import { CurriedGetDefaultMiddleware } from '@reduxjs/toolkit/dist/getDefaultMiddleware';
 import loggerMiddleware from 'redux-logger';
@@ -18,14 +16,6 @@ export const rootReducer = combineReducers({
 export const rootMiddleware = (getDefaultMiddleware: CurriedGetDefaultMiddleware) =>
   getDefaultMiddleware().concat(loggerMiddleware, userApi.middleware);
 
-const createEnhancer = () => {
-  const enhancers = [];
-  if (process.env.NODE_ENV !== 'production') {
-    enhancers.push(withReduxEnhancer);
-  }
-  return enhancers;
-};
-
 export type RootState = ReturnType<typeof rootReducer>;
 
 const storeInit = (preloadedState?: PreloadedState<RootState>) =>
@@ -33,7 +23,6 @@ const storeInit = (preloadedState?: PreloadedState<RootState>) =>
     reducer: rootReducer,
     middleware: rootMiddleware,
     preloadedState,
-    enhancers: (defaultEnhancers) => [...createEnhancer(), ...defaultEnhancers],
   });
 
 export const reduxStore = storeInit();

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Icon should render correctly active building icon 1`] = `
+exports[`Icon > should render correctly active building icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -116,7 +116,7 @@ exports[`Icon should render correctly active building icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly active building voting 1`] = `
+exports[`Icon > should render correctly active building voting 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -232,7 +232,7 @@ exports[`Icon should render correctly active building voting 1`] = `
 }
 `;
 
-exports[`Icon should render correctly active dashboard icon 1`] = `
+exports[`Icon > should render correctly active dashboard icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -348,7 +348,7 @@ exports[`Icon should render correctly active dashboard icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly active messages icon 1`] = `
+exports[`Icon > should render correctly active messages icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -464,7 +464,7 @@ exports[`Icon should render correctly active messages icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly active payments icon 1`] = `
+exports[`Icon > should render correctly active payments icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -606,7 +606,7 @@ exports[`Icon should render correctly active payments icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly active reports icon 1`] = `
+exports[`Icon > should render correctly active reports icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -722,7 +722,7 @@ exports[`Icon should render correctly active reports icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly active residents icon 1`] = `
+exports[`Icon > should render correctly active residents icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -838,7 +838,7 @@ exports[`Icon should render correctly active residents icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly active wall icon 1`] = `
+exports[`Icon > should render correctly active wall icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -954,7 +954,7 @@ exports[`Icon should render correctly active wall icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly not active building icon 1`] = `
+exports[`Icon > should render correctly not active building icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1070,7 +1070,7 @@ exports[`Icon should render correctly not active building icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly not active building voting 1`] = `
+exports[`Icon > should render correctly not active building voting 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1186,7 +1186,7 @@ exports[`Icon should render correctly not active building voting 1`] = `
 }
 `;
 
-exports[`Icon should render correctly not active dashboard icon 1`] = `
+exports[`Icon > should render correctly not active dashboard icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1302,7 +1302,7 @@ exports[`Icon should render correctly not active dashboard icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly not active messages icon 1`] = `
+exports[`Icon > should render correctly not active messages icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1418,7 +1418,7 @@ exports[`Icon should render correctly not active messages icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly not active payments icon 1`] = `
+exports[`Icon > should render correctly not active payments icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1560,7 +1560,7 @@ exports[`Icon should render correctly not active payments icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly not active reports icon 1`] = `
+exports[`Icon > should render correctly not active reports icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1676,7 +1676,7 @@ exports[`Icon should render correctly not active reports icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly not active residents icon 1`] = `
+exports[`Icon > should render correctly not active residents icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1792,7 +1792,7 @@ exports[`Icon should render correctly not active residents icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly not active wall icon 1`] = `
+exports[`Icon > should render correctly not active wall icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1908,7 +1908,7 @@ exports[`Icon should render correctly not active wall icon 1`] = `
 }
 `;
 
-exports[`Icon should render correctly wall icon 1`] = `
+exports[`Icon > should render correctly wall icon 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>

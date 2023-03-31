@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Badge should renders correctly danger Badge 1`] = `
+exports[`Badge > should renders correctly danger Badge 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -142,7 +142,7 @@ exports[`Badge should renders correctly danger Badge 1`] = `
 }
 `;
 
-exports[`Badge should renders correctly primary badge 1`] = `
+exports[`Badge > should renders correctly primary badge 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -272,7 +272,7 @@ exports[`Badge should renders correctly primary badge 1`] = `
 }
 `;
 
-exports[`Badge should renders correctly secondary badge 1`] = `
+exports[`Badge > should renders correctly secondary badge 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -414,7 +414,7 @@ exports[`Badge should renders correctly secondary badge 1`] = `
 }
 `;
 
-exports[`Badge should renders correctly warning Badge 1`] = `
+exports[`Badge > should renders correctly warning Badge 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {

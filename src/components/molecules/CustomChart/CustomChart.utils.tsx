@@ -78,7 +78,7 @@ export const CHART_PLUGINS: ChartsPlugins = {
       ctx.textBaseline = 'middle';
       ctx.textAlign = 'center';
       ctx.fillText(text[0], textX, textY - sizeOfTheFont * 16);
-      ctx.fillText(text[1], textX, textY+8);
+      ctx.fillText(text[1], textX, textY + 8);
       ctx.restore();
       ctx.save();
     },

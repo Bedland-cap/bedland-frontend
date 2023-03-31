@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ProfileImage renders correctly 1`] = `
+exports[`ProfileImage > renders correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -15,6 +15,7 @@ exports[`ProfileImage renders correctly 1`] = `
         alt="profile"
         class="c0"
         size="1.5"
+        src="/src/assets/img/Avatar.svg"
       />
       <div
         data-testid="location-display"
@@ -34,6 +35,7 @@ exports[`ProfileImage renders correctly 1`] = `
       alt="profile"
       class="c0"
       size="1.5"
+      src="/src/assets/img/Avatar.svg"
     />
     <div
       data-testid="location-display"

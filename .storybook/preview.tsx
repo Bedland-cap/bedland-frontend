@@ -1,11 +1,14 @@
-import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
-import React from 'react';
-import { ThemeProvider } from 'styled-components';
-import initialTheme from '../src/theme/initialTheme';
+import type { Preview } from '@storybook/react';
+import {INITIAL_VIEWPORTS} from '@storybook/addon-viewport';
+import ThemeProvider from '../src/theme/ThemeContext';
 import GlobalStyle from '../src/theme/globalStyles';
+import React from 'react';
+import { reduxStore } from './store';
+import { Provider } from 'react-redux';
 
-export const parameters = {
-  actions: { argTypesRegex: '^on[A-Z].*' },
+const preview: Preview = {
+  parameters: {
+    actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
       color: /(background|color)$/i,
@@ -33,20 +36,26 @@ export const parameters = {
       useTabs: false,
       htmlWhitespaceSensitivity: 'strict',
     },
-  },
+  }
+  }
 };
 
-const decorators = [
-  (Story) => (
-    <ThemeProvider theme={initialTheme}>
-      <GlobalStyle />
-      {Story()}
-    </ThemeProvider>
-  ),
+export default preview;
+
+export const decorators = [
+      (Story) => (
+        <ThemeProvider>
+          <Provider store={reduxStore}>
+              <GlobalStyle />
+                {Story()}
+          </Provider>
+        </ThemeProvider>
+      ),
 ];
 
 export const loaders = [
   async () => ({
-    store: await import('../src/store/store'),
+    store: await import('./store'),
   }),
 ];
+

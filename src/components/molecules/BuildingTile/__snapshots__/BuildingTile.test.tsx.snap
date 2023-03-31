@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`BuildingTile renders correctly 1`] = `
+exports[`BuildingTile > renders correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c3 {
@@ -67,7 +67,7 @@ exports[`BuildingTile renders correctly 1`] = `
         <img
           alt="Building"
           class="c1"
-          src=""
+          src="/src/assets/img/BuildingImg.png"
         />
         <div
           class="c2"
@@ -168,7 +168,7 @@ exports[`BuildingTile renders correctly 1`] = `
       <img
         alt="Building"
         class="c1"
-        src=""
+        src="/src/assets/img/BuildingImg.png"
       />
       <div
         class="c2"

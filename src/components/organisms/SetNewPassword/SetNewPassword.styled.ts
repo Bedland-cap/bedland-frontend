@@ -14,4 +14,3 @@ export const ResPassCenteredHeading = styled.h1`
   display: flex;
   justify-content: center;
 `;
-

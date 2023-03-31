@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Input with Label renders correctly 1`] = `
+exports[`Input with Label > renders correctly 1`] = `
 .c2 {
   border: 1px solid #919AFF;
   border-radius: 0.5rem;

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Widget should renders correctly ContactsWidget 1`] = `
+exports[`Widget > should renders correctly ContactsWidget 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c2 {
@@ -248,7 +248,7 @@ exports[`Widget should renders correctly ContactsWidget 1`] = `
 }
 `;
 
-exports[`Widget should renders correctly NotificationWidget 1`] = `
+exports[`Widget > should renders correctly NotificationWidget 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c2 {
@@ -496,7 +496,7 @@ exports[`Widget should renders correctly NotificationWidget 1`] = `
 }
 `;
 
-exports[`Widget should renders correctly PaymentsWidget 1`] = `
+exports[`Widget > should renders correctly PaymentsWidget 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c2 {
@@ -744,7 +744,7 @@ exports[`Widget should renders correctly PaymentsWidget 1`] = `
 }
 `;
 
-exports[`Widget should renders correctly VotingWidget 1`] = `
+exports[`Widget > should renders correctly VotingWidget 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c2 {
@@ -992,7 +992,7 @@ exports[`Widget should renders correctly VotingWidget 1`] = `
 }
 `;
 
-exports[`Widget should renders correctly widget in dark mode 1`] = `
+exports[`Widget > should renders correctly widget in dark mode 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c2 {
@@ -1240,7 +1240,7 @@ exports[`Widget should renders correctly widget in dark mode 1`] = `
 }
 `;
 
-exports[`Widget should renders correctly widget in light mode 1`] = `
+exports[`Widget > should renders correctly widget in light mode 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c2 {
@@ -1488,7 +1488,7 @@ exports[`Widget should renders correctly widget in light mode 1`] = `
 }
 `;
 
-exports[`Widget should renders correctly with button 1`] = `
+exports[`Widget > should renders correctly with button 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c2 {
@@ -1736,7 +1736,7 @@ exports[`Widget should renders correctly with button 1`] = `
 }
 `;
 
-exports[`Widget should renders correctly without button 1`] = `
+exports[`Widget > should renders correctly without button 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {

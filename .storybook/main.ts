@@ -1,15 +1,14 @@
-import type { StorybookConfig } from '@storybook/react-webpack5';
+import type { StorybookConfig } from '@storybook/react-vite';
 
 const config: StorybookConfig = {
-  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(ts|tsx)'],
+  stories: ['../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
-    '@storybook/preset-create-react-app',
     '@storybook/addon-interactions',
     '@storybook/addon-a11y',
-    '@storybook/addon-viewport',
     '@whitespace/storybook-addon-html',
+    '@storybook/addon-viewport',
     'addon-redux',
     {
       name: '@storybook/addon-storysource',
@@ -21,19 +20,19 @@ const config: StorybookConfig = {
       },
     },
   ],
-  features: {
-    interactionsDebugger: true,
-  },
   framework: {
-    name: '@storybook/react-webpack5',
+    name: '@storybook/react-vite',
     options: {},
   },
   docs: {
     autodocs: 'tag',
   },
+  core: {
+    builder: '@storybook/builder-vite',
+  },
   typescript: {
     reactDocgen: 'react-docgen',
   },
-  staticDirs: ['..\\public'],
+  logLevel: 'debug',
 };
 export default config;

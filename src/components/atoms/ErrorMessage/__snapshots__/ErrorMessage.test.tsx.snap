@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ErrorMessage renders correctly 1`] = `
+exports[`ErrorMessage > renders correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
