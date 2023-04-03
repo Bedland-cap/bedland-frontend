@@ -6,6 +6,9 @@
     "@reduxjs/toolkit": "^1.9.2",
     "@storybook/addon-viewport": "^7.0.0-rc.8",
     "@storybook/react": "^7.0.0-rc.3",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^13.5.0",
+    "addon-redux": "^2.0.11",
     "chart.js": "^4.2.1",
     "jsx-runtime": "^1.2.0",
     "react": "^18.2.0",
@@ -72,10 +75,12 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.10",
     "i": "^0.3.7",
+    "husky": "^8.0.0",
     "jest-environment-jsdom": "^29.4.2",
     "jest-styled-components": "^7.1.1",
     "jsdom": "^21.1.1",
     "json-server": "^0.17.2",
+    "lint-staged": "^13.2.0",
     "msw": "^1.1.1",
     "msw-storybook-addon": "^1.7.0",
     "npm": "^9.6.2",
@@ -107,7 +112,8 @@
     "format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc --loglevel log",
     "server": "node server/server.cjs",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "husky install"
   },
   "type": "module",
   "resolutions": {
@@ -150,5 +156,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx,js}": "npm run lint",
+    "src/**/*.{ts,tsx,js,html}": "npm run format"
   }
 }
