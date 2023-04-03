@@ -42,6 +42,7 @@ const Icon = ({
       width={size}
       height={size}
       fill='none'
+      data-testid={`${name}-icon`}
     >
       <mask id={`mask-${name}`} fill={icon.mask?.fill}>
         {icon.mask

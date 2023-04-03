@@ -145,6 +145,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
           data-testid="votings-item"
         >
           <svg
+            data-testid="document-icon"
             fill="none"
             height="20"
             viewBox=" 0 0 20 19"
@@ -166,7 +167,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
             style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
           >
             Resolution 
-            03/2023
+            04/2023
           </h4>
           <h5
             style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
@@ -186,6 +187,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
               class="c5"
             >
               <svg
+                data-testid="arrowRight-icon"
                 fill="none"
                 height="20"
                 viewBox="0 0 20 20"
@@ -391,6 +393,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
         data-testid="votings-item"
       >
         <svg
+          data-testid="document-icon"
           fill="none"
           height="20"
           viewBox=" 0 0 20 19"
@@ -412,7 +415,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
           style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
         >
           Resolution 
-          03/2023
+          04/2023
         </h4>
         <h5
           style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
@@ -432,6 +435,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
             class="c5"
           >
             <svg
+              data-testid="arrowRight-icon"
               fill="none"
               height="20"
               viewBox="0 0 20 20"

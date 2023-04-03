@@ -83,6 +83,7 @@ exports[`MessageItem > renders correctly 1`] = `
             class="c4"
           >
             <svg
+              data-testid="envelope-icon"
               fill="none"
               height="20"
               viewBox="0 0 20 16"
@@ -192,6 +193,7 @@ exports[`MessageItem > renders correctly 1`] = `
           class="c4"
         >
           <svg
+            data-testid="envelope-icon"
             fill="none"
             height="20"
             viewBox="0 0 20 16"

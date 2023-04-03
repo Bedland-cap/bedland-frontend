@@ -231,6 +231,7 @@ exports[`Payment Widget  > should render correctly 1`] = `
               class="c2"
             >
               <svg
+                data-testid="arrowRight-icon"
                 fill="none"
                 height="24"
                 viewBox="0 0 20 20"
@@ -564,6 +565,7 @@ exports[`Payment Widget  > should render correctly 1`] = `
             class="c2"
           >
             <svg
+              data-testid="arrowRight-icon"
               fill="none"
               height="24"
               viewBox="0 0 20 20"

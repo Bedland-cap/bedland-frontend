@@ -68,6 +68,7 @@ exports[`SearchInput > renders correctly 1`] = `
           class="c1"
         >
           <svg
+            data-testid="search-icon"
             fill="none"
             height="16"
             viewBox="0 0 16 16"
@@ -162,6 +163,7 @@ exports[`SearchInput > renders correctly 1`] = `
         class="c1"
       >
         <svg
+          data-testid="search-icon"
           fill="none"
           height="16"
           viewBox="0 0 16 16"

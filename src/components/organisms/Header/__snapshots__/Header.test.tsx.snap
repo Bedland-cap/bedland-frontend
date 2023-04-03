@@ -104,6 +104,7 @@ exports[`Header > headers renders correctly for logged in manager 1`] = `
                 </h5>
               </div>
               <svg
+                data-testid="more-icon"
                 fill="none"
                 height="20"
                 viewBox="0 0 20 20"
@@ -232,6 +233,7 @@ exports[`Header > headers renders correctly for logged in manager 1`] = `
               </h5>
             </div>
             <svg
+              data-testid="more-icon"
               fill="none"
               height="20"
               viewBox="0 0 20 20"
@@ -424,6 +426,7 @@ exports[`Header > headers renders correctly for logged in resident 1`] = `
                 </h5>
               </div>
               <svg
+                data-testid="more-icon"
                 fill="none"
                 height="20"
                 viewBox="0 0 20 20"
@@ -552,6 +555,7 @@ exports[`Header > headers renders correctly for logged in resident 1`] = `
               </h5>
             </div>
             <svg
+              data-testid="more-icon"
               fill="none"
               height="20"
               viewBox="0 0 20 20"
