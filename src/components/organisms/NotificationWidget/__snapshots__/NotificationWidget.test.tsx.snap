@@ -164,6 +164,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
             class="c3"
           >
             <svg
+              data-testid="payments-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -227,6 +228,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
             class="c3"
           >
             <svg
+              data-testid="payments-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -290,6 +292,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
             class="c3"
           >
             <svg
+              data-testid="messages-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -340,6 +343,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
             class="c3"
           >
             <svg
+              data-testid="reports-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -390,6 +394,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
             class="c3"
           >
             <svg
+              data-testid="payments-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -453,6 +458,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
             class="c3"
           >
             <svg
+              data-testid="reports-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -503,6 +509,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
             class="c3"
           >
             <svg
+              data-testid="reports-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -718,6 +725,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
           class="c3"
         >
           <svg
+            data-testid="payments-icon"
             fill="none"
             height="18"
             viewBox="0 0 20 21"
@@ -781,6 +789,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
           class="c3"
         >
           <svg
+            data-testid="payments-icon"
             fill="none"
             height="18"
             viewBox="0 0 20 21"
@@ -844,6 +853,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
           class="c3"
         >
           <svg
+            data-testid="messages-icon"
             fill="none"
             height="18"
             viewBox="0 0 20 21"
@@ -894,6 +904,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
           class="c3"
         >
           <svg
+            data-testid="reports-icon"
             fill="none"
             height="18"
             viewBox="0 0 20 21"
@@ -944,6 +955,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
           class="c3"
         >
           <svg
+            data-testid="payments-icon"
             fill="none"
             height="18"
             viewBox="0 0 20 21"
@@ -1007,6 +1019,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
           class="c3"
         >
           <svg
+            data-testid="reports-icon"
             fill="none"
             height="18"
             viewBox="0 0 20 21"
@@ -1057,6 +1070,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
           class="c3"
         >
           <svg
+            data-testid="reports-icon"
             fill="none"
             height="18"
             viewBox="0 0 20 21"

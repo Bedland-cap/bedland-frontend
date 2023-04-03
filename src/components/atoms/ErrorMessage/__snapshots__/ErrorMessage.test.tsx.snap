@@ -27,6 +27,7 @@ exports[`ErrorMessage > renders correctly 1`] = `
           style="display: flex;"
         >
           <svg
+            data-testid="alert-icon"
             fill="none"
             height="20"
             viewBox="0 0 21 20"
@@ -95,6 +96,7 @@ exports[`ErrorMessage > renders correctly 1`] = `
         style="display: flex;"
       >
         <svg
+          data-testid="alert-icon"
           fill="none"
           height="20"
           viewBox="0 0 21 20"

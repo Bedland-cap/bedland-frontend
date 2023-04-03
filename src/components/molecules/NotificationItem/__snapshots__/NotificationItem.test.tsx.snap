@@ -86,6 +86,7 @@ exports[`NotificationItem > should renders correctly NotificationItem 1`] = `
         class="c0"
       >
         <svg
+          data-testid="payments-icon"
           fill="none"
           height="18"
           viewBox="0 0 20 21"
@@ -234,6 +235,7 @@ exports[`NotificationItem > should renders correctly NotificationItem 1`] = `
       class="c0"
     >
       <svg
+        data-testid="payments-icon"
         fill="none"
         height="18"
         viewBox="0 0 20 21"

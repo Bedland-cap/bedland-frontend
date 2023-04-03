@@ -136,6 +136,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
             class="c2"
           >
             <svg
+              data-testid="arrowRight-icon"
               fill="none"
               height="24"
               viewBox="0 0 20 20"
@@ -186,6 +187,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
                 class="c2"
               >
                 <svg
+                  data-testid="envelope-icon"
                   fill="none"
                   height="20"
                   viewBox="0 0 20 16"
@@ -234,6 +236,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
                 class="c2"
               >
                 <svg
+                  data-testid="envelope-icon"
                   fill="none"
                   height="20"
                   viewBox="0 0 20 16"
@@ -282,6 +285,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
                 class="c2"
               >
                 <svg
+                  data-testid="envelope-icon"
                   fill="none"
                   height="20"
                   viewBox="0 0 20 16"
@@ -330,6 +334,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
                 class="c2"
               >
                 <svg
+                  data-testid="envelope-icon"
                   fill="none"
                   height="20"
                   viewBox="0 0 20 16"
@@ -378,6 +383,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
                 class="c2"
               >
                 <svg
+                  data-testid="envelope-icon"
                   fill="none"
                   height="20"
                   viewBox="0 0 20 16"
@@ -426,6 +432,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
                 class="c2"
               >
                 <svg
+                  data-testid="envelope-icon"
                   fill="none"
                   height="20"
                   viewBox="0 0 20 16"
@@ -474,6 +481,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
                 class="c2"
               >
                 <svg
+                  data-testid="envelope-icon"
                   fill="none"
                   height="20"
                   viewBox="0 0 20 16"
@@ -638,6 +646,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
           class="c2"
         >
           <svg
+            data-testid="arrowRight-icon"
             fill="none"
             height="24"
             viewBox="0 0 20 20"
@@ -688,6 +697,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
               class="c2"
             >
               <svg
+                data-testid="envelope-icon"
                 fill="none"
                 height="20"
                 viewBox="0 0 20 16"
@@ -736,6 +746,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
               class="c2"
             >
               <svg
+                data-testid="envelope-icon"
                 fill="none"
                 height="20"
                 viewBox="0 0 20 16"
@@ -784,6 +795,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
               class="c2"
             >
               <svg
+                data-testid="envelope-icon"
                 fill="none"
                 height="20"
                 viewBox="0 0 20 16"
@@ -832,6 +844,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
               class="c2"
             >
               <svg
+                data-testid="envelope-icon"
                 fill="none"
                 height="20"
                 viewBox="0 0 20 16"
@@ -880,6 +893,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
               class="c2"
             >
               <svg
+                data-testid="envelope-icon"
                 fill="none"
                 height="20"
                 viewBox="0 0 20 16"
@@ -928,6 +942,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
               class="c2"
             >
               <svg
+                data-testid="envelope-icon"
                 fill="none"
                 height="20"
                 viewBox="0 0 20 16"
@@ -976,6 +991,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
               class="c2"
             >
               <svg
+                data-testid="envelope-icon"
                 fill="none"
                 height="20"
                 viewBox="0 0 20 16"
