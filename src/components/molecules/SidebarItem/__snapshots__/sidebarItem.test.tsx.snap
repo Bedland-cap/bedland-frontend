@@ -64,6 +64,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 1`] = `
               class="c2"
             >
               <svg
+                data-testid="building-icon"
                 fill="none"
                 height="18"
                 viewBox="0 0 16 15"
@@ -157,6 +158,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 1`] = `
             class="c2"
           >
             <svg
+              data-testid="building-icon"
               fill="none"
               height="18"
               viewBox="0 0 16 15"
@@ -336,6 +338,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 2`] = `
               class="c2"
             >
               <svg
+                data-testid="voting-icon"
                 fill="none"
                 height="18"
                 viewBox="0 0 20 21"
@@ -457,6 +460,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 2`] = `
             class="c2"
           >
             <svg
+              data-testid="voting-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -620,6 +624,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Dashboard 1`] = `
               class="c2"
             >
               <svg
+                data-testid="dashboard-icon"
                 fill="none"
                 height="18"
                 viewBox="0 0 16 15"
@@ -713,6 +718,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Dashboard 1`] = `
             class="c2"
           >
             <svg
+              data-testid="dashboard-icon"
               fill="none"
               height="18"
               viewBox="0 0 16 15"
@@ -870,6 +876,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Flats 1`] = `
               class="c2"
             >
               <svg
+                data-testid="building-icon"
                 fill="none"
                 height="18"
                 viewBox="0 0 16 15"
@@ -963,6 +970,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Flats 1`] = `
             class="c2"
           >
             <svg
+              data-testid="building-icon"
               fill="none"
               height="18"
               viewBox="0 0 16 15"
@@ -1142,6 +1150,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Messages 1`] = `
               class="c2"
             >
               <svg
+                data-testid="messages-icon"
                 fill="none"
                 height="18"
                 viewBox="0 0 20 21"
@@ -1263,6 +1272,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Messages 1`] = `
             class="c2"
           >
             <svg
+              data-testid="messages-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -1426,6 +1436,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Payments 1`] = `
               class="c2"
             >
               <svg
+                data-testid="payments-icon"
                 fill="none"
                 height="18"
                 viewBox="0 0 20 21"
@@ -1532,6 +1543,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Payments 1`] = `
             class="c2"
           >
             <svg
+              data-testid="payments-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -1702,6 +1714,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Reports 1`] = `
               class="c2"
             >
               <svg
+                data-testid="reports-icon"
                 fill="none"
                 height="18"
                 viewBox="0 0 20 21"
@@ -1795,6 +1808,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Reports 1`] = `
             class="c2"
           >
             <svg
+              data-testid="reports-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -1952,6 +1966,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Residents 1`] = `
               class="c2"
             >
               <svg
+                data-testid="residents-icon"
                 fill="none"
                 height="18"
                 viewBox="0 0 20 21"
@@ -2045,6 +2060,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Residents 1`] = `
             class="c2"
           >
             <svg
+              data-testid="residents-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"
@@ -2202,6 +2218,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Wall 1`] = `
               class="c2"
             >
               <svg
+                data-testid="wall-icon"
                 fill="none"
                 height="18"
                 viewBox="0 0 20 21"
@@ -2295,6 +2312,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Wall 1`] = `
             class="c2"
           >
             <svg
+              data-testid="wall-icon"
               fill="none"
               height="18"
               viewBox="0 0 20 21"

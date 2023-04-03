@@ -6,6 +6,7 @@ exports[`Icon > should render correctly active building icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="building-icon"
         fill="none"
         height="20"
         viewBox="0 0 16 15"
@@ -32,6 +33,7 @@ exports[`Icon > should render correctly active building icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="building-icon"
       fill="none"
       height="20"
       viewBox="0 0 16 15"
@@ -122,6 +124,7 @@ exports[`Icon > should render correctly active building voting 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="voting-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -148,6 +151,7 @@ exports[`Icon > should render correctly active building voting 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="voting-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -238,6 +242,7 @@ exports[`Icon > should render correctly active dashboard icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="dashboard-icon"
         fill="none"
         height="20"
         viewBox="0 0 16 15"
@@ -264,6 +269,7 @@ exports[`Icon > should render correctly active dashboard icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="dashboard-icon"
       fill="none"
       height="20"
       viewBox="0 0 16 15"
@@ -354,6 +360,7 @@ exports[`Icon > should render correctly active messages icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="messages-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -380,6 +387,7 @@ exports[`Icon > should render correctly active messages icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="messages-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -470,6 +478,7 @@ exports[`Icon > should render correctly active payments icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="payments-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -509,6 +518,7 @@ exports[`Icon > should render correctly active payments icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="payments-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -612,6 +622,7 @@ exports[`Icon > should render correctly active reports icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="reports-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -638,6 +649,7 @@ exports[`Icon > should render correctly active reports icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="reports-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -728,6 +740,7 @@ exports[`Icon > should render correctly active residents icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="residents-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -754,6 +767,7 @@ exports[`Icon > should render correctly active residents icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="residents-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -844,6 +858,7 @@ exports[`Icon > should render correctly active wall icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="wall-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -870,6 +885,7 @@ exports[`Icon > should render correctly active wall icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="wall-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -960,6 +976,7 @@ exports[`Icon > should render correctly not active building icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="building-icon"
         fill="none"
         height="20"
         viewBox="0 0 16 15"
@@ -986,6 +1003,7 @@ exports[`Icon > should render correctly not active building icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="building-icon"
       fill="none"
       height="20"
       viewBox="0 0 16 15"
@@ -1076,6 +1094,7 @@ exports[`Icon > should render correctly not active building voting 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="voting-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -1102,6 +1121,7 @@ exports[`Icon > should render correctly not active building voting 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="voting-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -1192,6 +1212,7 @@ exports[`Icon > should render correctly not active dashboard icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="dashboard-icon"
         fill="none"
         height="20"
         viewBox="0 0 16 15"
@@ -1218,6 +1239,7 @@ exports[`Icon > should render correctly not active dashboard icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="dashboard-icon"
       fill="none"
       height="20"
       viewBox="0 0 16 15"
@@ -1308,6 +1330,7 @@ exports[`Icon > should render correctly not active messages icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="messages-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -1334,6 +1357,7 @@ exports[`Icon > should render correctly not active messages icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="messages-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -1424,6 +1448,7 @@ exports[`Icon > should render correctly not active payments icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="payments-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -1463,6 +1488,7 @@ exports[`Icon > should render correctly not active payments icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="payments-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -1566,6 +1592,7 @@ exports[`Icon > should render correctly not active reports icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="reports-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -1592,6 +1619,7 @@ exports[`Icon > should render correctly not active reports icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="reports-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -1682,6 +1710,7 @@ exports[`Icon > should render correctly not active residents icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="residents-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -1708,6 +1737,7 @@ exports[`Icon > should render correctly not active residents icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="residents-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -1798,6 +1828,7 @@ exports[`Icon > should render correctly not active wall icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="wall-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -1824,6 +1855,7 @@ exports[`Icon > should render correctly not active wall icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="wall-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"
@@ -1914,6 +1946,7 @@ exports[`Icon > should render correctly wall icon 1`] = `
   "baseElement": <body>
     <div>
       <svg
+        data-testid="wall-icon"
         fill="none"
         height="20"
         viewBox="0 0 20 21"
@@ -1940,6 +1973,7 @@ exports[`Icon > should render correctly wall icon 1`] = `
   </body>,
   "container": <div>
     <svg
+      data-testid="wall-icon"
       fill="none"
       height="20"
       viewBox="0 0 20 21"

@@ -400,6 +400,7 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - with i
         class="c0 c1"
       >
         <svg
+          data-testid="alert-icon"
           fill="none"
           height="20"
           viewBox="0 0 21 20"
@@ -488,6 +489,7 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - with i
       class="c0 c1"
     >
       <svg
+        data-testid="alert-icon"
         fill="none"
         height="20"
         viewBox="0 0 21 20"
@@ -750,6 +752,7 @@ exports[`Button > Basic button types > 'icon' Button renders correctly - with ic
         class="c0"
       >
         <svg
+          data-testid="alert-icon"
           fill="none"
           height="20"
           viewBox="0 0 21 20"
@@ -816,6 +819,7 @@ exports[`Button > Basic button types > 'icon' Button renders correctly - with ic
       class="c0"
     >
       <svg
+        data-testid="alert-icon"
         fill="none"
         height="20"
         viewBox="0 0 21 20"
@@ -1320,6 +1324,7 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
         class="c0 c1"
       >
         <svg
+          data-testid="alert-icon"
           fill="none"
           height="20"
           viewBox="0 0 21 20"
@@ -1408,6 +1413,7 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
       class="c0 c1"
     >
       <svg
+        data-testid="alert-icon"
         fill="none"
         height="20"
         viewBox="0 0 21 20"
@@ -1852,6 +1858,7 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - with
         class="c0"
       >
         <svg
+          data-testid="alert-icon"
           fill="none"
           height="20"
           viewBox="0 0 21 20"
@@ -1928,6 +1935,7 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - with
       class="c0"
     >
       <svg
+        data-testid="alert-icon"
         fill="none"
         height="20"
         viewBox="0 0 21 20"
@@ -2457,6 +2465,7 @@ exports[`Button > Basic button types > 'text' Button renders correctly - with ic
         class="c0 c1"
       >
         <svg
+          data-testid="alert-icon"
           fill="none"
           height="20"
           viewBox="0 0 21 20"
@@ -2550,6 +2559,7 @@ exports[`Button > Basic button types > 'text' Button renders correctly - with ic
       class="c0 c1"
     >
       <svg
+        data-testid="alert-icon"
         fill="none"
         height="20"
         viewBox="0 0 21 20"
@@ -2782,6 +2792,7 @@ exports[`Button > Specific button types > Icon Button renders correctly 1`] = `
         class="c0"
       >
         <svg
+          data-testid="alert-icon"
           fill="none"
           height="24"
           viewBox="0 0 21 20"
@@ -2846,6 +2857,7 @@ exports[`Button > Specific button types > Icon Button renders correctly 1`] = `
       class="c0"
     >
       <svg
+        data-testid="alert-icon"
         fill="none"
         height="24"
         viewBox="0 0 21 20"
