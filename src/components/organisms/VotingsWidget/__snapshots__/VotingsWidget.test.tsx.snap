@@ -22,7 +22,16 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c13:hover {
@@ -175,38 +184,10 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
   width: 5.875rem;
 }
 
-.c14 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #FF4438;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  color: #fff;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 1.5rem;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
-}
-
 .c7 {
   background-color: #F5F6F8;
   border: 1px solid #CACACA;
   color: #4B4B4B;
-}
-
-.c15 {
-  background-color: 1px solid #FF4438;
-  border: 1px solid transparent;
-  color: #fff;
 }
 
 .c0 {
@@ -307,9 +288,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 stroke-width="1.39167"
               />
             </svg>
-            <h4
-              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-            />
           </button>
         </div>
         <div
@@ -353,7 +331,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c6 c7"
                 >
-                  19
+                  20
                    ago
                 </div>
               </h5>
@@ -383,9 +361,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                       stroke-width="1.39167"
                     />
                   </svg>
-                  <h4
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-                  />
                 </button>
               </div>
             </div>
@@ -451,7 +426,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c12"
                 >
-                  181
+                  180
                    left
                 </div>
               </h5>
@@ -481,9 +456,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                       stroke-width="1.39167"
                     />
                   </svg>
-                  <h4
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-                  />
                 </button>
               </div>
             </div>
@@ -507,15 +479,11 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                     class="c13"
                     type="button"
                   >
-                    <h4
-                      style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                    <h5
+                      style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
                     >
-                      <h5
-                        style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
-                      >
-                        Vote now
-                      </h5>
-                    </h4>
+                      Vote now
+                    </h5>
                   </button>
                 </div>
               </div>
@@ -559,7 +527,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c6 c7"
                 >
-                  13
+                  14
                    ago
                 </div>
               </h5>
@@ -589,9 +557,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                       stroke-width="1.39167"
                     />
                   </svg>
-                  <h4
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-                  />
                 </button>
               </div>
             </div>
@@ -657,7 +622,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c6 c7"
                 >
-                  7
+                  8
                    ago
                 </div>
               </h5>
@@ -687,9 +652,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                       stroke-width="1.39167"
                     />
                   </svg>
-                  <h4
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-                  />
                 </button>
               </div>
             </div>
@@ -744,19 +706,19 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 />
               </svg>
               <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
               >
                 Resolution 
                 04/2023
               </h4>
               <h5
-                style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
+                style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
               >
                 <div
-                  class="c14 c15"
+                  class="c6 c7"
                 >
-                  0
-                   left
+                  1
+                   ago
                 </div>
               </h5>
               <div
@@ -785,9 +747,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                       stroke-width="1.39167"
                     />
                   </svg>
-                  <h4
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-                  />
                 </button>
               </div>
             </div>
@@ -801,26 +760,16 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
               </p>
               <div
-                class=""
-                style="display: flex; justify-content: flex-end; width: 100%;"
+                class="c10"
               >
                 <div
-                  class=""
+                  class="c11"
                 >
-                  <button
-                    class="c13"
-                    type="button"
-                  >
-                    <h4
-                      style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-                    >
-                      <h5
-                        style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
-                      >
-                        Vote now
-                      </h5>
-                    </h4>
-                  </button>
+                  <canvas
+                    height="150"
+                    role="img"
+                    width="300"
+                  />
                 </div>
               </div>
             </div>
@@ -853,7 +802,16 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c13:hover {
@@ -1006,38 +964,10 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
   width: 5.875rem;
 }
 
-.c14 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #FF4438;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  color: #fff;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 1.5rem;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
-}
-
 .c7 {
   background-color: #F5F6F8;
   border: 1px solid #CACACA;
   color: #4B4B4B;
-}
-
-.c15 {
-  background-color: 1px solid #FF4438;
-  border: 1px solid transparent;
-  color: #fff;
 }
 
 .c0 {
@@ -1137,9 +1067,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               stroke-width="1.39167"
             />
           </svg>
-          <h4
-            style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-          />
         </button>
       </div>
       <div
@@ -1183,7 +1110,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c6 c7"
               >
-                19
+                20
                  ago
               </div>
             </h5>
@@ -1213,9 +1140,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                     stroke-width="1.39167"
                   />
                 </svg>
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-                />
               </button>
             </div>
           </div>
@@ -1281,7 +1205,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c12"
               >
-                181
+                180
                  left
               </div>
             </h5>
@@ -1311,9 +1235,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                     stroke-width="1.39167"
                   />
                 </svg>
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-                />
               </button>
             </div>
           </div>
@@ -1337,15 +1258,11 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                   class="c13"
                   type="button"
                 >
-                  <h4
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+                  <h5
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
                   >
-                    <h5
-                      style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
-                    >
-                      Vote now
-                    </h5>
-                  </h4>
+                    Vote now
+                  </h5>
                 </button>
               </div>
             </div>
@@ -1389,7 +1306,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c6 c7"
               >
-                13
+                14
                  ago
               </div>
             </h5>
@@ -1419,9 +1336,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                     stroke-width="1.39167"
                   />
                 </svg>
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-                />
               </button>
             </div>
           </div>
@@ -1487,7 +1401,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c6 c7"
               >
-                7
+                8
                  ago
               </div>
             </h5>
@@ -1517,9 +1431,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                     stroke-width="1.39167"
                   />
                 </svg>
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-                />
               </button>
             </div>
           </div>
@@ -1574,19 +1485,19 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               />
             </svg>
             <h4
-              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
             >
               Resolution 
               04/2023
             </h4>
             <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
             >
               <div
-                class="c14 c15"
+                class="c6 c7"
               >
-                0
-                 left
+                1
+                 ago
               </div>
             </h5>
             <div
@@ -1615,9 +1526,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                     stroke-width="1.39167"
                   />
                 </svg>
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-                />
               </button>
             </div>
           </div>
@@ -1631,26 +1539,16 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
             </p>
             <div
-              class=""
-              style="display: flex; justify-content: flex-end; width: 100%;"
+              class="c10"
             >
               <div
-                class=""
+                class="c11"
               >
-                <button
-                  class="c13"
-                  type="button"
-                >
-                  <h4
-                    style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-                  >
-                    <h5
-                      style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
-                    >
-                      Vote now
-                    </h5>
-                  </h4>
-                </button>
+                <canvas
+                  height="150"
+                  role="img"
+                  width="300"
+                />
               </div>
             </div>
           </div>
