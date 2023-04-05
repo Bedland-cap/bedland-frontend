@@ -22,7 +22,16 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - 'blue'
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -47,11 +56,7 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - 'blue'
       <button
         class="c0 c1"
       >
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-        >
-          ghost
-        </h4>
+        ghost
       </button>
       <div
         data-testid="location-display"
@@ -79,7 +84,16 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - 'blue'
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -103,11 +117,7 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - 'blue'
     <button
       class="c0 c1"
     >
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-      >
-        ghost
-      </h4>
+      ghost
     </button>
     <div
       data-testid="location-display"
@@ -198,7 +208,16 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - 'orang
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -223,11 +242,7 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - 'orang
       <button
         class="c0 c1"
       >
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-        >
-          ghost
-        </h4>
+        ghost
       </button>
       <div
         data-testid="location-display"
@@ -255,7 +270,16 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - 'orang
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -279,11 +303,193 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - 'orang
     <button
       class="c0 c1"
     >
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+      ghost
+    </button>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Button > Basic button types > 'ghost' Button renders correctly - 'white' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c0:hover {
+  background-color: #fff1A;
+  border: 1px solid #fff;
+}
+
+.c1 {
+  background-color: transparent;
+  border: 1.75px solid #fff;
+  color: #FCFEFF;
+  padding: undefinedrem 1rem;
+}
+
+.c1:hover {
+  background-color: #fff1A;
+  border: 1.75px solid #fff;
+}
+
+<body>
+    <div>
+      <button
+        class="c0 c1"
       >
         ghost
-      </h4>
+      </button>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c0:hover {
+  background-color: #fff1A;
+  border: 1px solid #fff;
+}
+
+.c1 {
+  background-color: transparent;
+  border: 1.75px solid #fff;
+  color: #FCFEFF;
+  padding: undefinedrem 1rem;
+}
+
+.c1:hover {
+  background-color: #fff1A;
+  border: 1.75px solid #fff;
+}
+
+<div>
+    <button
+      class="c0 c1"
+    >
+      ghost
     </button>
     <div
       data-testid="location-display"
@@ -374,7 +580,16 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - with i
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -432,11 +647,7 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - with i
             stroke-width="1.66667"
           />
         </svg>
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-        >
-          ghost
-        </h4>
+        ghost
       </button>
       <div
         data-testid="location-display"
@@ -464,7 +675,16 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - with i
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -521,11 +741,7 @@ exports[`Button > Basic button types > 'ghost' Button renders correctly - with i
           stroke-width="1.66667"
         />
       </svg>
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-      >
-        ghost
-      </h4>
+      ghost
     </button>
     <div
       data-testid="location-display"
@@ -619,11 +835,7 @@ exports[`Button > Basic button types > 'icon' Button renders correctly - 'orange
       <button
         class="c0"
       >
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-        >
-          icon
-        </h4>
+        icon
       </button>
       <div
         data-testid="location-display"
@@ -653,11 +865,7 @@ exports[`Button > Basic button types > 'icon' Button renders correctly - 'orange
     <button
       class="c0"
     >
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-      >
-        icon
-      </h4>
+      icon
     </button>
     <div
       data-testid="location-display"
@@ -784,11 +992,7 @@ exports[`Button > Basic button types > 'icon' Button renders correctly - with ic
             stroke-width="1.66667"
           />
         </svg>
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-        >
-          icon
-        </h4>
+        icon
       </button>
       <div
         data-testid="location-display"
@@ -851,11 +1055,7 @@ exports[`Button > Basic button types > 'icon' Button renders correctly - with ic
           stroke-width="1.66667"
         />
       </svg>
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-      >
-        icon
-      </h4>
+      icon
     </button>
     <div
       data-testid="location-display"
@@ -946,7 +1146,16 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -971,11 +1180,7 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
       <button
         class="c0 c1"
       >
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-        >
-          notificationItem
-        </h4>
+        notificationItem
       </button>
       <div
         data-testid="location-display"
@@ -1003,7 +1208,16 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -1027,11 +1241,7 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
     <button
       class="c0 c1"
     >
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-      >
-        notificationItem
-      </h4>
+      notificationItem
     </button>
     <div
       data-testid="location-display"
@@ -1122,7 +1332,16 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -1147,11 +1366,7 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
       <button
         class="c0 c1"
       >
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-        >
-          notificationItem
-        </h4>
+        notificationItem
       </button>
       <div
         data-testid="location-display"
@@ -1179,7 +1394,16 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -1203,11 +1427,193 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
     <button
       class="c0 c1"
     >
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
+      notificationItem
+    </button>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Button > Basic button types > 'notificationItem' Button renders correctly - 'white' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c0:hover {
+  background-color: #fff1A;
+  border: 1px solid #fff;
+}
+
+.c1 {
+  background-color: transparent;
+  border: 1.75px solid #fff;
+  color: #FCFEFF;
+  padding: 0.3125rem 1rem;
+}
+
+.c1:hover {
+  background-color: #fff1A;
+  border: 1.75px solid #fff;
+}
+
+<body>
+    <div>
+      <button
+        class="c0 c1"
       >
         notificationItem
-      </h4>
+      </button>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c0:hover {
+  background-color: #fff1A;
+  border: 1px solid #fff;
+}
+
+.c1 {
+  background-color: transparent;
+  border: 1.75px solid #fff;
+  color: #FCFEFF;
+  padding: 0.3125rem 1rem;
+}
+
+.c1:hover {
+  background-color: #fff1A;
+  border: 1.75px solid #fff;
+}
+
+<div>
+    <button
+      class="c0 c1"
+    >
+      notificationItem
     </button>
     <div
       data-testid="location-display"
@@ -1298,7 +1704,16 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -1356,11 +1771,7 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
             stroke-width="1.66667"
           />
         </svg>
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-        >
-          notificationItem
-        </h4>
+        notificationItem
       </button>
       <div
         data-testid="location-display"
@@ -1388,7 +1799,16 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -1445,11 +1865,7 @@ exports[`Button > Basic button types > 'notificationItem' Button renders correct
           stroke-width="1.66667"
         />
       </svg>
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-      >
-        notificationItem
-      </h4>
+      notificationItem
     </button>
     <div
       data-testid="location-display"
@@ -1540,7 +1956,16 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - 'blu
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -1553,11 +1978,7 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - 'blu
       <button
         class="c0"
       >
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-        >
-          primary
-        </h4>
+        primary
       </button>
       <div
         data-testid="location-display"
@@ -1585,7 +2006,16 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - 'blu
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -1597,11 +2027,7 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - 'blu
     <button
       class="c0"
     >
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-      >
-        primary
-      </h4>
+      primary
     </button>
     <div
       data-testid="location-display"
@@ -1692,7 +2118,16 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - 'ora
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -1705,11 +2140,7 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - 'ora
       <button
         class="c0"
       >
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-        >
-          primary
-        </h4>
+        primary
       </button>
       <div
         data-testid="location-display"
@@ -1737,7 +2168,16 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - 'ora
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -1749,11 +2189,171 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - 'ora
     <button
       class="c0"
     >
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
+      primary
+    </button>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Button > Basic button types > 'primary' Button renders correctly - 'white' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  color: #1B1A1A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c0:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #1B1A1A;
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
       >
         primary
-      </h4>
+      </button>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  color: #1B1A1A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c0:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #1B1A1A;
+}
+
+<div>
+    <button
+      class="c0"
+    >
+      primary
     </button>
     <div
       data-testid="location-display"
@@ -1844,7 +2444,16 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - with
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -1890,11 +2499,7 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - with
             stroke-width="1.66667"
           />
         </svg>
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-        >
-          primary
-        </h4>
+        primary
       </button>
       <div
         data-testid="location-display"
@@ -1922,7 +2527,16 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - with
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -1967,11 +2581,7 @@ exports[`Button > Basic button types > 'primary' Button renders correctly - with
           stroke-width="1.66667"
         />
       </svg>
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-      >
-        primary
-      </h4>
+      primary
     </button>
     <div
       data-testid="location-display"
@@ -2062,7 +2672,16 @@ exports[`Button > Basic button types > 'text' Button renders correctly - 'blue' 
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -2092,11 +2711,7 @@ exports[`Button > Basic button types > 'text' Button renders correctly - 'blue' 
       <button
         class="c0 c1"
       >
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-        >
-          text
-        </h4>
+        text
       </button>
       <div
         data-testid="location-display"
@@ -2124,7 +2739,16 @@ exports[`Button > Basic button types > 'text' Button renders correctly - 'blue' 
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -2153,11 +2777,7 @@ exports[`Button > Basic button types > 'text' Button renders correctly - 'blue' 
     <button
       class="c0 c1"
     >
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-      >
-        text
-      </h4>
+      text
     </button>
     <div
       data-testid="location-display"
@@ -2248,7 +2868,16 @@ exports[`Button > Basic button types > 'text' Button renders correctly - 'orange
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -2278,11 +2907,7 @@ exports[`Button > Basic button types > 'text' Button renders correctly - 'orange
       <button
         class="c0 c1"
       >
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 124, 51);"
-        >
-          text
-        </h4>
+        text
       </button>
       <div
         data-testid="location-display"
@@ -2310,7 +2935,16 @@ exports[`Button > Basic button types > 'text' Button renders correctly - 'orange
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -2339,11 +2973,203 @@ exports[`Button > Basic button types > 'text' Button renders correctly - 'orange
     <button
       class="c0 c1"
     >
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 124, 51);"
+      text
+    </button>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Button > Basic button types > 'text' Button renders correctly - 'white' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c0:hover {
+  background-color: #fff0D;
+  border: 1px solid transparent;
+}
+
+.c1 {
+  background-color: transparent;
+  border: 1.75px solid transparent;
+  color: #FCFEFF;
+  padding: undefinedrem 1rem;
+}
+
+.c1:hover {
+  background-color: #fff0D;
+  border: 1.75px solid transparent;
+}
+
+.c1:focus {
+  background-color: #fff26;
+  border: 1.75px solid transparent;
+}
+
+<body>
+    <div>
+      <button
+        class="c0 c1"
       >
         text
-      </h4>
+      </button>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c0:hover {
+  background-color: #fff0D;
+  border: 1px solid transparent;
+}
+
+.c1 {
+  background-color: transparent;
+  border: 1.75px solid transparent;
+  color: #FCFEFF;
+  padding: undefinedrem 1rem;
+}
+
+.c1:hover {
+  background-color: #fff0D;
+  border: 1.75px solid transparent;
+}
+
+.c1:focus {
+  background-color: #fff26;
+  border: 1.75px solid transparent;
+}
+
+<div>
+    <button
+      class="c0 c1"
+    >
+      text
     </button>
     <div
       data-testid="location-display"
@@ -2434,7 +3260,16 @@ exports[`Button > Basic button types > 'text' Button renders correctly - with ic
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -2497,11 +3332,7 @@ exports[`Button > Basic button types > 'text' Button renders correctly - with ic
             stroke-width="1.66667"
           />
         </svg>
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 124, 51);"
-        >
-          text
-        </h4>
+        text
       </button>
       <div
         data-testid="location-display"
@@ -2529,7 +3360,16 @@ exports[`Button > Basic button types > 'text' Button renders correctly - with ic
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -2591,11 +3431,7 @@ exports[`Button > Basic button types > 'text' Button renders correctly - with ic
           stroke-width="1.66667"
         />
       </svg>
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 124, 51);"
-      >
-        text
-      </h4>
+      text
     </button>
     <div
       data-testid="location-display"
@@ -2824,9 +3660,6 @@ exports[`Button > Specific button types > Icon Button renders correctly 1`] = `
             stroke-width="1.66667"
           />
         </svg>
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-        />
       </button>
       <div
         data-testid="location-display"
@@ -2889,9 +3722,6 @@ exports[`Button > Specific button types > Icon Button renders correctly 1`] = `
           stroke-width="1.66667"
         />
       </svg>
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-      />
     </button>
     <div
       data-testid="location-display"
@@ -2982,7 +3812,16 @@ exports[`Button > Specific button types > NotificationItem Button renders correc
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -3006,11 +3845,7 @@ exports[`Button > Specific button types > NotificationItem Button renders correc
     <div>
       <button
         class="c0 c1"
-      >
-        <h4
-          style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-        />
-      </button>
+      />
       <div
         data-testid="location-display"
       >
@@ -3037,7 +3872,16 @@ exports[`Button > Specific button types > NotificationItem Button renders correc
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c0:hover {
@@ -3060,11 +3904,7 @@ exports[`Button > Specific button types > NotificationItem Button renders correc
 <div>
     <button
       class="c0 c1"
-    >
-      <h4
-        style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-      />
-    </button>
+    />
     <div
       data-testid="location-display"
     >

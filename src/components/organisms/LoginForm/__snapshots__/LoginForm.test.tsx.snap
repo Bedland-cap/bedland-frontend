@@ -81,7 +81,16 @@ exports[`Login Form > renders correctly 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c6:hover {
@@ -187,22 +196,11 @@ exports[`Login Form > renders correctly 1`] = `
   >
     <button
       className="c6"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       type="submit"
     >
-      <h4
-        style={
-          {
-            "color": "#FCFEFF",
-            "fontFamily": "Source Sans Pro, sans-serif",
-            "fontSize": "1rem",
-            "fontWeight": 600,
-            "letterSpacing": "1px",
-            "lineHeight": 1.4,
-          }
-        }
-      >
-        Login
-      </h4>
+      Login
     </button>
   </div>
   <a

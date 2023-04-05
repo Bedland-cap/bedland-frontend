@@ -4,7 +4,13 @@ import { colorNames } from 'theme/theme.types';
 import ThemeProvider from 'theme/ThemeContext';
 import { iconsNames } from '../Icon/icon.types';
 import Button from './Button';
-import { ButtonVariants, buttonColors, BUTTON_VARIANTS, ButtonProps } from './Button.types';
+import {
+  ButtonVariants,
+  buttonColors,
+  BUTTON_VARIANTS,
+  ButtonProps,
+  hoverVariants,
+} from './Button.types';
 
 const meta = {
   title: 'Atoms/Button',
@@ -48,7 +54,6 @@ const meta = {
         defaultValue: { summary: 0 },
       },
     },
-
     variant: {
       description: 'Variant of the button',
       options: ButtonVariants,
@@ -58,14 +63,31 @@ const meta = {
         defaultValue: { summary: BUTTON_VARIANTS.primary },
       },
     },
-
     color: {
-      description: 'Variant of the button',
+      description: 'Color variant of the button',
       options: buttonColors,
       defaultValue: BUTTON_VARIANTS.primary,
       control: 'select',
       table: {
         defaultValue: { summary: BUTTON_VARIANTS.primary },
+      },
+    },
+    hover: {
+      description: 'Hover variant',
+      options: hoverVariants,
+      defaultValue: 'default',
+      control: 'select',
+      table: {
+        defaultValue: { summary: 'default' },
+      },
+    },
+    hoverColor: {
+      description: 'Hover color variant',
+      options: colorNames,
+      defaultValue: 'blueLight',
+      control: 'select',
+      table: {
+        defaultValue: { summary: 'blueLight' },
       },
     },
     icon: {
@@ -77,7 +99,6 @@ const meta = {
         defaultValue: { summary: null },
       },
     },
-
     iconColor: {
       description: 'icon color in hex format',
       options: colorNames,
@@ -115,6 +136,9 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: { variant: 'primary', children: 'Primary', color: 'orange' },
+};
+export const PrimaryBorders: Story = {
+  args: { variant: 'primaryBorders', children: 'PrimaryBorders', color: 'white' },
 };
 export const Ghost: Story = {
   args: { variant: 'ghost', children: 'Ghost', color: 'orange' },

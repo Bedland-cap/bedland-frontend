@@ -1,5 +1,10 @@
 import styled from 'styled-components';
+import initialTheme from 'theme/initialTheme';
 import { StylingProps, StyledWrapperProps } from './Button.types';
+
+const buttonTypography = {
+  ...initialTheme.typography.header4,
+};
 
 export const ButtonWrapper = styled.div<StyledWrapperProps>`
   ${({ styling: { height } }) => (height ? `height: ${height}rem` : null)};
@@ -17,10 +22,13 @@ export const PrimaryButton = styled.button<StylingProps>`
   gap: 10px;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  ${buttonTypography}
   &:hover {
     background-color: ${({ styling: { hoverBckgColor } }) => hoverBckgColor};
     border: 1px solid ${({ styling: { hoverBorderColor } }) => hoverBorderColor};
+    color: ${({ styling: { hoverColor } }) => hoverColor};
   }
 `;
 

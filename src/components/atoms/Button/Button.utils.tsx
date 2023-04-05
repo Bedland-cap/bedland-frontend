@@ -9,10 +9,17 @@ import {
   ButtonsStyles,
   ColorVariants,
   ColorVariant,
-  StylingProps,
+  StylingProperty,
+  HoverVariants,
+  AddHoverProps,
 } from './Button.types';
 import * as Styled from './Button.styled';
 
+const HOVER_VARIANTS: Omit<HoverVariants, 'default'> = {
+  text: (hoverColor) => ({
+    hoverColor: initialTheme.palette[hoverColor],
+  }),
+};
 export const COLOR_VARIANTS: ColorVariants = {
   orange: {
     primary: {
@@ -21,6 +28,13 @@ export const COLOR_VARIANTS: ColorVariants = {
       color: initialTheme.palette.light,
       hoverBckgColor: initialTheme.palette.orangeLight,
       hoverBorderColor: initialTheme.palette.orangeLight,
+    },
+    primaryBorders: {
+      bckgColor: initialTheme.palette.orangeDark,
+      borderColor: initialTheme.palette.light,
+      color: initialTheme.palette.light,
+      hoverBckgColor: initialTheme.palette.orangeLight,
+      hoverBorderColor: initialTheme.palette.light,
     },
     text: {
       bckgColor: 'transparent',
@@ -47,6 +61,13 @@ export const COLOR_VARIANTS: ColorVariants = {
       hoverBckgColor: initialTheme.palette.blueLight,
       hoverBorderColor: initialTheme.palette.blueLight,
     },
+    primaryBorders: {
+      bckgColor: initialTheme.palette.blueDark,
+      borderColor: initialTheme.palette.light,
+      color: initialTheme.palette.light,
+      hoverBckgColor: initialTheme.palette.blueLight,
+      hoverBorderColor: initialTheme.palette.light,
+    },
     text: {
       bckgColor: 'transparent',
       borderColor: 'transparent',
@@ -62,6 +83,39 @@ export const COLOR_VARIANTS: ColorVariants = {
       color: initialTheme.palette.blueDark,
       hoverBckgColor: `${initialTheme.palette.blueDark}1A`,
       hoverBorderColor: initialTheme.palette.blueDark,
+    },
+  },
+  white: {
+    primary: {
+      bckgColor: initialTheme.palette.white,
+      borderColor: initialTheme.palette.white,
+      color: initialTheme.palette.text,
+      hoverColor: initialTheme.palette.text,
+      hoverBckgColor: initialTheme.palette.white,
+      hoverBorderColor: initialTheme.palette.white,
+    },
+    primaryBorders: {
+      bckgColor: initialTheme.palette.white,
+      borderColor: initialTheme.palette.blueDark,
+      color: initialTheme.palette.blueDark,
+      hoverBckgColor: initialTheme.palette.white,
+      hoverBorderColor: initialTheme.palette.blueDark,
+    },
+    text: {
+      bckgColor: 'transparent',
+      borderColor: 'transparent',
+      color: initialTheme.palette.light,
+      hoverBckgColor: `${initialTheme.palette.white}0D`,
+      hoverBorderColor: 'transparent',
+      pressedBckgColor: `${initialTheme.palette.white}26`,
+      pressedBorderColor: 'transparent',
+    },
+    ghost: {
+      bckgColor: 'transparent',
+      borderColor: initialTheme.palette.white,
+      color: initialTheme.palette.light,
+      hoverBckgColor: `${initialTheme.palette.white}1A`,
+      hoverBorderColor: initialTheme.palette.white,
     },
   },
   noStyleColor: {
@@ -80,24 +134,28 @@ export const COLOR_VARIANTS: ColorVariants = {
 export const BUTTONS_STYLES: ButtonsStyles<typeof Styled.PrimaryButton> = {
   primary: (color) => ({
     StyledButton: Styled.PrimaryButton,
-    styling: COLOR_VARIANTS[color][BUTTON_VARIANTS.primary] as StylingProps['styling'],
+    styling: COLOR_VARIANTS[color][BUTTON_VARIANTS.primary] as StylingProperty,
+  }),
+  primaryBorders: (color) => ({
+    StyledButton: Styled.PrimaryButton,
+    styling: COLOR_VARIANTS[color][BUTTON_VARIANTS.primaryBorders] as StylingProperty,
   }),
   text: (color) => ({
     StyledButton: Styled.TextButton,
-    styling: COLOR_VARIANTS[color][BUTTON_VARIANTS.text] as StylingProps['styling'],
+    styling: COLOR_VARIANTS[color][BUTTON_VARIANTS.text] as StylingProperty,
   }),
   ghost: (color) => ({
     StyledButton: Styled.GhostButton,
-    styling: COLOR_VARIANTS[color][BUTTON_VARIANTS.ghost] as StylingProps['styling'],
+    styling: COLOR_VARIANTS[color][BUTTON_VARIANTS.ghost] as StylingProperty,
   }),
   icon: () => ({
     StyledButton: Styled.IconButton,
-    styling: COLOR_VARIANTS.noStyleColor[BUTTON_VARIANTS.primary] as StylingProps['styling'],
+    styling: COLOR_VARIANTS.noStyleColor[BUTTON_VARIANTS.primary] as StylingProperty,
   }),
   notificationItem: (color) => ({
     StyledButton: Styled.GhostButton,
     styling: {
-      ...(COLOR_VARIANTS[color][BUTTON_VARIANTS.ghost] as StylingProps['styling']),
+      ...(COLOR_VARIANTS[color][BUTTON_VARIANTS.ghost] as StylingProperty),
       paddingTB: 0.3125,
     },
   }),
@@ -123,3 +181,10 @@ export const getWrapper = ({
 
 export const getIconColor = (color: HexColor): ColorNames =>
   colorNames.find((key) => initialTheme.palette[key] === color) as ColorNames;
+
+export const addHover = ({ hover, hoverColor, styling }: AddHoverProps) => {
+  if (hover === 'default') return { ...styling };
+
+  const hovers = HOVER_VARIANTS[hover](hoverColor);
+  return { ...styling, ...hovers };
+};
