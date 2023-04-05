@@ -1,8 +1,7 @@
-import { PropsWithChildren } from 'react';
+import { PropsWithChildren, useState } from 'react';
 import Icon from '../Icon/Icon';
-import Typography from '../Typography/Typography';
 import { IsIconNullGuard, ButtonProps, BUTTON_VARIANTS } from './Button.types';
-import { getStyledButton, getIconColor, getWrapper } from './Button.utils';
+import { getStyledButton, getIconColor, getWrapper, addHover } from './Button.utils';
 
 const Button = ({
   wrapper,
@@ -13,6 +12,8 @@ const Button = ({
 
   variant = BUTTON_VARIANTS.primary,
   color = 'orange',
+  hover = 'default',
+  hoverColor = 'blueLight',
 
   icon = null,
   iconSize = 20,
@@ -30,16 +31,26 @@ const Button = ({
   }
 
   const { StyledButton, styling } = getStyledButton(variant, color);
-  const iconClr = iconColor || getIconColor(styling.color);
+  const defaultIconColor = iconColor || getIconColor(styling.color);
+  const [iconClr, setIconClr] = useState(defaultIconColor);
+  const stylingWithHover = addHover({ hover, hoverColor, styling });
 
   return (
-    <StyledButton styling={styling} {...otherProps}>
+    <StyledButton
+      styling={{ ...stylingWithHover }}
+      onMouseEnter={() => {
+        setIconClr(hoverColor);
+      }}
+      onMouseLeave={() => {
+        setIconClr(defaultIconColor);
+      }}
+      {...otherProps}
+    >
       {!IsIconNullGuard(icon) ? (
         <Icon name={icon} size={iconSize} color={iconClr} isActive={false} />
       ) : null}
-      <Typography variant='header4' style={{ color: styling.color }}>
-        {children}
-      </Typography>
+
+      {children}
     </StyledButton>
   );
 };

@@ -55,7 +55,16 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c6:hover {
@@ -216,11 +225,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
                 class="c6 c7"
                 type="submit"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-                >
-                  Details
-                </h4>
+                Details
               </button>
             </div>
           </div>
@@ -280,11 +285,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
                 class="c6 c7"
                 type="submit"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-                >
-                  Details
-                </h4>
+                Details
               </button>
             </div>
           </div>
@@ -331,11 +332,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
                 class="c6 c7"
                 type="submit"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-                >
-                  Details
-                </h4>
+                Details
               </button>
             </div>
           </div>
@@ -382,11 +379,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
                 class="c6 c7"
                 type="submit"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-                >
-                  Details
-                </h4>
+                Details
               </button>
             </div>
           </div>
@@ -446,11 +439,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
                 class="c6 c7"
                 type="submit"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-                >
-                  Details
-                </h4>
+                Details
               </button>
             </div>
           </div>
@@ -497,11 +486,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
                 class="c6 c7"
                 type="submit"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-                >
-                  Details
-                </h4>
+                Details
               </button>
             </div>
           </div>
@@ -548,11 +533,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
                 class="c6 c7"
                 type="submit"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-                >
-                  Details
-                </h4>
+                Details
               </button>
             </div>
           </div>
@@ -617,7 +598,16 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c6:hover {
@@ -777,11 +767,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
               class="c6 c7"
               type="submit"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-              >
-                Details
-              </h4>
+              Details
             </button>
           </div>
         </div>
@@ -841,11 +827,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
               class="c6 c7"
               type="submit"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-              >
-                Details
-              </h4>
+              Details
             </button>
           </div>
         </div>
@@ -892,11 +874,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
               class="c6 c7"
               type="submit"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-              >
-                Details
-              </h4>
+              Details
             </button>
           </div>
         </div>
@@ -943,11 +921,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
               class="c6 c7"
               type="submit"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-              >
-                Details
-              </h4>
+              Details
             </button>
           </div>
         </div>
@@ -1007,11 +981,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
               class="c6 c7"
               type="submit"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-              >
-                Details
-              </h4>
+              Details
             </button>
           </div>
         </div>
@@ -1058,11 +1028,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
               class="c6 c7"
               type="submit"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-              >
-                Details
-              </h4>
+              Details
             </button>
           </div>
         </div>
@@ -1109,11 +1075,7 @@ exports[`NotificationWidget > renders correctly NotificationWidget 1`] = `
               class="c6 c7"
               type="submit"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(245, 101, 19);"
-              >
-                Details
-              </h4>
+              Details
             </button>
           </div>
         </div>

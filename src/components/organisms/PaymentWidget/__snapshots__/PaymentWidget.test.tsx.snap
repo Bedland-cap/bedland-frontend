@@ -249,9 +249,6 @@ exports[`Payment Widget  > should render correctly 1`] = `
                   stroke-width="1.39167"
                 />
               </svg>
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-              />
             </button>
           </div>
           <div
@@ -583,9 +580,6 @@ exports[`Payment Widget  > should render correctly 1`] = `
                 stroke-width="1.39167"
               />
             </svg>
-            <h4
-              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
-            />
           </button>
         </div>
         <div

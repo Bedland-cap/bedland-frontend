@@ -26,7 +26,16 @@ exports[`BuildingsList > renders correctly 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c5:hover {
@@ -99,11 +108,7 @@ exports[`BuildingsList > renders correctly 1`] = `
               <button
                 class="c5"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-                >
-                  Open details
-                </h4>
+                Open details
               </button>
             </div>
           </div>
@@ -136,11 +141,7 @@ exports[`BuildingsList > renders correctly 1`] = `
               <button
                 class="c5"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-                >
-                  Open details
-                </h4>
+                Open details
               </button>
             </div>
           </div>
@@ -173,11 +174,7 @@ exports[`BuildingsList > renders correctly 1`] = `
               <button
                 class="c5"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-                >
-                  Open details
-                </h4>
+                Open details
               </button>
             </div>
           </div>
@@ -210,11 +207,7 @@ exports[`BuildingsList > renders correctly 1`] = `
               <button
                 class="c5"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-                >
-                  Open details
-                </h4>
+                Open details
               </button>
             </div>
           </div>
@@ -247,11 +240,7 @@ exports[`BuildingsList > renders correctly 1`] = `
               <button
                 class="c5"
               >
-                <h4
-                  style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-                >
-                  Open details
-                </h4>
+                Open details
               </button>
             </div>
           </div>
@@ -287,7 +276,16 @@ exports[`BuildingsList > renders correctly 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5625rem 1rem;
+  white-space: nowrap;
   width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .c5:hover {
@@ -359,11 +357,7 @@ exports[`BuildingsList > renders correctly 1`] = `
             <button
               class="c5"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-              >
-                Open details
-              </h4>
+              Open details
             </button>
           </div>
         </div>
@@ -396,11 +390,7 @@ exports[`BuildingsList > renders correctly 1`] = `
             <button
               class="c5"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-              >
-                Open details
-              </h4>
+              Open details
             </button>
           </div>
         </div>
@@ -433,11 +423,7 @@ exports[`BuildingsList > renders correctly 1`] = `
             <button
               class="c5"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-              >
-                Open details
-              </h4>
+              Open details
             </button>
           </div>
         </div>
@@ -470,11 +456,7 @@ exports[`BuildingsList > renders correctly 1`] = `
             <button
               class="c5"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-              >
-                Open details
-              </h4>
+              Open details
             </button>
           </div>
         </div>
@@ -507,11 +489,7 @@ exports[`BuildingsList > renders correctly 1`] = `
             <button
               class="c5"
             >
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(252, 254, 255);"
-              >
-                Open details
-              </h4>
+              Open details
             </button>
           </div>
         </div>

@@ -2,23 +2,33 @@ import { ButtonHTMLAttributes, CSSProperties } from 'react';
 import { ColorNames, HexColor } from 'theme/theme.types';
 import { IconName } from '../Icon/icon.types';
 
-export const ButtonVariants = ['primary', 'text', 'ghost', 'icon', 'notificationItem'] as const;
+export const ButtonVariants = [
+  'primary',
+  'primaryBorders',
+  'text',
+  'ghost',
+  'icon',
+  'notificationItem',
+] as const;
+export const buttonColors = ['orange', 'blue', 'white'] as const;
+export const hoverVariants = ['default', 'text'] as const;
+
 type ButtonVariantsType = {
   [key in (typeof ButtonVariants)[number]]: key;
 };
-export const buttonColors = ['orange', 'blue'] as const;
-export type ColorVariant = (typeof buttonColors)[number];
-
 export const BUTTON_VARIANTS: ButtonVariantsType = {
   primary: 'primary',
+  primaryBorders: 'primaryBorders',
   text: 'text',
   ghost: 'ghost',
   icon: 'icon',
   notificationItem: 'notificationItem',
 } as const;
 
-export type ButtonVariantProps = (typeof ButtonVariants)[number];
+export type ColorVariant = (typeof buttonColors)[number];
+export type HoverVariant = (typeof hoverVariants)[number];
 
+export type ButtonVariantProps = (typeof ButtonVariants)[number];
 export type WrapperProps = {
   wrapper?: true;
   width?: number;
@@ -36,11 +46,20 @@ type WrapperPropsNever = {
 
 export type IconProps = { icon?: IconName | null; iconSize?: number; iconColor?: ColorNames };
 
-type BasicProps<T extends ButtonVariantProps> = { variant: T; color?: ColorVariant };
-type BasicPropsNever = { variant?: never; color?: never };
+type BasicProps<T extends ButtonVariantProps> = {
+  variant: T;
+  hover?: HoverVariant;
+  hoverColor?: ColorNames;
+  color?: ColorVariant;
+};
+type BasicPropsNever = { variant?: never; hover?: never; hoverColor?: never; color?: never };
 export type ButtonWrapperProps = BasicPropsNever & WrapperProps & IconProps;
 
 export type PrimaryButtonProps = BasicProps<typeof BUTTON_VARIANTS.primary> &
+  WrapperPropsNever &
+  IconProps;
+
+export type PrimaryBordersButtonProps = BasicProps<typeof BUTTON_VARIANTS.primaryBorders> &
   WrapperPropsNever &
   IconProps;
 
@@ -62,6 +81,7 @@ export type NotificationItemButtonProps = BasicProps<typeof BUTTON_VARIANTS.noti
 
 export type ButtonProps = (
   | PrimaryButtonProps
+  | PrimaryBordersButtonProps
   | TextButtonProps
   | GhostButtonProps
   | IconButtonProps
@@ -70,22 +90,34 @@ export type ButtonProps = (
 ) &
   ButtonHTMLAttributes<HTMLButtonElement>;
 
+export type HoverProperties = {
+  hoverColor: HexColor;
+  hoverBckgColor: HexColor | 'transparent';
+  hoverBorderColor: HexColor | 'transparent';
+};
+
+export type StylingProperty = {
+  bckgColor: HexColor | 'transparent';
+  borderColor: HexColor | 'transparent';
+  color: HexColor;
+  paddingTB?: number;
+  pressedBckgColor?: HexColor | 'transparent';
+  pressedBorderColor?: HexColor | 'transparent';
+} & Partial<HoverProperties>;
+
 export type StylingProps = {
-  styling: {
-    bckgColor: HexColor | 'transparent';
-    borderColor: HexColor | 'transparent';
-    color: HexColor;
-    hoverBckgColor: HexColor | 'transparent';
-    hoverBorderColor: HexColor | 'transparent';
-    paddingTB?: number;
-    pressedBckgColor?: HexColor | 'transparent';
-    pressedBorderColor?: HexColor | 'transparent';
-  };
+  styling: StylingProperty;
+};
+
+export type HoverVariants = {
+  [hoverVariant in (typeof hoverVariants)[number]]: (
+    hoverColor: ColorNames,
+  ) => Partial<HoverProperties>;
 };
 
 export type ColorVariants = {
   [color in ColorVariant | 'noStyleColor']: {
-    [variant in ButtonVariantProps]?: StylingProps['styling'];
+    [variant in ButtonVariantProps]?: StylingProperty;
   };
 };
 
@@ -110,3 +142,9 @@ export type ButtonsStyleType<T> = {
 };
 
 export const IsIconNullGuard = (icon: null | IconName): icon is null => icon === null;
+
+export type AddHoverProps = {
+  hover: HoverVariant;
+  hoverColor: ColorNames;
+  styling: StylingProperty;
+};
