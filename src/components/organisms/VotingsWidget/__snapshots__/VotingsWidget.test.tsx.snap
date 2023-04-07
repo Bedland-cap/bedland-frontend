@@ -236,7 +236,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
 }
 
 .c3::-webkit-scrollbar-thumb {
-  background: #4B4B4B;
+  background: #4553DD;
   border-radius: 16px;
   border: 0.375rem solid transparent;
   background-clip: padding-box;
@@ -485,11 +485,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                     class="c13"
                     type="button"
                   >
-                    <h5
-                      style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
-                    >
-                      Vote now
-                    </h5>
+                    Vote now
                   </button>
                 </div>
               </div>
@@ -1022,7 +1018,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
 }
 
 .c3::-webkit-scrollbar-thumb {
-  background: #4B4B4B;
+  background: #4553DD;
   border-radius: 16px;
   border: 0.375rem solid transparent;
   background-clip: padding-box;
@@ -1270,11 +1266,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                   class="c13"
                   type="button"
                 >
-                  <h5
-                    style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
-                  >
-                    Vote now
-                  </h5>
+                  Vote now
                 </button>
               </div>
             </div>

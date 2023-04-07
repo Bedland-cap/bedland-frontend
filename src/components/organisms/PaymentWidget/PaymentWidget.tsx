@@ -1,6 +1,7 @@
 import routes from 'App/routing/routes';
 import CustomChart from 'components/molecules/CustomChart/CustomChart';
 import Widget from 'components/templates/Widget/Widget';
+import { useAppSelector } from 'store/hooks';
 import { useNavigate } from 'react-router-dom';
 import { PaymentChartInputDataType } from '../../molecules/CustomChart/CustomChart.types';
 
@@ -11,6 +12,7 @@ const dataForPaymentChart: PaymentChartInputDataType = {
 };
 
 const PaymentWidget = () => {
+  const userRole = useAppSelector((state) => state.user.role);
   const navigate = useNavigate();
 
   return (
@@ -25,7 +27,7 @@ const PaymentWidget = () => {
       >
         <CustomChart
           data={dataForPaymentChart}
-          variant='paymentManager'
+          variant={userRole === 'manager' ? 'paymentManager' : 'paymentResident'}
           title='February overview for all flats:'
           centerText='Total payments'
         />
