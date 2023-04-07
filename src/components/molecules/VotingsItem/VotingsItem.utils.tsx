@@ -15,13 +15,15 @@ export const switchVariant = (curDate: Date, newDeadlineDate: Date) => {
   switch (true) {
     case dateDiffinDays(curDate, newDeadlineDate) < 0:
       return (
-        <Badge variant='secondary'>{Math.abs(dateDiffinDays(curDate, newDeadlineDate))} ago</Badge>
+        <Badge variant='secondary'>
+          {Math.abs(dateDiffinDays(curDate, newDeadlineDate))} days ago
+        </Badge>
       );
     case dateDiffinDays(curDate, newDeadlineDate) < 8:
-      return <Badge variant='danger'>{dateDiffinDays(curDate, newDeadlineDate)} left</Badge>;
+      return <Badge variant='danger'>{dateDiffinDays(curDate, newDeadlineDate)} days left</Badge>;
     case dateDiffinDays(curDate, newDeadlineDate) < 15:
-      return <Badge variant='warning'>{dateDiffinDays(curDate, newDeadlineDate)} left</Badge>;
+      return <Badge variant='warning'>{dateDiffinDays(curDate, newDeadlineDate)} days left</Badge>;
     default:
-      return <Badge variant='primary'>{dateDiffinDays(curDate, newDeadlineDate)} left</Badge>;
+      return <Badge variant='primary'>{dateDiffinDays(curDate, newDeadlineDate)} days left</Badge>;
   }
 };

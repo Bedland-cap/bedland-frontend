@@ -21,8 +21,8 @@ exports[`Badge > should renders correctly danger Badge 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
+  padding: 0 1rem;
+  width: 100%;
 }
 
 .c1 {
@@ -61,8 +61,8 @@ exports[`Badge > should renders correctly danger Badge 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
+  padding: 0 1rem;
+  width: 100%;
 }
 
 .c1 {
@@ -163,8 +163,8 @@ exports[`Badge > should renders correctly primary badge 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
+  padding: 0 1rem;
+  width: 100%;
 }
 
 <body>
@@ -197,8 +197,8 @@ exports[`Badge > should renders correctly primary badge 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
+  padding: 0 1rem;
+  width: 100%;
 }
 
 <div>
@@ -283,7 +283,7 @@ exports[`Badge > should renders correctly secondary badge 1`] = `
   background-color: #F5F6F8;
   border: 1px solid #CACACA;
   border-radius: 8px;
-  color: #4B4B4B;
+  color: #767676;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -293,14 +293,14 @@ exports[`Badge > should renders correctly secondary badge 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
+  padding: 0 1rem;
+  width: 100%;
 }
 
 .c1 {
   background-color: #F5F6F8;
   border: 1px solid #CACACA;
-  color: #4B4B4B;
+  color: #767676;
 }
 
 <body>
@@ -323,7 +323,7 @@ exports[`Badge > should renders correctly secondary badge 1`] = `
   background-color: #F5F6F8;
   border: 1px solid #CACACA;
   border-radius: 8px;
-  color: #4B4B4B;
+  color: #767676;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -333,14 +333,14 @@ exports[`Badge > should renders correctly secondary badge 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
+  padding: 0 1rem;
+  width: 100%;
 }
 
 .c1 {
   background-color: #F5F6F8;
   border: 1px solid #CACACA;
-  color: #4B4B4B;
+  color: #767676;
 }
 
 <div>
@@ -435,8 +435,8 @@ exports[`Badge > should renders correctly warning Badge 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
+  padding: 0 1rem;
+  width: 100%;
 }
 
 .c1 {
@@ -475,8 +475,8 @@ exports[`Badge > should renders correctly warning Badge 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
+  padding: 0 1rem;
+  width: 100%;
 }
 
 .c1 {

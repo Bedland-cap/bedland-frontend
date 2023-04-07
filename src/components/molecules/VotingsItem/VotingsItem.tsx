@@ -43,8 +43,9 @@ const VotingsItem = ({ deadlineDate }: VotingsItemProps) => {
         </Typography>
         <Typography
           variant='header5'
-          color='inputGrey'
-          style={{ fontWeight: dateDiffinDays(curDate, newDeadlineDate) < 0 ? '400' : '600' }}
+          style={{
+            marginRight: '1.438rem',
+          }}
         >
           {switchVariant(curDate, newDeadlineDate)}
         </Typography>
@@ -79,7 +80,7 @@ const VotingsItem = ({ deadlineDate }: VotingsItemProps) => {
           </Styled.ChartWrapper>
         ) : (
           <Button wrapper style={{ display: 'flex', justifyContent: 'flex-end', width: '100%' }}>
-            <Button wrapper>
+            <Button wrapper style={{ marginRight: '2.8rem' }}>
               <Button variant='primary' type='button'>
                 <Typography variant='header5'>Vote now</Typography>
               </Button>
