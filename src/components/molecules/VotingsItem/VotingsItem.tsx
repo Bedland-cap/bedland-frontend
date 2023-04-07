@@ -82,7 +82,7 @@ const VotingsItem = ({ deadlineDate }: VotingsItemProps) => {
           <Button wrapper style={{ display: 'flex', justifyContent: 'flex-end', width: '100%' }}>
             <Button wrapper style={{ marginRight: '2.8rem' }}>
               <Button variant='primary' type='button'>
-                <Typography variant='header5'>Vote now</Typography>
+                Vote now
               </Button>
             </Button>
           </Button>

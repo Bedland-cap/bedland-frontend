@@ -24,7 +24,7 @@ export const ScrollBar = styled.div<{
   }
 
   ::-webkit-scrollbar-thumb {
-    background: ${({ palette }) => palette.inputGrey};
+    background: ${({ palette }) => palette.blueDark};
     border-radius: ${2 * SCROLLBAR_BORDER_RADIUS}px;
     border: ${SCROLLBAR_RIGHT_PADDING}rem solid transparent;
     background-clip: padding-box;

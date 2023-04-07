@@ -117,23 +117,6 @@ exports[`Payment Widget  > should render correctly 1`] = `
 }
 
 .c10 {
-  color: #FF4438;
-  -webkit-box-pack: start;
-  -webkit-justify-content: start;
-  -ms-flex-pack: start;
-  justify-content: start;
-}
-
-.c12 {
-  color: black;
-  -webkit-box-pack: start;
-  -webkit-justify-content: start;
-  -ms-flex-pack: start;
-  justify-content: start;
-}
-
-.c14 {
-  color: #30BA57;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -141,25 +124,6 @@ exports[`Payment Widget  > should render correctly 1`] = `
 }
 
 .c11 {
-  background-color: #FF4438;
-  border-radius: 2.7px;
-  color: white;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.25rem 0.5rem;
-}
-
-.c13 {
-  background-color: #FFD541;
-  border-radius: 2.7px;
-  color: black;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.25rem 0.5rem;
-}
-
-.c15 {
-  background-color: #30BA57;
   border-radius: 2.7px;
   color: white;
   font-size: 0.75rem;
@@ -299,28 +263,14 @@ exports[`Payment Widget  > should render correctly 1`] = `
                   class="c9"
                 >
                   <div
-                    class="c9 c12"
+                    class="c9 c10"
                   >
                     Awaiting payments
                   </div>
                   <div
-                    class="c13"
+                    class="c11"
                   >
                     21%
-                  </div>
-                </div>
-                <div
-                  class="c9"
-                >
-                  <div
-                    class="c9 c14"
-                  >
-                    Paid on time
-                  </div>
-                  <div
-                    class="c15"
-                  >
-                    75%
                   </div>
                 </div>
               </div>
@@ -449,23 +399,6 @@ exports[`Payment Widget  > should render correctly 1`] = `
 }
 
 .c10 {
-  color: #FF4438;
-  -webkit-box-pack: start;
-  -webkit-justify-content: start;
-  -ms-flex-pack: start;
-  justify-content: start;
-}
-
-.c12 {
-  color: black;
-  -webkit-box-pack: start;
-  -webkit-justify-content: start;
-  -ms-flex-pack: start;
-  justify-content: start;
-}
-
-.c14 {
-  color: #30BA57;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -473,25 +406,6 @@ exports[`Payment Widget  > should render correctly 1`] = `
 }
 
 .c11 {
-  background-color: #FF4438;
-  border-radius: 2.7px;
-  color: white;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.25rem 0.5rem;
-}
-
-.c13 {
-  background-color: #FFD541;
-  border-radius: 2.7px;
-  color: black;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.25rem 0.5rem;
-}
-
-.c15 {
-  background-color: #30BA57;
   border-radius: 2.7px;
   color: white;
   font-size: 0.75rem;
@@ -630,28 +544,14 @@ exports[`Payment Widget  > should render correctly 1`] = `
                 class="c9"
               >
                 <div
-                  class="c9 c12"
+                  class="c9 c10"
                 >
                   Awaiting payments
                 </div>
                 <div
-                  class="c13"
+                  class="c11"
                 >
                   21%
-                </div>
-              </div>
-              <div
-                class="c9"
-              >
-                <div
-                  class="c9 c14"
-                >
-                  Paid on time
-                </div>
-                <div
-                  class="c15"
-                >
-                  75%
                 </div>
               </div>
             </div>

@@ -97,7 +97,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
 }
 
 .c3::-webkit-scrollbar-thumb {
-  background: #4B4B4B;
+  background: #4553DD;
   border-radius: 16px;
   border: 0.375rem solid transparent;
   background-clip: padding-box;
@@ -584,7 +584,7 @@ exports[`ContactsWidget > renders correctly 1`] = `
 }
 
 .c3::-webkit-scrollbar-thumb {
-  background: #4B4B4B;
+  background: #4553DD;
   border-radius: 16px;
   border: 0.375rem solid transparent;
   background-clip: padding-box;
