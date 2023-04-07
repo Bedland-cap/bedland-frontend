@@ -183,7 +183,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
             <div
               class="c2"
             >
-              43
+              42
                days left
             </div>
           </h5>
@@ -433,7 +433,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
           <div
             class="c2"
           >
-            43
+            42
              days left
           </div>
         </h5>
