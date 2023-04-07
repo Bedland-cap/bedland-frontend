@@ -33,13 +33,11 @@ export const mockLoginResponse = (
   }
   return res(ctx.status(403), ctx.json({ error: 'wrong login or password' }));
 };
-
 export const mockLogoutResponse = (
   req: RestRequest<DefaultBodyType, PathParams<string>>,
   res: ResponseComposition<DefaultBodyType>,
   ctx: RestContext,
 ) => res(ctx.status(200));
-
 const mockResidentLoginResponse = (
   req: RestRequest<DefaultBodyType, PathParams<string>>,
   res: ResponseComposition<DefaultBodyType>,
@@ -62,7 +60,6 @@ const mockResidentLoginResponse = (
   }
   return res(ctx.status(403), ctx.json({ error: 'wrong login or password' }));
 };
-
 const mockManagerLoginResponse = (
   req: RestRequest<DefaultBodyType, PathParams<string>>,
   res: ResponseComposition<DefaultBodyType>,
@@ -110,7 +107,6 @@ const mockResidentDetailsResponse = (
   }
   return res(ctx.status(403), ctx.json({ error: 'wrong login or password' }));
 };
-
 const mockManagerDetailsResponse = (
   req: RestRequest<DefaultBodyType, PathParams<string>>,
   res: ResponseComposition<DefaultBodyType>,
@@ -136,6 +132,54 @@ const mockManagerDetailsResponse = (
   }
   return res(ctx.status(403), ctx.json({ error: 'wrong login or password' }));
 };
+const mockAllFlastForBuildingResponse = (
+  req: RestRequest<DefaultBodyType, PathParams<string>>,
+  res: ResponseComposition<DefaultBodyType>,
+  ctx: RestContext,
+) => {
+  const flats = [
+    {
+      id: 1,
+      version: 1,
+      buildingId: 1,
+      number: 'fakeFlatNumber',
+      floor: 1,
+      shapePath: 'fakeShapePath',
+    },
+    {
+      id: 2,
+      version: 2,
+      buildingId: 2,
+      number: 'fakeFlatNumber',
+      floor: 2,
+      shapePath: 'fakeShapePath',
+    },
+    {
+      id: 3,
+      version: 3,
+      buildingId: 3,
+      number: 'fakeFlatNumber',
+      floor: 3,
+      shapePath: 'fakeShapePath',
+    },
+  ];
+  return res(ctx.status(200), ctx.json(flats));
+};
+const mockFlatForBuildingByIdResponse = (
+  req: RestRequest<DefaultBodyType, PathParams<string>>,
+  res: ResponseComposition<DefaultBodyType>,
+  ctx: RestContext,
+) => {
+  const flat = {
+    id: 1,
+    version: 1,
+    buildingId: 1,
+    number: 'fakeFlatNumber',
+    floor: 1,
+    shapePath: 'fakeShapePath',
+  };
+  return res(ctx.status(200), ctx.json(flat));
+};
 
 const handlers = [
   rest.post(`${BASE_URL}/manager/login`, mockManagerLoginResponse),
@@ -144,6 +188,8 @@ const handlers = [
   rest.post(`${BASE_URL}/member/6`, mockResidentDetailsResponse),
   rest.post(`${BASE_URL}/member/logout`, mockLogoutResponse),
   rest.post(`${BASE_URL}/manager/logout`, mockLogoutResponse),
+  rest.get(`${BASE_URL}/flat/:buildingId`, mockAllFlastForBuildingResponse),
+  rest.get(`${BASE_URL}/flat/:buildingId/:flatId`, mockFlatForBuildingByIdResponse),
 ];
 
 export default handlers;

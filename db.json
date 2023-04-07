@@ -157,5 +157,31 @@
       "flatId": 4,
       "owner": false
     }
+  ],
+  "flat": [
+    {
+      "id": 1,
+      "version": 1,
+      "buildingId": 1,
+      "number": "1a",
+      "floor": 1,
+      "shapePath": "1. yes sire"
+    },
+    {
+      "id": 2,
+      "version": 2,
+      "buildingId": 2,
+      "number": "2a",
+      "floor": 2,
+      "shapePath": "2. yes sire"
+    },
+    {
+      "id": 3,
+      "version": 3,
+      "buildingId": 3,
+      "number": "3a",
+      "floor": 3,
+      "shapePath": "3. yes sire"
+    }
   ]
 }
