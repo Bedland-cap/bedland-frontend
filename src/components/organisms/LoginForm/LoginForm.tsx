@@ -1,5 +1,5 @@
 import { useForm, SubmitHandler, FieldValues } from 'react-hook-form';
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import routes from 'App/routing/routes';
 import ErrorMessage from 'components/atoms/ErrorMessage/ErrorMessage';
@@ -17,6 +17,7 @@ import { LoginFormContainer, ResetPasswordLink } from './LoginForm.styled';
 const LoginForm = () => {
   const navigate = useNavigate();
   const location = useLocation();
+  const [errorNoUser, setErrorNoUser] = useState<boolean>(false);
   const { palette } = useContext(ThemeContext);
   const {
     register,
@@ -32,14 +33,12 @@ const LoginForm = () => {
       password: formData.password,
     };
 
-    try {
-      const data = await login(currentUser);
-      if (data) {
-        navigate(routes.homeForLoggedIn);
-      }
-    } catch (err) {
-      // eslint-disable-next-line no-console
-      console.log(err);
+    const data = await login(currentUser);
+
+    if ('data' in data) {
+      navigate(routes.homeForLoggedIn);
+    } else {
+      setErrorNoUser(true);
     }
   };
 
@@ -66,7 +65,7 @@ const LoginForm = () => {
         regexPattern={loginRegexPattern.password}
       />
       <Styled.ErrorMsg>
-        {errors.password || errors.login ? (
+        {errors.password || errors.login || errorNoUser ? (
           <ErrorMessage>{ERROR_MESSAGES.loginPage.errorMessage}</ErrorMessage>
         ) : null}
       </Styled.ErrorMsg>
