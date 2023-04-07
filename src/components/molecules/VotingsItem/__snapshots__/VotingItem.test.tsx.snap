@@ -237,11 +237,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
                 class="c6"
                 type="button"
               >
-                <h5
-                  style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
-                >
-                  Vote now
-                </h5>
+                Vote now
               </button>
             </div>
           </div>
@@ -487,11 +483,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
               class="c6"
               type="button"
             >
-              <h5
-                style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0;"
-              >
-                Vote now
-              </h5>
+              Vote now
             </button>
           </div>
         </div>
