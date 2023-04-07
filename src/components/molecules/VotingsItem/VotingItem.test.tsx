@@ -12,7 +12,7 @@ describe('VotingsItem', () => {
   it('should renders correctly VotingsItem', () => {
     expect(
       item({
-        deadlineDate: new Date(),
+        deadlineDate: new Date(2023, 4, 19),
       }),
     ).toMatchSnapshot();
   });
@@ -37,13 +37,13 @@ describe('VotingsItem', () => {
     const result = switchVariant(new Date(2023, 10, 5), new Date(2023, 10, 6));
     expect(result).toEqual(
       <Badge variant='danger'>
-        {dateDiffinDays(new Date(2023, 10, 5), new Date(2023, 10, 6))} left
+        {dateDiffinDays(new Date(2023, 10, 5), new Date(2023, 10, 6))} days left
       </Badge>,
     );
   });
   it('votings item with voting successfuly unfolds and arrow icon rotates', async () => {
     item({
-      deadlineDate: new Date(),
+      deadlineDate: new Date(2023, 5, 20),
     });
     const unfold = screen.getByTestId('votings-item');
     const votingsItemIcon = screen.getByTestId('votings-item-icon');

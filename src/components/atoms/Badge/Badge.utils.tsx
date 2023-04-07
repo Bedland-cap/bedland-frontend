@@ -33,7 +33,7 @@ const badgeStyleAndColors: BadgeStyleAndColorsType = {
     colors: {
       bgColor: initialTheme.palette.greyLight,
       borderColor: initialTheme.palette.sidebarTabs,
-      color: initialTheme.palette.inputGrey,
+      color: initialTheme.palette.greyDark,
     },
   },
   [BADGE_VARIANTS.danger]: {
