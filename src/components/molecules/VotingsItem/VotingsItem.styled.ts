@@ -6,7 +6,9 @@ export const VotingsItemContainer = styled.div<{ palette: PaletteType }>`
   border-bottom: 1px solid ${({ palette }) => palette.sidebarTabs};
   display: flex;
   flex-direction: column;
-  width: 100%;
+  margin-left: 1.125rem;
+  margin-right: 1.125rem;
+  width: calc(100% - 2.25rem);
   :last-child {
     margin-bottom: 0.938rem;
   }
@@ -16,8 +18,7 @@ export const VotingsItemHeader = styled(VotingsItemContainer)`
   border-bottom: none;
   cursor: pointer;
   flex-direction: row;
-  margin-right: 1.1rem;
-  padding: 2rem 1.939rem 2rem 2.313rem;
+  padding: 2rem 0 2rem 0rem;
   :last-child {
     margin-bottom: 0rem;
   }
@@ -32,11 +33,12 @@ export const UnfoldContainer = styled.div<{ isUnfold: boolean; date: number }>`
     }
     return '0px';
   }};
+  justify-content: flex-start;
   opacity: ${({ isUnfold }) => (isUnfold ? 1 : 0)};
   overflow: hidden;
   transition: opacity 0.25s linear, height 0.3s linear, visibility 0.3s linear;
   visibility: ${({ isUnfold }) => (isUnfold ? 'visible' : 'hidden')};
-  width: 35.25rem;
+  width: calc(100% - 2.25rem);
 `;
 
 export const ChartWrapper = styled.div`

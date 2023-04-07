@@ -10,8 +10,8 @@ export const PrimaryBadge = styled.div<StyledBadgePropses>`
   display: flex;
   height: 1.5rem;
   justify-content: center;
-  margin-right: 1.688rem;
-  width: 5.875rem;
+  padding: 0 1rem;
+  width: 100%;
 `;
 
 export const SecondaryBadge = styled(PrimaryBadge)<StyledBadgePropses>`
