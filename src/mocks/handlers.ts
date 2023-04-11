@@ -9,6 +9,7 @@ import {
 } from 'msw';
 import { BASE_URL } from 'utils/constans';
 import { mockUserCredentials } from 'utils/mockUser';
+import mockResidentList from 'utils/mockResident';
 
 export const mockLoginResponse = (
   req: RestRequest<DefaultBodyType, PathParams<string>>,
@@ -181,6 +182,26 @@ const mockFlatForBuildingByIdResponse = (
   return res(ctx.status(200), ctx.json(flat));
 };
 
+const mockGetAllResidentsResponse = (
+  _req: RestRequest<DefaultBodyType, PathParams<string>>,
+  res: ResponseComposition<DefaultBodyType>,
+  ctx: RestContext,
+) => res(ctx.status(200), ctx.json(mockResidentList));
+
+const mockGetResidentById = (
+  req: RestRequest<DefaultBodyType, PathParams<string>>,
+  res: ResponseComposition<DefaultBodyType>,
+  ctx: RestContext,
+) => {
+  const { id } = req.params;
+  const resident = mockResidentList.find((resi) => resi.id.toString() === id);
+
+  if (resident) {
+    return res(ctx.status(200), ctx.json(resident));
+  }
+  return res(ctx.status(404), ctx.json({}));
+};
+
 const handlers = [
   rest.post(`${BASE_URL}/manager/login`, mockManagerLoginResponse),
   rest.post(`${BASE_URL}/manager/6`, mockManagerDetailsResponse),
@@ -190,6 +211,8 @@ const handlers = [
   rest.post(`${BASE_URL}/manager/logout`, mockLogoutResponse),
   rest.get(`${BASE_URL}/flat/:buildingId`, mockAllFlastForBuildingResponse),
   rest.get(`${BASE_URL}/flat/:buildingId/:flatId`, mockFlatForBuildingByIdResponse),
+  rest.get(`${BASE_URL}/member`, mockGetAllResidentsResponse),
+  rest.get(`${BASE_URL}/member/:id`, mockGetResidentById),
 ];
 
 export default handlers;
