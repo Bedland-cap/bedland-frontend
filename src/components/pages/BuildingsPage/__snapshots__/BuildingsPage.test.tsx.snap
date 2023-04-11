@@ -3,7 +3,7 @@
 exports[`BuildingsPage > renders correctly 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": .c5 {
+  "baseElement": .c7 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -19,34 +19,34 @@ exports[`BuildingsPage > renders correctly 1`] = `
   width: 17.5rem;
 }
 
-.c5:focus-within {
+.c7:focus-within {
   outline: 1px solid #4553DD;
 }
 
-.c7 {
+.c9 {
   background-color: transparent;
   color: #4B4B4B;
   height: 1.75rem;
   width: 15rem;
 }
 
-.c7::-webkit-input-placeholder {
+.c9::-webkit-input-placeholder {
   color: #767676;
 }
 
-.c7::-moz-placeholder {
+.c9::-moz-placeholder {
   color: #767676;
 }
 
-.c7:-ms-input-placeholder {
+.c9:-ms-input-placeholder {
   color: #767676;
 }
 
-.c7::placeholder {
+.c9::placeholder {
   color: #767676;
 }
 
-.c6 {
+.c8 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -59,11 +59,48 @@ exports[`BuildingsPage > renders correctly 1`] = `
   margin-right: 0.771rem;
 }
 
-.c12 {
+.c14 {
   margin-top: 1rem;
 }
 
-.c13 {
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  color: #1B1A1A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c6:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #6573FF;
+}
+
+.c15 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -94,12 +131,12 @@ exports[`BuildingsPage > renders correctly 1`] = `
   letter-spacing: 1px;
 }
 
-.c13:hover {
+.c15:hover {
   background-color: #6573FF;
   border: 1px solid #6573FF;
 }
 
-.c9 {
+.c11 {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 5px 8px #D9D9D920;
@@ -113,22 +150,21 @@ exports[`BuildingsPage > renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c10 {
+.c12 {
   height: 11rem;
   object-fit: cover;
   padding: 0.5rem;
   width: 100%;
 }
 
-.c11 {
+.c13 {
   padding: 0.5rem 1.031rem 0.938rem;
 }
 
-.c8 {
+.c10 {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
-  margin-top: 1.5rem;
 }
 
 .c0 {
@@ -180,16 +216,24 @@ exports[`BuildingsPage > renders correctly 1`] = `
   width: 100%;
 }
 
+.c5 {
+  position: relative;
+}
+
 .c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  margin-top: 0.5rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.5rem 0 1rem;
 }
 
 .c3 {
@@ -229,8 +273,36 @@ exports[`BuildingsPage > renders correctly 1`] = `
               <div
                 class="c5"
               >
-                <div
+                <button
                   class="c6"
+                >
+                  <svg
+                    data-testid="arrowDown-icon"
+                    fill="none"
+                    height="12"
+                    viewBox="0 0 12 7"
+                    width="12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask-arrowDown"
+                    />
+                    <path
+                      d="M10.6667 1.33325L6.08333 5.49992L1.5 1.33325"
+                      stroke="#1B1A1A"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.67"
+                    />
+                  </svg>
+                  Sort Buildings
+                </button>
+              </div>
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8"
                 >
                   <svg
                     data-testid="search-icon"
@@ -253,24 +325,24 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   </svg>
                 </div>
                 <input
-                  class="c7"
+                  class="c9"
                   placeholder="Search buildings..."
                 />
               </div>
             </div>
             <div
-              class="c8"
+              class="c10"
             >
               <div
-                class="c9"
+                class="c11"
               >
                 <img
                   alt="Building"
-                  class="c10"
+                  class="c12"
                   src="/src/assets/img/BuildingImg.png"
                 />
                 <div
-                  class="c11"
+                  class="c13"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -284,10 +356,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                     Berry Street 21
                   </p>
                   <div
-                    class="c12"
+                    class="c14"
                   >
                     <button
-                      class="c13"
+                      class="c15"
                     >
                       Open details
                     </button>
@@ -295,15 +367,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c9"
+                class="c11"
               >
                 <img
                   alt="Building"
-                  class="c10"
+                  class="c12"
                   src="/src/assets/img/BuildingImg.png"
                 />
                 <div
-                  class="c11"
+                  class="c13"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -317,10 +389,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                     Miedziana Street 3
                   </p>
                   <div
-                    class="c12"
+                    class="c14"
                   >
                     <button
-                      class="c13"
+                      class="c15"
                     >
                       Open details
                     </button>
@@ -328,15 +400,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c9"
+                class="c11"
               >
                 <img
                   alt="Building"
-                  class="c10"
+                  class="c12"
                   src="/src/assets/img/BuildingImg.png"
                 />
                 <div
-                  class="c11"
+                  class="c13"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -350,10 +422,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                     Seaport Avenue 51
                   </p>
                   <div
-                    class="c12"
+                    class="c14"
                   >
                     <button
-                      class="c13"
+                      class="c15"
                     >
                       Open details
                     </button>
@@ -361,15 +433,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c9"
+                class="c11"
               >
                 <img
                   alt="Building"
-                  class="c10"
+                  class="c12"
                   src="/src/assets/img/BuildingImg.png"
                 />
                 <div
-                  class="c11"
+                  class="c13"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -383,10 +455,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                     Desert Street 2X
                   </p>
                   <div
-                    class="c12"
+                    class="c14"
                   >
                     <button
-                      class="c13"
+                      class="c15"
                     >
                       Open details
                     </button>
@@ -394,15 +466,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c9"
+                class="c11"
               >
                 <img
                   alt="Building"
-                  class="c10"
+                  class="c12"
                   src="/src/assets/img/BuildingImg.png"
                 />
                 <div
-                  class="c11"
+                  class="c13"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -416,10 +488,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                     Lakewood Avenue 57
                   </p>
                   <div
-                    class="c12"
+                    class="c14"
                   >
                     <button
-                      class="c13"
+                      class="c15"
                     >
                       Open details
                     </button>
@@ -437,7 +509,7 @@ exports[`BuildingsPage > renders correctly 1`] = `
       </div>
     </div>
   </body>,
-  "container": .c5 {
+  "container": .c7 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -453,34 +525,34 @@ exports[`BuildingsPage > renders correctly 1`] = `
   width: 17.5rem;
 }
 
-.c5:focus-within {
+.c7:focus-within {
   outline: 1px solid #4553DD;
 }
 
-.c7 {
+.c9 {
   background-color: transparent;
   color: #4B4B4B;
   height: 1.75rem;
   width: 15rem;
 }
 
-.c7::-webkit-input-placeholder {
+.c9::-webkit-input-placeholder {
   color: #767676;
 }
 
-.c7::-moz-placeholder {
+.c9::-moz-placeholder {
   color: #767676;
 }
 
-.c7:-ms-input-placeholder {
+.c9:-ms-input-placeholder {
   color: #767676;
 }
 
-.c7::placeholder {
+.c9::placeholder {
   color: #767676;
 }
 
-.c6 {
+.c8 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -493,11 +565,48 @@ exports[`BuildingsPage > renders correctly 1`] = `
   margin-right: 0.771rem;
 }
 
-.c12 {
+.c14 {
   margin-top: 1rem;
 }
 
-.c13 {
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  color: #1B1A1A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c6:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #6573FF;
+}
+
+.c15 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -528,12 +637,12 @@ exports[`BuildingsPage > renders correctly 1`] = `
   letter-spacing: 1px;
 }
 
-.c13:hover {
+.c15:hover {
   background-color: #6573FF;
   border: 1px solid #6573FF;
 }
 
-.c9 {
+.c11 {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 5px 8px #D9D9D920;
@@ -547,22 +656,21 @@ exports[`BuildingsPage > renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c10 {
+.c12 {
   height: 11rem;
   object-fit: cover;
   padding: 0.5rem;
   width: 100%;
 }
 
-.c11 {
+.c13 {
   padding: 0.5rem 1.031rem 0.938rem;
 }
 
-.c8 {
+.c10 {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
-  margin-top: 1.5rem;
 }
 
 .c0 {
@@ -614,16 +722,24 @@ exports[`BuildingsPage > renders correctly 1`] = `
   width: 100%;
 }
 
+.c5 {
+  position: relative;
+}
+
 .c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  margin-top: 0.5rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.5rem 0 1rem;
 }
 
 .c3 {
@@ -662,8 +778,36 @@ exports[`BuildingsPage > renders correctly 1`] = `
             <div
               class="c5"
             >
-              <div
+              <button
                 class="c6"
+              >
+                <svg
+                  data-testid="arrowDown-icon"
+                  fill="none"
+                  height="12"
+                  viewBox="0 0 12 7"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask-arrowDown"
+                  />
+                  <path
+                    d="M10.6667 1.33325L6.08333 5.49992L1.5 1.33325"
+                    stroke="#1B1A1A"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.67"
+                  />
+                </svg>
+                Sort Buildings
+              </button>
+            </div>
+            <div
+              class="c7"
+            >
+              <div
+                class="c8"
               >
                 <svg
                   data-testid="search-icon"
@@ -686,24 +830,24 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 </svg>
               </div>
               <input
-                class="c7"
+                class="c9"
                 placeholder="Search buildings..."
               />
             </div>
           </div>
           <div
-            class="c8"
+            class="c10"
           >
             <div
-              class="c9"
+              class="c11"
             >
               <img
                 alt="Building"
-                class="c10"
+                class="c12"
                 src="/src/assets/img/BuildingImg.png"
               />
               <div
-                class="c11"
+                class="c13"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -717,10 +861,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   Berry Street 21
                 </p>
                 <div
-                  class="c12"
+                  class="c14"
                 >
                   <button
-                    class="c13"
+                    class="c15"
                   >
                     Open details
                   </button>
@@ -728,15 +872,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="c9"
+              class="c11"
             >
               <img
                 alt="Building"
-                class="c10"
+                class="c12"
                 src="/src/assets/img/BuildingImg.png"
               />
               <div
-                class="c11"
+                class="c13"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -750,10 +894,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   Miedziana Street 3
                 </p>
                 <div
-                  class="c12"
+                  class="c14"
                 >
                   <button
-                    class="c13"
+                    class="c15"
                   >
                     Open details
                   </button>
@@ -761,15 +905,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="c9"
+              class="c11"
             >
               <img
                 alt="Building"
-                class="c10"
+                class="c12"
                 src="/src/assets/img/BuildingImg.png"
               />
               <div
-                class="c11"
+                class="c13"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -783,10 +927,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   Seaport Avenue 51
                 </p>
                 <div
-                  class="c12"
+                  class="c14"
                 >
                   <button
-                    class="c13"
+                    class="c15"
                   >
                     Open details
                   </button>
@@ -794,15 +938,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="c9"
+              class="c11"
             >
               <img
                 alt="Building"
-                class="c10"
+                class="c12"
                 src="/src/assets/img/BuildingImg.png"
               />
               <div
-                class="c11"
+                class="c13"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -816,10 +960,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   Desert Street 2X
                 </p>
                 <div
-                  class="c12"
+                  class="c14"
                 >
                   <button
-                    class="c13"
+                    class="c15"
                   >
                     Open details
                   </button>
@@ -827,15 +971,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="c9"
+              class="c11"
             >
               <img
                 alt="Building"
-                class="c10"
+                class="c12"
                 src="/src/assets/img/BuildingImg.png"
               />
               <div
-                class="c11"
+                class="c13"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -849,10 +993,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   Lakewood Avenue 57
                 </p>
                 <div
-                  class="c12"
+                  class="c14"
                 >
                   <button
-                    class="c13"
+                    class="c15"
                   >
                     Open details
                   </button>
