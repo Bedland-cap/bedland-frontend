@@ -6,7 +6,7 @@ import SetNewPassword from './SetNewPassword';
 
 // docs: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
 const meta = {
-  title: 'organisms/SetNewPassword',
+  title: 'Organisms/SetNewPassword',
   component: SetNewPassword,
   tags: ['autodocs'],
   decorators: [

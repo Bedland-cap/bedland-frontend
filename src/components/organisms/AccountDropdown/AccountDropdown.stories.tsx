@@ -7,7 +7,7 @@ import { reduxStore } from 'store/store';
 import AccountDropdown from './AccountDropdown';
 
 const meta = {
-  title: 'organisms/AccountDropdown',
+  title: 'Organisms/AccountDropdown',
   component: AccountDropdown,
   tags: ['autodocs'],
   decorators: [

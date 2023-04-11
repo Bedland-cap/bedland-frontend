@@ -4,7 +4,7 @@ import ThemeProvider from 'theme/ThemeContext';
 import BuildingsPage from './BuildingsPage';
 
 const meta = {
-  title: 'pages/BuildingsPage',
+  title: 'Pages/BuildingsPage',
   component: BuildingsPage,
   tags: ['autodocs'],
   parameters: {
