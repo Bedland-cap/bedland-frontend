@@ -4,6 +4,7 @@ import loggerMiddleware from 'redux-logger';
 import { userApi } from 'services/user/userApi';
 import { flatApi } from 'services/flat/flatApi';
 import { managerApi } from 'services/manager/managerApi';
+import { residentApi } from 'services/resident/residentApi';
 import { residentReducer, buildingReducer, userReducer, flatReducer } from './reducers/index';
 import { managerReducer } from './reducers/manager/manager_slice';
 
@@ -16,12 +17,19 @@ export const rootReducer = combineReducers({
   [userApi.reducerPath]: userApi.reducer,
   [flatApi.reducerPath]: flatApi.reducer,
   [managerApi.reducerPath]: managerApi.reducer,
+  [residentApi.reducerPath]: residentApi.reducer,
 });
 
 // Adding the api middleware enables caching, invalidation, polling,
 // and other useful features of `rtk-query`.
 export const rootMiddleware = (getDefaultMiddleware: CurriedGetDefaultMiddleware) =>
-  getDefaultMiddleware().concat(loggerMiddleware, userApi.middleware, flatApi.middleware, managerApi.middleware);
+  getDefaultMiddleware().concat(
+    loggerMiddleware,
+    userApi.middleware,
+    flatApi.middleware,
+    managerApi.middleware,
+    residentApi.middleware,
+  );
 
 export type RootState = ReturnType<typeof rootReducer>;
 
