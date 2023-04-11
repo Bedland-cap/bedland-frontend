@@ -6,7 +6,7 @@ import ThemeProvider from 'theme/ThemeContext';
 import DashboardPage from './DashboardPage';
 
 const meta = {
-  title: 'pages/DashboardPage',
+  title: 'Pages/DashboardPage',
   component: DashboardPage,
   tags: ['autodocs'],
   parameters: {

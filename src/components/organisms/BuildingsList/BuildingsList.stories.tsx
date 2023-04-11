@@ -4,7 +4,7 @@ import ThemeProvider from 'theme/ThemeContext';
 import BuildingsList from './BuildingsList';
 
 const meta = {
-  title: 'organisms/BuildingList',
+  title: 'Organisms/BuildingList',
   component: BuildingsList,
   parameters: {
     backgrounds: { default: 'light' },

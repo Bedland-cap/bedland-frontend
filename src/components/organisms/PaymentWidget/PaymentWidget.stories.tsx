@@ -5,7 +5,7 @@ import GlobalStyle from 'theme/globalStyles';
 import PaymentWidget from './PaymentWidget';
 
 const meta = {
-  title: 'organisms/PaymentWidget',
+  title: 'Organisms/PaymentWidget',
   component: PaymentWidget,
   tags: ['autodocs'],
   decorators: [
