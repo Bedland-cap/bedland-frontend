@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
-export const SearchInputContainer = styled.div`
+export const SortSearchContainer = styled.div`
+  align-items: center;
   display: flex;
-  justify-content: flex-end;
-  margin-top: 0.5rem;
+  justify-content: space-between;
+  margin: 1.5rem 0 1rem;
 `;
 
 export const BuildingsPageContent = styled.div`
