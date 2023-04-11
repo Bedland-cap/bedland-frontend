@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import { Resident } from 'store/reducers/resident/resident_slice';
+import type { Resident } from 'store/reducers/resident/resident_slice';
 import type { User, UserRoles } from 'store/reducers/user/user_slice';
 import type { RootState } from 'store/store';
 import { BASE_URL } from 'utils/constans';

@@ -1,4 +1,6 @@
 import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
+import { residentApi } from 'services/resident/residentApi';
+import { userApi } from 'services/user/userApi';
 import type { RootState } from 'store/store';
 
 export type Resident = {
@@ -17,23 +19,31 @@ export const residentAdapter = createEntityAdapter<Resident>({
 export const ResidentSlice = createSlice({
   name: 'resident',
   initialState: residentAdapter.getInitialState(),
-  reducers: {
-    addResident: residentAdapter.addOne,
-    updateResident: residentAdapter.updateOne,
-    removeResident: residentAdapter.removeOne,
-    setResidentList: residentAdapter.setAll, // to remove, when we set api and extra reducer for set ResidentList
-  },
-  extraReducers: (/* builder */) => {
-    // --->> add reducer for response from API
-    // builder.addMatcher(userApi.endpoints.getAllResidentList.matchFulfilled, (residentAdapter.setAll);
+  reducers: {},
+  extraReducers: (builder) => {
+    builder.addMatcher(
+      residentApi.endpoints.getAllResidents.matchFulfilled,
+      (state, { payload }) => {
+        residentAdapter.setAll(
+          state,
+          payload.map((item) => {
+            const resident: Resident = {
+              id: item.id,
+              name: item.name,
+              surname: item.lastName,
+              flatId: item.flatId,
+              isOwner: item.owner,
+            };
+            return resident;
+          }),
+        );
+      },
+    );
     // builder.addMatcher(userApi.endpoints.getAllResidentListByBuildingId.matchFulfilled, (residentAdapter.setAll);
-    //
-    // builder.addCase(logout, residentAdapter.removeAll);
+    builder.addMatcher(userApi.endpoints.logout.matchFulfilled, residentAdapter.removeAll);
   },
 });
 
-export const { addResident, updateResident, removeResident, setResidentList } =
-  ResidentSlice.actions;
 export const residentReducer = ResidentSlice.reducer;
 
 export const selectResidentList = (state: RootState) => state.resident;
