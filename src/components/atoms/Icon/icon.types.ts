@@ -22,6 +22,7 @@ export const iconsNames = [
   'listbox',
   'buildingPlan',
   'filterButton',
+  'arrowDown',
 ] as const;
 
 export type IconName = (typeof iconsNames)[number];

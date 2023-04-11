@@ -235,6 +235,16 @@ export const icons: IconList = {
       },
     ],
   },
+  arrowDown: {
+    viewBox: '0 0 12 7',
+    path: [
+      {
+        id: 'arrowDown-path-1',
+        d: 'M10.6667 1.33325L6.08333 5.49992L1.5 1.33325',
+        strokeWidth: '1.67',
+      },
+    ],
+  },
 };
 
 export const getIcon = (name: IconName): IconItem => (icons[name] ? icons[name] : icons.dashboard);
