@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Header from './Header';
 
 const meta = {
-  title: 'Molecules/Header',
+  title: 'Organisms/Header',
   component: Header,
   tags: ['autodocs'],
   decorators: [(Story) => <BrowserRouter>{Story()}</BrowserRouter>],

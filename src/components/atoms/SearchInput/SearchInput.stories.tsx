@@ -4,7 +4,7 @@ import ThemeProvider from 'theme/ThemeContext';
 import SearchInput from './SearchInput';
 
 const meta = {
-  title: 'atoms/SearchInput',
+  title: 'Atoms/SearchInput',
   component: SearchInput,
   tags: ['autodocs'],
   parameters: {

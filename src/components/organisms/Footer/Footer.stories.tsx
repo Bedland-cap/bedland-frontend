@@ -4,7 +4,7 @@ import GlobalStyle from 'theme/globalStyles';
 import Footer from './Footer';
 
 const meta = {
-  title: 'Molecules/Footer',
+  title: 'Organisms/Footer',
   component: Footer,
   tags: ['autodocs'],
   decorators: [

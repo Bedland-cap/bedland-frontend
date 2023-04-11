@@ -6,7 +6,7 @@ import ResetPasswordForm from './ResetPasswordForm';
 
 // docs: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
 const meta = {
-  title: 'organisms/ResetPasswordForm',
+  title: 'Organisms/ResetPasswordForm',
   component: ResetPasswordForm,
   tags: ['autodocs'],
 
