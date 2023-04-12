@@ -37,7 +37,7 @@ const SidebarItem = ({ label, iconName, linkTo }: PropsWithChildren<SidebarItemP
                 activeColor='sidebarTabsPressed'
               />
               <Typography variant='header4' color={isActive ? 'sidebarTabsPressed' : 'sidebarTabs'}>
-                {label}
+                {label[0].toUpperCase() + label.slice(1)}
               </Typography>
             </Styled.ContentDiv>
             {label === 'voting' || label === 'messages' ? (
