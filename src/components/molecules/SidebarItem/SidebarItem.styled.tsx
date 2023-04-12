@@ -11,7 +11,6 @@ export const StyledItemList = styled.li<Palette>`
 export const StyledDiv = styled.div`
   align-items: center;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   justify-content: space-between;
   padding: 0.625rem 1.25rem;

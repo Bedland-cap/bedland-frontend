@@ -20,7 +20,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -85,7 +84,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 1`] = `
               <h4
                 style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
               >
-                buildings
+                Buildings
               </h4>
             </div>
           </div>
@@ -115,7 +114,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -179,7 +177,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 1`] = `
             <h4
               style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
             >
-              buildings
+              Buildings
             </h4>
           </div>
         </div>
@@ -272,7 +270,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 2`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -359,7 +356,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 2`] = `
               <h4
                 style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
               >
-                voting
+                Voting
               </h4>
             </div>
             <div
@@ -395,7 +392,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 2`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -481,7 +477,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Buildings 2`] = `
             <h4
               style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
             >
-              voting
+              Voting
             </h4>
           </div>
           <div
@@ -580,7 +576,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Dashboard 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -645,7 +640,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Dashboard 1`] = `
               <h4
                 style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
               >
-                dashboard
+                Dashboard
               </h4>
             </div>
           </div>
@@ -675,7 +670,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Dashboard 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -739,7 +733,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Dashboard 1`] = `
             <h4
               style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
             >
-              dashboard
+              Dashboard
             </h4>
           </div>
         </div>
@@ -832,7 +826,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Flats 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -897,7 +890,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Flats 1`] = `
               <h4
                 style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
               >
-                flats
+                Flats
               </h4>
             </div>
           </div>
@@ -927,7 +920,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Flats 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -991,7 +983,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Flats 1`] = `
             <h4
               style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
             >
-              flats
+              Flats
             </h4>
           </div>
         </div>
@@ -1084,7 +1076,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Messages 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1171,7 +1162,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Messages 1`] = `
               <h4
                 style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
               >
-                messages
+                Messages
               </h4>
             </div>
             <div
@@ -1207,7 +1198,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Messages 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1293,7 +1283,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Messages 1`] = `
             <h4
               style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
             >
-              messages
+              Messages
             </h4>
           </div>
           <div
@@ -1392,7 +1382,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Payments 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1470,7 +1459,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Payments 1`] = `
               <h4
                 style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
               >
-                payments
+                Payments
               </h4>
             </div>
           </div>
@@ -1500,7 +1489,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Payments 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1577,7 +1565,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Payments 1`] = `
             <h4
               style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
             >
-              payments
+              Payments
             </h4>
           </div>
         </div>
@@ -1670,7 +1658,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Reports 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1735,7 +1722,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Reports 1`] = `
               <h4
                 style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
               >
-                reports
+                Reports
               </h4>
             </div>
           </div>
@@ -1765,7 +1752,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Reports 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1829,7 +1815,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Reports 1`] = `
             <h4
               style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
             >
-              reports
+              Reports
             </h4>
           </div>
         </div>
@@ -1922,7 +1908,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Residents 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1987,7 +1972,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Residents 1`] = `
               <h4
                 style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
               >
-                residents
+                Residents
               </h4>
             </div>
           </div>
@@ -2017,7 +2002,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Residents 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -2081,7 +2065,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Residents 1`] = `
             <h4
               style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
             >
-              residents
+              Residents
             </h4>
           </div>
         </div>
@@ -2174,7 +2158,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Wall 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -2239,7 +2222,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Wall 1`] = `
               <h4
                 style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
               >
-                wall
+                Wall
               </h4>
             </div>
           </div>
@@ -2269,7 +2252,6 @@ exports[`SidebarItem > should render correctly sidebarItem for Wall 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.9rem;
   height: 2.625rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -2333,7 +2315,7 @@ exports[`SidebarItem > should render correctly sidebarItem for Wall 1`] = `
             <h4
               style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(145, 154, 255);"
             >
-              wall
+              Wall
             </h4>
           </div>
         </div>
