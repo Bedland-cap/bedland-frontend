@@ -1,4 +1,4 @@
-type Votings = { deadlineDate: Date; id: number };
+export type Votings = { deadlineDate: Date; id: number };
 
 const votings: Votings[] = [
   { deadlineDate: new Date(2023, 2, 16), id: 1 },
