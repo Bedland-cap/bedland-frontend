@@ -1,0 +1,1197 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Generic Table > renders correctly with selects 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="table css-13g0o1m-Table"
+        data-table-library_table=""
+        role="grid"
+      >
+        <thead
+          class="thead css-1dpsum1-Header"
+          role="rowgroup"
+        >
+          <tr
+            class="tr tr-header css-o9t41z-getHeaderRowContainerStyle-HeaderRow"
+            data-table-library_tr-header=""
+            role="rowheader"
+          >
+            <th
+              class="th stiff css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                <input
+                  class="css-e0dnmk"
+                  type="checkbox"
+                />
+              </div>
+            </th>
+            <th
+              class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Flats Number
+              </div>
+            </th>
+            <th
+              class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Floor
+              </div>
+            </th>
+            <th
+              class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Residents
+              </div>
+            </th>
+            <th
+              class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Deadline
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="tbody css-1cjq6h-Body"
+          data-table-library_body=""
+        >
+          <tr
+            class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td stiff css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <input
+                  class="css-e0dnmk"
+                  type="checkbox"
+                />
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #1
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                1
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td stiff css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <input
+                  class="css-e0dnmk"
+                  type="checkbox"
+                />
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #2
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                2
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td stiff css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <input
+                  class="css-e0dnmk"
+                  type="checkbox"
+                />
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #3
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                3
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="table css-13g0o1m-Table"
+      data-table-library_table=""
+      role="grid"
+    >
+      <thead
+        class="thead css-1dpsum1-Header"
+        role="rowgroup"
+      >
+        <tr
+          class="tr tr-header css-o9t41z-getHeaderRowContainerStyle-HeaderRow"
+          data-table-library_tr-header=""
+          role="rowheader"
+        >
+          <th
+            class="th stiff css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              <input
+                class="css-e0dnmk"
+                type="checkbox"
+              />
+            </div>
+          </th>
+          <th
+            class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Flats Number
+            </div>
+          </th>
+          <th
+            class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Floor
+            </div>
+          </th>
+          <th
+            class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Residents
+            </div>
+          </th>
+          <th
+            class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Deadline
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="tbody css-1cjq6h-Body"
+        data-table-library_body=""
+      >
+        <tr
+          class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td stiff css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <input
+                class="css-e0dnmk"
+                type="checkbox"
+              />
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #1
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              1
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td stiff css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <input
+                class="css-e0dnmk"
+                type="checkbox"
+              />
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #2
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              2
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td stiff css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <input
+                class="css-e0dnmk"
+                type="checkbox"
+              />
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #3
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              3
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Generic Table > renders correctly without selects 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="table css-omp3au-Table"
+        data-table-library_table=""
+        role="grid"
+      >
+        <thead
+          class="thead css-1dpsum1-Header"
+          role="rowgroup"
+        >
+          <tr
+            class="tr tr-header css-pdmx8e-getHeaderRowContainerStyle-HeaderRow"
+            data-table-library_tr-header=""
+            role="rowheader"
+          >
+            <th
+              class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Flats Number
+              </div>
+            </th>
+            <th
+              class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Floor
+              </div>
+            </th>
+            <th
+              class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Residents
+              </div>
+            </th>
+            <th
+              class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Deadline
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="tbody css-1cjq6h-Body"
+          data-table-library_body=""
+        >
+          <tr
+            class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #1
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                1
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #2
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                2
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #3
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                3
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="table css-omp3au-Table"
+      data-table-library_table=""
+      role="grid"
+    >
+      <thead
+        class="thead css-1dpsum1-Header"
+        role="rowgroup"
+      >
+        <tr
+          class="tr tr-header css-pdmx8e-getHeaderRowContainerStyle-HeaderRow"
+          data-table-library_tr-header=""
+          role="rowheader"
+        >
+          <th
+            class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Flats Number
+            </div>
+          </th>
+          <th
+            class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Floor
+            </div>
+          </th>
+          <th
+            class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Residents
+            </div>
+          </th>
+          <th
+            class="th css-12ezvgm-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Deadline
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="tbody css-1cjq6h-Body"
+        data-table-library_body=""
+      >
+        <tr
+          class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #1
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              1
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #2
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              2
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #3
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              3
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-1jvtg6b-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
