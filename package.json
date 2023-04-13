@@ -58,6 +58,7 @@
     "@typescript-eslint/parser": "^5.51.0",
     "@vitejs/plugin-react": "^3.1.0",
     "@vitest/coverage-c8": "^0.29.2",
+    "@vitest/coverage-istanbul": "^0.30.1",
     "@vitest/ui": "^0.29.2",
     "@whitespace/storybook-addon-html": "^5.1.1",
     "addon-redux": "^2.0.11",
