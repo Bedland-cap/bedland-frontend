@@ -1,3 +1,4 @@
+import { PARAM_REDUX_MERGE_STATE } from 'addon-redux';
 import type { Meta, StoryObj } from '@storybook/react';
 import ThemeProvider from 'theme/ThemeContext';
 import { BrowserRouter } from 'react-router-dom';
@@ -22,6 +23,14 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
-  render: () => <PaymentWidget />,
+export const PaymentWidgetManager: Story = {
+  parameters: {
+    [PARAM_REDUX_MERGE_STATE]: '{"user": {"role": "manager"}}',
+  },
+};
+
+export const PaymentWidgetResident: Story = {
+  parameters: {
+    [PARAM_REDUX_MERGE_STATE]: '{"user": {"role": "resident"}}',
+  },
 };
