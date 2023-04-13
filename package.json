@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
     "@reduxjs/toolkit": "^1.9.2",
     "@storybook/addon-viewport": "^7.0.0-rc.8",
     "@storybook/react": "^7.0.0-rc.3",

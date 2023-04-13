@@ -2,10 +2,19 @@ import { combineReducers, configureStore, type PreloadedState } from '@reduxjs/t
 import { CurriedGetDefaultMiddleware } from '@reduxjs/toolkit/dist/getDefaultMiddleware';
 import loggerMiddleware from 'redux-logger';
 import { userApi } from 'services/user/userApi';
+import { votingApi } from 'services/voting/votingApi';
+import { residentApi } from 'services/resident/residentApi';
+
 import { flatApi } from 'services/flat/flatApi';
 import { managerApi } from 'services/manager/managerApi';
-import { residentApi } from 'services/resident/residentApi';
-import { residentReducer, buildingReducer, userReducer, flatReducer } from './reducers/index';
+import {
+  residentReducer,
+  buildingReducer,
+  userReducer,
+  flatReducer,
+  votingsReducer,
+} from './reducers/index';
+
 import { managerReducer } from './reducers/manager/manager_slice';
 
 export const rootReducer = combineReducers({
@@ -14,7 +23,9 @@ export const rootReducer = combineReducers({
   manager: managerReducer,
   building: buildingReducer,
   flat: flatReducer,
+  voting: votingsReducer,
   [userApi.reducerPath]: userApi.reducer,
+  [votingApi.reducerPath]: votingApi.reducer,
   [flatApi.reducerPath]: flatApi.reducer,
   [managerApi.reducerPath]: managerApi.reducer,
   [residentApi.reducerPath]: residentApi.reducer,
@@ -28,6 +39,7 @@ export const rootMiddleware = (getDefaultMiddleware: CurriedGetDefaultMiddleware
     userApi.middleware,
     flatApi.middleware,
     managerApi.middleware,
+    votingApi.middleware,
     residentApi.middleware,
   );
 
