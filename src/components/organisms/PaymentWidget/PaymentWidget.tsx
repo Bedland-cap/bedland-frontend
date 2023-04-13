@@ -5,10 +5,15 @@ import { useAppSelector } from 'store/hooks';
 import { useNavigate } from 'react-router-dom';
 import { PaymentChartInputDataType } from '../../molecules/CustomChart/CustomChart.types';
 
-const dataForPaymentChart: PaymentChartInputDataType = {
+const dataForPaymentChartManager: PaymentChartInputDataType = {
   'Paid on time': 75,
   'Awaiting payments': 21,
   'Payment overdue': 4,
+};
+
+const dataForPaymentChartResident = {
+  'Awaiting payments': 25,
+  'Paid on time': 75,
 };
 
 const PaymentWidget = () => {
@@ -26,7 +31,7 @@ const PaymentWidget = () => {
         data-testid='paymentWidget'
       >
         <CustomChart
-          data={dataForPaymentChart}
+          data={userRole === 'manager' ? dataForPaymentChartManager : dataForPaymentChartResident}
           variant={userRole === 'manager' ? 'paymentManager' : 'paymentResident'}
           title='February overview for all flats:'
           centerText='Total payments'
