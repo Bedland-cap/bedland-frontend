@@ -4298,7 +4298,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   border: 1px solid #F56513;
 }
 
-.c41 {
+.c43 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4329,7 +4329,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   letter-spacing: 1px;
 }
 
-.c41:hover {
+.c43:hover {
   background-color: #FF7C33;
   border: 1px solid #FF7C33;
 }
@@ -4363,21 +4363,21 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   justify-content: center;
 }
 
-.c30 {
+.c32 {
   border-radius: 50%;
   height: 1.5rem;
   width: 1.5rem;
 }
 
-.c28:hover {
+.c30:hover {
   background: #919AFF10;
 }
 
-.c28:last-child {
+.c30:last-child {
   margin-bottom: 0.75rem;
 }
 
-.c29 {
+.c31 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4392,7 +4392,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   padding: 0.875rem 1.938rem 0.875rem 1.438rem;
 }
 
-.c31 {
+.c33 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -4415,7 +4415,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   min-width: 30.875rem;
 }
 
-.c26 {
+.c28 {
   background-color: #FCFEFF;
   border-radius: 8px;
   box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
@@ -4423,7 +4423,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   min-width: 24.875rem;
 }
 
-.c32 {
+.c34 {
   background-color: #FCFEFF;
   border-radius: 8px;
   box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
@@ -4497,7 +4497,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   scrollbar-color: #fff;
 }
 
-.c27 {
+.c29 {
   height: 21.75rem;
   overflow-y: scroll;
   -webkit-scrollbar-width: thin;
@@ -4506,18 +4506,18 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   scrollbar-width: thin;
 }
 
-.c27::-webkit-scrollbar {
+.c29::-webkit-scrollbar {
   width: 1.25rem;
 }
 
-.c27::-webkit-scrollbar-thumb {
+.c29::-webkit-scrollbar-thumb {
   background: #4553DD;
   border-radius: 16px;
   border: 0.375rem solid transparent;
   background-clip: padding-box;
 }
 
-.c27::-webkit-scrollbar-track {
+.c29::-webkit-scrollbar-track {
   margin-bottom: 0.5rem;
   -webkit-scrollbar-color: #fff;
   -moz-scrollbar-color: #fff;
@@ -4672,6 +4672,15 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
 }
 
 .c23 {
+  color: black;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+.c25 {
+  color: #30BA57;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -4679,6 +4688,16 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
 }
 
 .c24 {
+  background-color: #FFD541;
+  border-radius: 2.7px;
+  color: black;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+}
+
+.c26 {
+  background-color: #30BA57;
   border-radius: 2.7px;
   color: white;
   font-size: 0.75rem;
@@ -4686,7 +4705,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   padding: 0.25rem 0.5rem;
 }
 
-.c33 {
+.c35 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4704,11 +4723,11 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   width: calc(100% - 2.25rem);
 }
 
-.c33:last-child {
+.c35:last-child {
   margin-bottom: 0.938rem;
 }
 
-.c34 {
+.c36 {
   border-bottom: none;
   cursor: pointer;
   -webkit-flex-direction: row;
@@ -4717,11 +4736,11 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   padding: 2rem 0 2rem 0rem;
 }
 
-.c34:last-child {
+.c36:last-child {
   margin-bottom: 0rem;
 }
 
-.c38 {
+.c40 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4743,12 +4762,12 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   width: calc(100% - 2.25rem);
 }
 
-.c39 {
+.c41 {
   height: 12.5rem;
   width: 27.25rem;
 }
 
-.c37 {
+.c39 {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -4756,7 +4775,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   transition-duration: 0.3s;
 }
 
-.c35 {
+.c37 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4778,7 +4797,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   width: 100%;
 }
 
-.c40 {
+.c42 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4800,7 +4819,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   width: 100%;
 }
 
-.c36 {
+.c38 {
   background-color: #F5F6F8;
   border: 1px solid #CACACA;
   color: #767676;
@@ -4874,7 +4893,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   margin-bottom: 1.25rem;
 }
 
-.c25 {
+.c27 {
   display: grid;
   gap: 1.97%;
   grid-template-columns: 38.98% 59.05%;
@@ -4888,7 +4907,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
 }
 
 @supports (overflow:overlay) {
-  .c27 {
+  .c29 {
     overflow: overlay;
   }
 }
@@ -5377,26 +5396,26 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                           <div
                             class="c22 c23"
                           >
-                            Payment overdue
+                            Awaiting payments
                           </div>
                           <div
                             class="c24"
                           >
-                            4%
+                            25%
                           </div>
                         </div>
                         <div
                           class="c22"
                         >
                           <div
-                            class="c22 c23"
+                            class="c22 c25"
                           >
-                            Awaiting payments
+                            Paid on time
                           </div>
                           <div
-                            class="c24"
+                            class="c26"
                           >
-                            21%
+                            75%
                           </div>
                         </div>
                       </div>
@@ -5406,10 +5425,10 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
               </div>
             </div>
             <div
-              class="c25"
+              class="c27"
             >
               <div
-                class="c26"
+                class="c28"
                 mode="light"
               >
                 <div
@@ -5446,22 +5465,22 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </button>
                 </div>
                 <div
-                  class="c27"
+                  class="c29"
                 >
                   <div
-                    class="c28"
+                    class="c30"
                   >
                     <div
-                      class="c29"
+                      class="c31"
                     >
                       <img
                         alt="profile"
-                        class="c30"
+                        class="c32"
                         size="1.5"
                         src="/src/assets/img/Avatar.svg"
                       />
                       <div
-                        class="c31"
+                        class="c33"
                       >
                         <h4
                           style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -5495,19 +5514,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c28"
+                    class="c30"
                   >
                     <div
-                      class="c29"
+                      class="c31"
                     >
                       <img
                         alt="profile"
-                        class="c30"
+                        class="c32"
                         size="1.5"
                         src="/src/assets/img/Avatar.svg"
                       />
                       <div
-                        class="c31"
+                        class="c33"
                       >
                         <h4
                           style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -5541,19 +5560,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c28"
+                    class="c30"
                   >
                     <div
-                      class="c29"
+                      class="c31"
                     >
                       <img
                         alt="profile"
-                        class="c30"
+                        class="c32"
                         size="1.5"
                         src="/src/assets/img/Avatar.svg"
                       />
                       <div
-                        class="c31"
+                        class="c33"
                       >
                         <h4
                           style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -5587,19 +5606,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c28"
+                    class="c30"
                   >
                     <div
-                      class="c29"
+                      class="c31"
                     >
                       <img
                         alt="profile"
-                        class="c30"
+                        class="c32"
                         size="1.5"
                         src="/src/assets/img/Avatar.svg"
                       />
                       <div
-                        class="c31"
+                        class="c33"
                       >
                         <h4
                           style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -5633,19 +5652,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c28"
+                    class="c30"
                   >
                     <div
-                      class="c29"
+                      class="c31"
                     >
                       <img
                         alt="profile"
-                        class="c30"
+                        class="c32"
                         size="1.5"
                         src="/src/assets/img/Avatar.svg"
                       />
                       <div
-                        class="c31"
+                        class="c33"
                       >
                         <h4
                           style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -5679,19 +5698,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c28"
+                    class="c30"
                   >
                     <div
-                      class="c29"
+                      class="c31"
                     >
                       <img
                         alt="profile"
-                        class="c30"
+                        class="c32"
                         size="1.5"
                         src="/src/assets/img/Avatar.svg"
                       />
                       <div
-                        class="c31"
+                        class="c33"
                       >
                         <h4
                           style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -5725,19 +5744,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c28"
+                    class="c30"
                   >
                     <div
-                      class="c29"
+                      class="c31"
                     >
                       <img
                         alt="profile"
-                        class="c30"
+                        class="c32"
                         size="1.5"
                         src="/src/assets/img/Avatar.svg"
                       />
                       <div
-                        class="c31"
+                        class="c33"
                       >
                         <h4
                           style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -5773,7 +5792,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                 </div>
               </div>
               <div
-                class="c32"
+                class="c34"
                 mode="dark"
               >
                 <div
@@ -5810,13 +5829,13 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </button>
                 </div>
                 <div
-                  class="c27"
+                  class="c29"
                 >
                   <div
-                    class="c33"
+                    class="c35"
                   >
                     <div
-                      class="c33 c34"
+                      class="c35 c36"
                       data-testid="votings-item"
                     >
                       <svg
@@ -5848,14 +5867,14 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
                       >
                         <div
-                          class="c35 c36"
+                          class="c37 c38"
                         >
                           27
                            days ago
                         </div>
                       </h5>
                       <div
-                        class="c37"
+                        class="c39"
                         data-testid="votings-item-icon"
                       >
                         <button
@@ -5884,7 +5903,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       </div>
                     </div>
                     <div
-                      class="c38"
+                      class="c40"
                       data-testid="unfolded-container"
                     >
                       <p
@@ -5893,7 +5912,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
                       </p>
                       <div
-                        class="c39"
+                        class="c41"
                       >
                         <div
                           class="c16"
@@ -5908,10 +5927,10 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c33"
+                    class="c35"
                   >
                     <div
-                      class="c33 c34"
+                      class="c35 c36"
                       data-testid="votings-item"
                     >
                       <svg
@@ -5943,14 +5962,14 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
                       >
                         <div
-                          class="c40"
+                          class="c42"
                         >
                           173
                            days left
                         </div>
                       </h5>
                       <div
-                        class="c37"
+                        class="c39"
                         data-testid="votings-item-icon"
                       >
                         <button
@@ -5979,7 +5998,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       </div>
                     </div>
                     <div
-                      class="c38"
+                      class="c40"
                       data-testid="unfolded-container"
                     >
                       <p
@@ -5996,7 +6015,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                           style="margin-right: 2.8rem;"
                         >
                           <button
-                            class="c41"
+                            class="c43"
                             type="button"
                           >
                             Vote now
@@ -6006,10 +6025,10 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c33"
+                    class="c35"
                   >
                     <div
-                      class="c33 c34"
+                      class="c35 c36"
                       data-testid="votings-item"
                     >
                       <svg
@@ -6041,14 +6060,14 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
                       >
                         <div
-                          class="c35 c36"
+                          class="c37 c38"
                         >
                           21
                            days ago
                         </div>
                       </h5>
                       <div
-                        class="c37"
+                        class="c39"
                         data-testid="votings-item-icon"
                       >
                         <button
@@ -6077,7 +6096,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       </div>
                     </div>
                     <div
-                      class="c38"
+                      class="c40"
                       data-testid="unfolded-container"
                     >
                       <p
@@ -6086,7 +6105,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
                       </p>
                       <div
-                        class="c39"
+                        class="c41"
                       >
                         <div
                           class="c16"
@@ -6101,10 +6120,10 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c33"
+                    class="c35"
                   >
                     <div
-                      class="c33 c34"
+                      class="c35 c36"
                       data-testid="votings-item"
                     >
                       <svg
@@ -6136,14 +6155,14 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
                       >
                         <div
-                          class="c35 c36"
+                          class="c37 c38"
                         >
                           15
                            days ago
                         </div>
                       </h5>
                       <div
-                        class="c37"
+                        class="c39"
                         data-testid="votings-item-icon"
                       >
                         <button
@@ -6172,7 +6191,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       </div>
                     </div>
                     <div
-                      class="c38"
+                      class="c40"
                       data-testid="unfolded-container"
                     >
                       <p
@@ -6181,7 +6200,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
                       </p>
                       <div
-                        class="c39"
+                        class="c41"
                       >
                         <div
                           class="c16"
@@ -6196,10 +6215,10 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c33"
+                    class="c35"
                   >
                     <div
-                      class="c33 c34"
+                      class="c35 c36"
                       data-testid="votings-item"
                     >
                       <svg
@@ -6231,14 +6250,14 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
                       >
                         <div
-                          class="c35 c36"
+                          class="c37 c38"
                         >
                           8
                            days ago
                         </div>
                       </h5>
                       <div
-                        class="c37"
+                        class="c39"
                         data-testid="votings-item-icon"
                       >
                         <button
@@ -6267,7 +6286,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       </div>
                     </div>
                     <div
-                      class="c38"
+                      class="c40"
                       data-testid="unfolded-container"
                     >
                       <p
@@ -6276,7 +6295,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
                       </p>
                       <div
-                        class="c39"
+                        class="c41"
                       >
                         <div
                           class="c16"
@@ -6344,7 +6363,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   border: 1px solid #F56513;
 }
 
-.c41 {
+.c43 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -6375,7 +6394,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   letter-spacing: 1px;
 }
 
-.c41:hover {
+.c43:hover {
   background-color: #FF7C33;
   border: 1px solid #FF7C33;
 }
@@ -6409,21 +6428,21 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   justify-content: center;
 }
 
-.c30 {
+.c32 {
   border-radius: 50%;
   height: 1.5rem;
   width: 1.5rem;
 }
 
-.c28:hover {
+.c30:hover {
   background: #919AFF10;
 }
 
-.c28:last-child {
+.c30:last-child {
   margin-bottom: 0.75rem;
 }
 
-.c29 {
+.c31 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -6438,7 +6457,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   padding: 0.875rem 1.938rem 0.875rem 1.438rem;
 }
 
-.c31 {
+.c33 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -6461,7 +6480,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   min-width: 30.875rem;
 }
 
-.c26 {
+.c28 {
   background-color: #FCFEFF;
   border-radius: 8px;
   box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
@@ -6469,7 +6488,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   min-width: 24.875rem;
 }
 
-.c32 {
+.c34 {
   background-color: #FCFEFF;
   border-radius: 8px;
   box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.15);
@@ -6543,7 +6562,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   scrollbar-color: #fff;
 }
 
-.c27 {
+.c29 {
   height: 21.75rem;
   overflow-y: scroll;
   -webkit-scrollbar-width: thin;
@@ -6552,18 +6571,18 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   scrollbar-width: thin;
 }
 
-.c27::-webkit-scrollbar {
+.c29::-webkit-scrollbar {
   width: 1.25rem;
 }
 
-.c27::-webkit-scrollbar-thumb {
+.c29::-webkit-scrollbar-thumb {
   background: #4553DD;
   border-radius: 16px;
   border: 0.375rem solid transparent;
   background-clip: padding-box;
 }
 
-.c27::-webkit-scrollbar-track {
+.c29::-webkit-scrollbar-track {
   margin-bottom: 0.5rem;
   -webkit-scrollbar-color: #fff;
   -moz-scrollbar-color: #fff;
@@ -6718,6 +6737,15 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
 }
 
 .c23 {
+  color: black;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+.c25 {
+  color: #30BA57;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -6725,6 +6753,16 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
 }
 
 .c24 {
+  background-color: #FFD541;
+  border-radius: 2.7px;
+  color: black;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+}
+
+.c26 {
+  background-color: #30BA57;
   border-radius: 2.7px;
   color: white;
   font-size: 0.75rem;
@@ -6732,7 +6770,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   padding: 0.25rem 0.5rem;
 }
 
-.c33 {
+.c35 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -6750,11 +6788,11 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   width: calc(100% - 2.25rem);
 }
 
-.c33:last-child {
+.c35:last-child {
   margin-bottom: 0.938rem;
 }
 
-.c34 {
+.c36 {
   border-bottom: none;
   cursor: pointer;
   -webkit-flex-direction: row;
@@ -6763,11 +6801,11 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   padding: 2rem 0 2rem 0rem;
 }
 
-.c34:last-child {
+.c36:last-child {
   margin-bottom: 0rem;
 }
 
-.c38 {
+.c40 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6789,12 +6827,12 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   width: calc(100% - 2.25rem);
 }
 
-.c39 {
+.c41 {
   height: 12.5rem;
   width: 27.25rem;
 }
 
-.c37 {
+.c39 {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -6802,7 +6840,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   transition-duration: 0.3s;
 }
 
-.c35 {
+.c37 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -6824,7 +6862,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   width: 100%;
 }
 
-.c40 {
+.c42 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -6846,7 +6884,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   width: 100%;
 }
 
-.c36 {
+.c38 {
   background-color: #F5F6F8;
   border: 1px solid #CACACA;
   color: #767676;
@@ -6920,7 +6958,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   margin-bottom: 1.25rem;
 }
 
-.c25 {
+.c27 {
   display: grid;
   gap: 1.97%;
   grid-template-columns: 38.98% 59.05%;
@@ -6934,7 +6972,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
 }
 
 @supports (overflow:overlay) {
-  .c27 {
+  .c29 {
     overflow: overlay;
   }
 }
@@ -7422,26 +7460,26 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         <div
                           class="c22 c23"
                         >
-                          Payment overdue
+                          Awaiting payments
                         </div>
                         <div
                           class="c24"
                         >
-                          4%
+                          25%
                         </div>
                       </div>
                       <div
                         class="c22"
                       >
                         <div
-                          class="c22 c23"
+                          class="c22 c25"
                         >
-                          Awaiting payments
+                          Paid on time
                         </div>
                         <div
-                          class="c24"
+                          class="c26"
                         >
-                          21%
+                          75%
                         </div>
                       </div>
                     </div>
@@ -7451,10 +7489,10 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
             </div>
           </div>
           <div
-            class="c25"
+            class="c27"
           >
             <div
-              class="c26"
+              class="c28"
               mode="light"
             >
               <div
@@ -7491,22 +7529,22 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                 </button>
               </div>
               <div
-                class="c27"
+                class="c29"
               >
                 <div
-                  class="c28"
+                  class="c30"
                 >
                   <div
-                    class="c29"
+                    class="c31"
                   >
                     <img
                       alt="profile"
-                      class="c30"
+                      class="c32"
                       size="1.5"
                       src="/src/assets/img/Avatar.svg"
                     />
                     <div
-                      class="c31"
+                      class="c33"
                     >
                       <h4
                         style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -7540,19 +7578,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c28"
+                  class="c30"
                 >
                   <div
-                    class="c29"
+                    class="c31"
                   >
                     <img
                       alt="profile"
-                      class="c30"
+                      class="c32"
                       size="1.5"
                       src="/src/assets/img/Avatar.svg"
                     />
                     <div
-                      class="c31"
+                      class="c33"
                     >
                       <h4
                         style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -7586,19 +7624,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c28"
+                  class="c30"
                 >
                   <div
-                    class="c29"
+                    class="c31"
                   >
                     <img
                       alt="profile"
-                      class="c30"
+                      class="c32"
                       size="1.5"
                       src="/src/assets/img/Avatar.svg"
                     />
                     <div
-                      class="c31"
+                      class="c33"
                     >
                       <h4
                         style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -7632,19 +7670,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c28"
+                  class="c30"
                 >
                   <div
-                    class="c29"
+                    class="c31"
                   >
                     <img
                       alt="profile"
-                      class="c30"
+                      class="c32"
                       size="1.5"
                       src="/src/assets/img/Avatar.svg"
                     />
                     <div
-                      class="c31"
+                      class="c33"
                     >
                       <h4
                         style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -7678,19 +7716,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c28"
+                  class="c30"
                 >
                   <div
-                    class="c29"
+                    class="c31"
                   >
                     <img
                       alt="profile"
-                      class="c30"
+                      class="c32"
                       size="1.5"
                       src="/src/assets/img/Avatar.svg"
                     />
                     <div
-                      class="c31"
+                      class="c33"
                     >
                       <h4
                         style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -7724,19 +7762,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c28"
+                  class="c30"
                 >
                   <div
-                    class="c29"
+                    class="c31"
                   >
                     <img
                       alt="profile"
-                      class="c30"
+                      class="c32"
                       size="1.5"
                       src="/src/assets/img/Avatar.svg"
                     />
                     <div
-                      class="c31"
+                      class="c33"
                     >
                       <h4
                         style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -7770,19 +7808,19 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c28"
+                  class="c30"
                 >
                   <div
-                    class="c29"
+                    class="c31"
                   >
                     <img
                       alt="profile"
-                      class="c30"
+                      class="c32"
                       size="1.5"
                       src="/src/assets/img/Avatar.svg"
                     />
                     <div
-                      class="c31"
+                      class="c33"
                     >
                       <h4
                         style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: 1px; color: rgb(69, 83, 221);"
@@ -7818,7 +7856,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
               </div>
             </div>
             <div
-              class="c32"
+              class="c34"
               mode="dark"
             >
               <div
@@ -7855,13 +7893,13 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                 </button>
               </div>
               <div
-                class="c27"
+                class="c29"
               >
                 <div
-                  class="c33"
+                  class="c35"
                 >
                   <div
-                    class="c33 c34"
+                    class="c35 c36"
                     data-testid="votings-item"
                   >
                     <svg
@@ -7893,14 +7931,14 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
                     >
                       <div
-                        class="c35 c36"
+                        class="c37 c38"
                       >
                         27
                          days ago
                       </div>
                     </h5>
                     <div
-                      class="c37"
+                      class="c39"
                       data-testid="votings-item-icon"
                     >
                       <button
@@ -7929,7 +7967,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c38"
+                    class="c40"
                     data-testid="unfolded-container"
                   >
                     <p
@@ -7938,7 +7976,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
                     </p>
                     <div
-                      class="c39"
+                      class="c41"
                     >
                       <div
                         class="c16"
@@ -7953,10 +7991,10 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c33"
+                  class="c35"
                 >
                   <div
-                    class="c33 c34"
+                    class="c35 c36"
                     data-testid="votings-item"
                   >
                     <svg
@@ -7988,14 +8026,14 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
                     >
                       <div
-                        class="c40"
+                        class="c42"
                       >
                         173
                          days left
                       </div>
                     </h5>
                     <div
-                      class="c37"
+                      class="c39"
                       data-testid="votings-item-icon"
                     >
                       <button
@@ -8024,7 +8062,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c38"
+                    class="c40"
                     data-testid="unfolded-container"
                   >
                     <p
@@ -8041,7 +8079,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         style="margin-right: 2.8rem;"
                       >
                         <button
-                          class="c41"
+                          class="c43"
                           type="button"
                         >
                           Vote now
@@ -8051,10 +8089,10 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c33"
+                  class="c35"
                 >
                   <div
-                    class="c33 c34"
+                    class="c35 c36"
                     data-testid="votings-item"
                   >
                     <svg
@@ -8086,14 +8124,14 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
                     >
                       <div
-                        class="c35 c36"
+                        class="c37 c38"
                       >
                         21
                          days ago
                       </div>
                     </h5>
                     <div
-                      class="c37"
+                      class="c39"
                       data-testid="votings-item-icon"
                     >
                       <button
@@ -8122,7 +8160,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c38"
+                    class="c40"
                     data-testid="unfolded-container"
                   >
                     <p
@@ -8131,7 +8169,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
                     </p>
                     <div
-                      class="c39"
+                      class="c41"
                     >
                       <div
                         class="c16"
@@ -8146,10 +8184,10 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c33"
+                  class="c35"
                 >
                   <div
-                    class="c33 c34"
+                    class="c35 c36"
                     data-testid="votings-item"
                   >
                     <svg
@@ -8181,14 +8219,14 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
                     >
                       <div
-                        class="c35 c36"
+                        class="c37 c38"
                       >
                         15
                          days ago
                       </div>
                     </h5>
                     <div
-                      class="c37"
+                      class="c39"
                       data-testid="votings-item-icon"
                     >
                       <button
@@ -8217,7 +8255,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c38"
+                    class="c40"
                     data-testid="unfolded-container"
                   >
                     <p
@@ -8226,7 +8264,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
                     </p>
                     <div
-                      class="c39"
+                      class="c41"
                     >
                       <div
                         class="c16"
@@ -8241,10 +8279,10 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c33"
+                  class="c35"
                 >
                   <div
-                    class="c33 c34"
+                    class="c35 c36"
                     data-testid="votings-item"
                   >
                     <svg
@@ -8276,14 +8314,14 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
                     >
                       <div
-                        class="c35 c36"
+                        class="c37 c38"
                       >
                         8
                          days ago
                       </div>
                     </h5>
                     <div
-                      class="c37"
+                      class="c39"
                       data-testid="votings-item-icon"
                     >
                       <button
@@ -8312,7 +8350,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c38"
+                    class="c40"
                     data-testid="unfolded-container"
                   >
                     <p
@@ -8321,7 +8359,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
                     </p>
                     <div
-                      class="c39"
+                      class="c41"
                     >
                       <div
                         class="c16"

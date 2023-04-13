@@ -10,6 +10,11 @@ export const mockDataForPaymentChart: PaymentChartInputDataType = {
   'Payment overdue': 75,
 };
 
+export const mockDataForPaymentChartResident = {
+  'Awaiting payments': 25,
+  'Paid on time': 75,
+};
+
 export const mockDataForVotingChart: VotingChartInputDataType = { YES: 12, NO: 6, ABSTAIN: 20 };
 
 export const mockChartLegendData = {

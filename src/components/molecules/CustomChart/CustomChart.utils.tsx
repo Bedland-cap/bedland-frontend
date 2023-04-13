@@ -95,7 +95,13 @@ export const CHARTS_INFORMATIONS: ChartsInformations = {
         ChartsColorsValue.paymentChart.chartPaymentPaid,
       ],
     },
-    paymentResident: { labels: [PaymentChartLabels[0], PaymentChartLabels[1]], colors: [] },
+    paymentResident: {
+      labels: [PaymentChartLabels[1], PaymentChartLabels[2]],
+      colors: [
+        ChartsColorsValue.paymentChart.chartPaymentAwaiting,
+        ChartsColorsValue.paymentChart.chartPaymentPaid,
+      ],
+    },
   },
 
   votingChart: {
@@ -129,6 +135,8 @@ export const chartDataAdapter = (
 });
 
 export const getSortedValuesOutOfInputData = (data: PaymentChartInputDataType): number[] => {
-  const tempArray = PaymentChartLabels.map((paymentLabels) => data[paymentLabels]);
+  const tempArray = PaymentChartLabels.map((paymentLabels) => data[paymentLabels]).filter(
+    (item) => item !== undefined,
+  );
   return tempArray;
 };

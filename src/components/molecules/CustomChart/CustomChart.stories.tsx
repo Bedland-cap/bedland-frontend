@@ -1,7 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import ThemeProvider from 'theme/ThemeContext';
 import GlobalStyle from 'theme/globalStyles';
-import { mockDataForVotingChart, mockDataForPaymentChart } from 'utils/mock/chartsMockData';
+import {
+  mockDataForVotingChart,
+  mockDataForPaymentChart,
+  mockDataForPaymentChartResident,
+} from 'utils/mock/chartsMockData';
 import CustomChart from './CustomChart';
 import { CHART_VARIANTS } from './CustomChart.utils';
 
@@ -53,16 +57,18 @@ export const PaymentManagerChart: Story = {
     size: 14,
     variant: CHART_VARIANTS.paymentManager,
     title: 'February overview for all flats:',
+    centerText: 'Total payments',
   },
 };
 
 export const PaymentResidentChart: Story = {
   render: (args) => <CustomChart {...args} />,
   args: {
-    data: mockDataForPaymentChart,
+    data: mockDataForPaymentChartResident,
     size: 14,
     variant: CHART_VARIANTS.paymentResident,
     title: 'February overview for all flats:',
+    centerText: 'Total payments',
   },
 };
 
