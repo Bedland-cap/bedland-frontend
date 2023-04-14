@@ -3,63 +3,7 @@
 exports[`BuildingsPage > renders correctly 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": .c7 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: #fff;
-  border-radius: 8px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 2.5rem;
-  padding: 0.5rem;
-  width: 17.5rem;
-}
-
-.c7:focus-within {
-  outline: 1px solid #4553DD;
-}
-
-.c9 {
-  background-color: transparent;
-  color: #4B4B4B;
-  height: 1.75rem;
-  width: 15rem;
-}
-
-.c9::-webkit-input-placeholder {
-  color: #767676;
-}
-
-.c9::-moz-placeholder {
-  color: #767676;
-}
-
-.c9:-ms-input-placeholder {
-  color: #767676;
-}
-
-.c9::placeholder {
-  color: #767676;
-}
-
-.c8 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 0.583rem;
-  margin-right: 0.771rem;
-}
-
-.c14 {
+  "baseElement": .c15 {
   margin-top: 1rem;
 }
 
@@ -100,7 +44,7 @@ exports[`BuildingsPage > renders correctly 1`] = `
   color: #6573FF;
 }
 
-.c15 {
+.c16 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -131,12 +75,12 @@ exports[`BuildingsPage > renders correctly 1`] = `
   letter-spacing: 1px;
 }
 
-.c15:hover {
+.c16:hover {
   background-color: #6573FF;
   border: 1px solid #6573FF;
 }
 
-.c11 {
+.c12 {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 5px 8px #D9D9D920;
@@ -150,7 +94,7 @@ exports[`BuildingsPage > renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c16 {
+.c17 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -172,18 +116,18 @@ exports[`BuildingsPage > renders correctly 1`] = `
   justify-content: center;
 }
 
-.c12 {
+.c13 {
   height: 11rem;
   object-fit: cover;
   padding: 0.5rem;
   width: 100%;
 }
 
-.c13 {
+.c14 {
   padding: 0.5rem 1.031rem 0.938rem;
 }
 
-.c10 {
+.c11 {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
@@ -236,6 +180,64 @@ exports[`BuildingsPage > renders correctly 1`] = `
   -ms-flex-pack: start;
   justify-content: flex-start;
   width: 100%;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-bottom: 1px solid transparent;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.375rem 0rem 0.375rem 0.875rem;
+  width: 17.5rem;
+}
+
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  gap: 0.5625rem;
+  height: 1.75rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+.c9 {
+  font-family: Source Sans Pro,sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.c10 {
+  position: relative;
 }
 
 .c5 {
@@ -320,51 +322,58 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   Sort Buildings
                 </button>
               </div>
-              <div
-                class="c7"
-              >
+              <div>
                 <div
-                  class="c8"
+                  class="c7"
                 >
-                  <svg
-                    data-testid="search-icon"
-                    fill="none"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    width="16"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <div
+                    class="c8"
                   >
-                    <mask
-                      id="mask-search"
+                    <svg
+                      data-testid="search-icon"
+                      fill="none"
+                      height="20"
+                      viewBox="0 0 16 16"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask-search"
+                      />
+                      <path
+                        d="M14.6666 14.6666L11.2916 11.2916M11.2916 11.2916C11.8333 10.7499 12.263 10.1068 12.5562 9.39907C12.8494 8.6913 13.0003 7.93272 13.0003 7.16664C13.0003 6.40055 12.8494 5.64197 12.5562 4.9342C12.263 4.22644 11.8333 3.58334 11.2916 3.04164C10.7499 2.49994 10.1068 2.07023 9.39907 1.77707C8.6913 1.4839 7.93272 1.33301 7.16664 1.33301C6.40055 1.33301 5.64197 1.4839 4.9342 1.77707C4.22644 2.07023 3.58334 2.49994 3.04164 3.04164C1.94762 4.13566 1.33301 5.61946 1.33301 7.16664C1.33301 8.71381 1.94762 10.1976 3.04164 11.2916C4.13566 12.3857 5.61946 13.0003 7.16664 13.0003C8.71381 13.0003 10.1976 12.3857 11.2916 11.2916Z"
+                        stroke="#4B4B4B"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.15972"
+                      />
+                    </svg>
+                    <input
+                      class="c9"
+                      data-testid="SearchBarInput"
+                      placeholder="Search buildings..."
+                      value=""
                     />
-                    <path
-                      d="M14.6666 14.6666L11.2916 11.2916M11.2916 11.2916C11.8333 10.7499 12.263 10.1068 12.5562 9.39907C12.8494 8.6913 13.0003 7.93272 13.0003 7.16664C13.0003 6.40055 12.8494 5.64197 12.5562 4.9342C12.263 4.22644 11.8333 3.58334 11.2916 3.04164C10.7499 2.49994 10.1068 2.07023 9.39907 1.77707C8.6913 1.4839 7.93272 1.33301 7.16664 1.33301C6.40055 1.33301 5.64197 1.4839 4.9342 1.77707C4.22644 2.07023 3.58334 2.49994 3.04164 3.04164C1.94762 4.13566 1.33301 5.61946 1.33301 7.16664C1.33301 8.71381 1.94762 10.1976 3.04164 11.2916C4.13566 12.3857 5.61946 13.0003 7.16664 13.0003C8.71381 13.0003 10.1976 12.3857 11.2916 11.2916Z"
-                      stroke="#767676"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.15972"
-                    />
-                  </svg>
+                  </div>
                 </div>
-                <input
-                  class="c9"
-                  placeholder="Search buildings..."
+                <div
+                  class="c10"
                 />
               </div>
             </div>
             <div
-              class="c10"
+              class="c11"
             >
               <div
-                class="c11"
+                class="c12"
               >
                 <img
                   alt="flat"
-                  class="c12"
+                  class="c13"
                   src="/src/assets/img/BuildingImg.png"
                 />
                 <div
-                  class="c13"
+                  class="c14"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -379,10 +388,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                     Berry Street 21
                   </p>
                   <div
-                    class="c14"
+                    class="c15"
                   >
                     <button
-                      class="c15"
+                      class="c16"
                     >
                       Open details
                     </button>
@@ -390,15 +399,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c11"
+                class="c12"
               >
                 <img
                   alt="flat"
-                  class="c12"
+                  class="c13"
                   src="/src/assets/img/BuildingImg.png"
                 />
                 <div
-                  class="c13"
+                  class="c14"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -413,10 +422,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                     Berry Street 21
                   </p>
                   <div
-                    class="c14"
+                    class="c15"
                   >
                     <button
-                      class="c15"
+                      class="c16"
                     >
                       Open details
                     </button>
@@ -424,15 +433,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c11"
+                class="c12"
               >
                 <img
                   alt="flat"
-                  class="c12"
+                  class="c13"
                   src="/src/assets/img/BuildingImg.png"
                 />
                 <div
-                  class="c13"
+                  class="c14"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -447,10 +456,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                     Berry Street 21
                   </p>
                   <div
-                    class="c14"
+                    class="c15"
                   >
                     <button
-                      class="c15"
+                      class="c16"
                     >
                       Open details
                     </button>
@@ -458,15 +467,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c16"
+                class="c17"
               >
                 <img
                   alt="flat"
-                  class="c12"
+                  class="c13"
                   src="/src/assets/img/AddAnother.svg"
                 />
                 <div
-                  class="c13"
+                  class="c14"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -487,63 +496,7 @@ exports[`BuildingsPage > renders correctly 1`] = `
       </div>
     </div>
   </body>,
-  "container": .c7 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: #fff;
-  border-radius: 8px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 2.5rem;
-  padding: 0.5rem;
-  width: 17.5rem;
-}
-
-.c7:focus-within {
-  outline: 1px solid #4553DD;
-}
-
-.c9 {
-  background-color: transparent;
-  color: #4B4B4B;
-  height: 1.75rem;
-  width: 15rem;
-}
-
-.c9::-webkit-input-placeholder {
-  color: #767676;
-}
-
-.c9::-moz-placeholder {
-  color: #767676;
-}
-
-.c9:-ms-input-placeholder {
-  color: #767676;
-}
-
-.c9::placeholder {
-  color: #767676;
-}
-
-.c8 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 0.583rem;
-  margin-right: 0.771rem;
-}
-
-.c14 {
+  "container": .c15 {
   margin-top: 1rem;
 }
 
@@ -584,7 +537,7 @@ exports[`BuildingsPage > renders correctly 1`] = `
   color: #6573FF;
 }
 
-.c15 {
+.c16 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -615,12 +568,12 @@ exports[`BuildingsPage > renders correctly 1`] = `
   letter-spacing: 1px;
 }
 
-.c15:hover {
+.c16:hover {
   background-color: #6573FF;
   border: 1px solid #6573FF;
 }
 
-.c11 {
+.c12 {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 5px 8px #D9D9D920;
@@ -634,7 +587,7 @@ exports[`BuildingsPage > renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c16 {
+.c17 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -656,18 +609,18 @@ exports[`BuildingsPage > renders correctly 1`] = `
   justify-content: center;
 }
 
-.c12 {
+.c13 {
   height: 11rem;
   object-fit: cover;
   padding: 0.5rem;
   width: 100%;
 }
 
-.c13 {
+.c14 {
   padding: 0.5rem 1.031rem 0.938rem;
 }
 
-.c10 {
+.c11 {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
@@ -720,6 +673,64 @@ exports[`BuildingsPage > renders correctly 1`] = `
   -ms-flex-pack: start;
   justify-content: flex-start;
   width: 100%;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-bottom: 1px solid transparent;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.375rem 0rem 0.375rem 0.875rem;
+  width: 17.5rem;
+}
+
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  gap: 0.5625rem;
+  height: 1.75rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+.c9 {
+  font-family: Source Sans Pro,sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.c10 {
+  position: relative;
 }
 
 .c5 {
@@ -803,51 +814,58 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 Sort Buildings
               </button>
             </div>
-            <div
-              class="c7"
-            >
+            <div>
               <div
-                class="c8"
+                class="c7"
               >
-                <svg
-                  data-testid="search-icon"
-                  fill="none"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  width="16"
-                  xmlns="http://www.w3.org/2000/svg"
+                <div
+                  class="c8"
                 >
-                  <mask
-                    id="mask-search"
+                  <svg
+                    data-testid="search-icon"
+                    fill="none"
+                    height="20"
+                    viewBox="0 0 16 16"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask-search"
+                    />
+                    <path
+                      d="M14.6666 14.6666L11.2916 11.2916M11.2916 11.2916C11.8333 10.7499 12.263 10.1068 12.5562 9.39907C12.8494 8.6913 13.0003 7.93272 13.0003 7.16664C13.0003 6.40055 12.8494 5.64197 12.5562 4.9342C12.263 4.22644 11.8333 3.58334 11.2916 3.04164C10.7499 2.49994 10.1068 2.07023 9.39907 1.77707C8.6913 1.4839 7.93272 1.33301 7.16664 1.33301C6.40055 1.33301 5.64197 1.4839 4.9342 1.77707C4.22644 2.07023 3.58334 2.49994 3.04164 3.04164C1.94762 4.13566 1.33301 5.61946 1.33301 7.16664C1.33301 8.71381 1.94762 10.1976 3.04164 11.2916C4.13566 12.3857 5.61946 13.0003 7.16664 13.0003C8.71381 13.0003 10.1976 12.3857 11.2916 11.2916Z"
+                      stroke="#4B4B4B"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.15972"
+                    />
+                  </svg>
+                  <input
+                    class="c9"
+                    data-testid="SearchBarInput"
+                    placeholder="Search buildings..."
+                    value=""
                   />
-                  <path
-                    d="M14.6666 14.6666L11.2916 11.2916M11.2916 11.2916C11.8333 10.7499 12.263 10.1068 12.5562 9.39907C12.8494 8.6913 13.0003 7.93272 13.0003 7.16664C13.0003 6.40055 12.8494 5.64197 12.5562 4.9342C12.263 4.22644 11.8333 3.58334 11.2916 3.04164C10.7499 2.49994 10.1068 2.07023 9.39907 1.77707C8.6913 1.4839 7.93272 1.33301 7.16664 1.33301C6.40055 1.33301 5.64197 1.4839 4.9342 1.77707C4.22644 2.07023 3.58334 2.49994 3.04164 3.04164C1.94762 4.13566 1.33301 5.61946 1.33301 7.16664C1.33301 8.71381 1.94762 10.1976 3.04164 11.2916C4.13566 12.3857 5.61946 13.0003 7.16664 13.0003C8.71381 13.0003 10.1976 12.3857 11.2916 11.2916Z"
-                    stroke="#767676"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.15972"
-                  />
-                </svg>
+                </div>
               </div>
-              <input
-                class="c9"
-                placeholder="Search buildings..."
+              <div
+                class="c10"
               />
             </div>
           </div>
           <div
-            class="c10"
+            class="c11"
           >
             <div
-              class="c11"
+              class="c12"
             >
               <img
                 alt="flat"
-                class="c12"
+                class="c13"
                 src="/src/assets/img/BuildingImg.png"
               />
               <div
-                class="c13"
+                class="c14"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -862,10 +880,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   Berry Street 21
                 </p>
                 <div
-                  class="c14"
+                  class="c15"
                 >
                   <button
-                    class="c15"
+                    class="c16"
                   >
                     Open details
                   </button>
@@ -873,15 +891,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="c11"
+              class="c12"
             >
               <img
                 alt="flat"
-                class="c12"
+                class="c13"
                 src="/src/assets/img/BuildingImg.png"
               />
               <div
-                class="c13"
+                class="c14"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -896,10 +914,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   Berry Street 21
                 </p>
                 <div
-                  class="c14"
+                  class="c15"
                 >
                   <button
-                    class="c15"
+                    class="c16"
                   >
                     Open details
                   </button>
@@ -907,15 +925,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="c11"
+              class="c12"
             >
               <img
                 alt="flat"
-                class="c12"
+                class="c13"
                 src="/src/assets/img/BuildingImg.png"
               />
               <div
-                class="c13"
+                class="c14"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -930,10 +948,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   Berry Street 21
                 </p>
                 <div
-                  class="c14"
+                  class="c15"
                 >
                   <button
-                    class="c15"
+                    class="c16"
                   >
                     Open details
                   </button>
@@ -941,15 +959,15 @@ exports[`BuildingsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="c16"
+              class="c17"
             >
               <img
                 alt="flat"
-                class="c12"
+                class="c13"
                 src="/src/assets/img/AddAnother.svg"
               />
               <div
-                class="c13"
+                class="c14"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"

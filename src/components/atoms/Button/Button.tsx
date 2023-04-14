@@ -39,7 +39,7 @@ const Button = ({
     <StyledButton
       styling={{ ...stylingWithHover }}
       onMouseEnter={() => {
-        setIconClr(hoverColor);
+        setIconClr(hover !== 'default' ? hoverColor : defaultIconColor);
       }}
       onMouseLeave={() => {
         setIconClr(defaultIconColor);
