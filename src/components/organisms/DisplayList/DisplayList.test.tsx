@@ -1,6 +1,6 @@
 import { cleanup } from '@testing-library/react';
 import { renderWithProviders } from 'utils/test.utils';
-import BuildingsList from './BuildingsList';
+import BuildingsList from './DisplayList';
 
 describe('BuildingsList', () => {
   afterEach(cleanup);

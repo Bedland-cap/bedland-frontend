@@ -1,4 +1,4 @@
-import { Building } from 'store/reducers/building/building_slice';
+import { Building } from 'types/shared.types';
 
 const mockBuildingsList: Building[] = [
   {

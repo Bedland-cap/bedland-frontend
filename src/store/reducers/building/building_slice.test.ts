@@ -1,10 +1,10 @@
 // import { logout } from 'store/reducers/user/user_slice';
+import { Building } from 'types/shared.types';
 import {
   buildingReducer,
   buildingAdapter,
   addBuilding,
   updateBuilding,
-  Building,
   setBuildingList,
 } from './building_slice';
 
