@@ -1,13 +1,6 @@
+import { Building } from 'types/shared.types';
 import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
 import type { RootState } from 'store/store';
-
-export type Building = {
-  id: string;
-  name: string;
-  address: string;
-  managerId: string;
-  floors: string;
-};
 
 export const buildingAdapter = createEntityAdapter<Building>({
   selectId: (building) => building.id,

@@ -1,13 +1,14 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import GlobalStyle from 'theme/globalStyles';
 import ThemeProvider from 'theme/ThemeContext';
-import BuildingsList from './BuildingsList';
+import DisplayList from './DisplayList';
 
 const meta = {
-  title: 'Organisms/BuildingList',
-  component: BuildingsList,
+  title: 'Organisms/DisplayList',
+  component: DisplayList,
   parameters: {
     backgrounds: { default: 'light' },
+    layout: 'fullscreen',
   },
   tags: ['autodocs'],
   decorators: [
@@ -18,7 +19,7 @@ const meta = {
       </ThemeProvider>
     ),
   ],
-} satisfies Meta<typeof BuildingsList>;
+} satisfies Meta<typeof DisplayList>;
 
 export default meta;
 
