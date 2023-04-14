@@ -71,7 +71,6 @@ export const userApi = createApi({
         if (loginResponse.error) return { error: loginResponse.error };
 
         const userInfo = loginResponse.data as LoginResponse;
-
         const userDetails = await fetchWithBaseQuery({
           url: `${resolveUserRole(user)}/${userInfo.id}`,
           method: 'GET',
@@ -82,6 +81,7 @@ export const userApi = createApi({
         return { data: userDetails.data as UserResponse };
       },
     }),
+
     logout: builder.mutation<LogoutResponse, LogoutRequest>({
       query: (user) => ({
         url: `${resolveUserRole(user)}/logout`,
