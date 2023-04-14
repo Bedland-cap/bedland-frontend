@@ -2,22 +2,22 @@ import type { Meta, StoryObj } from '@storybook/react';
 import GlobalStyle from 'theme/globalStyles';
 import ThemeProvider from 'theme/ThemeContext';
 
-import BuildingTile from './BuildingTile';
+import Tile from './Tile';
 
 const meta = {
-  title: 'Molecules/BuildingTile',
-  component: BuildingTile,
+  title: 'Molecules/Tile',
+  component: Tile,
   tags: ['autodocs'],
   argTypes: {
-    buildingId: {
+    id: {
       control: 'text',
       description: 'Id of the building',
     },
-    buildingAddress: {
+    address: {
       control: 'text',
       description: 'Address of the building',
     },
-    buildingImg: {
+    img: {
       table: {
         disable: true,
       },
@@ -34,14 +34,14 @@ const meta = {
       </ThemeProvider>
     ),
   ],
-} satisfies Meta<typeof BuildingTile>;
+} satisfies Meta<typeof Tile>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Main: Story = {
   args: {
-    buildingAddress: 'Berry Street 27',
-    buildingId: '4293',
+    address: 'Berry Street 27',
+    id: '4293',
   },
 };

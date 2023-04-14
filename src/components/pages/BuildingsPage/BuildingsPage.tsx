@@ -1,5 +1,6 @@
 import SearchInput from 'components/atoms/SearchInput/SearchInput';
-import BuildingsList from 'components/organisms/BuildingsList/BuildingsList';
+// eslint-disable-next-line import/no-named-default
+import { default as BuildingsList } from 'components/organisms/DisplayList/DisplayList';
 import Page from 'components/templates/Page/Page';
 import SortButton from 'components/molecules/SortButton/SortButton';
 import * as Styled from './BuildingsPage.styled';
