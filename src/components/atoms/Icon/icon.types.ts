@@ -22,6 +22,7 @@ export const iconsNames = [
   'listbox',
   'buildingPlan',
   'filterButton',
+  'remove',
   'arrowDown',
 ] as const;
 

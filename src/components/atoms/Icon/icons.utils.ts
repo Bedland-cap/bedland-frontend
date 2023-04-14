@@ -235,6 +235,16 @@ export const icons: IconList = {
       },
     ],
   },
+  remove: {
+    viewBox: '0 0 20 20',
+    path: [
+      {
+        id: 'remove-path-1',
+        d: 'M10.0002 10.0002L5.8335 5.8335M10.0002 10.0002L14.1668 14.1668M10.0002 10.0002L14.1668 5.8335M10.0002 10.0002L5.8335 14.1668',
+        strokeWidth: '1.67',
+      },
+    ],
+  },
   arrowDown: {
     viewBox: '0 0 12 7',
     path: [
