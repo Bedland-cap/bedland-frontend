@@ -1,67 +1,26 @@
-// import { logout } from 'store/reducers/user/user_slice';
+import mockBuildingsList from 'utils/mock/mockBuildingsList';
 import { Building } from 'types/shared.types';
-import {
-  buildingReducer,
-  buildingAdapter,
-  addBuilding,
-  updateBuilding,
-  setBuildingList,
-} from './building_slice';
+import { BuildingSlice, buildingAdapter } from './building_slice';
 
 describe('buildingSlice', () => {
-  const fakeBuilding = {
-    id: 'fakeID',
-    name: 'fakeName',
-    address: 'fakeAddress',
-    managerId: 'fakeManagerID',
-    floors: 'fakeFloors',
-  };
-
-  const initialState = buildingAdapter.getInitialState({
-    ids: ['fakeID'],
-    entities: {
-      fakeID: fakeBuilding,
-    },
-  });
-  // TODO
-  // replace with test using MSW
-  // it(`should reset building data after ${logout}`, () => {
-  //   const action = logout();
-  //   const newState = buildingReducer(buildingAdapter.getInitialState(), action);
-
-  //   expect(newState.ids).toEqual([]);
-  //   expect(newState.entities).toEqual({});
-  // });
-
-  it(`should update building list state when ${addBuilding}`, () => {
-    const action = addBuilding(fakeBuilding);
-    const newState = buildingReducer(buildingAdapter.getInitialState(), action);
-
-    expect(newState.ids).toEqual(['fakeID']);
-    expect(newState.entities).toEqual({ fakeID: fakeBuilding });
+  it('should set building list when setBuildingList is called', () => {
+    const initialState = buildingAdapter.getInitialState();
+    const action = BuildingSlice.actions.setBuildingList(mockBuildingsList);
+    const newState = BuildingSlice.reducer(initialState, action);
+    expect(newState.ids).toEqual(['1', '4', '5', '2', '3']);
+    expect((newState.entities['1'] as Building).name).toEqual(mockBuildingsList[0].name);
+    expect((newState.entities['2'] as Building).name).toEqual(mockBuildingsList[1].name);
   });
 
-  it(`should update building when ${updateBuilding}`, () => {
-    const updatedBuilding: Building = { ...fakeBuilding };
-    updatedBuilding.name = 'updatedName';
-
-    const action = updateBuilding({ id: 'fakeID', changes: updatedBuilding });
-    const newState = buildingReducer(buildingAdapter.getInitialState(initialState), action);
-
-    expect(newState.entities).toEqual({ fakeID: updatedBuilding });
-  });
-
-  it(`should set building list when ${setBuildingList}`, () => {
-    const updatedBuilding: Building = { ...fakeBuilding };
-    updatedBuilding.name = 'updatedName';
-    updatedBuilding.id = 'updatedID';
-    const action = setBuildingList([fakeBuilding, updatedBuilding]);
-    const newState = buildingReducer(buildingAdapter.getInitialState(), action);
-
-    expect(newState.ids).toEqual(['fakeID', 'updatedID']);
-    expect(newState.entities).toEqual({
-      fakeID: fakeBuilding,
-      updatedID: updatedBuilding,
-    });
+  it('should remove building list when removeBuildingList is called', () => {
+    const initialState = buildingAdapter.setAll(
+      buildingAdapter.getInitialState(),
+      mockBuildingsList,
+    );
+    const newState = BuildingSlice.reducer(
+      initialState,
+      BuildingSlice.actions.removeBuildingList(),
+    );
+    expect(newState.ids.length).toEqual(0);
   });
 });

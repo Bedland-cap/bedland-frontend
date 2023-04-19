@@ -1,6 +1,8 @@
-import { Building } from 'types/shared.types';
 import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
+import { buildingsApi } from 'services/buildings/buildingsApi';
+import { userApi } from 'services/user/userApi';
 import type { RootState } from 'store/store';
+import { Building } from 'types/shared.types';
 
 export const buildingAdapter = createEntityAdapter<Building>({
   selectId: (building) => building.id,
@@ -11,19 +13,33 @@ export const BuildingSlice = createSlice({
   name: 'building',
   initialState: buildingAdapter.getInitialState(),
   reducers: {
-    addBuilding: buildingAdapter.addOne,
-    updateBuilding: buildingAdapter.updateOne,
     setBuildingList: buildingAdapter.setAll,
+    removeBuildingList: buildingAdapter.removeAll,
   },
-  extraReducers: (/* builder */) => {
-    // --->> add reducer for response from API
-    // builder.addMatcher(userApi.endpoints.getAllBuildingByManagerId.matchFulfilled, buildingAdapter.setAll);
-    //
-    // builder.addCase(logout, buildingAdapter.removeAll);
+  extraReducers: (builder) => {
+    builder.addMatcher(
+      buildingsApi.endpoints.getAllBuildingsByManager.matchFulfilled,
+      (state, { payload }) => {
+        buildingAdapter.setAll(
+          state,
+          payload.map((inputBuilding) => {
+            const building = {
+              id: inputBuilding.id,
+              managerId: inputBuilding.managerId,
+              name: inputBuilding.name,
+              address: inputBuilding.address,
+              floors: inputBuilding.floors,
+            };
+            return building;
+          }),
+        );
+      },
+    );
+    builder.addMatcher(userApi.endpoints.logout.matchFulfilled, buildingAdapter.removeAll);
   },
 });
 
-export const { addBuilding, updateBuilding, setBuildingList } = BuildingSlice.actions;
+export const { setBuildingList, removeBuildingList } = BuildingSlice.actions;
 export const buildingReducer = BuildingSlice.reducer;
 
 export const selectBuildingList = (state: RootState) => state.building.entities;

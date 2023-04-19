@@ -3,6 +3,7 @@ import { CurriedGetDefaultMiddleware } from '@reduxjs/toolkit/dist/getDefaultMid
 import loggerMiddleware from 'redux-logger';
 import { userApi } from 'services/user/userApi';
 import { votingApi } from 'services/voting/votingApi';
+import { buildingsApi } from 'services/buildings/buildingsApi';
 import { residentApi } from 'services/resident/residentApi';
 import { paymentsApi } from 'services/payments/paymentsApi';
 import { flatApi } from 'services/flat/flatApi';
@@ -33,6 +34,7 @@ export const rootReducer = combineReducers({
   [flatApi.reducerPath]: flatApi.reducer,
   [managerApi.reducerPath]: managerApi.reducer,
   [residentApi.reducerPath]: residentApi.reducer,
+  [buildingsApi.reducerPath]: buildingsApi.reducer,
   [paymentsApi.reducerPath]: paymentsApi.reducer,
 });
 
@@ -42,11 +44,13 @@ export const rootMiddleware = (getDefaultMiddleware: CurriedGetDefaultMiddleware
   getDefaultMiddleware().concat(
     loggerMiddleware,
     userApi.middleware,
+    buildingsApi.middleware,
     flatApi.middleware,
     managerApi.middleware,
     votingApi.middleware,
     votingApi.middleware,
     residentApi.middleware,
+    buildingsApi.middleware,
     paymentsApi.middleware,
   );
 
