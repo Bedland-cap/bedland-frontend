@@ -37,5 +37,4 @@ const mockBuildingsList: Building[] = [
     floors: '10',
   },
 ];
-
 export default mockBuildingsList;
