@@ -4,14 +4,16 @@ import loggerMiddleware from 'redux-logger';
 import { userApi } from 'services/user/userApi';
 import { votingApi } from 'services/voting/votingApi';
 import { residentApi } from 'services/resident/residentApi';
-
+import { paymentsApi } from 'services/payments/paymentsApi';
 import { flatApi } from 'services/flat/flatApi';
 import { managerApi } from 'services/manager/managerApi';
+
 import {
   residentReducer,
   buildingReducer,
   userReducer,
   flatReducer,
+  paymentReducer,
   votingsReducer,
 } from './reducers/index';
 
@@ -23,12 +25,15 @@ export const rootReducer = combineReducers({
   manager: managerReducer,
   building: buildingReducer,
   flat: flatReducer,
+  payment: paymentReducer,
   voting: votingsReducer,
   [userApi.reducerPath]: userApi.reducer,
+  [votingApi.reducerPath]: votingApi.reducer,
   [votingApi.reducerPath]: votingApi.reducer,
   [flatApi.reducerPath]: flatApi.reducer,
   [managerApi.reducerPath]: managerApi.reducer,
   [residentApi.reducerPath]: residentApi.reducer,
+  [paymentsApi.reducerPath]: paymentsApi.reducer,
 });
 
 // Adding the api middleware enables caching, invalidation, polling,
@@ -40,7 +45,9 @@ export const rootMiddleware = (getDefaultMiddleware: CurriedGetDefaultMiddleware
     flatApi.middleware,
     managerApi.middleware,
     votingApi.middleware,
+    votingApi.middleware,
     residentApi.middleware,
+    paymentsApi.middleware,
   );
 
 export type RootState = ReturnType<typeof rootReducer>;
