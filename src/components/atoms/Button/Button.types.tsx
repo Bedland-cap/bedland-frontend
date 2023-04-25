@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, CSSProperties } from 'react';
+import { ButtonHTMLAttributes } from 'react';
 import { ColorNames, HexColor } from 'theme/theme.types';
 import { IconName } from '../Icon/icon.types';
 
@@ -34,14 +34,12 @@ export type WrapperProps = {
   width?: number;
   height?: number;
   marginTop?: number;
-  style?: CSSProperties;
 };
 type WrapperPropsNever = {
   wrapper?: never;
   width?: never;
   height?: never;
   marginTop?: never;
-  style?: never;
 };
 
 export type IconProps = { icon?: IconName | null; iconSize?: number; iconColor?: ColorNames };

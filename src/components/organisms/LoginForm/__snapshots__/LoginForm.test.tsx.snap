@@ -193,7 +193,6 @@ exports[`Login Form > renders correctly 1`] = `
   />
   <div
     className="c5"
-    style={{}}
   >
     <button
       className="c6"
