@@ -12,6 +12,7 @@ export const ColumnVariants = [
   'payments',
   'contactDetails',
   'editColumn',
+  'sendMessage',
 ] as const;
 
 export type ColumnVariant = (typeof ColumnVariants)[number];
@@ -49,7 +50,7 @@ export type TestsColumnVariantsType = {
   [key in TestsColumnVariant]: string;
 };
 
-export const TableNames = ['buildingsTable', 'testsTable'] as const;
+export const TableNames = ['buildingsTable', 'testsTable', 'residentsTable'] as const;
 
 export type TableName = (typeof TableNames)[number];
 
@@ -64,6 +65,22 @@ export type TableNamesTypes = {
 export const TABLE_NAMES: TableNamesTypes = {
   buildingsTable: 'buildingsTable',
   testsTable: 'testsTable',
+  residentsTable: 'residentsTable',
+};
+
+export const residentsColumnVariants = [
+  'floor',
+  'residents',
+  'building',
+  'flat',
+  'contactDetails',
+  'sendMessage',
+] as const;
+
+export type ResidentsColumnVariant = (typeof residentsColumnVariants)[number];
+
+export type ResidentsColumnVariantsType = {
+  [key in ResidentsColumnVariant]: string;
 };
 
 export const StatusVariants = ['Incomplete', 'Submitted', 'Arrearage'] as const;
@@ -94,11 +111,12 @@ export const COLUMN_VARIANTS: ColumnVariantsType = {
   payments: 'Payments',
   contactDetails: 'Contact Details',
   editColumn: '',
+  sendMessage: '',
 } as const;
 
 export type nodesTypes = {
   building?: string;
-  flat?: string;
+  flat?: number;
   status?: Element;
   payment?: string;
   deadline?: Date;
@@ -111,6 +129,7 @@ export type nodesTypes = {
   contactDetails?: string;
   id: number;
   editColumn?: boolean;
+  sendMessage?: boolean;
 };
 
 export type GenericTableProps = { nodes: nodesTypes[]; isSelect: boolean; tableName: TableName };
