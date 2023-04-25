@@ -24,6 +24,7 @@ export const iconsNames = [
   'filterButton',
   'remove',
   'arrowDown',
+  'edit',
 ] as const;
 
 export type IconName = (typeof iconsNames)[number];

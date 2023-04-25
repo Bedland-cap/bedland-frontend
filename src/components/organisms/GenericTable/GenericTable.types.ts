@@ -11,6 +11,7 @@ export const ColumnVariants = [
   'deadline',
   'payments',
   'contactDetails',
+  'editColumn',
 ] as const;
 
 export type ColumnVariant = (typeof ColumnVariants)[number];
@@ -18,6 +19,66 @@ export type ColumnVariant = (typeof ColumnVariants)[number];
 export type ColumnVariantsType = {
   [key in ColumnVariant]: string;
 };
+
+export const buildingsColumnVariants = [
+  'flatsNumber',
+  'floor',
+  'residents',
+  'monthlyPayments',
+  'lastMaintenance',
+  'editColumn',
+] as const;
+
+export type BuildingsColumnVariant = (typeof buildingsColumnVariants)[number];
+
+export type BuildingsColumnVariantsType = {
+  [key in BuildingsColumnVariant]: string;
+};
+
+export const testsColumnVariants = [
+  'flatsNumber',
+  'floor',
+  'residents',
+  'deadline',
+  'editColumn',
+] as const;
+
+export type TestsColumnVariant = (typeof testsColumnVariants)[number];
+
+export type TestsColumnVariantsType = {
+  [key in TestsColumnVariant]: string;
+};
+
+export const TableNames = ['buildingsTable', 'testsTable'] as const;
+
+export type TableName = (typeof TableNames)[number];
+
+export type TableNamesType = {
+  [key in TableName]: string;
+};
+
+export type TableNamesTypes = {
+  [key in TableName]: key;
+};
+
+export const TABLE_NAMES: TableNamesTypes = {
+  buildingsTable: 'buildingsTable',
+  testsTable: 'testsTable',
+};
+
+export const StatusVariants = ['Incomplete', 'Submitted', 'Arrearage'] as const;
+
+export type StatusVariant = (typeof StatusVariants)[number];
+
+export type StatusVariantsType = {
+  [key in StatusVariant]: key;
+};
+
+export const STATUS_VARIANTS: StatusVariantsType = {
+  Incomplete: 'Incomplete',
+  Submitted: 'Submitted',
+  Arrearage: 'Arrearage',
+} as const;
 
 export const COLUMN_VARIANTS: ColumnVariantsType = {
   flatsNumber: 'Flats Number',
@@ -32,6 +93,7 @@ export const COLUMN_VARIANTS: ColumnVariantsType = {
   deadline: 'Deadline',
   payments: 'Payments',
   contactDetails: 'Contact Details',
+  editColumn: '',
 } as const;
 
 export type nodesTypes = {
@@ -43,11 +105,12 @@ export type nodesTypes = {
   flatsNumber?: number;
   floor?: number;
   residents?: string[];
-  monthlyPayments?: Element;
+  monthlyPayments?: StatusVariant;
   lastMaintenance?: Date;
   payments?: Element;
   contactDetails?: string;
   id: number;
+  editColumn?: boolean;
 };
 
-export type GenericTableProps = { nodes: nodesTypes[]; isSelect: boolean };
+export type GenericTableProps = { nodes: nodesTypes[]; isSelect: boolean; tableName: TableName };
