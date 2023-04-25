@@ -15,6 +15,8 @@ import {
   TestsColumnVariant,
   TestsColumnVariantsType,
   TABLE_NAMES,
+  ResidentsColumnVariant,
+  ResidentsColumnVariantsType,
 } from './GenericTable.types';
 
 const buildingsTable: BuildingsColumnVariantsType = {
@@ -33,12 +35,23 @@ const testsTable: TestsColumnVariantsType = {
   editColumn: 'minmax(0,1fr)',
 };
 
+const residentsTable: ResidentsColumnVariantsType = {
+  building: '186px',
+  flat: '110px',
+  floor: '99px',
+  residents: '180px',
+  contactDetails: '166px',
+  sendMessage: '236px',
+} as const;
+
 const columnWidths: {
   buildingsTable: BuildingsColumnVariantsType;
   testsTable: TestsColumnVariantsType;
+  residentsTable: ResidentsColumnVariantsType;
 } = {
   buildingsTable,
   testsTable,
+  residentsTable,
 };
 
 export const setColumnWidths = (tableName: TableName) => {
@@ -47,6 +60,9 @@ export const setColumnWidths = (tableName: TableName) => {
     switch (tableName) {
       case TABLE_NAMES.buildingsTable:
         columnWidthsString += `${columnWidths[tableName][key as BuildingsColumnVariant]} `;
+        break;
+      case TABLE_NAMES.residentsTable:
+        columnWidthsString += `${columnWidths[tableName][key as ResidentsColumnVariant]} `;
         break;
       default:
         columnWidthsString += `${columnWidths[tableName][key as TestsColumnVariant]} `;
@@ -176,14 +192,9 @@ export const tableTheme = (isSelect: boolean, tableName: TableName) => ({
     `,
   Cell: `
       height: 4.875rem;
-      display: flex;
-      justify-content: flex-start;
-     
     `,
   HeaderCell: `
       height: 3rem;
-      display: flex;
-      justify-content: flex-start;
     `,
 });
 
@@ -205,7 +216,7 @@ const selectVariant = (status: StatusVariant | undefined): BadgeVariantProps => 
 
 export const columnsRenderers = {
   building: (item: nodesTypes) => item.building,
-  flat: (item: nodesTypes) => item.flat,
+  flat: (item: nodesTypes) => `#${item.flat}`,
   status: (item: nodesTypes) => item.status,
   payment: (item: nodesTypes) => item.payment,
   deadline: (item: nodesTypes) =>
@@ -252,6 +263,14 @@ export const columnsRenderers = {
         />
       </Button>
     ) : null,
+  sendMessage: (item: nodesTypes) =>
+    item.sendMessage ? (
+      <Button wrapper width={11.25}>
+        <Button variant='ghost' color='orange' hoverColor='light'>
+          Send Message
+        </Button>
+      </Button>
+    ) : null,
 };
 
 export const mapColumnHeaders = (nodes: nodesTypes, isSelect: boolean) => {
@@ -269,6 +288,5 @@ export const mapColumnHeaders = (nodes: nodesTypes, isSelect: boolean) => {
             renderCell: columnsRenderers[key as ColumnVariant],
           },
     );
-
   return columns;
 };
