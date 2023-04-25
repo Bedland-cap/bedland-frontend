@@ -336,7 +336,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c6 c7"
                 >
-                  34
+                  40
                    days ago
                 </div>
               </h5>
@@ -431,7 +431,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c12"
                 >
-                  166
+                  160
                    days left
                 </div>
               </h5>
@@ -487,6 +487,101 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                   >
                     Vote now
                   </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="c4 c5"
+              data-testid="votings-item"
+            >
+              <svg
+                data-testid="document-icon"
+                fill="none"
+                height="20"
+                viewBox=" 0 0 20 19"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask
+                  id="mask-document"
+                />
+                <path
+                  d="M17 17.5H3C1.4 17.5 1 16.167 1 15.5V3.5C1 2.96957 1.21071 2.46086 1.58579 2.08579C1.96086 1.71071 2.46957 1.5 3 1.5H13C13.5304 1.5 14.0391 1.71071 14.4142 2.08579C14.7893 2.46086 15 2.96957 15 3.5V9.5M17 17.5C16.333 17.5 15 17.1 15 15.5V9.5M17 17.5C18.6 17.5 19 16.167 19 15.5V9.5H15"
+                  stroke="#4B4B4B"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.67"
+                />
+              </svg>
+              <h4
+                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+              >
+                Resolution 
+                03/2023
+              </h4>
+              <h5
+                style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
+              >
+                <div
+                  class="c6 c7"
+                >
+                  34
+                   days ago
+                </div>
+              </h5>
+              <div
+                class="c8"
+                data-testid="votings-item-icon"
+              >
+                <button
+                  class="c2"
+                >
+                  <svg
+                    data-testid="arrowRight-icon"
+                    fill="none"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask-arrowRight"
+                    />
+                    <path
+                      d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+                      stroke="#4B4B4B"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.39167"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              class="c9"
+              data-testid="unfolded-container"
+            >
+              <p
+                style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); padding: 10px 6px;"
+              >
+                Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
+              </p>
+              <div
+                class="c10"
+              >
+                <div
+                  class="c11"
+                >
+                  <canvas
+                    height="150"
+                    role="img"
+                    width="300"
+                  />
                 </div>
               </div>
             </div>
@@ -616,101 +711,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
               >
                 Resolution 
-                03/2023
-              </h4>
-              <h5
-                style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
-              >
-                <div
-                  class="c6 c7"
-                >
-                  22
-                   days ago
-                </div>
-              </h5>
-              <div
-                class="c8"
-                data-testid="votings-item-icon"
-              >
-                <button
-                  class="c2"
-                >
-                  <svg
-                    data-testid="arrowRight-icon"
-                    fill="none"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    width="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <mask
-                      id="mask-arrowRight"
-                    />
-                    <path
-                      d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
-                      stroke="#4B4B4B"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.39167"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div
-              class="c9"
-              data-testid="unfolded-container"
-            >
-              <p
-                style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); padding: 10px 6px;"
-              >
-                Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
-              </p>
-              <div
-                class="c10"
-              >
-                <div
-                  class="c11"
-                >
-                  <canvas
-                    height="150"
-                    role="img"
-                    width="300"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="c4"
-          >
-            <div
-              class="c4 c5"
-              data-testid="votings-item"
-            >
-              <svg
-                data-testid="document-icon"
-                fill="none"
-                height="20"
-                viewBox=" 0 0 20 19"
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <mask
-                  id="mask-document"
-                />
-                <path
-                  d="M17 17.5H3C1.4 17.5 1 16.167 1 15.5V3.5C1 2.96957 1.21071 2.46086 1.58579 2.08579C1.96086 1.71071 2.46957 1.5 3 1.5H13C13.5304 1.5 14.0391 1.71071 14.4142 2.08579C14.7893 2.46086 15 2.96957 15 3.5V9.5M17 17.5C16.333 17.5 15 17.1 15 15.5V9.5M17 17.5C18.6 17.5 19 16.167 19 15.5V9.5H15"
-                  stroke="#4B4B4B"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.67"
-                />
-              </svg>
-              <h4
-                style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
-              >
-                Resolution 
                 04/2023
               </h4>
               <h5
@@ -719,7 +719,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c6 c7"
                 >
-                  15
+                  21
                    days ago
                 </div>
               </h5>
@@ -1117,7 +1117,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c6 c7"
               >
-                34
+                40
                  days ago
               </div>
             </h5>
@@ -1212,7 +1212,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c12"
               >
-                166
+                160
                  days left
               </div>
             </h5>
@@ -1268,6 +1268,101 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 >
                   Vote now
                 </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c4"
+        >
+          <div
+            class="c4 c5"
+            data-testid="votings-item"
+          >
+            <svg
+              data-testid="document-icon"
+              fill="none"
+              height="20"
+              viewBox=" 0 0 20 19"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask-document"
+              />
+              <path
+                d="M17 17.5H3C1.4 17.5 1 16.167 1 15.5V3.5C1 2.96957 1.21071 2.46086 1.58579 2.08579C1.96086 1.71071 2.46957 1.5 3 1.5H13C13.5304 1.5 14.0391 1.71071 14.4142 2.08579C14.7893 2.46086 15 2.96957 15 3.5V9.5M17 17.5C16.333 17.5 15 17.1 15 15.5V9.5M17 17.5C18.6 17.5 19 16.167 19 15.5V9.5H15"
+                stroke="#4B4B4B"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.67"
+              />
+            </svg>
+            <h4
+              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
+            >
+              Resolution 
+              03/2023
+            </h4>
+            <h5
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
+            >
+              <div
+                class="c6 c7"
+              >
+                34
+                 days ago
+              </div>
+            </h5>
+            <div
+              class="c8"
+              data-testid="votings-item-icon"
+            >
+              <button
+                class="c2"
+              >
+                <svg
+                  data-testid="arrowRight-icon"
+                  fill="none"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask-arrowRight"
+                  />
+                  <path
+                    d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
+                    stroke="#4B4B4B"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.39167"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="c9"
+            data-testid="unfolded-container"
+          >
+            <p
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); padding: 10px 6px;"
+            >
+              Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
+            </p>
+            <div
+              class="c10"
+            >
+              <div
+                class="c11"
+              >
+                <canvas
+                  height="150"
+                  role="img"
+                  width="300"
+                />
               </div>
             </div>
           </div>
@@ -1397,101 +1492,6 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
             >
               Resolution 
-              03/2023
-            </h4>
-            <h5
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; margin-right: 1.438rem;"
-            >
-              <div
-                class="c6 c7"
-              >
-                22
-                 days ago
-              </div>
-            </h5>
-            <div
-              class="c8"
-              data-testid="votings-item-icon"
-            >
-              <button
-                class="c2"
-              >
-                <svg
-                  data-testid="arrowRight-icon"
-                  fill="none"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  width="20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <mask
-                    id="mask-arrowRight"
-                  />
-                  <path
-                    d="M8.33325 5.83334L12.4999 10L8.33325 14.1667"
-                    stroke="#4B4B4B"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.39167"
-                  />
-                </svg>
-              </button>
-            </div>
-          </div>
-          <div
-            class="c9"
-            data-testid="unfolded-container"
-          >
-            <p
-              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); padding: 10px 6px;"
-            >
-              Resolution on the transfer of the water supply network located in the housing estate to the municipal water supply and sewage company
-            </p>
-            <div
-              class="c10"
-            >
-              <div
-                class="c11"
-              >
-                <canvas
-                  height="150"
-                  role="img"
-                  width="300"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="c4"
-        >
-          <div
-            class="c4 c5"
-            data-testid="votings-item"
-          >
-            <svg
-              data-testid="document-icon"
-              fill="none"
-              height="20"
-              viewBox=" 0 0 20 19"
-              width="20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <mask
-                id="mask-document"
-              />
-              <path
-                d="M17 17.5H3C1.4 17.5 1 16.167 1 15.5V3.5C1 2.96957 1.21071 2.46086 1.58579 2.08579C1.96086 1.71071 2.46957 1.5 3 1.5H13C13.5304 1.5 14.0391 1.71071 14.4142 2.08579C14.7893 2.46086 15 2.96957 15 3.5V9.5M17 17.5C16.333 17.5 15 17.1 15 15.5V9.5M17 17.5C18.6 17.5 19 16.167 19 15.5V9.5H15"
-                stroke="#4B4B4B"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1.67"
-              />
-            </svg>
-            <h4
-              style="font-family: Source Sans Pro, sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75); margin-left: 1.188rem; flex: 1;"
-            >
-              Resolution 
               04/2023
             </h4>
             <h5
@@ -1500,7 +1500,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c6 c7"
               >
-                15
+                21
                  days ago
               </div>
             </h5>

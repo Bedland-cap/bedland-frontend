@@ -8,7 +8,6 @@ const Button = ({
   width,
   height,
   marginTop = 0,
-  style = {},
 
   variant = BUTTON_VARIANTS.primary,
   color = 'orange',
@@ -24,7 +23,7 @@ const Button = ({
   if (wrapper) {
     const { ButtonWrapper, styling } = getWrapper({ width, height, marginTop });
     return (
-      <ButtonWrapper styling={styling} style={style}>
+      <ButtonWrapper styling={styling} style={otherProps.style}>
         {children}
       </ButtonWrapper>
     );

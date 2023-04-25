@@ -3,8 +3,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { BrowserRouter } from 'react-router-dom';
 import ThemeProvider from 'theme/ThemeContext';
 import GlobalStyle from 'theme/globalStyles';
-import nodes from 'utils/mock/mockGenericTable';
+import { buildingDetailsNodes, nodes } from 'utils/mock/mockGenericTable';
 import GenericTable from './GenericTable';
+import { TABLE_NAMES } from './GenericTable.types';
 
 const meta = {
   title: 'Organisms/GenericTable',
@@ -39,11 +40,22 @@ export const SelectIsPresent: Story = {
   args: {
     nodes: nodes,
     isSelect: true,
+    tableName: TABLE_NAMES.testsTable,
   },
 };
+
 export const SelectIsNotPresent: Story = {
   args: {
     nodes: nodes,
     isSelect: false,
+    tableName: TABLE_NAMES.testsTable,
+  },
+};
+
+export const BuildingTable: Story = {
+  args: {
+    nodes: buildingDetailsNodes,
+    isSelect: true,
+    tableName: TABLE_NAMES.buildingsTable,
   },
 };

@@ -1,11 +1,63 @@
 import initialTheme from 'theme/initialTheme';
-import { nodesTypes, COLUMN_VARIANTS, ColumnVariant } from './GenericTable.types';
+import Badge from 'components/atoms/Badge/Badge';
+import { BADGE_VARIANTS } from 'components/atoms/Badge/Badge.utils';
+import Button from 'components/atoms/Button/Button';
+import { BadgeVariantProps } from 'components/atoms/Badge/Badge.types';
+import {
+  nodesTypes,
+  COLUMN_VARIANTS,
+  ColumnVariant,
+  STATUS_VARIANTS,
+  StatusVariant,
+  TableName,
+  BuildingsColumnVariant,
+  BuildingsColumnVariantsType,
+  TestsColumnVariant,
+  TestsColumnVariantsType,
+  TABLE_NAMES,
+} from './GenericTable.types';
 
-export const tableTheme = (headersLen: number, isSelect: boolean) => ({
+const buildingsTable: BuildingsColumnVariantsType = {
+  flatsNumber: '169px',
+  floor: '117px',
+  residents: '224px',
+  monthlyPayments: '198px',
+  lastMaintenance: '193px',
+  editColumn: '76px',
+};
+const testsTable: TestsColumnVariantsType = {
+  flatsNumber: 'minmax(0,1fr)',
+  floor: 'minmax(0,1fr)',
+  residents: 'minmax(0,1fr)',
+  deadline: 'minmax(0,1fr)',
+  editColumn: 'minmax(0,1fr)',
+};
+
+const columnWidths: {
+  buildingsTable: BuildingsColumnVariantsType;
+  testsTable: TestsColumnVariantsType;
+} = {
+  buildingsTable,
+  testsTable,
+};
+
+export const setColumnWidths = (tableName: TableName) => {
+  let columnWidthsString = '';
+  Object.keys(columnWidths[tableName]).forEach((key) => {
+    switch (tableName) {
+      case TABLE_NAMES.buildingsTable:
+        columnWidthsString += `${columnWidths[tableName][key as BuildingsColumnVariant]} `;
+        break;
+      default:
+        columnWidthsString += `${columnWidths[tableName][key as TestsColumnVariant]} `;
+    }
+  });
+  return columnWidthsString;
+};
+export const tableTheme = (isSelect: boolean, tableName: TableName) => ({
   Table: `
-      --data-table-library_grid-template-columns: ${
-        isSelect ? `2.875rem repeat(${headersLen}, minmax(0,3fr))` : `repeat(${headersLen},3fr)`
-      };
+      --custom_grid: ${isSelect ? '48px' : ''} ${setColumnWidths(tableName)}; 
+      grid-template-columns: var(--custom_grid);
       border-radius: 8px;
       min-width: 64.0625rem;
     `,
@@ -141,6 +193,16 @@ type columnsType = {
   select?: boolean;
 };
 
+const selectVariant = (status: StatusVariant | undefined): BadgeVariantProps => {
+  if (status === STATUS_VARIANTS.Incomplete) {
+    return BADGE_VARIANTS.warning;
+  }
+  if (status === STATUS_VARIANTS.Submitted) {
+    return BADGE_VARIANTS.primary;
+  }
+  return BADGE_VARIANTS.danger;
+};
+
 export const columnsRenderers = {
   building: (item: nodesTypes) => item.building,
   flat: (item: nodesTypes) => item.flat,
@@ -162,7 +224,13 @@ export const columnsRenderers = {
         {resident}
       </div>
     )),
-  monthlyPayments: (item: nodesTypes) => item.monthlyPayments,
+  monthlyPayments: (item: nodesTypes) => (
+    <div style={{ width: '97px' }}>
+      <Badge variant={selectVariant(item.monthlyPayments)}>
+        {item.monthlyPayments as React.ReactNode}
+      </Badge>
+    </div>
+  ),
   lastMaintenance: (item: nodesTypes) =>
     item.lastMaintenance &&
     item.lastMaintenance.toLocaleDateString('en-US', {
@@ -172,6 +240,18 @@ export const columnsRenderers = {
     }),
   payments: (item: nodesTypes) => item.payments,
   contactDetails: (item: nodesTypes) => item.contactDetails,
+  editColumn: (item: nodesTypes) =>
+    item.editColumn ? (
+      <Button wrapper>
+        <Button
+          variant='primary'
+          color='blue'
+          icon='edit'
+          style={{ padding: '10px 10px' }}
+          hoverColor='light'
+        />
+      </Button>
+    ) : null,
 };
 
 export const mapColumnHeaders = (nodes: nodesTypes, isSelect: boolean) => {

@@ -6,9 +6,9 @@ import { useRowSelect, SelectTypes } from '@table-library/react-table-library/se
 import { GenericTableProps } from './GenericTable.types';
 import { mapColumnHeaders, tableTheme } from './GenericTable.utils';
 
-const GenericTable = ({ nodes, isSelect }: GenericTableProps) => {
+const GenericTable = ({ nodes, isSelect, tableName }: GenericTableProps) => {
   const data = { nodes };
-  const theme = useTheme([getTheme(), tableTheme(Object.keys(nodes[0]).length - 1, isSelect)]);
+  const theme = useTheme([getTheme(), tableTheme(isSelect, tableName)]);
   const columns = mapColumnHeaders(nodes[0], isSelect);
 
   const onSelectChange = (action: Action, state: State) => {
