@@ -94,28 +94,6 @@ exports[`BuildingsPage > renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c17 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0px 5px 8px #D9D9D920;
-  color: #4B4B4B;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 .c13 {
   height: 11rem;
   object-fit: cover;
@@ -362,13 +340,16 @@ exports[`BuildingsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
+              aria-labelledby="displaylist"
               class="c11"
+              role="list"
             >
               <div
                 class="c12"
+                role="listitem"
               >
                 <img
-                  alt="flat"
+                  alt="building"
                   class="c13"
                   src="/src/assets/img/BuildingImg.png"
                 />
@@ -378,14 +359,12 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                   >
-                    Flat
-                    #
-                    1
+                    Business Garden
                   </h3>
                   <p
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                   >
-                    Berry Street 21
+                    Opole, Poland
                   </p>
                   <div
                     class="c15"
@@ -400,9 +379,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
               </div>
               <div
                 class="c12"
+                role="listitem"
               >
                 <img
-                  alt="flat"
+                  alt="building"
                   class="c13"
                   src="/src/assets/img/BuildingImg.png"
                 />
@@ -412,14 +392,12 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                   >
-                    Flat
-                    #
-                    2
+                    Business Garden Poznań
                   </h3>
                   <p
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                   >
-                    Berry Street 21
+                    Poznań, Poland
                   </p>
                   <div
                     class="c15"
@@ -434,9 +412,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
               </div>
               <div
                 class="c12"
+                role="listitem"
               >
                 <img
-                  alt="flat"
+                  alt="building"
                   class="c13"
                   src="/src/assets/img/BuildingImg.png"
                 />
@@ -446,14 +425,12 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                   >
-                    Flat
-                    #
-                    3
+                    Business Garden Warszawa
                   </h3>
                   <p
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                   >
-                    Berry Street 21
+                    Warszawa, Poland
                   </p>
                   <div
                     class="c15"
@@ -467,12 +444,13 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c17"
+                class="c12"
+                role="listitem"
               >
                 <img
-                  alt="flat"
+                  alt="building"
                   class="c13"
-                  src="/src/assets/img/AddAnother.svg"
+                  src="/src/assets/img/BuildingImg.png"
                 />
                 <div
                   class="c14"
@@ -480,9 +458,55 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                   >
-                    Add a new 
-                    Flat
+                    Business Garden Wrocław
                   </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    Wrocław, Poland
+                  </p>
+                  <div
+                    class="c15"
+                  >
+                    <button
+                      class="c16"
+                    >
+                      Open details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c12"
+                role="listitem"
+              >
+                <img
+                  alt="building"
+                  class="c13"
+                  src="/src/assets/img/BuildingImg.png"
+                />
+                <div
+                  class="c14"
+                >
+                  <h3
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                  >
+                    Business Park
+                  </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    Kraków, Poland
+                  </p>
+                  <div
+                    class="c15"
+                  >
+                    <button
+                      class="c16"
+                    >
+                      Open details
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -585,28 +609,6 @@ exports[`BuildingsPage > renders correctly 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-}
-
-.c17 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0px 5px 8px #D9D9D920;
-  color: #4B4B4B;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 .c13 {
@@ -854,13 +856,16 @@ exports[`BuildingsPage > renders correctly 1`] = `
             </div>
           </div>
           <div
+            aria-labelledby="displaylist"
             class="c11"
+            role="list"
           >
             <div
               class="c12"
+              role="listitem"
             >
               <img
-                alt="flat"
+                alt="building"
                 class="c13"
                 src="/src/assets/img/BuildingImg.png"
               />
@@ -870,14 +875,12 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                 >
-                  Flat
-                  #
-                  1
+                  Business Garden
                 </h3>
                 <p
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                 >
-                  Berry Street 21
+                  Opole, Poland
                 </p>
                 <div
                   class="c15"
@@ -892,9 +895,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
             </div>
             <div
               class="c12"
+              role="listitem"
             >
               <img
-                alt="flat"
+                alt="building"
                 class="c13"
                 src="/src/assets/img/BuildingImg.png"
               />
@@ -904,14 +908,12 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                 >
-                  Flat
-                  #
-                  2
+                  Business Garden Poznań
                 </h3>
                 <p
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                 >
-                  Berry Street 21
+                  Poznań, Poland
                 </p>
                 <div
                   class="c15"
@@ -926,9 +928,10 @@ exports[`BuildingsPage > renders correctly 1`] = `
             </div>
             <div
               class="c12"
+              role="listitem"
             >
               <img
-                alt="flat"
+                alt="building"
                 class="c13"
                 src="/src/assets/img/BuildingImg.png"
               />
@@ -938,14 +941,12 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                 >
-                  Flat
-                  #
-                  3
+                  Business Garden Warszawa
                 </h3>
                 <p
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                 >
-                  Berry Street 21
+                  Warszawa, Poland
                 </p>
                 <div
                   class="c15"
@@ -959,12 +960,13 @@ exports[`BuildingsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="c17"
+              class="c12"
+              role="listitem"
             >
               <img
-                alt="flat"
+                alt="building"
                 class="c13"
-                src="/src/assets/img/AddAnother.svg"
+                src="/src/assets/img/BuildingImg.png"
               />
               <div
                 class="c14"
@@ -972,9 +974,55 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                 >
-                  Add a new 
-                  Flat
+                  Business Garden Wrocław
                 </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  Wrocław, Poland
+                </p>
+                <div
+                  class="c15"
+                >
+                  <button
+                    class="c16"
+                  >
+                    Open details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c12"
+              role="listitem"
+            >
+              <img
+                alt="building"
+                class="c13"
+                src="/src/assets/img/BuildingImg.png"
+              />
+              <div
+                class="c14"
+              >
+                <h3
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                >
+                  Business Park
+                </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  Kraków, Poland
+                </p>
+                <div
+                  class="c15"
+                >
+                  <button
+                    class="c16"
+                  >
+                    Open details
+                  </button>
+                </div>
               </div>
             </div>
           </div>

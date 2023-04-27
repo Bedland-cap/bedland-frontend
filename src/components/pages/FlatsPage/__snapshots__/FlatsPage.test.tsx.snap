@@ -106,28 +106,6 @@ exports[`FlatsPage > renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c15 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0px 5px 8px #D9D9D920;
-  color: #4B4B4B;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 .c11 {
   height: 11rem;
   object-fit: cover;
@@ -289,10 +267,13 @@ exports[`FlatsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
+              aria-labelledby="displaylist"
               class="c9"
+              role="list"
             >
               <div
                 class="c10"
+                role="listitem"
               >
                 <img
                   alt="flat"
@@ -305,14 +286,12 @@ exports[`FlatsPage > renders correctly 1`] = `
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                   >
-                    Flat
-                    #
-                    1
+                    Flat #1
                   </h3>
                   <p
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                   >
-                    Berry Street 21
+                    ul. Legnicka 48H, 54-202 Wrocław
                   </p>
                   <div
                     class="c13"
@@ -327,6 +306,7 @@ exports[`FlatsPage > renders correctly 1`] = `
               </div>
               <div
                 class="c10"
+                role="listitem"
               >
                 <img
                   alt="flat"
@@ -339,14 +319,12 @@ exports[`FlatsPage > renders correctly 1`] = `
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                   >
-                    Flat
-                    #
-                    2
+                    Flat #2
                   </h3>
                   <p
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                   >
-                    Berry Street 21
+                    ul. Legnicka 48H, 54-202 Wrocław
                   </p>
                   <div
                     class="c13"
@@ -361,6 +339,7 @@ exports[`FlatsPage > renders correctly 1`] = `
               </div>
               <div
                 class="c10"
+                role="listitem"
               >
                 <img
                   alt="flat"
@@ -373,14 +352,12 @@ exports[`FlatsPage > renders correctly 1`] = `
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                   >
-                    Flat
-                    #
-                    3
+                    Flat #3
                   </h3>
                   <p
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                   >
-                    Berry Street 21
+                    ul. Legnicka 48H, 54-202 Wrocław
                   </p>
                   <div
                     class="c13"
@@ -394,12 +371,13 @@ exports[`FlatsPage > renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c15"
+                class="c10"
+                role="listitem"
               >
                 <img
                   alt="flat"
                   class="c11"
-                  src="/src/assets/img/AddAnother.svg"
+                  src="/src/assets/img/BuildingImg.png"
                 />
                 <div
                   class="c12"
@@ -407,9 +385,55 @@ exports[`FlatsPage > renders correctly 1`] = `
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                   >
-                    Add a new 
-                    Flat
+                    Flat #4
                   </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    ul. Legnicka 48H, 54-202 Wrocław
+                  </p>
+                  <div
+                    class="c13"
+                  >
+                    <button
+                      class="c14"
+                    >
+                      Open details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c10"
+                role="listitem"
+              >
+                <img
+                  alt="flat"
+                  class="c11"
+                  src="/src/assets/img/BuildingImg.png"
+                />
+                <div
+                  class="c12"
+                >
+                  <h3
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                  >
+                    Flat #1
+                  </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    ul. Kolorowa 6, 60-198 Poznań
+                  </p>
+                  <div
+                    class="c13"
+                  >
+                    <button
+                      class="c14"
+                    >
+                      Open details
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -524,28 +548,6 @@ exports[`FlatsPage > renders correctly 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-}
-
-.c15 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0px 5px 8px #D9D9D920;
-  color: #4B4B4B;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 .c11 {
@@ -708,10 +710,13 @@ exports[`FlatsPage > renders correctly 1`] = `
             </div>
           </div>
           <div
+            aria-labelledby="displaylist"
             class="c9"
+            role="list"
           >
             <div
               class="c10"
+              role="listitem"
             >
               <img
                 alt="flat"
@@ -724,14 +729,12 @@ exports[`FlatsPage > renders correctly 1`] = `
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                 >
-                  Flat
-                  #
-                  1
+                  Flat #1
                 </h3>
                 <p
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                 >
-                  Berry Street 21
+                  ul. Legnicka 48H, 54-202 Wrocław
                 </p>
                 <div
                   class="c13"
@@ -746,6 +749,7 @@ exports[`FlatsPage > renders correctly 1`] = `
             </div>
             <div
               class="c10"
+              role="listitem"
             >
               <img
                 alt="flat"
@@ -758,14 +762,12 @@ exports[`FlatsPage > renders correctly 1`] = `
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                 >
-                  Flat
-                  #
-                  2
+                  Flat #2
                 </h3>
                 <p
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                 >
-                  Berry Street 21
+                  ul. Legnicka 48H, 54-202 Wrocław
                 </p>
                 <div
                   class="c13"
@@ -780,6 +782,7 @@ exports[`FlatsPage > renders correctly 1`] = `
             </div>
             <div
               class="c10"
+              role="listitem"
             >
               <img
                 alt="flat"
@@ -792,14 +795,12 @@ exports[`FlatsPage > renders correctly 1`] = `
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                 >
-                  Flat
-                  #
-                  3
+                  Flat #3
                 </h3>
                 <p
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
                 >
-                  Berry Street 21
+                  ul. Legnicka 48H, 54-202 Wrocław
                 </p>
                 <div
                   class="c13"
@@ -813,12 +814,13 @@ exports[`FlatsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="c15"
+              class="c10"
+              role="listitem"
             >
               <img
                 alt="flat"
                 class="c11"
-                src="/src/assets/img/AddAnother.svg"
+                src="/src/assets/img/BuildingImg.png"
               />
               <div
                 class="c12"
@@ -826,9 +828,55 @@ exports[`FlatsPage > renders correctly 1`] = `
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
                 >
-                  Add a new 
-                  Flat
+                  Flat #4
                 </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  ul. Legnicka 48H, 54-202 Wrocław
+                </p>
+                <div
+                  class="c13"
+                >
+                  <button
+                    class="c14"
+                  >
+                    Open details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c10"
+              role="listitem"
+            >
+              <img
+                alt="flat"
+                class="c11"
+                src="/src/assets/img/BuildingImg.png"
+              />
+              <div
+                class="c12"
+              >
+                <h3
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                >
+                  Flat #1
+                </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  ul. Kolorowa 6, 60-198 Poznań
+                </p>
+                <div
+                  class="c13"
+                >
+                  <button
+                    class="c14"
+                  >
+                    Open details
+                  </button>
+                </div>
               </div>
             </div>
           </div>

@@ -14,8 +14,10 @@ const meta = {
     text: {
       description: 'Text displayed in the button',
     },
-    sortOptions: {
-      description: 'Options by which the data can be sorted',
+    changeSortOption: {
+      table: {
+        disable: true,
+      },
     },
   },
   decorators: [
@@ -34,6 +36,6 @@ type Story = StoryObj<typeof meta>;
 export const SortBuildings: Story = {
   args: {
     text: 'Sort Buildings',
-    sortOptions: ['name', 'city', 'date added'],
+    changeSortOption: () => null,
   },
 };

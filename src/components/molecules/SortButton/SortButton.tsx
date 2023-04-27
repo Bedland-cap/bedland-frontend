@@ -3,16 +3,12 @@ import Button from 'components/atoms/Button/Button';
 import { ThemeContext } from 'theme/ThemeContext';
 import Typography from 'components/atoms/Typography/Typography';
 import * as Styled from './SortButton.styled';
+import { SortButtonProps, sortOptions, sortType } from './SortButton.types';
 
-type SortButtonProps = {
-  text: string;
-  sortOptions: string[];
-};
-
-const SortButton = ({ text, sortOptions }: SortButtonProps) => {
+const SortButton = ({ text, changeSortOption }: SortButtonProps) => {
   const { palette } = useContext(ThemeContext);
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [activeSortOption, setActiveSortOption] = useState<number>(-1);
+  const [activeSortOption, setActiveSortOption] = useState<sortType>('name');
   const ref = useRef<HTMLDivElement | null>(null);
 
   const handleDropdown = (): void => {
@@ -37,8 +33,9 @@ const SortButton = ({ text, sortOptions }: SortButtonProps) => {
     };
   });
 
-  const handleSortClick = (sortIndex: number): void => {
+  const handleSortClick = (sortIndex: sortType): void => {
     setActiveSortOption(sortIndex);
+    changeSortOption(sortIndex);
     onClickOutside();
   };
 
@@ -57,14 +54,14 @@ const SortButton = ({ text, sortOptions }: SortButtonProps) => {
 
       {isOpen ? (
         <Styled.SortDropdown palette={palette}>
-          {sortOptions.map((item, i) => (
+          {sortOptions.map((item) => (
             <Styled.SortItem
               palette={palette}
-              active={i === activeSortOption}
-              onClick={() => handleSortClick(i)}
+              active={item === activeSortOption}
+              onClick={() => handleSortClick(item)}
               key={item}
             >
-              <Typography variant='header5' color={i === activeSortOption ? 'white' : 'text'}>
+              <Typography variant='header5' color={item === activeSortOption ? 'white' : 'text'}>
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </Typography>
             </Styled.SortItem>

@@ -7,7 +7,7 @@ describe('buildingSlice', () => {
     const initialState = buildingAdapter.getInitialState();
     const action = BuildingSlice.actions.setBuildingList(mockBuildingsList);
     const newState = BuildingSlice.reducer(initialState, action);
-    expect(newState.ids).toEqual(['1', '4', '5', '2', '3']);
+    expect(newState.ids).toEqual(['4', '2', '5', '1', '3']);
     expect((newState.entities['1'] as Building).name).toEqual(mockBuildingsList[0].name);
     expect((newState.entities['2'] as Building).name).toEqual(mockBuildingsList[1].name);
   });

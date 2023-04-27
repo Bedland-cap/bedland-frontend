@@ -94,13 +94,6 @@ const flatsJson = `[
     }
 ]`;
 
-export const mockFlatsList = JSON.parse(flatsJson) as Flat[];
+const mockFlatsList = JSON.parse(flatsJson) as Flat[];
 
-export const mockflatListWithAddress = mockFlatsList.map((flat: Flat) => {
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-  const flatAddress = mockBuildingsList.find(
-    (building: Building) => +building.id === +flat.buildingId,
-  )!.address;
-
-  return { ...flat, address: flatAddress };
-});
+export default mockFlatsList;

@@ -9,13 +9,13 @@ const meta = {
   component: Tile,
   tags: ['autodocs'],
   argTypes: {
-    id: {
+    title: {
       control: 'text',
-      description: 'Id of the building',
+      description: 'Title of the tile',
     },
-    address: {
+    subtitle: {
       control: 'text',
-      description: 'Address of the building',
+      description: 'Subtitle of the tile',
     },
     img: {
       table: {
@@ -41,7 +41,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Main: Story = {
   args: {
-    address: 'Berry Street 27',
-    id: '4293',
+    subtitle: 'Cracow, Poland',
+    title: 'Berry Street 27',
   },
 };
