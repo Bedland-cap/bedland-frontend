@@ -29,6 +29,9 @@ export const BuildingSlice = createSlice({
               name: inputBuilding.name,
               address: inputBuilding.address,
               floors: inputBuilding.floors,
+              version: inputBuilding.version,
+              createDate: inputBuilding.createDate,
+              updateDate: inputBuilding.createDate,
             };
             return building;
           }),

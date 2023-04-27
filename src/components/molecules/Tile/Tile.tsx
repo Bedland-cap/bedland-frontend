@@ -7,19 +7,19 @@ import { ThemeContext } from 'theme/ThemeContext';
 import * as Styled from './Tile.styled';
 import { TileProps, tileDefaultProps } from './Tiles.types';
 
-const Tile = ({ id, address, img }: TileProps) => {
+const Tile = ({ title, subtitle, img }: TileProps) => {
   const { palette } = useContext(ThemeContext);
   const userRole = useAppSelector((state) => state.user.role);
 
   return (
-    <Styled.TileWrapper palette={palette}>
+    <Styled.TileWrapper palette={palette} role='listitem'>
       <Styled.BuildingImage src={img} alt={userRole === 'manager' ? 'building' : 'flat'} />
       <Styled.CardContent>
         <Typography variant='header3' color='inputGrey'>
-          {userRole === 'manager' ? 'Building' : 'Flat'}#{id}
+          {title}
         </Typography>
         <Typography variant='paragraph' color='inputGrey'>
-          {address}
+          {subtitle}
         </Typography>
         <Button wrapper marginTop={1}>
           <Button variant='primary' color='blue'>

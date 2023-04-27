@@ -2,8 +2,8 @@ import BuildingImg from 'assets/img/BuildingImg.png';
 import AddAnother from 'assets/img/AddAnother.svg';
 
 export type TileProps = {
-  id: string;
-  address: string;
+  title: string;
+  subtitle: string;
   img?: string;
 };
 

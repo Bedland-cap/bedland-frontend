@@ -1,30 +1,29 @@
 import { useAppSelector } from 'store/hooks';
 import Tile from 'components/molecules/Tile/Tile';
 import AddAnotherTile from 'components/molecules/Tile/AddAnotherTile';
-import mockBuildingsList from 'utils/mock/mockBuildingsList';
-import { mockflatListWithAddress } from 'utils/mock/mockFlatsList';
-import { Building, FlatWithAddress } from 'types/shared.types';
+import { DisplayListProps } from './DisplayList.types';
 import * as Styled from './DisplayList.styled';
+import getCity from './DisplayList.utils';
 
-type DisplayItem = Building | FlatWithAddress;
-
-const DisplayList = () => {
+const DisplayList = ({ displayList }: DisplayListProps) => {
   const userRole = useAppSelector((state) => state.user.role);
-  // const userId = useAppSelector((state)=> state.user.userId);
-  const keyAttribute = userRole === 'manager' ? 'building' : 'flat';
-  const list = userRole === 'manager' ? mockBuildingsList : mockflatListWithAddress;
-
-  // remove slice after introducing filtering
-  const mockedList = list.slice(0, 3);
+  const isManager = userRole === 'manager';
+  const keyAttribute = isManager ? 'building' : 'flat';
 
   return (
-    <Styled.DisplayContainer>
-      {mockedList.map((listItem: DisplayItem) => (
-        <Tile key={`${keyAttribute}-${listItem.id}`} id={listItem.id} address={listItem.address} />
-      ))}
-      {mockedList.length < 5 && <AddAnotherTile />}
+    <Styled.DisplayContainer role='list' aria-labelledby='displaylist'>
+      {displayList &&
+        displayList.map((listItem) => (
+          <Tile
+            key={`${keyAttribute}-${'id' in listItem ? listItem.id : listItem.flatId}`}
+            title={'name' in listItem ? listItem.name : `Flat #${listItem.flatNumber}`}
+            subtitle={
+              'address' in listItem ? `${getCity(listItem.address)}, Poland` : listItem.flatAddress
+            }
+          />
+        ))}
+      {displayList.length < 5 && <AddAnotherTile />}
     </Styled.DisplayContainer>
   );
 };
-
 export default DisplayList;

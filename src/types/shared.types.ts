@@ -8,17 +8,31 @@ export type Building = {
   address: string;
   managerId: string;
   floors: string;
+  createDate: string;
+  updateDate: string;
+  version: number;
 };
 
 export type Flat = {
   id: string;
   version: number;
-  createDate: Date;
-  updateDate: Date;
-  buildingId: number;
-  number: number;
-  floor: number;
+  createDate: string;
+  updateDate: string;
+  buildingId: string;
+  number: string;
+  floor: string;
   shapePath: string;
 };
 
-export type FlatWithAddress = Flat & { address: string };
+export type FlatWithAddress = Flat & { address: string; city: string };
+
+export type ResidentsFlats = {
+  flatId: string;
+  flatNumber: string;
+  flatAddress: string;
+  flatCreateDate: string;
+};
+
+export type BuildingWithCity = Building & { city: string };
+
+export type ResidentsFlatsWithCity = ResidentsFlats & { city: string };
