@@ -6,7 +6,7 @@ import type { RootState } from 'store/store';
 export type Resident = {
   id: string;
   name: string;
-  surname: string;
+  lastName: string;
   flatId: string;
   isOwner: boolean;
 };
@@ -30,7 +30,7 @@ export const ResidentSlice = createSlice({
             const resident: Resident = {
               id: item.id,
               name: item.name,
-              surname: item.lastName,
+              lastName: item.lastName,
               flatId: item.flatId,
               isOwner: item.owner,
             };

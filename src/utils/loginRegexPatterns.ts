@@ -5,7 +5,7 @@ type LoginRegexProps = Getters<InputVariant, TRegister>;
 
 const loginRegexPattern: LoginRegexProps = {
   login: {
-    pattern: /^[a-zA-Z]+$/,
+    pattern: /^[a-zA-Z0-9]+$/,
     required: true,
     maxLength: 36,
     minLength: 8,

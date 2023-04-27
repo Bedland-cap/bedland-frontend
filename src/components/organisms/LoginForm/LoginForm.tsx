@@ -11,7 +11,8 @@ import Typography from 'components/atoms/Typography/Typography';
 import loginRegexPattern from 'utils/loginRegexPatterns';
 import { LOGIN_INPUT_WIDTH } from 'utils/constans';
 import ERROR_MESSAGES from 'utils/messages';
-import { LoginRequest, useLoginAndGetUserMutation } from 'services/user/userApi';
+import { useGetUserMutation, useLoginMutation } from 'services/user/userApi';
+import { LoginRequest } from 'services/user/userApi.types';
 import { LoginFormContainer, ResetPasswordLink } from './LoginForm.styled';
 
 const LoginForm = () => {
@@ -25,18 +26,22 @@ const LoginForm = () => {
     formState: { errors },
   } = useForm();
 
-  const [login] = useLoginAndGetUserMutation();
+  const [getUser] = useGetUserMutation();
+  const [login] = useLoginMutation();
+
   const onSubmit: SubmitHandler<FieldValues> = async (formData: FieldValues) => {
     const currentUser: LoginRequest = {
       login: formData.login,
-      role: location.pathname === routes.homeForNotLoggedInManager ? 'manager' : 'resident',
       password: formData.password,
     };
-
-    const data = await login(currentUser);
-
-    if ('data' in data) {
-      navigate(routes.homeForLoggedIn);
+    const loginData = await login(currentUser);
+    if ('data' in loginData) {
+      const data = await getUser({ userId: loginData.data.userId, role: loginData.data.role });
+      if ('data' in data) {
+        navigate(routes.homeForLoggedIn);
+      } else {
+        setErrorNoUser(true);
+      }
     } else {
       setErrorNoUser(true);
     }
