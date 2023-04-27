@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`BuildingsList > renders correctly 1`] = `
+exports[`DisplayList > buildings list renders correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c4 {
@@ -57,28 +57,6 @@ exports[`BuildingsList > renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c6 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0px 5px 8px #D9D9D920;
-  color: #4B4B4B;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 .c2 {
   height: 11rem;
   object-fit: cover;
@@ -99,13 +77,16 @@ exports[`BuildingsList > renders correctly 1`] = `
 <body>
     <div>
       <div
+        aria-labelledby="displaylist"
         class="c0"
+        role="list"
       >
         <div
           class="c1"
+          role="listitem"
         >
           <img
-            alt="flat"
+            alt="building"
             class="c2"
             src="/src/assets/img/BuildingImg.png"
           />
@@ -115,14 +96,12 @@ exports[`BuildingsList > renders correctly 1`] = `
             <h3
               style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
             >
-              Flat
-              #
-              1
+              Business Garden Wrocław
             </h3>
             <p
               style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
             >
-              Berry Street 21
+              Wrocław, Poland
             </p>
             <div
               class="c4"
@@ -137,9 +116,10 @@ exports[`BuildingsList > renders correctly 1`] = `
         </div>
         <div
           class="c1"
+          role="listitem"
         >
           <img
-            alt="flat"
+            alt="building"
             class="c2"
             src="/src/assets/img/BuildingImg.png"
           />
@@ -149,14 +129,12 @@ exports[`BuildingsList > renders correctly 1`] = `
             <h3
               style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
             >
-              Flat
-              #
-              2
+              Business Garden Poznań
             </h3>
             <p
               style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
             >
-              Berry Street 21
+              Poznań, Poland
             </p>
             <div
               class="c4"
@@ -171,9 +149,10 @@ exports[`BuildingsList > renders correctly 1`] = `
         </div>
         <div
           class="c1"
+          role="listitem"
         >
           <img
-            alt="flat"
+            alt="building"
             class="c2"
             src="/src/assets/img/BuildingImg.png"
           />
@@ -183,14 +162,12 @@ exports[`BuildingsList > renders correctly 1`] = `
             <h3
               style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
             >
-              Flat
-              #
-              3
+              Business Park
             </h3>
             <p
               style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
             >
-              Berry Street 21
+              Kraków, Poland
             </p>
             <div
               class="c4"
@@ -204,12 +181,13 @@ exports[`BuildingsList > renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c6"
+          class="c1"
+          role="listitem"
         >
           <img
-            alt="flat"
+            alt="building"
             class="c2"
-            src="/src/assets/img/AddAnother.svg"
+            src="/src/assets/img/BuildingImg.png"
           />
           <div
             class="c3"
@@ -217,9 +195,55 @@ exports[`BuildingsList > renders correctly 1`] = `
             <h3
               style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
             >
-              Add a new 
-              Flat
+              Business Garden
             </h3>
+            <p
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+            >
+              Opole, Poland
+            </p>
+            <div
+              class="c4"
+            >
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c1"
+          role="listitem"
+        >
+          <img
+            alt="building"
+            class="c2"
+            src="/src/assets/img/BuildingImg.png"
+          />
+          <div
+            class="c3"
+          >
+            <h3
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+            >
+              Business Garden Warszawa
+            </h3>
+            <p
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+            >
+              Warszawa, Poland
+            </p>
+            <div
+              class="c4"
+            >
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -284,11 +308,306 @@ exports[`BuildingsList > renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c6 {
+.c2 {
+  height: 11rem;
+  object-fit: cover;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c3 {
+  padding: 0.5rem 1.031rem 0.938rem;
+}
+
+.c0 {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+}
+
+<div>
+    <div
+      aria-labelledby="displaylist"
+      class="c0"
+      role="list"
+    >
+      <div
+        class="c1"
+        role="listitem"
+      >
+        <img
+          alt="building"
+          class="c2"
+          src="/src/assets/img/BuildingImg.png"
+        />
+        <div
+          class="c3"
+        >
+          <h3
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+          >
+            Business Garden Wrocław
+          </h3>
+          <p
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+          >
+            Wrocław, Poland
+          </p>
+          <div
+            class="c4"
+          >
+            <button
+              class="c5"
+            >
+              Open details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1"
+        role="listitem"
+      >
+        <img
+          alt="building"
+          class="c2"
+          src="/src/assets/img/BuildingImg.png"
+        />
+        <div
+          class="c3"
+        >
+          <h3
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+          >
+            Business Garden Poznań
+          </h3>
+          <p
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+          >
+            Poznań, Poland
+          </p>
+          <div
+            class="c4"
+          >
+            <button
+              class="c5"
+            >
+              Open details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1"
+        role="listitem"
+      >
+        <img
+          alt="building"
+          class="c2"
+          src="/src/assets/img/BuildingImg.png"
+        />
+        <div
+          class="c3"
+        >
+          <h3
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+          >
+            Business Park
+          </h3>
+          <p
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+          >
+            Kraków, Poland
+          </p>
+          <div
+            class="c4"
+          >
+            <button
+              class="c5"
+            >
+              Open details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1"
+        role="listitem"
+      >
+        <img
+          alt="building"
+          class="c2"
+          src="/src/assets/img/BuildingImg.png"
+        />
+        <div
+          class="c3"
+        >
+          <h3
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+          >
+            Business Garden
+          </h3>
+          <p
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+          >
+            Opole, Poland
+          </p>
+          <div
+            class="c4"
+          >
+            <button
+              class="c5"
+            >
+              Open details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1"
+        role="listitem"
+      >
+        <img
+          alt="building"
+          class="c2"
+          src="/src/assets/img/BuildingImg.png"
+        />
+        <div
+          class="c3"
+        >
+          <h3
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+          >
+            Business Garden Warszawa
+          </h3>
+          <p
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+          >
+            Warszawa, Poland
+          </p>
+          <div
+            class="c4"
+          >
+            <button
+              class="c5"
+            >
+              Open details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`DisplayList > flats list renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c4 {
+  margin-top: 1rem;
+}
+
+.c5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #4553DD;
+  border: 1px solid #4553DD;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c5:hover {
+  background-color: #6573FF;
+  border: 1px solid #6573FF;
+}
+
+.c1 {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 5px 8px #D9D9D920;
@@ -300,10 +619,257 @@ exports[`BuildingsList > renders correctly 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.c2 {
+  height: 11rem;
+  object-fit: cover;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c3 {
+  padding: 0.5rem 1.031rem 0.938rem;
+}
+
+.c0 {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+}
+
+<body>
+    <div>
+      <div
+        aria-labelledby="displaylist"
+        class="c0"
+        role="list"
+      >
+        <div
+          class="c1"
+          role="listitem"
+        >
+          <img
+            alt="flat"
+            class="c2"
+            src="/src/assets/img/BuildingImg.png"
+          />
+          <div
+            class="c3"
+          >
+            <h3
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+            >
+              Flat #1
+            </h3>
+            <p
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+            >
+              ul. Legnicka 48H, 54-202 Wrocław
+            </p>
+            <div
+              class="c4"
+            >
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c1"
+          role="listitem"
+        >
+          <img
+            alt="flat"
+            class="c2"
+            src="/src/assets/img/BuildingImg.png"
+          />
+          <div
+            class="c3"
+          >
+            <h3
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+            >
+              Flat #2
+            </h3>
+            <p
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+            >
+              ul. Legnicka 48H, 54-202 Wrocław
+            </p>
+            <div
+              class="c4"
+            >
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c1"
+          role="listitem"
+        >
+          <img
+            alt="flat"
+            class="c2"
+            src="/src/assets/img/BuildingImg.png"
+          />
+          <div
+            class="c3"
+          >
+            <h3
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+            >
+              Flat #3
+            </h3>
+            <p
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+            >
+              ul. Legnicka 48H, 54-202 Wrocław
+            </p>
+            <div
+              class="c4"
+            >
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c1"
+          role="listitem"
+        >
+          <img
+            alt="flat"
+            class="c2"
+            src="/src/assets/img/BuildingImg.png"
+          />
+          <div
+            class="c3"
+          >
+            <h3
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+            >
+              Flat #4
+            </h3>
+            <p
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+            >
+              ul. Legnicka 48H, 54-202 Wrocław
+            </p>
+            <div
+              class="c4"
+            >
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c1"
+          role="listitem"
+        >
+          <img
+            alt="flat"
+            class="c2"
+            src="/src/assets/img/BuildingImg.png"
+          />
+          <div
+            class="c3"
+          >
+            <h3
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+            >
+              Flat #1
+            </h3>
+            <p
+              style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+            >
+              ul. Kolorowa 6, 60-198 Poznań
+            </p>
+            <div
+              class="c4"
+            >
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c4 {
+  margin-top: 1rem;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border: 1px solid #4553DD;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c5:hover {
+  background-color: #6573FF;
+  border: 1px solid #6573FF;
+}
+
+.c1 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 8px #D9D9D920;
+  color: #4B4B4B;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .c2 {
@@ -325,10 +891,13 @@ exports[`BuildingsList > renders correctly 1`] = `
 
 <div>
     <div
+      aria-labelledby="displaylist"
       class="c0"
+      role="list"
     >
       <div
         class="c1"
+        role="listitem"
       >
         <img
           alt="flat"
@@ -341,14 +910,12 @@ exports[`BuildingsList > renders correctly 1`] = `
           <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
           >
-            Flat
-            #
-            1
+            Flat #1
           </h3>
           <p
             style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
           >
-            Berry Street 21
+            ul. Legnicka 48H, 54-202 Wrocław
           </p>
           <div
             class="c4"
@@ -363,6 +930,7 @@ exports[`BuildingsList > renders correctly 1`] = `
       </div>
       <div
         class="c1"
+        role="listitem"
       >
         <img
           alt="flat"
@@ -375,14 +943,12 @@ exports[`BuildingsList > renders correctly 1`] = `
           <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
           >
-            Flat
-            #
-            2
+            Flat #2
           </h3>
           <p
             style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
           >
-            Berry Street 21
+            ul. Legnicka 48H, 54-202 Wrocław
           </p>
           <div
             class="c4"
@@ -397,6 +963,7 @@ exports[`BuildingsList > renders correctly 1`] = `
       </div>
       <div
         class="c1"
+        role="listitem"
       >
         <img
           alt="flat"
@@ -409,14 +976,12 @@ exports[`BuildingsList > renders correctly 1`] = `
           <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
           >
-            Flat
-            #
-            3
+            Flat #3
           </h3>
           <p
             style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
           >
-            Berry Street 21
+            ul. Legnicka 48H, 54-202 Wrocław
           </p>
           <div
             class="c4"
@@ -430,12 +995,13 @@ exports[`BuildingsList > renders correctly 1`] = `
         </div>
       </div>
       <div
-        class="c6"
+        class="c1"
+        role="listitem"
       >
         <img
           alt="flat"
           class="c2"
-          src="/src/assets/img/AddAnother.svg"
+          src="/src/assets/img/BuildingImg.png"
         />
         <div
           class="c3"
@@ -443,9 +1009,55 @@ exports[`BuildingsList > renders correctly 1`] = `
           <h3
             style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
           >
-            Add a new 
-            Flat
+            Flat #4
           </h3>
+          <p
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+          >
+            ul. Legnicka 48H, 54-202 Wrocław
+          </p>
+          <div
+            class="c4"
+          >
+            <button
+              class="c5"
+            >
+              Open details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1"
+        role="listitem"
+      >
+        <img
+          alt="flat"
+          class="c2"
+          src="/src/assets/img/BuildingImg.png"
+        />
+        <div
+          class="c3"
+        >
+          <h3
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+          >
+            Flat #1
+          </h3>
+          <p
+            style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+          >
+            ul. Kolorowa 6, 60-198 Poznań
+          </p>
+          <div
+            class="c4"
+          >
+            <button
+              class="c5"
+            >
+              Open details
+            </button>
+          </div>
         </div>
       </div>
     </div>
