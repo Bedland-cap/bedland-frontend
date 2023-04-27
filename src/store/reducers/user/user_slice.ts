@@ -11,7 +11,8 @@ export type User = {
   status: string;
   error?: string;
   userId?: string;
-  login?: string;
+  name?: string;
+  lastName?: string;
   token?: string;
   role: UserRoles;
 };
@@ -21,7 +22,8 @@ const initialState: User = {
   status: 'idle',
   error: undefined,
   userId: undefined,
-  login: undefined,
+  name: undefined,
+  lastName: undefined,
   token: undefined,
   role: 'resident',
 };
@@ -36,25 +38,21 @@ export const UserSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder.addMatcher(userApi.endpoints.login.matchFulfilled, (state, { payload }) => {
-      state.loggedIn = true;
-      state.status = 'active';
-      state.role = payload.role;
-      state.login = payload.login;
+      state.role = payload.role === 'ROLE_MANAGER' ? 'manager' : 'resident';
       state.token = payload.token;
-      state.userId = payload.id;
+      state.userId = payload.userId;
     });
-    builder.addMatcher(userApi.endpoints.loginAndGetUser.matchFulfilled, (state, { payload }) => {
+    builder.addMatcher(userApi.endpoints.getUser.matchFulfilled, (state, { payload }) => {
       state.loggedIn = true;
       state.status = 'active';
-      state.role = payload.role;
-      state.login = payload.login;
-      state.token = payload.token;
-      state.userId = payload.id;
+      state.name = payload.name;
+      state.lastName = payload.lastName;
     });
     builder.addMatcher(userApi.endpoints.logout.matchFulfilled, (state) => {
       state.loggedIn = false;
       state.userId = undefined;
-      state.login = undefined;
+      state.name = undefined;
+      state.lastName = undefined;
       state.token = undefined;
       state.status = 'idle';
     });
@@ -66,7 +64,9 @@ export const { updateUserRole } = UserSlice.actions;
 
 export const selectUserUserId = (state: RootState) => state.user.userId;
 export const selectUserIsLoggedIn = (state: RootState) => state.user.loggedIn;
+export const selectUserToken = (state: RootState) => state.user.token;
 export const selectUserResponseStatus = (state: RootState) => state.user.status;
 export const selectUserResponseError = (state: RootState) => state.user.error;
-export const selectUserLogin = (state: RootState) => state.user.login;
+export const selectUserName = (state: RootState) => state.user.name;
+export const selectUserLastName = (state: RootState) => state.user.lastName;
 export const selectUserRole = (state: RootState) => state.user.role;

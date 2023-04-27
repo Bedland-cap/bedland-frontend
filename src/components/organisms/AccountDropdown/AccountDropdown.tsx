@@ -15,7 +15,8 @@ const AccountDropdown = () => {
   const { palette } = useContext(ThemeContext);
 
   const userRole = useAppSelector((state) => state.user.role);
-  const userLogin = useAppSelector((state) => state.user.login);
+  const userName = useAppSelector((state) => state.user.name);
+  const userLastName = useAppSelector((state) => state.user.lastName);
   const navigate = useNavigate();
   const [logout] = useLogoutMutation();
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
@@ -31,7 +32,7 @@ const AccountDropdown = () => {
 
   const handleLogout = async (): Promise<void> => {
     const currentUser = {
-      login: userLogin,
+      name: `${userName} ${userLastName}`,
       role: userRole,
     };
 
@@ -66,7 +67,10 @@ const AccountDropdown = () => {
     <Styled.DropdownBox ref={ref}>
       <Styled.UserInfoBox onClick={handleDropdown} data-testid='dropdown'>
         <ProfileImage size={2} src={Avatar} />
-        <AccountInfo userRole={userRole} userLogin={userLogin ?? ''} />
+        <AccountInfo
+          userRole={userRole}
+          userLogin={userName !== undefined ? `${userName} ${userLastName}` : ''}
+        />
         <Icon name='more' color='text' size={20} isActive={false} />
       </Styled.UserInfoBox>
 
