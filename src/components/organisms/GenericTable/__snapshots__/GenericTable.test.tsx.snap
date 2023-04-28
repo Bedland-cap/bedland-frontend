@@ -120,7 +120,7 @@ exports[`Generic Table > buildings table  renders correctly with selects 1`] = `
 <body>
     <div>
       <table
-        class="table css-13nd26z-Table"
+        class="table css-pwfk3p-Table"
         data-table-library_table=""
         role="grid"
       >
@@ -309,7 +309,6 @@ exports[`Generic Table > buildings table  renders correctly with selects 1`] = `
               <div>
                 <div
                   class=""
-                  style="width: 2.5rem;"
                 >
                   <button
                     class="c1"
@@ -431,7 +430,6 @@ exports[`Generic Table > buildings table  renders correctly with selects 1`] = `
               <div>
                 <div
                   class=""
-                  style="width: 2.5rem;"
                 >
                   <button
                     class="c1"
@@ -553,7 +551,6 @@ exports[`Generic Table > buildings table  renders correctly with selects 1`] = `
               <div>
                 <div
                   class=""
-                  style="width: 2.5rem;"
                 >
                   <button
                     class="c1"
@@ -708,7 +705,7 @@ exports[`Generic Table > buildings table  renders correctly with selects 1`] = `
 
 <div>
     <table
-      class="table css-13nd26z-Table"
+      class="table css-pwfk3p-Table"
       data-table-library_table=""
       role="grid"
     >
@@ -897,7 +894,6 @@ exports[`Generic Table > buildings table  renders correctly with selects 1`] = `
             <div>
               <div
                 class=""
-                style="width: 2.5rem;"
               >
                 <button
                   class="c1"
@@ -1019,7 +1015,6 @@ exports[`Generic Table > buildings table  renders correctly with selects 1`] = `
             <div>
               <div
                 class=""
-                style="width: 2.5rem;"
               >
                 <button
                   class="c1"
@@ -1141,7 +1136,6 @@ exports[`Generic Table > buildings table  renders correctly with selects 1`] = `
             <div>
               <div
                 class=""
-                style="width: 2.5rem;"
               >
                 <button
                   class="c1"
@@ -1360,7 +1354,7 @@ exports[`Generic Table > buildings table  renders correctly without selects 1`] 
 <body>
     <div>
       <table
-        class="table css-1hzexy7-Table"
+        class="table css-jaq4p7-Table"
         data-table-library_table=""
         role="grid"
       >
@@ -1523,7 +1517,6 @@ exports[`Generic Table > buildings table  renders correctly without selects 1`] 
               <div>
                 <div
                   class=""
-                  style="width: 2.5rem;"
                 >
                   <button
                     class="c1"
@@ -1633,7 +1626,6 @@ exports[`Generic Table > buildings table  renders correctly without selects 1`] 
               <div>
                 <div
                   class=""
-                  style="width: 2.5rem;"
                 >
                   <button
                     class="c1"
@@ -1743,7 +1735,6 @@ exports[`Generic Table > buildings table  renders correctly without selects 1`] 
               <div>
                 <div
                   class=""
-                  style="width: 2.5rem;"
                 >
                   <button
                     class="c1"
@@ -1898,7 +1889,7 @@ exports[`Generic Table > buildings table  renders correctly without selects 1`] 
 
 <div>
     <table
-      class="table css-1hzexy7-Table"
+      class="table css-jaq4p7-Table"
       data-table-library_table=""
       role="grid"
     >
@@ -2061,7 +2052,6 @@ exports[`Generic Table > buildings table  renders correctly without selects 1`] 
             <div>
               <div
                 class=""
-                style="width: 2.5rem;"
               >
                 <button
                   class="c1"
@@ -2171,7 +2161,6 @@ exports[`Generic Table > buildings table  renders correctly without selects 1`] 
             <div>
               <div
                 class=""
-                style="width: 2.5rem;"
               >
                 <button
                   class="c1"
@@ -2281,7 +2270,6 @@ exports[`Generic Table > buildings table  renders correctly without selects 1`] 
             <div>
               <div
                 class=""
-                style="width: 2.5rem;"
               >
                 <button
                   class="c1"

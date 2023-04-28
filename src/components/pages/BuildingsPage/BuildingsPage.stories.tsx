@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from 'theme/globalStyles';
 import ThemeProvider from 'theme/ThemeContext';
 import BuildingsPage from './BuildingsPage';
@@ -13,12 +12,10 @@ const meta = {
   },
   decorators: [
     (Story) => (
-      <BrowserRouter>
-        <ThemeProvider>
-          <GlobalStyle />
-          {Story()}
-        </ThemeProvider>
-      </BrowserRouter>
+      <ThemeProvider>
+        <GlobalStyle />
+        {Story()}
+      </ThemeProvider>
     ),
   ],
 } satisfies Meta<typeof BuildingsPage>;

@@ -72,6 +72,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  gap: 0.5rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -183,7 +184,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
             <div
               class="c2"
             >
-              22
+              21
                days left
             </div>
           </h5>
@@ -319,6 +320,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  gap: 0.5rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -429,7 +431,7 @@ exports[`VotingsItem > should renders correctly VotingsItem 1`] = `
           <div
             class="c2"
           >
-            22
+            21
              days left
           </div>
         </h5>

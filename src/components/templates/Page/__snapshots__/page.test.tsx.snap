@@ -16,9 +16,7 @@ exports[`MainBody > should renders correctly Page 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 1rem;
-  position: relative;
   width: 100%;
-  z-index: 1;
 }
 
 .c1 {
@@ -90,9 +88,7 @@ exports[`MainBody > should renders correctly Page 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 1rem;
-  position: relative;
   width: 100%;
-  z-index: 1;
 }
 
 .c1 {

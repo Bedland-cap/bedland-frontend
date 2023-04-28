@@ -21,10 +21,6 @@ const meta = {
       table: {
         disable: true,
       },
-      id: {
-        control: 'text',
-        description: 'Tile number',
-      },
     },
   },
   parameters: {
@@ -47,6 +43,5 @@ export const Main: Story = {
   args: {
     subtitle: 'Cracow, Poland',
     title: 'Berry Street 27',
-    id: '1',
   },
 };

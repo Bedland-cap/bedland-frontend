@@ -43,7 +43,7 @@ describe('Generic Table', () => {
 
   it('Column widths for Table are correctly preprocessed', () => {
     expect(setColumnWidths(TABLE_NAMES.buildingsTable)).toEqual(
-      '0.17fr 0.13fr 0.23fr 0.21fr 0.21fr 0.05fr ',
+      '169px 117px 224px 198px 193px 76px ',
     );
     expect(setColumnWidths(TABLE_NAMES.testsTable)).toEqual(
       'minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) ',

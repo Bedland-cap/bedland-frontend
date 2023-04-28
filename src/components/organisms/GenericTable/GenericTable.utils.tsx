@@ -20,12 +20,12 @@ import {
 } from './GenericTable.types';
 
 const buildingsTable: BuildingsColumnVariantsType = {
-  flatsNumber: '0.17fr',
-  floor: '0.13fr',
-  residents: '0.23fr',
-  monthlyPayments: '0.21fr',
-  lastMaintenance: '0.21fr',
-  editColumn: '0.05fr',
+  flatsNumber: '169px',
+  floor: '117px',
+  residents: '224px',
+  monthlyPayments: '198px',
+  lastMaintenance: '193px',
+  editColumn: '76px',
 };
 const testsTable: TestsColumnVariantsType = {
   flatsNumber: 'minmax(0,1fr)',
@@ -36,12 +36,12 @@ const testsTable: TestsColumnVariantsType = {
 };
 
 const residentsTable: ResidentsColumnVariantsType = {
-  building: '0.17fr',
-  flat: '0.13fr',
-  floor: '0.13fr',
-  residents: '0.23fr',
-  contactDetails: '0.21fr',
-  sendMessage: '0.13fr',
+  building: '186px',
+  flat: '110px',
+  floor: '99px',
+  residents: '180px',
+  contactDetails: '166px',
+  sendMessage: '236px',
 } as const;
 
 const columnWidths: {
@@ -253,7 +253,7 @@ export const columnsRenderers = {
   contactDetails: (item: nodesTypes) => item.contactDetails,
   editColumn: (item: nodesTypes) =>
     item.editColumn ? (
-      <Button wrapper style={{ width: '2.5rem' }}>
+      <Button wrapper>
         <Button
           variant='primary'
           color='blue'

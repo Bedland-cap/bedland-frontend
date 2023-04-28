@@ -124,9 +124,7 @@ exports[`BuildingsPage > renders correctly 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 1rem;
-  position: relative;
   width: 100%;
-  z-index: 1;
 }
 
 .c1 {
@@ -371,16 +369,11 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   <div
                     class="c15"
                   >
-                    <a
-                      class=""
-                      href="/buildings/4"
+                    <button
+                      class="c16"
                     >
-                      <button
-                        class="c16"
-                      >
-                        Open details
-                      </button>
-                    </a>
+                      Open details
+                    </button>
                   </div>
                 </div>
               </div>
@@ -409,16 +402,11 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   <div
                     class="c15"
                   >
-                    <a
-                      class=""
-                      href="/buildings/2"
+                    <button
+                      class="c16"
                     >
-                      <button
-                        class="c16"
-                      >
-                        Open details
-                      </button>
-                    </a>
+                      Open details
+                    </button>
                   </div>
                 </div>
               </div>
@@ -447,16 +435,11 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   <div
                     class="c15"
                   >
-                    <a
-                      class=""
-                      href="/buildings/5"
+                    <button
+                      class="c16"
                     >
-                      <button
-                        class="c16"
-                      >
-                        Open details
-                      </button>
-                    </a>
+                      Open details
+                    </button>
                   </div>
                 </div>
               </div>
@@ -485,16 +468,11 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   <div
                     class="c15"
                   >
-                    <a
-                      class=""
-                      href="/buildings/1"
+                    <button
+                      class="c16"
                     >
-                      <button
-                        class="c16"
-                      >
-                        Open details
-                      </button>
-                    </a>
+                      Open details
+                    </button>
                   </div>
                 </div>
               </div>
@@ -523,16 +501,11 @@ exports[`BuildingsPage > renders correctly 1`] = `
                   <div
                     class="c15"
                   >
-                    <a
-                      class=""
-                      href="/buildings/3"
+                    <button
+                      class="c16"
                     >
-                      <button
-                        class="c16"
-                      >
-                        Open details
-                      </button>
-                    </a>
+                      Open details
+                    </button>
                   </div>
                 </div>
               </div>
@@ -668,9 +641,7 @@ exports[`BuildingsPage > renders correctly 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 1rem;
-  position: relative;
   width: 100%;
-  z-index: 1;
 }
 
 .c1 {
@@ -914,16 +885,11 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 <div
                   class="c15"
                 >
-                  <a
-                    class=""
-                    href="/buildings/4"
+                  <button
+                    class="c16"
                   >
-                    <button
-                      class="c16"
-                    >
-                      Open details
-                    </button>
-                  </a>
+                    Open details
+                  </button>
                 </div>
               </div>
             </div>
@@ -952,16 +918,11 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 <div
                   class="c15"
                 >
-                  <a
-                    class=""
-                    href="/buildings/2"
+                  <button
+                    class="c16"
                   >
-                    <button
-                      class="c16"
-                    >
-                      Open details
-                    </button>
-                  </a>
+                    Open details
+                  </button>
                 </div>
               </div>
             </div>
@@ -990,16 +951,11 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 <div
                   class="c15"
                 >
-                  <a
-                    class=""
-                    href="/buildings/5"
+                  <button
+                    class="c16"
                   >
-                    <button
-                      class="c16"
-                    >
-                      Open details
-                    </button>
-                  </a>
+                    Open details
+                  </button>
                 </div>
               </div>
             </div>
@@ -1028,16 +984,11 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 <div
                   class="c15"
                 >
-                  <a
-                    class=""
-                    href="/buildings/1"
+                  <button
+                    class="c16"
                   >
-                    <button
-                      class="c16"
-                    >
-                      Open details
-                    </button>
-                  </a>
+                    Open details
+                  </button>
                 </div>
               </div>
             </div>
@@ -1066,16 +1017,11 @@ exports[`BuildingsPage > renders correctly 1`] = `
                 <div
                   class="c15"
                 >
-                  <a
-                    class=""
-                    href="/buildings/3"
+                  <button
+                    class="c16"
                   >
-                    <button
-                      class="c16"
-                    >
-                      Open details
-                    </button>
-                  </a>
+                    Open details
+                  </button>
                 </div>
               </div>
             </div>
