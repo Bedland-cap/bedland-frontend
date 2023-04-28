@@ -36,12 +36,12 @@ const testsTable: TestsColumnVariantsType = {
 };
 
 const residentsTable: ResidentsColumnVariantsType = {
-  building: '186px',
-  flat: '110px',
-  floor: '99px',
-  residents: '180px',
-  contactDetails: '166px',
-  sendMessage: '236px',
+  building: '0.17fr',
+  flat: '0.13fr',
+  floor: '0.13fr',
+  residents: '0.23fr',
+  contactDetails: '0.21fr',
+  sendMessage: '0.13fr',
 } as const;
 
 const columnWidths: {
