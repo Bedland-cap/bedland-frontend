@@ -2,6 +2,7 @@ import { Getters } from 'types/shared.types';
 import { HexColor } from 'theme/theme.types';
 
 export const iconsNames = [
+  'arrowLeft',
   'building',
   'dashboard',
   'messages',

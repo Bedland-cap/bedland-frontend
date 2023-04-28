@@ -8,7 +8,7 @@ describe('Tile of display list', () => {
   afterEach(cleanup);
   it('renders correctly for resident', () => {
     const page = renderWithProviders(
-      <Tile title='4293' subtitle='Berry Street 27' img={BuildingImage} />,
+      <Tile title='4293' subtitle='Berry Street 27' img={BuildingImage} id='1' />,
       {
         preloadedState: {
           user: loggedInResidentUser,
@@ -20,7 +20,7 @@ describe('Tile of display list', () => {
 
   it('renders correctly for manager', () => {
     const page = renderWithProviders(
-      <Tile title='4293' subtitle='Berry Street 27' img={BuildingImage} />,
+      <Tile title='4293' subtitle='Berry Street 27' img={BuildingImage} id='1' />,
       {
         preloadedState: {
           user: loggedInManagerUser,
