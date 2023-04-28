@@ -106,11 +106,16 @@ exports[`DisplayList > buildings list renders correctly 1`] = `
             <div
               class="c4"
             >
-              <button
-                class="c5"
+              <a
+                class=""
+                href="/buildings/1"
               >
-                Open details
-              </button>
+                <button
+                  class="c5"
+                >
+                  Open details
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -139,11 +144,16 @@ exports[`DisplayList > buildings list renders correctly 1`] = `
             <div
               class="c4"
             >
-              <button
-                class="c5"
+              <a
+                class=""
+                href="/buildings/2"
               >
-                Open details
-              </button>
+                <button
+                  class="c5"
+                >
+                  Open details
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -172,11 +182,16 @@ exports[`DisplayList > buildings list renders correctly 1`] = `
             <div
               class="c4"
             >
-              <button
-                class="c5"
+              <a
+                class=""
+                href="/buildings/3"
               >
-                Open details
-              </button>
+                <button
+                  class="c5"
+                >
+                  Open details
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -205,11 +220,16 @@ exports[`DisplayList > buildings list renders correctly 1`] = `
             <div
               class="c4"
             >
-              <button
-                class="c5"
+              <a
+                class=""
+                href="/buildings/4"
               >
-                Open details
-              </button>
+                <button
+                  class="c5"
+                >
+                  Open details
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -238,11 +258,16 @@ exports[`DisplayList > buildings list renders correctly 1`] = `
             <div
               class="c4"
             >
-              <button
-                class="c5"
+              <a
+                class=""
+                href="/buildings/5"
               >
-                Open details
-              </button>
+                <button
+                  class="c5"
+                >
+                  Open details
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -356,11 +381,16 @@ exports[`DisplayList > buildings list renders correctly 1`] = `
           <div
             class="c4"
           >
-            <button
-              class="c5"
+            <a
+              class=""
+              href="/buildings/1"
             >
-              Open details
-            </button>
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -389,11 +419,16 @@ exports[`DisplayList > buildings list renders correctly 1`] = `
           <div
             class="c4"
           >
-            <button
-              class="c5"
+            <a
+              class=""
+              href="/buildings/2"
             >
-              Open details
-            </button>
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -422,11 +457,16 @@ exports[`DisplayList > buildings list renders correctly 1`] = `
           <div
             class="c4"
           >
-            <button
-              class="c5"
+            <a
+              class=""
+              href="/buildings/3"
             >
-              Open details
-            </button>
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -455,11 +495,16 @@ exports[`DisplayList > buildings list renders correctly 1`] = `
           <div
             class="c4"
           >
-            <button
-              class="c5"
+            <a
+              class=""
+              href="/buildings/4"
             >
-              Open details
-            </button>
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -488,11 +533,16 @@ exports[`DisplayList > buildings list renders correctly 1`] = `
           <div
             class="c4"
           >
-            <button
-              class="c5"
+            <a
+              class=""
+              href="/buildings/5"
             >
-              Open details
-            </button>
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -670,11 +720,16 @@ exports[`DisplayList > flats list renders correctly 1`] = `
             <div
               class="c4"
             >
-              <button
-                class="c5"
+              <a
+                class=""
+                href="/buildings/1"
               >
-                Open details
-              </button>
+                <button
+                  class="c5"
+                >
+                  Open details
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -703,11 +758,16 @@ exports[`DisplayList > flats list renders correctly 1`] = `
             <div
               class="c4"
             >
-              <button
-                class="c5"
+              <a
+                class=""
+                href="/buildings/2"
               >
-                Open details
-              </button>
+                <button
+                  class="c5"
+                >
+                  Open details
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -736,11 +796,16 @@ exports[`DisplayList > flats list renders correctly 1`] = `
             <div
               class="c4"
             >
-              <button
-                class="c5"
+              <a
+                class=""
+                href="/buildings/3"
               >
-                Open details
-              </button>
+                <button
+                  class="c5"
+                >
+                  Open details
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -769,11 +834,16 @@ exports[`DisplayList > flats list renders correctly 1`] = `
             <div
               class="c4"
             >
-              <button
-                class="c5"
+              <a
+                class=""
+                href="/buildings/4"
               >
-                Open details
-              </button>
+                <button
+                  class="c5"
+                >
+                  Open details
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -802,11 +872,16 @@ exports[`DisplayList > flats list renders correctly 1`] = `
             <div
               class="c4"
             >
-              <button
-                class="c5"
+              <a
+                class=""
+                href="/buildings/5"
               >
-                Open details
-              </button>
+                <button
+                  class="c5"
+                >
+                  Open details
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -920,11 +995,16 @@ exports[`DisplayList > flats list renders correctly 1`] = `
           <div
             class="c4"
           >
-            <button
-              class="c5"
+            <a
+              class=""
+              href="/buildings/1"
             >
-              Open details
-            </button>
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -953,11 +1033,16 @@ exports[`DisplayList > flats list renders correctly 1`] = `
           <div
             class="c4"
           >
-            <button
-              class="c5"
+            <a
+              class=""
+              href="/buildings/2"
             >
-              Open details
-            </button>
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -986,11 +1071,16 @@ exports[`DisplayList > flats list renders correctly 1`] = `
           <div
             class="c4"
           >
-            <button
-              class="c5"
+            <a
+              class=""
+              href="/buildings/3"
             >
-              Open details
-            </button>
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -1019,11 +1109,16 @@ exports[`DisplayList > flats list renders correctly 1`] = `
           <div
             class="c4"
           >
-            <button
-              class="c5"
+            <a
+              class=""
+              href="/buildings/4"
             >
-              Open details
-            </button>
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -1052,11 +1147,16 @@ exports[`DisplayList > flats list renders correctly 1`] = `
           <div
             class="c4"
           >
-            <button
-              class="c5"
+            <a
+              class=""
+              href="/buildings/5"
             >
-              Open details
-            </button>
+              <button
+                class="c5"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>

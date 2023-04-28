@@ -95,11 +95,16 @@ exports[`Tile of display list > renders correctly for manager 1`] = `
           <div
             class="c3"
           >
-            <button
-              class="c4"
+            <a
+              class=""
+              href="/buildings/1"
             >
-              Open details
-            </button>
+              <button
+                class="c4"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -201,11 +206,16 @@ exports[`Tile of display list > renders correctly for manager 1`] = `
         <div
           class="c3"
         >
-          <button
-            class="c4"
+          <a
+            class=""
+            href="/buildings/1"
           >
-            Open details
-          </button>
+            <button
+              class="c4"
+            >
+              Open details
+            </button>
+          </a>
         </div>
       </div>
     </div>
@@ -371,11 +381,16 @@ exports[`Tile of display list > renders correctly for resident 1`] = `
           <div
             class="c3"
           >
-            <button
-              class="c4"
+            <a
+              class=""
+              href="/buildings/1"
             >
-              Open details
-            </button>
+              <button
+                class="c4"
+              >
+                Open details
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -477,11 +492,16 @@ exports[`Tile of display list > renders correctly for resident 1`] = `
         <div
           class="c3"
         >
-          <button
-            class="c4"
+          <a
+            class=""
+            href="/buildings/1"
           >
-            Open details
-          </button>
+            <button
+              class="c4"
+            >
+              Open details
+            </button>
+          </a>
         </div>
       </div>
     </div>

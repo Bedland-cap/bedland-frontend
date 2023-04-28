@@ -1,6 +1,16 @@
 import { IconList, IconName, IconItem } from './icon.types';
 
 export const icons: IconList = {
+  arrowLeft: {
+    viewBox: '0 0 7 12',
+    path: [
+      {
+        id: 'back-path-1',
+        d: 'M6 1L1 6L6 11',
+        strokeWidth: '1.67',
+      },
+    ],
+  },
   dashboard: {
     viewBox: '0 0 16 15',
     path: [

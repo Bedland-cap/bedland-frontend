@@ -26,6 +26,10 @@ export const RoutesForLoggedIn = () => (
     <Route path={routes.voting} element={getAppRoutesDetail(routes.payments)?.component} />
     <Route path={routes.messages} element={getAppRoutesDetail(routes.messages)?.component} />
     <Route path={routes.wall} element={getAppRoutesDetail(routes.wall)?.component} />
+    <Route
+      element={getAppRoutesDetail(routes.buildingDetails)?.component}
+      path={routes.buildingDetails}
+    />
     <Route path={routes.buildings} element={getAppRoutesDetail(routes.buildings)?.component} />
     <Route path={routes.flats} element={getAppRoutesDetail(routes.flats)?.component} />
     <Route path={routes.reports} element={getAppRoutesDetail(routes.reports)?.component} />

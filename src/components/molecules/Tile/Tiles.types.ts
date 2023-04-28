@@ -4,6 +4,7 @@ import AddAnother from 'assets/img/AddAnother.svg';
 export type TileProps = {
   title: string;
   subtitle: string;
+  id: string;
   img?: string;
 };
 
