@@ -65,5 +65,6 @@ export const IconButton = styled.button<StylingProps>`
   background-color: transparent;
   color: ${({ styling: { color } }) => color};
   display: flex;
+  gap: 0.5rem;
   justify-content: center;
 `;

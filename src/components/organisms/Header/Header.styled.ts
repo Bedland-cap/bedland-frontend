@@ -14,9 +14,7 @@ export const HeaderBox = styled.div<HeaderProps>`
   gap: 10px;
   height: ${HEADER_HEIGHT}px;
   justify-content: ${({ isLoggedIn }) => (!isLoggedIn ? 'center' : 'space-between')};
-  position: relative;
   width: 100%;
-  z-index: 3;
 `;
 
 export default HeaderBox;

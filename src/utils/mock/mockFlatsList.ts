@@ -1,99 +1,70 @@
-import { Building, Flat } from 'types/shared.types';
-import mockBuildingsList from './mockBuildingsList';
+import { Flat } from 'types/shared.types';
 
-const flatsJson = `[
-    {
-        "id": 1,
-        "version": 0,
-        "createDate": "2023-02-14T00:00:00",
-        "updateDate": "2023-02-14T00:00:00",
-        "buildingId": 1,
-        "number": "1",
-        "floor": 1,
-        "shapePath": "X1-Y17-Z8273"
-    },
-    {
-        "id": 2,
-        "version": 0,
-        "createDate": "2023-02-14T00:00:00",
-        "updateDate": "2023-02-14T00:00:00",
-        "buildingId": 1,
-        "number": "2",
-        "floor": 1,
-        "shapePath": "X45-Y1457-Z63"
-    },
-    {
-        "id": 3,
-        "version": 0,
-        "createDate": "2023-02-14T00:00:00",
-        "updateDate": "2023-02-14T00:00:00",
-        "buildingId": 1,
-        "number": "3",
-        "floor": 2,
-        "shapePath": "X351-Y1657-Z84563"
-    },
-    {
-        "id": 4,
-        "version": 0,
-        "createDate": "2023-02-14T00:00:00",
-        "updateDate": "2023-02-14T00:00:00",
-        "buildingId": 1,
-        "number": "4",
-        "floor": 2,
-        "shapePath": "X342-Y1537-Z83573"
-    },
-    {
-        "id": 5,
-        "version": 0,
-        "createDate": "2023-02-14T00:00:00",
-        "updateDate": "2023-02-14T00:00:00",
-        "buildingId": 2,
-        "number": "1",
-        "floor": 2,
-        "shapePath": "X1-Y17-Z8273"
-    },
-    {
-        "id": 6,
-        "version": 0,
-        "createDate": "2023-02-14T00:00:00",
-        "updateDate": "2023-02-14T00:00:00",
-        "buildingId": 2,
-        "number": "2",
-        "floor": 1,
-        "shapePath": "X3451-Y1457-Z8273"
-    },
-    {
-        "id": 7,
-        "version": 0,
-        "createDate": "2023-02-14T00:00:00",
-        "updateDate": "2023-02-14T00:00:00",
-        "buildingId": 3,
-        "number": "1",
-        "floor": 2,
-        "shapePath": "X4351-Y34517-Z8273"
-    },
-    {
-        "id": 8,
-        "version": 0,
-        "createDate": "2023-02-14T00:00:00",
-        "updateDate": "2023-02-14T00:00:00",
-        "buildingId": 4,
-        "number": "1",
-        "floor": 1,
-        "shapePath": "X3451-Y13457-Z8273"
-    },
-    {
-        "id": 9,
-        "version": 0,
-        "createDate": "2023-02-14T00:00:00",
-        "updateDate": "2023-02-14T00:00:00",
-        "buildingId": 5,
-        "number": "1",
-        "floor": 2,
-        "shapePath": "X4531-Y13457-Z8273"
-    }
-]`;
-
-const mockFlatsList = JSON.parse(flatsJson) as Flat[];
+const mockFlatsList: Flat[] = [
+  {
+    flatNumber: '2a',
+    floor: 2,
+    owner: 'Urzael Zambabwe',
+    residents: ['Daniel', 'lok Mackroscki', 'Rihanna'],
+    monthlyPayments: 'MPTest',
+    lastMaintenance: 'LMTest',
+  },
+  {
+    flatNumber: '4a',
+    floor: 4,
+    owner: 'Urzael Zupoa',
+    residents: ['Robert', 'd Mackroscki', 'Tolken'],
+    monthlyPayments: 'MPTest',
+    lastMaintenance: 'LMTest',
+  },
+  {
+    flatNumber: '7a',
+    floor: 7,
+    owner: 'Pokarty Zambabwe',
+    residents: ['Maciek', 'kroak oplamun', 'George Michael'],
+    monthlyPayments: 'MPTest',
+    lastMaintenance: 'LMTest',
+  },
+  {
+    flatNumber: '9a',
+    floor: 9,
+    owner: 'Pokarty Retra',
+    residents: ['Volkan', 'Rty Xads', 'Ser Bullka'],
+    monthlyPayments: 'MPTest',
+    lastMaintenance: 'LMTest',
+  },
+  {
+    flatNumber: '13a',
+    floor: 13,
+    owner: 'Jabadadu Hudy',
+    residents: ['Januż', 'Opra Tyucholska', 'Iron Mann'],
+    monthlyPayments: 'MPTest',
+    lastMaintenance: 'LMTest',
+  },
+  {
+    flatNumber: '11a',
+    floor: 11,
+    owner: 'Gura Bolka',
+    residents: ['Elront', 'Opla Chce', 'Brudnyt Harryt'],
+    monthlyPayments: 'MPTest',
+    lastMaintenance: 'LMTest',
+  },
+  {
+    flatNumber: '18a',
+    floor: 18,
+    owner: 'Opel Astraroemo',
+    residents: ['Maro', 'Adam MebleSkładam', 'Hulk Mcgonagal'],
+    monthlyPayments: 'MPTest',
+    lastMaintenance: 'LMTest',
+  },
+  {
+    flatNumber: '20a',
+    floor: 20,
+    owner: 'Corsa Nowa',
+    residents: ['Tracz', 'Bianka ProszęNieNaEurowizję', 'Nieno SerioWeźcieKogośInnego'],
+    monthlyPayments: 'MPTest',
+    lastMaintenance: 'LMTest',
+  },
+];
 
 export default mockFlatsList;
