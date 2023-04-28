@@ -601,7 +601,9 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 1rem;
+  position: relative;
   width: 100%;
+  z-index: 1;
 }
 
 .c1 {
@@ -1646,7 +1648,7 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
                         <div
                           class="c39 c40"
                         >
-                          42
+                          43
                            days ago
                         </div>
                       </h5>
@@ -1741,7 +1743,7 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
                         <div
                           class="c44"
                         >
-                          158
+                          157
                            days left
                         </div>
                       </h5>
@@ -1839,7 +1841,7 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
                         <div
                           class="c39 c40"
                         >
-                          36
+                          37
                            days ago
                         </div>
                       </h5>
@@ -1934,7 +1936,7 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
                         <div
                           class="c39 c40"
                         >
-                          30
+                          31
                            days ago
                         </div>
                       </h5>
@@ -2029,7 +2031,7 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
                         <div
                           class="c39 c40"
                         >
-                          23
+                          24
                            days ago
                         </div>
                       </h5>
@@ -2697,7 +2699,9 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 1rem;
+  position: relative;
   width: 100%;
+  z-index: 1;
 }
 
 .c1 {
@@ -3741,7 +3745,7 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
                       <div
                         class="c39 c40"
                       >
-                        42
+                        43
                          days ago
                       </div>
                     </h5>
@@ -3836,7 +3840,7 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
                       <div
                         class="c44"
                       >
-                        158
+                        157
                          days left
                       </div>
                     </h5>
@@ -3934,7 +3938,7 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
                       <div
                         class="c39 c40"
                       >
-                        36
+                        37
                          days ago
                       </div>
                     </h5>
@@ -4029,7 +4033,7 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
                       <div
                         class="c39 c40"
                       >
-                        30
+                        31
                          days ago
                       </div>
                     </h5>
@@ -4124,7 +4128,7 @@ exports[`DashboardPage > renders correctly for manager 1`] = `
                       <div
                         class="c39 c40"
                       >
-                        23
+                        24
                          days ago
                       </div>
                     </h5>
@@ -4838,7 +4842,9 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 1rem;
+  position: relative;
   width: 100%;
+  z-index: 1;
 }
 
 .c1 {
@@ -5869,7 +5875,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         <div
                           class="c37 c38"
                         >
-                          42
+                          43
                            days ago
                         </div>
                       </h5>
@@ -5964,7 +5970,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         <div
                           class="c42"
                         >
-                          158
+                          157
                            days left
                         </div>
                       </h5>
@@ -6062,7 +6068,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         <div
                           class="c37 c38"
                         >
-                          36
+                          37
                            days ago
                         </div>
                       </h5>
@@ -6157,7 +6163,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         <div
                           class="c37 c38"
                         >
-                          30
+                          31
                            days ago
                         </div>
                       </h5>
@@ -6252,7 +6258,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                         <div
                           class="c37 c38"
                         >
-                          23
+                          24
                            days ago
                         </div>
                       </h5>
@@ -6903,7 +6909,9 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 1rem;
+  position: relative;
   width: 100%;
+  z-index: 1;
 }
 
 .c1 {
@@ -7933,7 +7941,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       <div
                         class="c37 c38"
                       >
-                        42
+                        43
                          days ago
                       </div>
                     </h5>
@@ -8028,7 +8036,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       <div
                         class="c42"
                       >
-                        158
+                        157
                          days left
                       </div>
                     </h5>
@@ -8126,7 +8134,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       <div
                         class="c37 c38"
                       >
-                        36
+                        37
                          days ago
                       </div>
                     </h5>
@@ -8221,7 +8229,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       <div
                         class="c37 c38"
                       >
-                        30
+                        31
                          days ago
                       </div>
                     </h5>
@@ -8316,7 +8324,7 @@ exports[`DashboardPage > renders correctly for resident 1`] = `
                       <div
                         class="c37 c38"
                       >
-                        23
+                        24
                          days ago
                       </div>
                     </h5>

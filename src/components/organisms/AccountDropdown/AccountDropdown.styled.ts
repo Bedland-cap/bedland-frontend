@@ -16,10 +16,9 @@ export const DropdownMenu = styled.div<{ palette: PaletteType }>`
   gap: 1rem;
   min-width: 12.5rem;
   padding: 1rem;
-  position: absolute;
+  position: relative;
   right: 1.5rem;
   transition: height 2s, transform 2s;
-  zindex: 1;
 `;
 
 export const DropdownBreak = styled.hr<{ palette: PaletteType }>`

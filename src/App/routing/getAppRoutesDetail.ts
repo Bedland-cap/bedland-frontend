@@ -1,5 +1,6 @@
 import AccountPage from 'components/pages/AccountPage/AccountPage';
 import BuildingsPage from 'components/pages/BuildingsPage/BuildingsPage';
+import BuildingDetailsPage from 'components/pages/BuildingDetailsPage/BuildingDetailsPage';
 import DashboardPage from 'components/pages/DashboardPage/DashboardPage';
 import FlatsPage from 'components/pages/FlatsPage/FlatsPage';
 import LoginPage from 'components/pages/LoginPage/LoginPage';
@@ -52,6 +53,14 @@ const getAppRoutesDetail = (route: RoutesUrl) => {
       routes.buildings,
       {
         component: BuildingsPage(),
+        accessForManager: true,
+        accessForResident: false,
+      },
+    ],
+    [
+      routes.buildingDetails,
+      {
+        component: BuildingDetailsPage(),
         accessForManager: true,
         accessForResident: false,
       },

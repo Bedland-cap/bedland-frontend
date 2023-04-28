@@ -20,6 +20,7 @@ const DisplayList = ({ displayList }: DisplayListProps) => {
             subtitle={
               'address' in listItem ? `${getCity(listItem.address)}, Poland` : listItem.flatAddress
             }
+            id={'id' in listItem ? listItem.id : listItem.flatId}
           />
         ))}
       {displayList.length < 5 && <AddAnotherTile />}

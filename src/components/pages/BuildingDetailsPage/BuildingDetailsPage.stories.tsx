@@ -2,11 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from 'theme/globalStyles';
 import ThemeProvider from 'theme/ThemeContext';
-import BuildingsPage from './BuildingsPage';
+import BuildingDetailsPage from './BuildingDetailsPage';
 
 const meta = {
-  title: 'Pages/BuildingsPage',
-  component: BuildingsPage,
+  title: 'Pages/BuildingDetailsPage',
+  component: BuildingDetailsPage,
   tags: ['autodocs'],
   parameters: {
     backgrounds: { default: 'light' },
@@ -16,12 +16,12 @@ const meta = {
       <BrowserRouter>
         <ThemeProvider>
           <GlobalStyle />
-          {Story()}
+          <div style={{ zoom: 0.9 }}>{Story()}</div>
         </ThemeProvider>
       </BrowserRouter>
     ),
   ],
-} satisfies Meta<typeof BuildingsPage>;
+} satisfies Meta<typeof BuildingDetailsPage>;
 
 export default meta;
 
