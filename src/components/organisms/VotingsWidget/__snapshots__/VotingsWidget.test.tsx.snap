@@ -50,6 +50,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  gap: 0.5rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -336,7 +337,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c6 c7"
                 >
-                  42
+                  43
                    days ago
                 </div>
               </h5>
@@ -431,7 +432,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c12"
                 >
-                  158
+                  157
                    days left
                 </div>
               </h5>
@@ -529,7 +530,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c6 c7"
                 >
-                  36
+                  37
                    days ago
                 </div>
               </h5>
@@ -624,7 +625,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c6 c7"
                 >
-                  30
+                  31
                    days ago
                 </div>
               </h5>
@@ -719,7 +720,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
                 <div
                   class="c6 c7"
                 >
-                  23
+                  24
                    days ago
                 </div>
               </h5>
@@ -832,6 +833,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  gap: 0.5rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1117,7 +1119,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c6 c7"
               >
-                42
+                43
                  days ago
               </div>
             </h5>
@@ -1212,7 +1214,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c12"
               >
-                158
+                157
                  days left
               </div>
             </h5>
@@ -1310,7 +1312,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c6 c7"
               >
-                36
+                37
                  days ago
               </div>
             </h5>
@@ -1405,7 +1407,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c6 c7"
               >
-                30
+                31
                  days ago
               </div>
             </h5>
@@ -1500,7 +1502,7 @@ exports[`VotingsWidget > renders correctly VotingsWidget 1`] = `
               <div
                 class="c6 c7"
               >
-                23
+                24
                  days ago
               </div>
             </h5>

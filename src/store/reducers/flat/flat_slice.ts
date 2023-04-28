@@ -2,11 +2,11 @@ import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
 import { flatApi } from 'services/flat/flatApi';
 import { userApi } from 'services/user/userApi';
 import type { RootState } from 'store/store';
-import Flat from './flat_slice.types';
+import { Flat } from 'types/shared.types';
 
 export const flatAdapter = createEntityAdapter<Flat>({
-  selectId: (flat) => flat.id,
-  sortComparer: (a, b) => a.number.localeCompare(b.number),
+  selectId: (flat) => +flat.flatNumber,
+  sortComparer: (a, b) => a.owner.localeCompare(b.owner),
 });
 
 export const FlatSlice = createSlice({
@@ -23,12 +23,12 @@ export const FlatSlice = createSlice({
           state,
           payload.map((inputFlat: Flat) => {
             const flat: Flat = {
-              id: inputFlat.id,
-              version: inputFlat.version,
-              buildingId: inputFlat.buildingId,
-              number: inputFlat.number,
+              flatNumber: inputFlat.flatNumber,
               floor: inputFlat.floor,
-              shapePath: inputFlat.shapePath,
+              owner: inputFlat.owner,
+              residents: inputFlat.residents,
+              monthlyPayments: inputFlat.monthlyPayments,
+              lastMaintenance: inputFlat.lastMaintenance,
             };
             return flat;
           }),

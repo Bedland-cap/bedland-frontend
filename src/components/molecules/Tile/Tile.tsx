@@ -3,13 +3,11 @@ import Typography from 'components/atoms/Typography/Typography';
 import { useAppSelector } from 'store/hooks';
 import { useContext } from 'react';
 import { ThemeContext } from 'theme/ThemeContext';
-import routes from 'App/routing/routes';
-import { NavLink } from 'react-router-dom';
 
 import * as Styled from './Tile.styled';
 import { TileProps, tileDefaultProps } from './Tiles.types';
 
-const Tile = ({ title, subtitle, img, id }: TileProps) => {
+const Tile = ({ title, subtitle, img }: TileProps) => {
   const { palette } = useContext(ThemeContext);
   const userRole = useAppSelector((state) => state.user.role);
 
@@ -24,11 +22,9 @@ const Tile = ({ title, subtitle, img, id }: TileProps) => {
           {subtitle}
         </Typography>
         <Button wrapper marginTop={1}>
-          <NavLink to={routes.buildingDetails.replace(':id', id)}>
-            <Button variant='primary' color='blue'>
-              Open details
-            </Button>
-          </NavLink>
+          <Button variant='primary' color='blue'>
+            Open details
+          </Button>
         </Button>
       </Styled.CardContent>
     </Styled.TileWrapper>

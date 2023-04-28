@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import Flat from 'store/reducers/flat/flat_slice.types';
 import type { RootState } from 'store/store';
+import { Flat } from 'types/shared.types';
 import { BASE_URL } from 'utils/constans';
 
 type FlatResponse = Flat;

@@ -38,7 +38,7 @@ export const typographyNames = [
   'captions',
 ] as const;
 
-const typographyTypes = ['p', 'span', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'] as const;
+const typographyTypes = ['p', 'span', 'h1', 'h2', 'h3', 'h4', 'h5'] as const;
 
 export type ColorNames = (typeof colorNames)[number];
 export type HexColor = `#${string}`;

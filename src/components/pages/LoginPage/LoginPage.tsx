@@ -9,4 +9,5 @@ const LoginPage = () => (
     <LoginForm />
   </MainBodyFull>
 );
+
 export default LoginPage;

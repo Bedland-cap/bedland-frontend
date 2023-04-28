@@ -14,17 +14,23 @@ export type Building = {
 };
 
 export type Flat = {
-  id: string;
-  version: number;
-  createDate: string;
-  updateDate: string;
-  buildingId: string;
-  number: string;
-  floor: string;
-  shapePath: string;
+  flatNumber: string;
+  floor: number;
+  owner: string;
+  residents: string[];
+  monthlyPayments: string;
+  lastMaintenance: string;
 };
 
-export type FlatWithAddress = Flat & { address: string; city: string };
+export type BuildingData = {
+  buildingName: string;
+  flatNumber: string;
+  flatFloor: number;
+  flatId: string;
+  'ownerName+lastname': string;
+  ownerPhone: number;
+  ownerId: string;
+};
 
 export type ResidentsFlats = {
   flatId: string;

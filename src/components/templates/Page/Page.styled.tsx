@@ -5,9 +5,7 @@ export const Box = styled.div`
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  position: relative;
   width: 100%;
-  z-index: 1;
 `;
 
 export const Title = styled.div`
