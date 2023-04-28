@@ -1,5 +1,6 @@
 import Typography from 'components/atoms/Typography/Typography';
 import { PropsWithChildren } from 'react';
+
 import * as Styled from './Page.styled';
 
 type PageProps = {
