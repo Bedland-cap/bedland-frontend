@@ -11,7 +11,7 @@ const mockResidentFlats: ResidentsFlats[] = [
     flatId: '2',
     flatNumber: '2',
     flatAddress: 'ul. Legnicka 48H, 54-202 Wrocław',
-    flatCreateDate: '2023-02-14T00:00:00',
+    flatCreateDate: '2023-02-13T00:00:00',
   },
   {
     flatId: '3',
@@ -22,7 +22,7 @@ const mockResidentFlats: ResidentsFlats[] = [
   {
     flatId: '4',
     flatNumber: '4',
-    flatAddress: 'ul. Legnicka 48H, 54-202 Wrocław',
+    flatAddress: 'ul. Legnicka 48H, 54-202 Opole',
     flatCreateDate: '2023-02-14T00:00:00',
   },
   {

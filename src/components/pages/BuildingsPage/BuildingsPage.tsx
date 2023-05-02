@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 // eslint-disable-next-line import/no-named-default
 import { default as BuildingsList } from 'components/organisms/DisplayList/DisplayList';
 import Page from 'components/templates/Page/Page';
@@ -11,11 +11,9 @@ import { sortList } from 'components/molecules/SortButton/SortButton.utils';
 import * as Styled from './BuildingsPage.styled';
 
 const BuildingsPage = () => {
-  const [displayList, setDisplayList] = useState<DisplayListType>([]);
-
-  useEffect(() => {
-    setDisplayList([...sortList(mockBuildingsList, 'name')] as DisplayListType);
-  }, []);
+  const [displayList, setDisplayList] = useState<DisplayListType>(
+    sortList(mockBuildingsList, 'name'),
+  );
 
   const changeSortOption = (sortOption: sortType): void => {
     setDisplayList([...sortList(displayList, sortOption)] as DisplayListType);
