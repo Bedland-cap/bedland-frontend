@@ -52,11 +52,48 @@ exports[`FlatsPage > renders correctly 1`] = `
   width: 100%;
 }
 
-.c13 {
+.c15 {
   margin-top: 1rem;
 }
 
-.c14 {
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  color: #1B1A1A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c6:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #6573FF;
+}
+
+.c16 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -87,12 +124,12 @@ exports[`FlatsPage > renders correctly 1`] = `
   letter-spacing: 1px;
 }
 
-.c14:hover {
+.c16:hover {
   background-color: #6573FF;
   border: 1px solid #6573FF;
 }
 
-.c10 {
+.c12 {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 5px 8px #D9D9D920;
@@ -106,24 +143,24 @@ exports[`FlatsPage > renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c11 {
+.c13 {
   height: 11rem;
   object-fit: cover;
   padding: 0.5rem;
   width: 100%;
 }
 
-.c12 {
+.c14 {
   padding: 0.5rem 1.031rem 0.938rem;
 }
 
-.c9 {
+.c11 {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
 }
 
-.c5 {
+.c7 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -144,7 +181,7 @@ exports[`FlatsPage > renders correctly 1`] = `
   width: 17.5rem;
 }
 
-.c6 {
+.c8 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -165,7 +202,7 @@ exports[`FlatsPage > renders correctly 1`] = `
   justify-content: start;
 }
 
-.c7 {
+.c9 {
   font-family: Source Sans Pro,sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
@@ -177,20 +214,28 @@ exports[`FlatsPage > renders correctly 1`] = `
   width: 100%;
 }
 
-.c8 {
+.c10 {
+  position: relative;
+}
+
+.c5 {
   position: relative;
 }
 
 .c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  margin: 0.5rem 0;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.5rem 0 1rem;
 }
 
 .c3 {
@@ -227,12 +272,40 @@ exports[`FlatsPage > renders correctly 1`] = `
             <div
               class="c4"
             >
+              <div
+                class="c5"
+              >
+                <button
+                  class="c6"
+                >
+                  <svg
+                    data-testid="arrowDown-icon"
+                    fill="none"
+                    height="12"
+                    viewBox="0 0 12 7"
+                    width="12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask-arrowDown"
+                    />
+                    <path
+                      d="M10.6667 1.33325L6.08333 5.49992L1.5 1.33325"
+                      stroke="#1B1A1A"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.67"
+                    />
+                  </svg>
+                  Sort Flats
+                </button>
+              </div>
               <div>
                 <div
-                  class="c5"
+                  class="c7"
                 >
                   <div
-                    class="c6"
+                    class="c8"
                   >
                     <svg
                       data-testid="search-icon"
@@ -254,7 +327,7 @@ exports[`FlatsPage > renders correctly 1`] = `
                       />
                     </svg>
                     <input
-                      class="c7"
+                      class="c9"
                       data-testid="SearchBarInput"
                       placeholder="Search flats..."
                       value=""
@@ -262,26 +335,26 @@ exports[`FlatsPage > renders correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c8"
+                  class="c10"
                 />
               </div>
             </div>
             <div
               aria-labelledby="displaylist"
-              class="c9"
+              class="c11"
               role="list"
             >
               <div
-                class="c10"
+                class="c12"
                 role="listitem"
               >
                 <img
                   alt="flat"
-                  class="c11"
+                  class="c13"
                   src="/src/assets/img/BuildingImg.png"
                 />
                 <div
-                  class="c12"
+                  class="c14"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -294,10 +367,10 @@ exports[`FlatsPage > renders correctly 1`] = `
                     ul. Legnicka 48H, 54-202 Wrocław
                   </p>
                   <div
-                    class="c13"
+                    class="c15"
                   >
                     <button
-                      class="c14"
+                      class="c16"
                     >
                       Open details
                     </button>
@@ -305,115 +378,16 @@ exports[`FlatsPage > renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c10"
+                class="c12"
                 role="listitem"
               >
                 <img
                   alt="flat"
-                  class="c11"
+                  class="c13"
                   src="/src/assets/img/BuildingImg.png"
                 />
                 <div
-                  class="c12"
-                >
-                  <h3
-                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
-                  >
-                    Flat #2
-                  </h3>
-                  <p
-                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
-                  >
-                    ul. Legnicka 48H, 54-202 Wrocław
-                  </p>
-                  <div
-                    class="c13"
-                  >
-                    <button
-                      class="c14"
-                    >
-                      Open details
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="c10"
-                role="listitem"
-              >
-                <img
-                  alt="flat"
-                  class="c11"
-                  src="/src/assets/img/BuildingImg.png"
-                />
-                <div
-                  class="c12"
-                >
-                  <h3
-                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
-                  >
-                    Flat #3
-                  </h3>
-                  <p
-                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
-                  >
-                    ul. Legnicka 48H, 54-202 Wrocław
-                  </p>
-                  <div
-                    class="c13"
-                  >
-                    <button
-                      class="c14"
-                    >
-                      Open details
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="c10"
-                role="listitem"
-              >
-                <img
-                  alt="flat"
-                  class="c11"
-                  src="/src/assets/img/BuildingImg.png"
-                />
-                <div
-                  class="c12"
-                >
-                  <h3
-                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
-                  >
-                    Flat #4
-                  </h3>
-                  <p
-                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
-                  >
-                    ul. Legnicka 48H, 54-202 Wrocław
-                  </p>
-                  <div
-                    class="c13"
-                  >
-                    <button
-                      class="c14"
-                    >
-                      Open details
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="c10"
-                role="listitem"
-              >
-                <img
-                  alt="flat"
-                  class="c11"
-                  src="/src/assets/img/BuildingImg.png"
-                />
-                <div
-                  class="c12"
+                  class="c14"
                 >
                   <h3
                     style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -426,10 +400,109 @@ exports[`FlatsPage > renders correctly 1`] = `
                     ul. Kolorowa 6, 60-198 Poznań
                   </p>
                   <div
-                    class="c13"
+                    class="c15"
                   >
                     <button
-                      class="c14"
+                      class="c16"
+                    >
+                      Open details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c12"
+                role="listitem"
+              >
+                <img
+                  alt="flat"
+                  class="c13"
+                  src="/src/assets/img/BuildingImg.png"
+                />
+                <div
+                  class="c14"
+                >
+                  <h3
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                  >
+                    Flat #2
+                  </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    ul. Legnicka 48H, 54-202 Wrocław
+                  </p>
+                  <div
+                    class="c15"
+                  >
+                    <button
+                      class="c16"
+                    >
+                      Open details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c12"
+                role="listitem"
+              >
+                <img
+                  alt="flat"
+                  class="c13"
+                  src="/src/assets/img/BuildingImg.png"
+                />
+                <div
+                  class="c14"
+                >
+                  <h3
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                  >
+                    Flat #3
+                  </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    ul. Legnicka 48H, 54-202 Wrocław
+                  </p>
+                  <div
+                    class="c15"
+                  >
+                    <button
+                      class="c16"
+                    >
+                      Open details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c12"
+                role="listitem"
+              >
+                <img
+                  alt="flat"
+                  class="c13"
+                  src="/src/assets/img/BuildingImg.png"
+                />
+                <div
+                  class="c14"
+                >
+                  <h3
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                  >
+                    Flat #4
+                  </h3>
+                  <p
+                    style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                  >
+                    ul. Legnicka 48H, 54-202 Opole
+                  </p>
+                  <div
+                    class="c15"
+                  >
+                    <button
+                      class="c16"
                     >
                       Open details
                     </button>
@@ -496,11 +569,48 @@ exports[`FlatsPage > renders correctly 1`] = `
   width: 100%;
 }
 
-.c13 {
+.c15 {
   margin-top: 1rem;
 }
 
-.c14 {
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  color: #1B1A1A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c6:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #6573FF;
+}
+
+.c16 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -531,12 +641,12 @@ exports[`FlatsPage > renders correctly 1`] = `
   letter-spacing: 1px;
 }
 
-.c14:hover {
+.c16:hover {
   background-color: #6573FF;
   border: 1px solid #6573FF;
 }
 
-.c10 {
+.c12 {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 5px 8px #D9D9D920;
@@ -550,24 +660,24 @@ exports[`FlatsPage > renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c11 {
+.c13 {
   height: 11rem;
   object-fit: cover;
   padding: 0.5rem;
   width: 100%;
 }
 
-.c12 {
+.c14 {
   padding: 0.5rem 1.031rem 0.938rem;
 }
 
-.c9 {
+.c11 {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
 }
 
-.c5 {
+.c7 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -588,7 +698,7 @@ exports[`FlatsPage > renders correctly 1`] = `
   width: 17.5rem;
 }
 
-.c6 {
+.c8 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -609,7 +719,7 @@ exports[`FlatsPage > renders correctly 1`] = `
   justify-content: start;
 }
 
-.c7 {
+.c9 {
   font-family: Source Sans Pro,sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
@@ -621,20 +731,28 @@ exports[`FlatsPage > renders correctly 1`] = `
   width: 100%;
 }
 
-.c8 {
+.c10 {
+  position: relative;
+}
+
+.c5 {
   position: relative;
 }
 
 .c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  margin: 0.5rem 0;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.5rem 0 1rem;
 }
 
 .c3 {
@@ -670,12 +788,40 @@ exports[`FlatsPage > renders correctly 1`] = `
           <div
             class="c4"
           >
+            <div
+              class="c5"
+            >
+              <button
+                class="c6"
+              >
+                <svg
+                  data-testid="arrowDown-icon"
+                  fill="none"
+                  height="12"
+                  viewBox="0 0 12 7"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask-arrowDown"
+                  />
+                  <path
+                    d="M10.6667 1.33325L6.08333 5.49992L1.5 1.33325"
+                    stroke="#1B1A1A"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.67"
+                  />
+                </svg>
+                Sort Flats
+              </button>
+            </div>
             <div>
               <div
-                class="c5"
+                class="c7"
               >
                 <div
-                  class="c6"
+                  class="c8"
                 >
                   <svg
                     data-testid="search-icon"
@@ -697,7 +843,7 @@ exports[`FlatsPage > renders correctly 1`] = `
                     />
                   </svg>
                   <input
-                    class="c7"
+                    class="c9"
                     data-testid="SearchBarInput"
                     placeholder="Search flats..."
                     value=""
@@ -705,26 +851,26 @@ exports[`FlatsPage > renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c8"
+                class="c10"
               />
             </div>
           </div>
           <div
             aria-labelledby="displaylist"
-            class="c9"
+            class="c11"
             role="list"
           >
             <div
-              class="c10"
+              class="c12"
               role="listitem"
             >
               <img
                 alt="flat"
-                class="c11"
+                class="c13"
                 src="/src/assets/img/BuildingImg.png"
               />
               <div
-                class="c12"
+                class="c14"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -737,10 +883,10 @@ exports[`FlatsPage > renders correctly 1`] = `
                   ul. Legnicka 48H, 54-202 Wrocław
                 </p>
                 <div
-                  class="c13"
+                  class="c15"
                 >
                   <button
-                    class="c14"
+                    class="c16"
                   >
                     Open details
                   </button>
@@ -748,115 +894,16 @@ exports[`FlatsPage > renders correctly 1`] = `
               </div>
             </div>
             <div
-              class="c10"
+              class="c12"
               role="listitem"
             >
               <img
                 alt="flat"
-                class="c11"
+                class="c13"
                 src="/src/assets/img/BuildingImg.png"
               />
               <div
-                class="c12"
-              >
-                <h3
-                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
-                >
-                  Flat #2
-                </h3>
-                <p
-                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
-                >
-                  ul. Legnicka 48H, 54-202 Wrocław
-                </p>
-                <div
-                  class="c13"
-                >
-                  <button
-                    class="c14"
-                  >
-                    Open details
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="c10"
-              role="listitem"
-            >
-              <img
-                alt="flat"
-                class="c11"
-                src="/src/assets/img/BuildingImg.png"
-              />
-              <div
-                class="c12"
-              >
-                <h3
-                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
-                >
-                  Flat #3
-                </h3>
-                <p
-                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
-                >
-                  ul. Legnicka 48H, 54-202 Wrocław
-                </p>
-                <div
-                  class="c13"
-                >
-                  <button
-                    class="c14"
-                  >
-                    Open details
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="c10"
-              role="listitem"
-            >
-              <img
-                alt="flat"
-                class="c11"
-                src="/src/assets/img/BuildingImg.png"
-              />
-              <div
-                class="c12"
-              >
-                <h3
-                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
-                >
-                  Flat #4
-                </h3>
-                <p
-                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
-                >
-                  ul. Legnicka 48H, 54-202 Wrocław
-                </p>
-                <div
-                  class="c13"
-                >
-                  <button
-                    class="c14"
-                  >
-                    Open details
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="c10"
-              role="listitem"
-            >
-              <img
-                alt="flat"
-                class="c11"
-                src="/src/assets/img/BuildingImg.png"
-              />
-              <div
-                class="c12"
+                class="c14"
               >
                 <h3
                   style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
@@ -869,10 +916,109 @@ exports[`FlatsPage > renders correctly 1`] = `
                   ul. Kolorowa 6, 60-198 Poznań
                 </p>
                 <div
-                  class="c13"
+                  class="c15"
                 >
                   <button
-                    class="c14"
+                    class="c16"
+                  >
+                    Open details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c12"
+              role="listitem"
+            >
+              <img
+                alt="flat"
+                class="c13"
+                src="/src/assets/img/BuildingImg.png"
+              />
+              <div
+                class="c14"
+              >
+                <h3
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                >
+                  Flat #2
+                </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  ul. Legnicka 48H, 54-202 Wrocław
+                </p>
+                <div
+                  class="c15"
+                >
+                  <button
+                    class="c16"
+                  >
+                    Open details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c12"
+              role="listitem"
+            >
+              <img
+                alt="flat"
+                class="c13"
+                src="/src/assets/img/BuildingImg.png"
+              />
+              <div
+                class="c14"
+              >
+                <h3
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                >
+                  Flat #3
+                </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  ul. Legnicka 48H, 54-202 Wrocław
+                </p>
+                <div
+                  class="c15"
+                >
+                  <button
+                    class="c16"
+                  >
+                    Open details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c12"
+              role="listitem"
+            >
+              <img
+                alt="flat"
+                class="c13"
+                src="/src/assets/img/BuildingImg.png"
+              />
+              <div
+                class="c14"
+              >
+                <h3
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.4; letter-spacing: 1px; color: rgb(75, 75, 75);"
+                >
+                  Flat #4
+                </h3>
+                <p
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  ul. Legnicka 48H, 54-202 Opole
+                </p>
+                <div
+                  class="c15"
+                >
+                  <button
+                    class="c16"
                   >
                     Open details
                   </button>

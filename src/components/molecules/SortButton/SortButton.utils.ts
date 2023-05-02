@@ -8,7 +8,7 @@ export const sortList = (list: DisplayListType, sortOption: sortType): DisplayLi
       if (IsBuildingGuard(list)) {
         return list.sort((a, b) => a.name.localeCompare(b.name));
       }
-      return list.sort((a, b) => a.flatId.localeCompare(b.flatNumber));
+      return list.sort((a, b) => a.flatNumber.localeCompare(b.flatNumber));
     case sortOptions[1]:
       if (IsBuildingGuard(list)) {
         return list.sort((a, b) => getCity(a.address).localeCompare(getCity(b.address)));
