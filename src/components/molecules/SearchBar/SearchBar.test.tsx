@@ -1,6 +1,9 @@
 import { cleanup, fireEvent, screen } from '@testing-library/react';
 import { renderWithProviders } from 'utils/test.utils';
+import { vi } from 'vitest';
 import SearchBar from './SearchBar';
+
+const mockSetList = vi.fn();
 
 describe('SearchBar', () => {
   afterEach(cleanup);
@@ -11,7 +14,7 @@ describe('SearchBar', () => {
       renderWithProviders(
         <div>
           <div data-testid='testDiv'>SomeTest</div>
-          <SearchBar placeholder={placeholderText} />, {}
+          <SearchBar placeholder={placeholderText} setList={mockSetList} />, {}
         </div>,
       );
     it('should render correctly', () => {
@@ -95,7 +98,7 @@ describe('SearchBar', () => {
       const firstListItemContainer = listItemContainers[0];
       fireEvent.click(firstListItemContainer);
 
-      expect((inputField as HTMLInputElement).value).toBe('Bartek');
+      expect((inputField as HTMLInputElement).value).toBe('Business Garden Wrocław');
     });
   });
 });

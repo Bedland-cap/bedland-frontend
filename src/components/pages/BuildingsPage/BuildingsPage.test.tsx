@@ -1,6 +1,7 @@
-import { cleanup, screen, within, fireEvent } from '@testing-library/react';
+import { cleanup, screen, within, fireEvent, act } from '@testing-library/react';
 import { renderWithProviders } from 'utils/test.utils';
 import { loggedInManagerUser } from 'utils/mockUser';
+import { vi } from 'vitest';
 import BuildingsPage from './BuildingsPage';
 
 describe('BuildingsPage', () => {
@@ -32,16 +33,21 @@ describe('BuildingsPage', () => {
         user: loggedInManagerUser,
       },
     });
+    vi.useFakeTimers();
     const sortButton = screen.getByRole('button', {
       name: /Sort Buildings/i,
     });
     fireEvent.click(sortButton);
     const sortOption = screen.getByText(/city/i);
     fireEvent.click(sortOption);
+    act(() => {
+      vi.runAllTimers();
+    });
     const buildingsList = screen.getByRole('list');
     const { getAllByRole } = within(buildingsList);
     const items = getAllByRole('listitem');
     expect(items[0]).toHaveTextContent('Kraków, Poland');
+    vi.useRealTimers();
   });
 
   it('buildings get sorted by date added', () => {
@@ -50,15 +56,20 @@ describe('BuildingsPage', () => {
         user: loggedInManagerUser,
       },
     });
+    vi.useFakeTimers();
     const sortButton = screen.getByRole('button', {
       name: /Sort Buildings/i,
     });
     fireEvent.click(sortButton);
     const sortOption = screen.getByText(/date added/i);
     fireEvent.click(sortOption);
+    act(() => {
+      vi.runAllTimers();
+    });
     const buildingsList = screen.getByRole('list');
     const { getAllByRole } = within(buildingsList);
     const items = getAllByRole('listitem');
     expect(items[0]).toHaveTextContent('Kraków, Poland');
+    vi.useRealTimers();
   });
 });

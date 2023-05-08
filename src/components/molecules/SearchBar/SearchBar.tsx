@@ -2,17 +2,23 @@ import { ChangeEvent, FC, useState, useEffect, useRef } from 'react';
 import Icon from 'components/atoms/Icon/Icon';
 import Typography from 'components/atoms/Typography/Typography';
 import Button from 'components/atoms/Button/Button';
+import { DisplayListType } from 'components/organisms/DisplayList/DisplayList.types';
+import { Building, ResidentsFlats } from 'types/shared.types';
+import mockBuildingsList from 'utils/mock/mockBuildingsList';
 import * as Styled from './SearchBar.styled';
-import { STATIC_VALUES, exeList, searchFilter } from './SearchBar.utils';
-import { ExeListItemType, SearchBarProps } from './SearchBar.types';
+import { STATIC_VALUES, searchFilter } from './SearchBar.utils';
+import { SearchBarProps } from './SearchBar.types';
 
-const SearchBar: FC<SearchBarProps> = ({ placeholder }) => {
+const SearchBar: FC<SearchBarProps> = ({ placeholder, setList }) => {
   const [isFocused, setIsFocused] = useState<boolean>(false);
   const [searchValue, setSearchValue] = useState('');
   const [ifDropdownVisible, setIfDropdownVisible] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const [matches, setMatches] = useState<DisplayListType>([]);
 
-  const matches = searchFilter(searchValue, exeList);
+  useEffect(() => {
+    setMatches(searchFilter(searchValue, mockBuildingsList, setList));
+  }, [searchValue]);
 
   const handleFocus = () => {
     setIsFocused(true);
@@ -30,8 +36,8 @@ const SearchBar: FC<SearchBarProps> = ({ placeholder }) => {
     }
     if (e.target.value === '') setIfDropdownVisible(false);
   };
-  const handleSelectItem = (item: ExeListItemType) => {
-    setSearchValue(item.name);
+  const handleSelectItem = (item: Building | ResidentsFlats) => {
+    setSearchValue('name' in item ? item.name : item.flatNumber);
     setIfDropdownVisible(false);
     setIsFocused(false);
   };
@@ -52,6 +58,11 @@ const SearchBar: FC<SearchBarProps> = ({ placeholder }) => {
       document.removeEventListener('click', handleClickOutside, true);
     };
   }, []);
+
+  const makeBold = (item: string, keyword: string) => {
+    const re = new RegExp(keyword, 'gi');
+    return item.replace(re, (match) => `<b>${match}</b>`);
+  };
 
   return (
     <div ref={dropdownRef}>
@@ -85,27 +96,27 @@ const SearchBar: FC<SearchBarProps> = ({ placeholder }) => {
       <Styled.DropdownContainer>
         {ifDropdownVisible && (
           <Styled.DropdownList ifDropdownVisible={ifDropdownVisible} data-testid='dropdownList'>
-            {exeList && matches.length > 0 ? (
-              matches.map((listItem: ExeListItemType) => (
+            {matches && matches.length > 0 ? (
+              matches.map((listItem: Building | ResidentsFlats) => (
                 // eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions
                 <Styled.DropdownTextContainer
-                  key={listItem.id}
+                  key={'id' in listItem ? listItem.id : listItem.flatId}
                   onClick={() => handleSelectItem(listItem)}
                 >
-                  {listItem.name.split('').map((letter, index) =>
-                    searchValue
-                      .toLowerCase()
-                      .split('')
-                      .find((searchLetter) => searchLetter === letter.toLowerCase()) ? (
-                      <Typography variant='dataInputsAndTooltips' key={`${letter + index}`}>
-                        <Styled.BoldedLetter>{letter}</Styled.BoldedLetter>
-                      </Typography>
-                    ) : (
-                      <Typography variant='dataInputsAndTooltips' key={`${letter + index}`}>
-                        {letter}
-                      </Typography>
-                    ),
-                  )}
+                  <Typography
+                    variant='dataInputsAndTooltips'
+                    key={'address' in listItem ? listItem.address : listItem.flatAddress}
+                  >
+                    <span
+                      // eslint-disable-next-line react/no-danger
+                      dangerouslySetInnerHTML={{
+                        __html: makeBold(
+                          'address' in listItem ? listItem.address : listItem.flatAddress,
+                          searchValue,
+                        ),
+                      }}
+                    />
+                  </Typography>
                 </Styled.DropdownTextContainer>
               ))
             ) : (

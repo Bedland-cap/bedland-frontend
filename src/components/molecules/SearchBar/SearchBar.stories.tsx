@@ -12,6 +12,11 @@ const meta = {
     placeholder: {
       description: 'Placeholder value',
     },
+    setList: {
+      table: {
+        disable: true,
+      },
+    },
   },
   decorators: [
     (Story) => (
@@ -30,4 +35,9 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+export const Default: Story = {
+  args: {
+    placeholder: 'Search buildings...',
+    setList: () => null,
+  },
+};
